@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -53,7 +53,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand</p>",
+            "heading": "<p>Talk about your brand<\/p>",
             "heading_size": "h1"
           }
         },
@@ -69,6 +69,8 @@
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -80,17 +82,24 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "background-1",
+        "full_width": false,
         "show_view_all": false,
-        "swipe_on_mobile": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
       }
@@ -98,17 +107,20 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "762ba451-60f0-4f43-b24d-455c6d4a07c0": {
+          "type": "video",
           "settings": {
-            "collection": ""
+            "cover_image": "shopify:\/\/shop_images\/test-image.png",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=8CpqfKCJmn4",
+            "description": "Demonstrational Video of ingredients being added to the Dash Retro Milkshake Maker and producing a milkshake",
+            "image_padding": false
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
-            "second_image": false
+            "product": "shaved-ice-maker-2",
+            "second_image": true
           }
         },
         "collection-1": {
@@ -119,7 +131,7 @@
         }
       },
       "block_order": [
-        "collection-0",
+        "762ba451-60f0-4f43-b24d-455c6d4a07c0",
         "product",
         "collection-1"
       ],
@@ -137,8 +149,8 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -192,9 +204,9 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }

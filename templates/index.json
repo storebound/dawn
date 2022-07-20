@@ -36,7 +36,7 @@
       ],
       "settings": {
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -110,7 +110,7 @@
         "16583385876a304d18-0": {
           "type": "video",
           "settings": {
-            "cover_image": "shopify:\/\/shop_images\/test-image.png",
+            "cover_image": "shopify:\/\/shop_images\/shakethingsup.png",
             "video_url": "https:\/\/www.youtube.com\/watch?v=8CpqfKCJmn4",
             "description": "Describe the video",
             "image_padding": false

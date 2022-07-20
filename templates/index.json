@@ -145,14 +145,42 @@
         "padding_bottom": 36
       }
     },
-    "video": {
-      "type": "video",
+    "1658338587f333ae54": {
+      "type": "collage",
+      "blocks": {
+        "16583385876a304d18-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/test-image.png",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=8CpqfKCJmn4",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "a4a1b471-754b-42a4-97f1-9253f0173aa8": {
+          "type": "collection",
+          "settings": {
+            "collection": "frozen-treats"
+          }
+        },
+        "4fb1da92-1ddf-4df2-8044-87a1689b58d1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-07-20_at_2.10.34_PM.png",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "16583385876a304d18-0",
+        "a4a1b471-754b-42a4-97f1-9253f0173aa8",
+        "4fb1da92-1ddf-4df2-8044-87a1689b58d1"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -210,47 +238,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1658338587f333ae54": {
-      "type": "collage",
-      "blocks": {
-        "16583385876a304d18-0": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/DMM100AQ_IO_5.jpg",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=8CpqfKCJmn4",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "a4a1b471-754b-42a4-97f1-9253f0173aa8": {
-          "type": "collection",
-          "settings": {
-            "collection": "frozen-treats"
-          }
-        },
-        "4fb1da92-1ddf-4df2-8044-87a1689b58d1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DMM100AQ_IO_4.jpg",
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "16583385876a304d18-0",
-        "a4a1b471-754b-42a4-97f1-9253f0173aa8",
-        "4fb1da92-1ddf-4df2-8044-87a1689b58d1"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -258,8 +245,7 @@
     "rich_text",
     "featured_collection",
     "collage",
-    "video",
-    "multicolumn",
-    "1658338587f333ae54"
+    "1658338587f333ae54",
+    "multicolumn"
   ]
 }

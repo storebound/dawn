@@ -111,9 +111,9 @@
           "type": "video",
           "settings": {
             "cover_image": "shopify:\/\/shop_images\/test-image.png",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=8CpqfKCJmn4",
+            "video_url": "",
             "description": "Demonstrational Video of ingredients being added to the Dash Retro Milkshake Maker and producing a milkshake",
-            "image_padding": false
+            "image_padding": true
           }
         },
         "product": {
@@ -137,7 +137,7 @@
       ],
       "settings": {
         "heading": "Multimedia collage",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "color_scheme": "background-1",

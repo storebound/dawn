@@ -368,7 +368,8 @@
                     {% endunless %}
                     {% unless product.metafields.custom.quick_start_guide == blank %}
                     <a href="{{ product.metafields.custom.quick_start_guide | file_url }}">Download Quick Start Guide</a>
-                    {% endunless %}  
+                    {% endunless %}
+                    {{ 'Warranty Information' | link_to: '/pages/warranty' }}
                   {% else %}
                     {{ block.settings.content }}
                     {{ block.settings.page.content }}

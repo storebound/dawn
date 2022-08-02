@@ -364,10 +364,10 @@
                   <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                   {% if block.settings.heading == 'Manual & Warranty' %}
                     {% unless product.metafields.custom.product_manual == blank %}
-                    <a href="{{ product.metafields.custom.product_manual | file_url }}">Download Manual</a>
+                    <a href="{{ product.metafields.custom.product_manual | file_url }}">Download Manual</a><br />
                     {% endunless %}
                     {% unless product.metafields.custom.quick_start_guide == blank %}
-                    <a href="{{ product.metafields.custom.quick_start_guide | file_url }}">Download Quick Start Guide</a>
+                    <a href="{{ product.metafields.custom.quick_start_guide | file_url }}">Download Quick Start Guide</a><br />
                     {% endunless %}
                     {{ 'Warranty Information' | link_to: '/pages/warranty' }}
                   {% else %}

@@ -44,10 +44,11 @@
             "show_dynamic_checkout": true
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
+        "56458916-5ee4-43bf-b6a8-60fb44960320": {
+          "type": "text",
           "settings": {
+            "text": "{{ product.metafields.custom.short_copy.value }}",
+            "text_style": "body"
           }
         },
         "collapsible-row-0": {
@@ -101,7 +102,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
+        "56458916-5ee4-43bf-b6a8-60fb44960320",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",

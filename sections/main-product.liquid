@@ -365,6 +365,9 @@
                   {% if block.settings.heading == 'Manual & Warranty' %}
                     {% unless product.metafields.custom.product_manual == blank %}
                     <a href="{{ product.metafields.custom.product_manual | file_url }}">Download Manual</a>
+                    {% endunless %}
+                    {% unless product.metafields.custom.quick_start_guide == blank %}
+                    <a href="{{ product.metafields.custom.quick_start_guide | file_url }}">Download Quick Start Guide</a>
                     {% endunless %}  
                   {% else %}
                     {{ block.settings.content }}

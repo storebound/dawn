@@ -363,7 +363,7 @@
                   </summary>
                   <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                   {% if block.settings.heading == 'Manual & Warranty' %}
-                    <a href="{{ product.metafields.custom.product_manual }}">Download Manual</a>
+                    <a href="{{ product.metafields.custom.product_manual.url }}">Download Manual</a>
                   {% else %}
                     {{ block.settings.content }}
                     {{ block.settings.page.content }}

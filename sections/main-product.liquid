@@ -370,7 +370,9 @@
                     <a href="{{ product.metafields.custom.quick_start_guide | file_url }}">Download Quick Start Guide</a><br />
                     {% endunless %}
                     {{ 'Warranty Information' | link_to: '/pages/warranty' }}
-                  {% else %}
+                  {% elsif block.settings.heading == 'Parts & Accessories' %}
+                    
+                    {% else %}
                     {{ block.settings.content }}
                     {{ block.settings.page.content }}
                   {% endif %}

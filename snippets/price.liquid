@@ -82,7 +82,7 @@
     </small>
   </div>
   {%- if show_badges -%}
-    {%- if item.product.tags contains "sale-badge" -%}
+    {%- if product.tags contains 'sale-badge' -%}
     <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
       {{ 'products.product.on_sale' | t }}
     </span>

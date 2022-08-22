@@ -74,7 +74,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.dimensions.value }}<\/p>",
             "page": ""
           }
         },
@@ -111,6 +111,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "media_position": "left",
         "gallery_layout": "stacked",
         "media_size": "large",
         "mobile_thumbnails": "hide",

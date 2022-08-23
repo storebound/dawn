@@ -20,7 +20,7 @@
           "settings": {
             "api_key": "pubkey-pZd7Y97CD16Sjx7C3017P41eGst574",
             "store_hash": "265980",
-            "product_id": "7793348444386",
+            "product_id": "{{ product.metafields.custom.product_id.value }}",
             "width": "150",
             "height": ""
           }

@@ -22,16 +22,6 @@
             "sku_tagtype": "sku"
           }
         },
-        "250df09b-ba10-4842-84cb-092b2f136cb4": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/product-rating-image\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "api_key": "pubkey-pZd7Y97CD16Sjx7C3017P41eGst574",
-            "store_hash": "265980",
-            "product_id": "{{ product.metafields.custom.product_id.value }}",
-            "width": "150",
-            "height": ""
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
@@ -115,7 +105,6 @@
         "vendor",
         "title",
         "dc6b5de5-5f10-44ff-9324-6090890bacac",
-        "250df09b-ba10-4842-84cb-092b2f136cb4",
         "caption",
         "price",
         "variant_picker",

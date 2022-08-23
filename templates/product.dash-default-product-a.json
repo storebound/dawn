@@ -15,14 +15,13 @@
           "settings": {
           }
         },
-        "958b521a-5336-49a6-b1a6-749f6c53f313": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/badge-double-image\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "250df09b-ba10-4842-84cb-092b2f136cb4": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/product-rating-image\/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "api_key": "pubkey-pZd7Y97CD16Sjx7C3017P41eGst574",
             "store_hash": "265980",
-            "label1": "",
-            "label2": "",
-            "width": "250",
+            "product_id": "7793348444386",
+            "width": "150",
             "height": ""
           }
         },
@@ -103,33 +102,12 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "d9e28026-985b-4a2e-8989-80131f70f780": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/badge-single-image\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "api_key": "pubkey-pZd7Y97CD16Sjx7C3017P41eGst574",
-            "store_hash": "265980",
-            "label1": "",
-            "label2": "",
-            "width": "",
-            "height": ""
-          }
-        },
-        "250df09b-ba10-4842-84cb-092b2f136cb4": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/product-rating-image\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "api_key": "pubkey-pZd7Y97CD16Sjx7C3017P41eGst574",
-            "store_hash": "265980",
-            "product_id": "",
-            "width": "",
-            "height": ""
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "958b521a-5336-49a6-b1a6-749f6c53f313",
+        "250df09b-ba10-4842-84cb-092b2f136cb4",
         "caption",
         "price",
         "variant_picker",
@@ -140,9 +118,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "d9e28026-985b-4a2e-8989-80131f70f780",
-        "250df09b-ba10-4842-84cb-092b2f136cb4"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,

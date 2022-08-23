@@ -114,6 +114,16 @@
             "width": "",
             "height": ""
           }
+        },
+        "250df09b-ba10-4842-84cb-092b2f136cb4": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/product-rating-image\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "api_key": "pubkey-pZd7Y97CD16Sjx7C3017P41eGst574",
+            "store_hash": "265980",
+            "product_id": "",
+            "width": "",
+            "height": ""
+          }
         }
       },
       "block_order": [
@@ -131,7 +141,8 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "d9e28026-985b-4a2e-8989-80131f70f780"
+        "d9e28026-985b-4a2e-8989-80131f70f780",
+        "250df09b-ba10-4842-84cb-092b2f136cb4"
       ],
       "settings": {
         "enable_sticky_info": true,

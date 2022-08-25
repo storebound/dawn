@@ -146,10 +146,10 @@
         "16614653692266e806-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Expand Image",
+            "heading": "Additional Content",
             "icon": "none",
             "row_content": "",
-            "page": "test-a-images"
+            "page": "a-plus-secondary-images"
           }
         }
       },

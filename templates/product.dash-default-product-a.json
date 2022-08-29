@@ -56,7 +56,7 @@
           "settings": {
             "heading": "Product Details",
             "icon": "serving_dish",
-            "custom_liquid": "",
+            "content": "",
             "page": ""
           }
         },
@@ -65,7 +65,7 @@
           "settings": {
             "heading": "Features & Benefits",
             "icon": "check_mark",
-            "custom_liquid": "",
+            "content": "",
             "page": ""
           }
         },
@@ -74,7 +74,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "custom_liquid": "",
+            "content": "",
             "page": ""
           }
         },
@@ -83,7 +83,7 @@
           "settings": {
             "heading": "Manual & Warranty",
             "icon": "question_mark",
-            "custom_liquid": "",
+            "content": "",
             "page": ""
           }
         },
@@ -129,7 +129,8 @@
           "settings": {
             "heading": "Additional Content",
             "icon": "clipboard",
-            "row_content": "<p>{{ product.metafields.custom.aplusliquid.value }}<\/p>",
+            "row_content": "",
+            "liquid": "{{ product.metafields.custom.a_1 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_1_alt | escape }}",
             "page": ""
           }
         }
@@ -195,15 +196,6 @@
         "padding_bottom": 36
       }
     },
-    "16611951785261311e": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{{ product.metafields.custom.a_1 | image_url: width: 1000 | image_tag }}",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -220,71 +212,12 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "1661796884d1058874": {
-      "type": "image-banner",
-      "blocks": {
-        "1661796884bf071152-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "1661796884bf071152-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "1661796884bf071152-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1661796884bf071152-0",
-        "1661796884bf071152-1",
-        "1661796884bf071152-2"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "16617968939268bfbe": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{{ product.metafields.custom.a_1 | image_url: width: 1000 | image_tag:\n        loading: 'lazy',\n        alt: product.metafields.custom.a_1_alt | escape\n      }}",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "16617897916d6c2696",
     "multicolumn",
-    "16611951785261311e",
-    "product-recommendations",
-    "1661796884d1058874",
-    "16617968939268bfbe"
+    "product-recommendations"
   ]
 }

@@ -364,6 +364,10 @@
                   <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                     {{ block.settings.content }}
                     {{ block.settings.page.content }}
+ {%- if block.settings.heading == 'Additional Content' -%}
+   {{ product.metafields.custom.a_1 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_1_alt | escape }}
+  {%- endif -%}
+            
                   </div>
                 </details>
               </div>

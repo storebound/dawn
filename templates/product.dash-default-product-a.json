@@ -56,7 +56,7 @@
           "settings": {
             "heading": "Product Details",
             "icon": "serving_dish",
-            "content": "<p>{{ product.metafields.custom.romance_copy | metafield_tag }}<\/p>",
+            "custom_liquid": "",
             "page": ""
           }
         },
@@ -65,7 +65,7 @@
           "settings": {
             "heading": "Features & Benefits",
             "icon": "check_mark",
-            "content": "<p>{{ product.metafields.custom.features_benefits | metafield_tag }}<\/p>",
+            "custom_liquid": "",
             "page": ""
           }
         },
@@ -74,7 +74,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "<p>{{ product.metafields.custom.dimensions.value }}<\/p>",
+            "custom_liquid": "",
             "page": ""
           }
         },
@@ -83,7 +83,7 @@
           "settings": {
             "heading": "Manual & Warranty",
             "icon": "question_mark",
-            "content": "",
+            "custom_liquid": "",
             "page": ""
           }
         },
@@ -129,7 +129,7 @@
           "settings": {
             "heading": "Additional Content",
             "icon": "clipboard",
-            "row_content": "",
+            "row_content": "<p>{{ product.metafields.custom.aplusliquid.value }}<\/p>",
             "page": ""
           }
         }

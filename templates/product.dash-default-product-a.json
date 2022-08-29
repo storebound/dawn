@@ -129,7 +129,7 @@
           "settings": {
             "heading": "Additional Content",
             "icon": "clipboard",
-            "row_content": "",
+            "row_content": "<p>test test<\/p>",
             "liquid": "{{ product.metafields.custom.a_1 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_1_alt | escape }}",
             "page": ""
           }

@@ -29,6 +29,7 @@
         },
         "f9414ada-9ea8-45d3-a609-f767479b9525": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% form 'product', product %}\n  <!-- product price -->\n  {{ form | payment_terms }}\n  ...\n{% endform %}"
           }

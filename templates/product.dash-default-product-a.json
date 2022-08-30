@@ -130,7 +130,7 @@
             "heading": "Additional Images",
             "icon": "clipboard",
             "row_content": "",
-            "liquid": "{{ product.metafields.custom.a_1 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_1_alt | escape }}",
+            "liquid": "{% if product.metafields.custom.a_1 != blank %}\n{{ product.metafields.custom.a_1 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_1_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_2 != blank %}\n{{ product.metafields.custom.a_2 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_2_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_3 != blank %}\n{{ product.metafields.custom.a_3 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_3_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_4 != blank %}\n{{ product.metafields.custom.a_4 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_4_alt | escape }}\n{% endif %}",
             "page": ""
           }
         }

@@ -3,7 +3,7 @@
     "16619530748c4e7238": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% render 'breadcrumbs' %}",
+        "custom_liquid": "<div class=“isolate page-width section-template--16380975874274__1661953365b47bfbfd-padding\">\n{% render 'breadcrumbs' %} \n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 12,
         "padding_bottom": 8

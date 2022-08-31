@@ -371,25 +371,29 @@
                     {% endunless %}
                     {{ 'Warranty Information' | link_to: '/pages/warranty' }}
                   {% elsif block.settings.heading == 'Parts & Accessories' %}
-                    {% comment %}
-                    {% for related_product in product.metafields.custom.parts.value %}
-                      {{ related_product.title }}
-                    {% endfor %}
-                    {% endcomment %}
-
-                    <div class="related-products-wrapper"> {%assign related_products = product.metafields.custom.parts.value %} {% if related_products %} 
-                        <div class="related-product-list"> {% for related_product in related_products %} <a href="{{shop.url | append: "/products/" | append: related_product.handle }}">
-                                <div class="related-product">
-                                    <div class="related-product-image"> <img src="{{related_product.featured_image | img_url: 'medium' }}" /> </div>
-                                    <div class="related-product-name">{{related_product.title}}</div>
-                                </div>
-                            </a> {% endfor %} </div> {%endif%}
-                    </div>
-                    <div class="related-products-dummy"></div>
-                    
+                  {% for product in product.metafields.custom.parts.value %}
+                  
+                      <div class="loading-overlay gradient"></div>
+                      
+                      <ul id="product-grid" data-id="{{ section.id }}" class="
+                        grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+                        grid--{{ section.settings.columns_desktop }}-col-desktop">
+                  
+                      <li class="grid__item">
+                        {% render 'card-product',
+                          card_product: product,
+                          media_aspect_ratio: section.settings.image_ratio,
+                          show_secondary_image: section.settings.show_secondary_image,
+                          lazy_load: lazy_load,
+                          show_quick_add: section.settings.enable_quick_add,
+                          section_id: section.id
+                  
+                        %}
+                      </li>
+                  </ul>
+                  </div>
+                  {%- endfor -%}              
                   {% elsif block.settings.heading == 'Specifications' %}
-
-
                     {{ block.settings.content }}
                     {{ block.settings.page.content }}     
                     {% comment %} Prop 65 warning {% endcomment %}

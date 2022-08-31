@@ -105,6 +105,15 @@
             "page": ""
           }
         },
+        "cc437370-4825-4025-b28b-bf5a322b6d73": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Parts & Accessories",
+            "icon": "washing",
+            "content": "",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -126,6 +135,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
+        "cc437370-4825-4025-b28b-bf5a322b6d73",
         "share"
       ],
       "settings": {

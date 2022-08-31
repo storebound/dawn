@@ -92,7 +92,7 @@
           "settings": {
             "heading": "Specifications",
             "icon": "ruler",
-            "content": "",
+            "content": "<p>Dimensions: {{ product.metafields.custom.dimensions.value }}<\/p><p>Weight: {{ product.metafields.custom.weight.value }}<\/p>",
             "page": ""
           }
         },

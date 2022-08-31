@@ -139,7 +139,7 @@
           "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "",
+              "heading": "Contact Us",
               "subtext": "<p>Call Toll-Free<br\/>1-800-898-6970<br\/>M-F: 9am-9pm (EST)<\/p>"
             }
           },

@@ -10,6 +10,12 @@
             "text_style": "uppercase"
           }
         },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -78,15 +84,6 @@
             "page": ""
           }
         },
-        "a81304a7-578e-4e21-b036-9a109e95d2f4": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Parts & Accessories",
-            "icon": "check_mark",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
@@ -96,15 +93,19 @@
             "page": ""
           }
         },
-        "share": {
-          "type": "share",
+        "a81304a7-578e-4e21-b036-9a109e95d2f4": {
+          "type": "collapsible_tab",
           "settings": {
-            "share_label": "Share"
+            "heading": "Parts & Accessories",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
           }
         }
       },
       "block_order": [
         "vendor",
+        "share",
         "title",
         "caption",
         "price",
@@ -115,9 +116,8 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
-        "a81304a7-578e-4e21-b036-9a109e95d2f4",
         "collapsible-row-3",
-        "share"
+        "a81304a7-578e-4e21-b036-9a109e95d2f4"
       ],
       "settings": {
         "enable_sticky_info": true,

@@ -141,10 +141,21 @@
             "liquid": "{% if product.metafields.custom.a_1 != blank %}\n{{ product.metafields.custom.a_1 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_1_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_2 != blank %}\n{{ product.metafields.custom.a_2 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_2_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_3 != blank %}\n{{ product.metafields.custom.a_3 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_3_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_4 != blank %}\n{{ product.metafields.custom.a_4 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_4_alt | escape }}\n{% endif %}",
             "page": ""
           }
+        },
+        "655030f0-1676-4e40-88ad-ea3da2ac399a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "liquid": "<ul id=\"product-grid\" data-id=\"{{ section.id }}\" class=\"\n        grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down\n        grid--{{ section.settings.columns_desktop }}-col-desktop\">\n        {%- for product in product.metafields.custom.parts.value -%}\n          {% assign lazy_load = false %}\n          {%- if forloop.index > 2 -%}\n            {%- assign lazy_load = true -%}\n          {%- endif -%}\n          <li class=\"grid__item\">\n            {% render 'card-product',\n              card_product: product,\n              media_aspect_ratio: section.settings.image_ratio,\n              show_secondary_image: section.settings.show_secondary_image,\n              show_vendor: section.settings.show_vendor,\n              show_rating: section.settings.show_rating,\n              lazy_load: lazy_load,\n              show_quick_add: section.settings.enable_quick_add,\n              section_id: section.id\n\n            %}\n          <\/li>\n        {%- endfor -%}\n      <\/ul>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "1661883100fe5b4a48-0"
+        "1661883100fe5b4a48-0",
+        "655030f0-1676-4e40-88ad-ea3da2ac399a"
       ],
       "settings": {
         "caption": "",

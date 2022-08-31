@@ -72,25 +72,25 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "Product Details",
+            "icon": "chat_bubble",
+            "content": "<p>{{ product.metafields.custom.romance_copy | metafield_tag }}<\/p>",
             "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
+            "heading": "Features & Benefits",
+            "icon": "clipboard",
+            "content": "<p>{{ product.metafields.custom.features_benefits | metafield_tag }}<\/p>",
             "page": ""
           }
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Dimensions",
+            "heading": "Specifications",
             "icon": "ruler",
             "content": "",
             "page": ""
@@ -99,8 +99,8 @@
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
+            "heading": "Manual & Warranty",
+            "icon": "question_mark",
             "content": "",
             "page": ""
           }

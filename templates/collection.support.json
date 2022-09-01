@@ -1,7 +1,75 @@
 {
   "sections": {
+    "166204967861df415c": {
+      "type": "multicolumn",
+      "blocks": {
+        "16620496789a532211-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_1972points.pngpts-notext.png",
+            "title": "Give Us A Ring",
+            "text": "<p>Phone Hours:<br\/>Monday-Friday<br\/>9am-9pm (EST)<\/p><p>Call: <a href=\"tel:800-898-6970\">800-898-6970<\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16620496789a532211-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_1973points.pngpts-notext.png",
+            "title": "Send Us A Message",
+            "text": "<p>Our real, live, California-based support team is ready to chat and help make things easy.<\/p>",
+            "link_label": "Send Us a Message",
+            "link": "https:\/\/bydash.com\/pages\/contact-us"
+          }
+        },
+        "16620496789a532211-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_1971points.pngpts-notext.png",
+            "title": "Shipping Information",
+            "text": "<p><a href=\"https:\/\/bydash.com\/pages\/faqs#block--3\" title=\"\/pages\/faqs#block--3\">Shipping Costs<\/a><\/p><p><a href=\"https:\/\/bydash.com\/pages\/delivery-returns\" title=\"\/pages\/delivery-returns\">Returns & Refunds<\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "3a6327d6-9815-4303-a25c-1937be48eb85": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_1974points.pngpts-notext.png",
+            "title": "FAQs",
+            "text": "<p>You’ve got questions? We’ve got answers. From orders to warranties, check out our Frequently Asked Questions .<\/p>",
+            "link_label": "Go To FAQs",
+            "link": "https:\/\/bydash.com\/pages\/faqs"
+          }
+        }
+      },
+      "block_order": [
+        "16620496789a532211-0",
+        "16620496789a532211-1",
+        "16620496789a532211-2",
+        "3a6327d6-9815-4303-a25c-1937be48eb85"
+      ],
+      "settings": {
+        "title": "WE’RE HERE TO HELP YOU",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -11,13 +79,15 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 16,
-        "columns_desktop": 4,
+        "products_per_page": 20,
+        "columns_desktop": 5,
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_filtering": true,
+        "enable_quick_add": false,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
         "padding_top": 36,
@@ -26,6 +96,7 @@
     }
   },
   "order": [
+    "166204967861df415c",
     "banner",
     "product-grid"
   ]

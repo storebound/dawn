@@ -208,7 +208,7 @@
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
@@ -316,8 +316,8 @@
         "64dbeef5-928b-45a8-aca1-fd96c61df350"
       ],
       "settings": {
-        "title": "Shop Our Products",
-        "heading_size": "h1",
+        "title": "SHOP OUR PRODUCTS",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,

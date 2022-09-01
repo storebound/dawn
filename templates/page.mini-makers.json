@@ -5,10 +5,9 @@
       "blocks": {
         "1662041157cf224d57-0": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Waffle Makers for $10 Each",
-            "heading_size": "h1"
+            "heading": "WAFFLE MAKERS FOR $10 EACH",
+            "heading_size": "h2"
           }
         },
         "1662041157cf224d57-1": {
@@ -78,8 +77,8 @@
         "16620432772262a9b1-0": {
           "type": "heading",
           "settings": {
-            "heading": "Pint-sized Powerhouse",
-            "heading_size": "h1"
+            "heading": "PINT-SIZED POWERHOUSE",
+            "heading_size": "h2"
           }
         },
         "16620432772262a9b1-1": {

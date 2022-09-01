@@ -6,14 +6,14 @@
         "16619709803c76c5d0-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "SALES & SUN TO WRAP UP SUMMER 😎",
+            "heading_size": "h2"
           }
         },
         "16619709803c76c5d0-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
           }
         },
@@ -21,7 +21,7 @@
           "type": "button",
           "settings": {
             "button_label": "Button label",
-            "button_link": ""
+            "button_link": "\/"
           }
         }
       },
@@ -35,7 +35,7 @@
         "height": "adapt",
         "desktop_image_width": "large",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
         "color_scheme": "background-1",

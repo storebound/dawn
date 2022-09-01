@@ -143,14 +143,14 @@
         "166204383481796f9a-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "GET CREATIVE!",
+            "heading_size": "h2"
           }
         },
         "166204383481796f9a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>With our newest cookbook, Wonderful Mini Waffles, you'll be making delicious waffles for breakfast, lunch, and dinner with beautiful photography and step-by-step recipes.<\/p>",
             "text_style": "body"
           }
         },
@@ -158,7 +158,7 @@
           "type": "button",
           "settings": {
             "button_label": "Button label",
-            "button_link": ""
+            "button_link": "\/"
           }
         }
       },
@@ -186,10 +186,9 @@
       "blocks": {
         "1662044819daa050b3-0": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "YOU ASKED, WE LISTENED! 👂",
+            "heading_size": "h2"
           }
         },
         "1662044819daa050b3-1": {

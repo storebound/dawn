@@ -2961,6 +2961,7 @@ details-disclosure > details {
   width: 40px;
   height: 40px;
   padding: 0;
+  text-indent: -99999px !important;
 }
 .product-form__input input[type="radio"]:checked + .color-swatch,
 .product-form__input input[type="radio"]:hover + .color-swatch {

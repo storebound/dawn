@@ -2,6 +2,7 @@
   "sections": {
     "1662668277712933fd": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16626682767d08c5aa-0": {
           "type": "heading",
@@ -19,17 +20,17 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 32,
+        "padding_bottom": 28
       }
     },
     "16626685363d5faafc": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 12,
+        "padding_bottom": 0
       }
     },
     "main": {
@@ -80,7 +81,7 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -109,37 +110,22 @@
     "166266783963e2dc3a": {
       "type": "image-with-text",
       "blocks": {
-        "1662667839932af91d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
         "1662667839932af91d-1": {
           "type": "text",
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
           }
-        },
-        "1662667839932af91d-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
-        "1662667839932af91d-0",
-        "1662667839932af91d-1",
-        "1662667839932af91d-2"
+        "1662667839932af91d-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Website_Careers_Module-2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",

@@ -110,15 +110,23 @@
     "166266783963e2dc3a": {
       "type": "image-with-text",
       "blocks": {
+        "016ae727-4340-4665-938b-38c4e8aff152": {
+          "type": "heading",
+          "settings": {
+            "heading": "BENEFITS & PERKS",
+            "heading_size": "h2"
+          }
+        },
         "1662667839932af91d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p><strong>• <\/strong>Competitive salary<br\/><strong>• <\/strong>Comprehensive healthcare benefits, including dental and vision plans<br\/><strong>• <\/strong>Comprehensive 401k retirement plan with contribution matching<br\/><strong>• <\/strong>Generous paid time off, including a mix of vacation, personal and sick days, plus floating holidays and 9 paid national holidays<br\/><strong>• <\/strong>Monthly Better World Days with paid time off for volunteering or professional development.<br\/><strong>• <\/strong>Transportation benefits<br\/><strong>• <\/strong>Fun and friendly office in NYC stocked with free snacks<br\/><strong>• <\/strong>Flexible leave policies for new moms and dads<br\/><strong>• <\/strong>Team outings and fun activities to build community with our amazing team members<\/p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
+        "016ae727-4340-4665-938b-38c4e8aff152",
         "1662667839932af91d-1"
       ],
       "settings": {
@@ -132,7 +140,51 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
+      }
+    },
+    "166266962410e25f5b": {
+      "type": "rich-text",
+      "blocks": {
+        "16626696243ceda709-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16626696243ceda709-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16626696243ceda709-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Open Positions",
+            "button_link": "https:\/\/storebound.bamboohr.com\/jobs\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16626696243ceda709-0",
+        "16626696243ceda709-1",
+        "16626696243ceda709-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 52
       }
     }
   },
@@ -142,6 +194,7 @@
     "main",
     "1662665986e53a3d01",
     "16626677818c04ff18",
-    "166266783963e2dc3a"
+    "166266783963e2dc3a",
+    "166266962410e25f5b"
   ]
 }

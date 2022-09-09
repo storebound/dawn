@@ -1,7 +1,64 @@
 {
   "sections": {
+    "1662734380e38677ff": {
+      "type": "multicolumn",
+      "blocks": {
+        "1662734380a74946d7-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-09_at_10.45.32_AM.png",
+            "title": "Chance to win a $1,000 Visa® Prepaid Card*",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1662734380a74946d7-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-09_at_10.45.32_AM.png",
+            "title": "Unlock & Extend Product Warranty",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1662734380a74946d7-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-09_at_10.45.32_AM.png",
+            "title": "Expedited Customer Service Support",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1662734380a74946d7-1",
+        "1662734380a74946d7-2",
+        "1662734380a74946d7-0"
+      ],
+      "settings": {
+        "title": "Why register your Dash product?",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -9,6 +66,7 @@
     }
   },
   "order": [
+    "1662734380e38677ff",
     "main"
   ]
 }

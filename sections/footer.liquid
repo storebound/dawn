@@ -332,9 +332,10 @@
         {%- endif -%}
         <div class="footer__copyright caption">
           <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
-          <small class="copyright__content">{{ powered_by_link }} {{ canonical_url }}</small>
+          <small class="copyright__content">{{ powered_by_link }}</small>
           {% if canonical_url contains "apps/product-registration" %}
-          <small class="copyright__content">test message</small>
+          <br>
+          <small class="copyright__content">NO PURCHASE OR PAYMENT NECESSARY. Open to legal residents of 50 U.S./D.C., 18+ (AL and NE, 19+) at time of entry. 04/01/22-03/31/23. See Official Rules, including prizes, entry instructions, and odds of winning . Void in P.R. and where prohibited. Sponsor: StoreBound LLC, 50 Broad St Floor 12, New York, NY 10004 The Visa Prepaid Card is issued by The Bancorp Bank, Member FDIC, pursuant to a license from Visa U.S.A. Inc. and can be used everywhere Visa debit cards are accepted around the world. Limited warranty rights are not diminished if you do not complete and submit this registration form.</small>
         {%- endif -%}
         </div>
       </div>

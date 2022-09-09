@@ -141,20 +141,20 @@
             "type": "text",
             "settings": {
               "heading": "Contact Us",
-              "subtext": "<p>Call Toll-Free<br\/>1-800-898-6970<br\/>M-F: 9am-9pm (EST)<\/p>"
+              "subtext": "<p><a href=\"\/pages\/contact-us\" title=\"\/pages\/contact-us\">Send Us A Message<\/a><\/p><p>Call Toll-Free<br\/>1-800-898-6970<br\/>M-F: 9am-9pm (EST)<\/p>"
             }
           },
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Help and Support",
+              "heading": "Site Links",
               "menu": "footer"
             }
           },
           "c70d8f3a-d0ab-42bc-86f8-a4fef6fbb678": {
             "type": "link_list",
             "settings": {
-              "heading": "Pages",
+              "heading": "Policy Links",
               "menu": "footer"
             }
           },

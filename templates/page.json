@@ -63,10 +63,43 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1662734947fe601c7e": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1662734947f9de8409-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "* Giveaway Rules",
+            "icon": "check_mark",
+            "row_content": "<p>NO PURCHASE OR PAYMENT NECESSARY. Open to legal residents of 50 U.S.\/D.C., 18+ (AL and NE, 19+) at time of entry. 04\/01\/22-03\/31\/23. See Official Rules, including prizes, entry instructions, and odds of winning<a href=\"https:\/\/www.sony.com\/registration-sweepstakes\" target=\"_blank\">here<\/a>. Void in P.R. and where prohibited. Sponsor: StoreBound LLC, 50 Broad St Floor 12, New York, NY 10004. The Visa Prepaid Card is issued by The Bancorp Bank, Member FDIC, pursuant to a license from Visa U.S.A. Inc. and can be used everywhere Visa debit cards are accepted around the world. Limited warranty rights are not diminished if you do not complete and submit this registration form.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1662734947f9de8409-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "1662734380e38677ff",
-    "main"
+    "main",
+    "1662734947fe601c7e"
   ]
 }

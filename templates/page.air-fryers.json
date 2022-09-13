@@ -91,41 +91,6 @@
     },
     "16630767237d889bb5": {
       "type": "image-banner",
-      "blocks": {
-        "16630767230dd5739d-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "16630767230dd5739d-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "16630767230dd5739d-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16630767230dd5739d-0",
-        "16630767230dd5739d-1",
-        "16630767230dd5739d-2"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-13_at_9.45.59_AM.png",
         "image_overlay_opacity": 0,

@@ -36,7 +36,7 @@
         "16620432772262a9b1-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Mini_Maker_Page_Assets-06.png",
+        "image": "shopify:\/\/shop_images\/Amazon_Banner_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -89,91 +89,98 @@
         "padding_bottom": 36
       }
     },
-    "16620411571cf970e1": {
-      "type": "image-with-text",
-      "disabled": true,
+    "16630767237d889bb5": {
+      "type": "image-banner",
       "blocks": {
-        "1662041157cf224d57-0": {
+        "16630767230dd5739d-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "WAFFLE MAKERS FOR $10 EACH",
-            "heading_size": "h2"
-          }
-        },
-        "1662041157cf224d57-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Bundle up! Create your own bundle of 5 Mini Waffle Makers and save over 20%<\/p><p>Discount applied at checkout<\/p>",
-            "text_style": "body"
-          }
-        },
-        "1662041157cf224d57-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": "\/"
-          }
-        }
-      },
-      "block_order": [
-        "1662041157cf224d57-0",
-        "1662041157cf224d57-1",
-        "1662041157cf224d57-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/MakeYourOwnBundle_Email_V2-01_81ade96e-2fbc-4489-97b9-d7dcbd2a5ea5.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "16626581413a0e2fc5": {
-      "type": "rich-text",
-      "blocks": {
-        "166265814164b9bb61-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "Image banner",
             "heading_size": "h1"
           }
         },
-        "166265814164b9bb61-1": {
+        "16630767230dd5739d-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
           }
         },
-        "166265814164b9bb61-2": {
-          "type": "button",
+        "16630767230dd5739d-2": {
+          "type": "buttons",
+          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "166265814164b9bb61-0",
-        "166265814164b9bb61-1",
-        "166265814164b9bb61-2"
+        "16630767230dd5739d-0",
+        "16630767230dd5739d-1",
+        "16630767230dd5739d-2"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-13_at_9.45.59_AM.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16620431184b25d6fa": {
+      "type": "multicolumn",
+      "blocks": {
+        "a383180d-ddb6-40d0-972e-d48a3a72ae0d": {
+          "type": "column",
+          "settings": {
+            "title": "Rapid Cooking",
+            "text": "<p>AirCrisp® Technology pulls hot air into the air fryer and superheats it, so your food starts cooking instantly. Hot air is circulated with a convection current, resulting in thorough cooking and faster meals.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "4ab8898c-fa01-4bf1-ab3e-477f7e31fcec": {
+          "type": "column",
+          "settings": {
+            "title": "Uniquely Crispy",
+            "text": "<p>The specially designed Crisper Basket of each air fryer allows air to flow around, under, and above food as it cooks. Plus, each removable basket has two layers so oil doesn't pool and food stays crispy.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "a383180d-ddb6-40d0-972e-d48a3a72ae0d",
+        "4ab8898c-fa01-4bf1-ab3e-477f7e31fcec"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Shop All Air Fryers",
+        "button_link": "\/",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "16620429067a01a6ee": {
@@ -199,23 +206,6 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "16620408799231b27a": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "START MAKING MINI MAGIC!",
-        "heading_size": "h2",
-        "blog": "news",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_image": true,
-        "show_date": false,
-        "show_author": false,
-        "show_view_all": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -264,25 +254,6 @@
         "padding_bottom": 36
       }
     },
-    "16620431184b25d6fa": {
-      "type": "multicolumn",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 1,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "Shop All Air Fryers",
-        "button_link": "\/",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -309,12 +280,10 @@
   "order": [
     "16620432773d36c02f",
     "1662658179ca0ebbdd",
-    "16620411571cf970e1",
-    "16626581413a0e2fc5",
-    "16620429067a01a6ee",
-    "16620408799231b27a",
-    "1662043834a905bb1f",
+    "16630767237d889bb5",
     "16620431184b25d6fa",
+    "16620429067a01a6ee",
+    "1662043834a905bb1f",
     "main",
     "166265869685122243"
   ]

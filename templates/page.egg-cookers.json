@@ -84,8 +84,8 @@
           "settings": {
             "title": "Eggs-tremely Speedy",
             "text": "<p>Our egg cookers use a steaming process to thoroughly cook eggs without boiling. Simply add water to the heating plate, place your eggs in the holder, and close the lid. It's simple and fast, and eggs cook perfectly every time.<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "SHOP EGG COOKERS",
+            "link": "shopify:\/\/collections\/3-quart"
           }
         },
         "4ab8898c-fa01-4bf1-ab3e-477f7e31fcec": {
@@ -93,8 +93,8 @@
           "settings": {
             "title": "Egg Bites at Home!",
             "text": "<p>Craving egg bites from your favorite coffee shop? With our Egg Bite Maker, you can make sous-vide style egg bites at home. Simply fill the cups and rest them in a water bath to cook. Don't forget to add your favorite toppings!<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "SHOP EGG BITE MAKERS",
+            "link": "shopify:\/\/collections\/frozen-treats"
           }
         }
       },
@@ -110,7 +110,7 @@
         "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "Shop All Egg Cookers",
+        "button_label": "",
         "button_link": "\/",
         "color_scheme": "background-1",
         "columns_mobile": "1",
@@ -229,8 +229,8 @@
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "SHOP ALL EGG COOKERS",
+        "button_link": "shopify:\/\/collections\/mini-makers",
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,

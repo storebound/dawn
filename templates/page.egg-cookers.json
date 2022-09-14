@@ -6,14 +6,14 @@
         "16620432772262a9b1-0": {
           "type": "heading",
           "settings": {
-            "heading": "Air Frying Made Easy!",
+            "heading": "Healthy Breakfast Fast!",
             "heading_size": "h1"
           }
         },
         "16620432772262a9b1-1": {
           "type": "text",
           "settings": {
-            "text": "Cook delicious, crispy fried food using only hot air in our range of easy-to-use air fryers. With different sizes, colors, and styles, there's an air fryer for everyone!",
+            "text": "Our best-selling egg cookers have revolutionized breakfasts, meal prep, and more, all in less time than it takes to boil water on the stovetop!",
             "text_style": "body"
           }
         },
@@ -36,7 +36,7 @@
         "16620432772262a9b1-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Amazon_Banner_1.jpg",
+        "image": "shopify:\/\/shop_images\/EggCooker_Update_Group_3.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -49,109 +49,10 @@
         "show_text_below": true
       }
     },
-    "1662658179ca0ebbdd": {
-      "type": "collection-list",
-      "blocks": {
-        "16626581798d96a358-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "2-quart"
-          }
-        },
-        "16626581798d96a358-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "3-quart"
-          }
-        },
-        "16626581798d96a358-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "6-quart"
-          }
-        }
-      },
-      "block_order": [
-        "16626581798d96a358-0",
-        "16626581798d96a358-1",
-        "16626581798d96a358-2"
-      ],
-      "settings": {
-        "title": "Shop by Size",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "16630767237d889bb5": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-13_at_9.45.59_AM.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "16620431184b25d6fa": {
-      "type": "multicolumn",
-      "blocks": {
-        "a383180d-ddb6-40d0-972e-d48a3a72ae0d": {
-          "type": "column",
-          "settings": {
-            "title": "Rapid Cooking",
-            "text": "<p>AirCrisp® Technology pulls hot air into the air fryer and superheats it, so your food starts cooking instantly. Hot air is circulated with a convection current, resulting in thorough cooking and faster meals.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "4ab8898c-fa01-4bf1-ab3e-477f7e31fcec": {
-          "type": "column",
-          "settings": {
-            "title": "Uniquely Crispy",
-            "text": "<p>The specially designed Crisper Basket of each air fryer allows air to flow around, under, and above food as it cooks. Plus, each removable basket has two layers so oil doesn't pool and food stays crispy.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "a383180d-ddb6-40d0-972e-d48a3a72ae0d",
-        "4ab8898c-fa01-4bf1-ab3e-477f7e31fcec"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "Shop All Air Fryers",
-        "button_link": "\/",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 16,
-        "padding_bottom": 36
-      }
-    },
     "16620429067a01a6ee": {
       "type": "featured-collection",
       "settings": {
-        "title": "BEST SELLERS",
+        "title": "Featured Egg Cookers",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -175,60 +76,59 @@
         "padding_bottom": 36
       }
     },
-    "166265869685122243": {
-      "type": "video",
-      "settings": {
-        "heading": "How Does Air Frying Work?",
-        "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/gvcJDytrWrk-HD.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=gvcJDytrWrk&feature=emb_title",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1662043834a905bb1f": {
-      "type": "image-with-text",
+    "16620431184b25d6fa": {
+      "type": "multicolumn",
       "blocks": {
-        "166204383481796f9a-0": {
-          "type": "heading",
+        "a383180d-ddb6-40d0-972e-d48a3a72ae0d": {
+          "type": "column",
           "settings": {
-            "heading": "GET CREATIVE!",
-            "heading_size": "h2"
+            "title": "Eggs-tremely Speedy",
+            "text": "<p>Our egg cookers use a steaming process to thoroughly cook eggs without boiling. Simply add water to the heating plate, place your eggs in the holder, and close the lid. It's simple and fast, and eggs cook perfectly every time.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "166204383481796f9a-1": {
-          "type": "text",
+        "4ab8898c-fa01-4bf1-ab3e-477f7e31fcec": {
+          "type": "column",
           "settings": {
-            "text": "<p>Over 70 delicious recipes for entrées, sides and desserts, all with easy-to-find ingredients. Try out new recipes or gain confidence with old favorites in any Dash air fryer!<\/p>",
-            "text_style": "body"
-          }
-        },
-        "166204383481796f9a-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get Cookin'",
-            "button_link": "\/"
+            "title": "Egg Bites at Home!",
+            "text": "<p>Craving egg bites from your favorite coffee shop? With our Egg Bite Maker, you can make sous-vide style egg bites at home. Simply fill the cups and rest them in a water bath to cook. Don't forget to add your favorite toppings!<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "166204383481796f9a-0",
-        "166204383481796f9a-1",
-        "166204383481796f9a-2"
+        "a383180d-ddb6-40d0-972e-d48a3a72ae0d",
+        "4ab8898c-fa01-4bf1-ab3e-477f7e31fcec"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/AirFryingCookBook.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Shop All Egg Cookers",
+        "button_link": "\/",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
+    "166265869685122243": {
+      "type": "video",
+      "settings": {
+        "heading": "How Does the Dash Egg Bite Maker Work?",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/noiZ4Hlen34-HD.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=noiZ4Hlen34",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -240,16 +140,112 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1663167581aea4a214": {
+      "type": "rich-text",
+      "blocks": {
+        "1663167580b6e70965-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Breakfast & Beyond<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663167580b6e70965-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There are so many ways to use eggs from our egg cookers, these ideas are just the beginning!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663167580b6e70965-0",
+        "1663167580b6e70965-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 12
+      }
+    },
+    "1663167390327da35f": {
+      "type": "multicolumn",
+      "blocks": {
+        "16631673892e175f89-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-14_at_10.56.50_AM.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16631673892e175f89-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-14_at_10.57.06_AM.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16631673892e175f89-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-14_at_10.57.13_AM.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "91461844-149f-4b93-bf5d-7ad657a8a204": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-14_at_10.57.19_AM.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16631673892e175f89-0",
+        "16631673892e175f89-1",
+        "16631673892e175f89-2",
+        "91461844-149f-4b93-bf5d-7ad657a8a204"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "16620432773d36c02f",
-    "1662658179ca0ebbdd",
-    "16630767237d889bb5",
-    "16620431184b25d6fa",
     "16620429067a01a6ee",
+    "16620431184b25d6fa",
     "166265869685122243",
-    "1662043834a905bb1f",
-    "main"
+    "main",
+    "1663167581aea4a214",
+    "1663167390327da35f"
   ]
 }

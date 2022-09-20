@@ -1,5 +1,53 @@
 {
   "sections": {
+    "16636942168f39fb93": {
+      "type": "image-banner",
+      "blocks": {
+        "16636942167f338669-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Feel Good Rewards",
+            "heading_size": "h1"
+          }
+        },
+        "16636942167f338669-1": {
+          "type": "text",
+          "settings": {
+            "text": "Join & get rewarded for every purchase you make!",
+            "text_style": "body"
+          }
+        },
+        "16636942167f338669-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Join Now",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "Sign In",
+            "button_link_2": "shopify:\/\/collections",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16636942167f338669-0",
+        "16636942167f338669-1",
+        "16636942167f338669-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-20_at_1.34.55_PM.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1662734380e38677ff": {
       "type": "multicolumn",
       "blocks": {
@@ -7,7 +55,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-09_at_10.45.32_AM.png",
-            "title": "Chance to win a $1,000 Visa® Prepaid Card*",
+            "title": "10 points for every dollar spent on bydash.com",
             "text": "",
             "link_label": "",
             "link": ""
@@ -17,7 +65,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-09_at_10.45.32_AM.png",
-            "title": "Unlock & Extend Product Warranty",
+            "title": "50 points for joining the Feel Good Rewards program",
             "text": "",
             "link_label": "",
             "link": ""
@@ -27,7 +75,17 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-09_at_10.45.32_AM.png",
-            "title": "Expedited Customer Service Support",
+            "title": "200 points for writing a review for your purchase on bydash.com",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e7104c15-4f1e-4c62-b71a-a10201f14f87": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-09_at_10.45.32_AM.png",
+            "title": "$10 for you and every referred friends who makes a purchase",
             "text": "",
             "link_label": "",
             "link": ""
@@ -37,14 +95,15 @@
       "block_order": [
         "1662734380a74946d7-1",
         "1662734380a74946d7-2",
-        "1662734380a74946d7-0"
+        "1662734380a74946d7-0",
+        "e7104c15-4f1e-4c62-b71a-a10201f14f87"
       ],
       "settings": {
-        "title": "Why register your Dash product?",
-        "heading_size": "h2",
+        "title": "Ways to Earn Points",
+        "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
@@ -52,6 +111,59 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166369476730b060f4": {
+      "type": "multicolumn",
+      "blocks": {
+        "166369476772e99734-0": {
+          "type": "column",
+          "settings": {
+            "title": "2300 Points",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166369476772e99734-1": {
+          "type": "column",
+          "settings": {
+            "title": "2300 Points",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166369476772e99734-2": {
+          "type": "column",
+          "settings": {
+            "title": "4000 Points",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166369476772e99734-0",
+        "166369476772e99734-1",
+        "166369476772e99734-2"
+      ],
+      "settings": {
+        "title": "Ways to Redeem Points",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -83,8 +195,8 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "",
-        "heading_size": "h1",
+        "heading": "FAQ",
+        "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "background-1",
@@ -98,7 +210,9 @@
     }
   },
   "order": [
+    "16636942168f39fb93",
     "1662734380e38677ff",
+    "166369476730b060f4",
     "main",
     "1662734947fe601c7e"
   ]

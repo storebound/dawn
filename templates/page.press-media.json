@@ -1,61 +1,5 @@
 {
   "sections": {
-    "1662734380e38677ff": {
-      "type": "multicolumn",
-      "blocks": {
-        "1662734380a74946d7-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-09_at_10.45.32_AM.png",
-            "title": "Chance to win a $1,000 Visa® Prepaid Card*",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1662734380a74946d7-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-09_at_10.45.32_AM.png",
-            "title": "Unlock & Extend Product Warranty",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1662734380a74946d7-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-09_at_10.45.32_AM.png",
-            "title": "Expedited Customer Service Support",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1662734380a74946d7-1",
-        "1662734380a74946d7-2",
-        "1662734380a74946d7-0"
-      ],
-      "settings": {
-        "title": "Why register your Dash product?",
-        "heading_size": "h2",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -64,42 +8,18 @@
         "padding_bottom": 28
       }
     },
-    "1662734947fe601c7e": {
-      "type": "collapsible-content",
-      "blocks": {
-        "1662734947f9de8409-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "* Giveaway Rules",
-            "icon": "check_mark",
-            "row_content": "<p>NO PURCHASE OR PAYMENT NECESSARY. Open to legal residents of 50 U.S.\/D.C., 18+ (AL and NE, 19+) at time of entry. 04\/01\/22-03\/31\/23. See Official Rules, including prizes, entry instructions, and odds of winning<a href=\"https:\/\/www.sony.com\/registration-sweepstakes\" target=\"_blank\">here<\/a>. Void in P.R. and where prohibited. Sponsor: StoreBound LLC, 50 Broad St Floor 12, New York, NY 10004. The Visa Prepaid Card is issued by The Bancorp Bank, Member FDIC, pursuant to a license from Visa U.S.A. Inc. and can be used everywhere Visa debit cards are accepted around the world. Limited warranty rights are not diminished if you do not complete and submit this registration form.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "1662734947f9de8409-3"
-      ],
+    "16638700311932f0cb": {
+      "type": "custom-liquid",
       "settings": {
-        "caption": "",
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
+        "custom_liquid": "<style>\n  table {\n    margin: 20px;\n  }\n  h1{\n    margin: 20px;\n  }\n  a{\n    text-decoration: none;\n    color: inherit;\n    vertical-align: middle;\n  }\n  tr {\n  border-bottom: 1px solid #ddd;\n}\nimg { \n    vertical-align: middle;\n}\n<\/style>\n\n\n<h1>In the News<\/h1>\n\n\n<table>\n  <tr>\n    <td>\n        <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0173\/8181\/8422\/files\/NYP_New_York_Post_logo_wordmark-700x124.png?v=1650288710\"\n          alt=\"New York Post\"\n      \/>\n      <a href=\"https:\/\/nypost.com\/article\/best-juicer-machines\/\" target=\"_blank\"\n        >12 Best Juicers to Create Refreshing Beverages in 2022\n        <\/a>\n    <\/td>\n    \n    <td>03\/09\/2022<\/td>\n  <\/tr>\n  <tr>\n    <td>\n    <img\n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0173\/8181\/8422\/files\/Bon_Appetit_logo.svg_d5481c21-dbdc-4ab3-8ce5-78f3fab7fe40.png?v=1650289005\"\n          alt=\"Bon Appetit\"\n      \/>\n      <a href=\"https:\/\/www.bonappetit.com\/story\/dash-rapid-egg-cooker\" target=\"_blank\"\n        >Boiling Eggs Isn't Hard, But This Egg Cooker Makes It Stupid Easy\n        <\/a>\n    <\/td>\n    \n    <td>03\/07\/2022<\/td>\n  <\/tr>\n<\/table>",
         "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
-    "1662734380e38677ff",
     "main",
-    "1662734947fe601c7e"
+    "16638700311932f0cb"
   ]
 }

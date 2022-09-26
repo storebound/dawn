@@ -173,6 +173,49 @@
         "padding_bottom": 36
       }
     },
+    "16642224542050f161": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "16642224534675febb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Media<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16642224534675febb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Download our media assets below. <\/p><p>If you need additional content, please contact our media manager at media@storebound.com<\/p>"
+          }
+        },
+        "16642224534675febb-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Full Media Kit",
+            "button_link": "https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16642224534675febb-0",
+        "16642224534675febb-1",
+        "16642224534675febb-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1664218708f72d93e0": {
       "type": "collapsible-content",
       "blocks": {
@@ -189,9 +232,19 @@
         "1664218707d2f60b78-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "FULL MEDIA KIT",
+            "heading": "Logo",
             "icon": "none",
             "row_content": "<p><a href=\"https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit\" target=\"_blank\">DOWNLOAD FULL MEDIA KIT<\/a><\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "87950b49-62e0-4190-a159-be0221a331e1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Full Media Kit",
+            "icon": "none",
+            "row_content": "",
             "liquid": "",
             "page": ""
           }
@@ -199,7 +252,8 @@
       },
       "block_order": [
         "1664218707d2f60b78-0",
-        "1664218707d2f60b78-1"
+        "1664218707d2f60b78-1",
+        "87950b49-62e0-4190-a159-be0221a331e1"
       ],
       "settings": {
         "caption": "Download our media assets below. If you need additional content, please contact our media manager at media@storebound.com",
@@ -214,16 +268,6 @@
         "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "16638700311932f0cb": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<style>\n  table {\n    margin-left: 120px;\n    margin-right: 50px;\n    table-layout: auto;\n    width: 80%;\n  }\n  h1 {\n    margin: 100px;\n  }\n  a {\n    text-decoration: none;\n    color: inherit;\n    vertical-align: middle;\n  }\n  tr {\n    border-bottom: 1px solid #ddd;\n  }\n  img {\n    vertical-align: middle;\n  }\n  .td1{\n    width:85%\n  }\n  .td2{\n    text-align: center;\n  }\n<\/style>\n\n<h1>In the News<\/h1>\n\n<table>\n  <tr> \n    <td class=\"td1\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0173\/8181\/8422\/files\/NYP_New_York_Post_logo_wordmark-700x124.png?v=1650288710\"\n        alt=\"New York Post\"\n      \/>\n      <a href=\"https:\/\/nypost.com\/article\/best-juicer-machines\/\" target=\"_blank\"\n        >12 Best Juicers to Create Refreshing Beverages in 2022\n      <\/a>\n    <\/td>\n\n    <td class=\"td2\">03\/09\/2022<\/td>\n  <\/tr>\n  <tr>\n    <td>\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0173\/8181\/8422\/files\/Bon_Appetit_logo.svg_d5481c21-dbdc-4ab3-8ce5-78f3fab7fe40.png?v=1650289005\"\n        alt=\"Bon Appetit\"\n      \/>\n      <a\n        href=\"https:\/\/www.bonappetit.com\/story\/dash-rapid-egg-cooker\"\n        target=\"_blank\"\n        >Boiling Eggs Isn't Hard, But This Egg Cooker Makes It Stupid Easy\n      <\/a>\n    <\/td>\n\n    <td class=\"td2\">03\/07\/2022<\/td>\n  <\/tr>\n<\/table>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "1664221731d89e0bab": {
@@ -314,14 +358,25 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16638700311932f0cb": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>\n  table {\n    margin-left: 120px;\n    margin-right: 50px;\n    table-layout: auto;\n    width: 80%;\n  }\n  h1 {\n    margin: 100px;\n  }\n  a {\n    text-decoration: none;\n    color: inherit;\n    vertical-align: middle;\n  }\n  tr {\n    border-bottom: 1px solid #ddd;\n  }\n  img {\n    vertical-align: middle;\n  }\n  .td1{\n    width:85%\n  }\n  .td2{\n    text-align: center;\n  }\n<\/style>\n\n<h1>In the News<\/h1>\n\n<table>\n  <tr> \n    <td class=\"td1\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0173\/8181\/8422\/files\/NYP_New_York_Post_logo_wordmark-700x124.png?v=1650288710\"\n        alt=\"New York Post\"\n      \/>\n      <a href=\"https:\/\/nypost.com\/article\/best-juicer-machines\/\" target=\"_blank\"\n        >12 Best Juicers to Create Refreshing Beverages in 2022\n      <\/a>\n    <\/td>\n\n    <td class=\"td2\">03\/09\/2022<\/td>\n  <\/tr>\n  <tr>\n    <td>\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0173\/8181\/8422\/files\/Bon_Appetit_logo.svg_d5481c21-dbdc-4ab3-8ce5-78f3fab7fe40.png?v=1650289005\"\n        alt=\"Bon Appetit\"\n      \/>\n      <a\n        href=\"https:\/\/www.bonappetit.com\/story\/dash-rapid-egg-cooker\"\n        target=\"_blank\"\n        >Boiling Eggs Isn't Hard, But This Egg Cooker Makes It Stupid Easy\n      <\/a>\n    <\/td>\n\n    <td class=\"td2\">03\/07\/2022<\/td>\n  <\/tr>\n<\/table>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "1664219522eef12178",
     "1663871311258f63b8",
+    "16642224542050f161",
     "1664218708f72d93e0",
-    "16638700311932f0cb",
-    "1664221731d89e0bab"
+    "1664221731d89e0bab",
+    "16638700311932f0cb"
   ]
 }

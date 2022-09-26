@@ -8,13 +8,181 @@
         "padding_bottom": 28
       }
     },
-    "16638700311932f0cb": {
-      "type": "custom-liquid",
+    "1664219522eef12178": {
+      "type": "multicolumn",
+      "blocks": {
+        "1664219522ec70e375-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NYP_New_York_Post_logo_wordmark-700x124.png",
+            "title": "12 Best Juicers to Create Refreshing Beverages in 2022",
+            "text": "",
+            "link_label": "Read now",
+            "link": "https:\/\/nypost.com\/article\/best-juicer-machines\/"
+          }
+        },
+        "1664219522ec70e375-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bon_Appetit_logo.svg_1b74c218-2312-42c8-85b5-067785c520d5.png",
+            "title": "Boiling Eggs Isn't Hard, But This Egg Cooker Makes It Stupid Easy",
+            "text": "",
+            "link_label": "Read now",
+            "link": "https:\/\/www.bonappetit.com\/story\/dash-rapid-egg-cooker"
+          }
+        },
+        "1664219522ec70e375-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/370-3705641_planet-fitness-logo-transparent-muscle-fitness-logo.png",
+            "title": "Try Top Chef Kevin Curry's Low-Carb, High-Flavor Black Bean Quesadillas",
+            "text": "",
+            "link_label": "Read now",
+            "link": "https:\/\/www.muscleandfitness.com\/nutrition\/healthy-eating\/top-chef-kevin-currys-refried-black-bean-quesadillas-recipe\/"
+          }
+        },
+        "ee00d634-90c3-4cb1-8033-b428b16618a8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vice_Logo.png",
+            "title": "The Best Air Fryers for Under $100",
+            "text": "",
+            "link_label": "Read now",
+            "link": "https:\/\/www.vice.com\/en\/article\/7kvd4a\/best-air-fryers-under-100-dollars"
+          }
+        },
+        "45fbc81e-766b-4b4d-8968-01088d0d4a65": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "4344f496-787e-40b9-9a24-6e41d2944a20": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "3000c5f4-8e5f-4150-9840-3a37f3093548": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "293de5f2-c019-4af1-8a34-c62a7cb99df8": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c2427853-0891-4c90-889c-c295ffc4f695": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "ba21681c-7fb4-4977-b256-2506eafaf53b": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "04358bb0-d45e-41ff-81fe-8b7edfeccb35": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "3fbf6277-8c4f-41e7-a567-129e3aeb29c7": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "55633009-4fa8-4914-8780-640f49a2b5df": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "a454f1f5-e7f0-43e5-a6b5-f9179464cf1b": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7b635326-b862-4a1f-8c82-a6ee4f9a7569": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664219522ec70e375-0",
+        "1664219522ec70e375-1",
+        "1664219522ec70e375-2",
+        "ee00d634-90c3-4cb1-8033-b428b16618a8",
+        "45fbc81e-766b-4b4d-8968-01088d0d4a65",
+        "4344f496-787e-40b9-9a24-6e41d2944a20",
+        "3000c5f4-8e5f-4150-9840-3a37f3093548",
+        "293de5f2-c019-4af1-8a34-c62a7cb99df8",
+        "c2427853-0891-4c90-889c-c295ffc4f695",
+        "ba21681c-7fb4-4977-b256-2506eafaf53b",
+        "04358bb0-d45e-41ff-81fe-8b7edfeccb35",
+        "3fbf6277-8c4f-41e7-a567-129e3aeb29c7",
+        "55633009-4fa8-4914-8780-640f49a2b5df",
+        "a454f1f5-e7f0-43e5-a6b5-f9179464cf1b",
+        "7b635326-b862-4a1f-8c82-a6ee4f9a7569"
+      ],
       "settings": {
-        "custom_liquid": "<style>\n  table {\n    margin-left: 120px;\n    margin-right: 50px;\n    table-layout: auto;\n    width: 80%;\n  }\n  h1 {\n    margin: 100px;\n  }\n  a {\n    text-decoration: none;\n    color: inherit;\n    vertical-align: middle;\n  }\n  tr {\n    border-bottom: 1px solid #ddd;\n  }\n  img {\n    vertical-align: middle;\n  }\n  .td1{\n    width:85%\n  }\n  .td2{\n    text-align: center;\n  }\n<\/style>\n\n<h1>In the News<\/h1>\n\n<table>\n  <tr> \n    <td class=\"td1\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0173\/8181\/8422\/files\/NYP_New_York_Post_logo_wordmark-700x124.png?v=1650288710\"\n        alt=\"New York Post\"\n      \/>\n      <a href=\"https:\/\/nypost.com\/article\/best-juicer-machines\/\" target=\"_blank\"\n        >12 Best Juicers to Create Refreshing Beverages in 2022\n      <\/a>\n    <\/td>\n\n    <td class=\"td2\">03\/09\/2022<\/td>\n  <\/tr>\n  <tr>\n    <td>\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0173\/8181\/8422\/files\/Bon_Appetit_logo.svg_d5481c21-dbdc-4ab3-8ce5-78f3fab7fe40.png?v=1650289005\"\n        alt=\"Bon Appetit\"\n      \/>\n      <a\n        href=\"https:\/\/www.bonappetit.com\/story\/dash-rapid-egg-cooker\"\n        target=\"_blank\"\n        >Boiling Eggs Isn't Hard, But This Egg Cooker Makes It Stupid Easy\n      <\/a>\n    <\/td>\n\n    <td class=\"td2\">03\/07\/2022<\/td>\n  <\/tr>\n<\/table>",
+        "title": "In the News",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1663871311258f63b8": {
@@ -26,18 +194,73 @@
         "post_limit": 4,
         "columns_desktop": 4,
         "color_scheme": "background-1",
-        "show_image": false,
+        "show_image": true,
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1664218708f72d93e0": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1664218707d2f60b78-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HIGH RES ASSETS",
+            "icon": "check_mark",
+            "row_content": "<p><a href=\"https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit\/Hi-Res%20Images\" target=\"_blank\" title=\"View all assets\">Click to view all assets<\/a><\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "1664218707d2f60b78-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "LOGOS",
+            "icon": "check_mark",
+            "row_content": "",
+            "liquid": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664218707d2f60b78-0",
+        "1664218707d2f60b78-1"
+      ],
+      "settings": {
+        "caption": "Download our media assets below. If you need additional content, please contact our media manager at media@storebound.com",
+        "heading": "Media",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16638700311932f0cb": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>\n  table {\n    margin-left: 120px;\n    margin-right: 50px;\n    table-layout: auto;\n    width: 80%;\n  }\n  h1 {\n    margin: 100px;\n  }\n  a {\n    text-decoration: none;\n    color: inherit;\n    vertical-align: middle;\n  }\n  tr {\n    border-bottom: 1px solid #ddd;\n  }\n  img {\n    vertical-align: middle;\n  }\n  .td1{\n    width:85%\n  }\n  .td2{\n    text-align: center;\n  }\n<\/style>\n\n<h1>In the News<\/h1>\n\n<table>\n  <tr> \n    <td class=\"td1\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0173\/8181\/8422\/files\/NYP_New_York_Post_logo_wordmark-700x124.png?v=1650288710\"\n        alt=\"New York Post\"\n      \/>\n      <a href=\"https:\/\/nypost.com\/article\/best-juicer-machines\/\" target=\"_blank\"\n        >12 Best Juicers to Create Refreshing Beverages in 2022\n      <\/a>\n    <\/td>\n\n    <td class=\"td2\">03\/09\/2022<\/td>\n  <\/tr>\n  <tr>\n    <td>\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0173\/8181\/8422\/files\/Bon_Appetit_logo.svg_d5481c21-dbdc-4ab3-8ce5-78f3fab7fe40.png?v=1650289005\"\n        alt=\"Bon Appetit\"\n      \/>\n      <a\n        href=\"https:\/\/www.bonappetit.com\/story\/dash-rapid-egg-cooker\"\n        target=\"_blank\"\n        >Boiling Eggs Isn't Hard, But This Egg Cooker Makes It Stupid Easy\n      <\/a>\n    <\/td>\n\n    <td class=\"td2\">03\/07\/2022<\/td>\n  <\/tr>\n<\/table>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "16638700311932f0cb",
-    "1663871311258f63b8"
+    "1664219522eef12178",
+    "1663871311258f63b8",
+    "1664218708f72d93e0",
+    "16638700311932f0cb"
   ]
 }

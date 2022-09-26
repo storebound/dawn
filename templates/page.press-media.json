@@ -17,7 +17,7 @@
             "image": "shopify:\/\/shop_images\/NYP_New_York_Post_logo_wordmark-700x124.png",
             "title": "12 Best Juicers to Create Refreshing Beverages in 2022",
             "text": "",
-            "link_label": "Read now",
+            "link_label": "Read Now",
             "link": "https:\/\/nypost.com\/article\/best-juicer-machines\/"
           }
         },
@@ -27,7 +27,7 @@
             "image": "shopify:\/\/shop_images\/Bon_Appetit_logo.svg_1b74c218-2312-42c8-85b5-067785c520d5.png",
             "title": "Boiling Eggs Isn't Hard, But This Egg Cooker Makes It Stupid Easy",
             "text": "",
-            "link_label": "Read now",
+            "link_label": "Read Now",
             "link": "https:\/\/www.bonappetit.com\/story\/dash-rapid-egg-cooker"
           }
         },
@@ -37,7 +37,7 @@
             "image": "shopify:\/\/shop_images\/370-3705641_planet-fitness-logo-transparent-muscle-fitness-logo.png",
             "title": "Try Top Chef Kevin Curry's Low-Carb, High-Flavor Black Bean Quesadillas",
             "text": "",
-            "link_label": "Read now",
+            "link_label": "Read Now",
             "link": "https:\/\/www.muscleandfitness.com\/nutrition\/healthy-eating\/top-chef-kevin-currys-refried-black-bean-quesadillas-recipe\/"
           }
         },
@@ -47,17 +47,18 @@
             "image": "shopify:\/\/shop_images\/Vice_Logo.png",
             "title": "The Best Air Fryers for Under $100",
             "text": "",
-            "link_label": "Read now",
+            "link_label": "Read Now",
             "link": "https:\/\/www.vice.com\/en\/article\/7kvd4a\/best-air-fryers-under-100-dollars"
           }
         },
         "45fbc81e-766b-4b4d-8968-01088d0d4a65": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/nyt-wirecutter-logo.png",
+            "title": "6 Last-Minute Valentine's Day Deals Under $50",
+            "text": "",
+            "link_label": "Read Now",
+            "link": "https:\/\/www.nytimes.com\/wirecutter\/money\/last-minute-valentines-day-deals\/"
           }
         },
         "4344f496-787e-40b9-9a24-6e41d2944a20": {
@@ -122,33 +123,6 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "55633009-4fa8-4914-8780-640f49a2b5df": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "a454f1f5-e7f0-43e5-a6b5-f9179464cf1b": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "7b635326-b862-4a1f-8c82-a6ee4f9a7569": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -163,10 +137,7 @@
         "c2427853-0891-4c90-889c-c295ffc4f695",
         "ba21681c-7fb4-4977-b256-2506eafaf53b",
         "04358bb0-d45e-41ff-81fe-8b7edfeccb35",
-        "3fbf6277-8c4f-41e7-a567-129e3aeb29c7",
-        "55633009-4fa8-4914-8780-640f49a2b5df",
-        "a454f1f5-e7f0-43e5-a6b5-f9179464cf1b",
-        "7b635326-b862-4a1f-8c82-a6ee4f9a7569"
+        "3fbf6277-8c4f-41e7-a567-129e3aeb29c7"
       ],
       "settings": {
         "title": "In the News",
@@ -209,8 +180,8 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "HIGH RES ASSETS",
-            "icon": "check_mark",
-            "row_content": "<p><a href=\"https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit\/Hi-Res%20Images\" target=\"_blank\" title=\"View all assets\">Click to view all assets<\/a><\/p>",
+            "icon": "none",
+            "row_content": "<p><a href=\"https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit\/Hi-Res%20Images\" target=\"_blank\">CLICK TO VIEW ALL ASSETS<\/a><\/p>",
             "liquid": "",
             "page": ""
           }
@@ -218,9 +189,9 @@
         "1664218707d2f60b78-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "LOGOS",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "FULL MEDIA KIT",
+            "icon": "none",
+            "row_content": "<p><a href=\"https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit\" target=\"_blank\">DOWNLOAD FULL MEDIA KIT<\/a><\/p>",
             "liquid": "",
             "page": ""
           }
@@ -235,7 +206,7 @@
         "heading": "Media",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
@@ -254,6 +225,95 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1664221731d89e0bab": {
+      "type": "multicolumn",
+      "blocks": {
+        "16642217311955a0cd-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/reviews.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16642217311955a0cd-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collab.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16642217311955a0cd-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/social-callout.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "49b432ba-34f4-4105-b051-6037810eca1f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ugc.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "4add4291-92f2-424c-9133-0cc3fc7c1f4a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/followers.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c6e6e0d3-c9e4-45c5-aa45-27a66b1ccd15": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eggcooker.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16642217311955a0cd-0",
+        "16642217311955a0cd-1",
+        "16642217311955a0cd-2",
+        "49b432ba-34f4-4105-b051-6037810eca1f",
+        "4add4291-92f2-424c-9133-0cc3fc7c1f4a",
+        "c6e6e0d3-c9e4-45c5-aa45-27a66b1ccd15"
+      ],
+      "settings": {
+        "title": "Fast Facts About Dash",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -261,6 +321,7 @@
     "1664219522eef12178",
     "1663871311258f63b8",
     "1664218708f72d93e0",
-    "16638700311932f0cb"
+    "16638700311932f0cb",
+    "1664221731d89e0bab"
   ]
 }

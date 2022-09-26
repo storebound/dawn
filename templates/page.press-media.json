@@ -169,6 +169,53 @@
         "padding_bottom": 32
       }
     },
+    "1664223640033b5487": {
+      "type": "image-banner",
+      "blocks": {
+        "1664223640a6e38ae8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Media",
+            "heading_size": "h1"
+          }
+        },
+        "1664223640a6e38ae8-1": {
+          "type": "text",
+          "settings": {
+            "text": "Download our media assets below. If you need additional content, please contact our media manager at media@storebound.com",
+            "text_style": "subtitle"
+          }
+        },
+        "1664223640a6e38ae8-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "LOGOS",
+            "button_link_1": "https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit\/Logos",
+            "button_style_secondary_1": false,
+            "button_label_2": "FULL MEDIA KIT",
+            "button_link_2": "https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1664223640a6e38ae8-0",
+        "1664223640a6e38ae8-1",
+        "1664223640a6e38ae8-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
     "1664218708f72d93e0": {
       "type": "collapsible-content",
       "blocks": {
@@ -225,6 +272,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -333,6 +381,7 @@
   "order": [
     "1664219522eef12178",
     "1663871311258f63b8",
+    "1664223640033b5487",
     "1664218708f72d93e0",
     "main",
     "1664221731d89e0bab",

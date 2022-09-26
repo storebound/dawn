@@ -90,6 +90,7 @@
         },
         "c2427853-0891-4c90-889c-c295ffc4f695": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -99,6 +100,7 @@
         },
         "ba21681c-7fb4-4977-b256-2506eafaf53b": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -108,6 +110,7 @@
         },
         "04358bb0-d45e-41ff-81fe-8b7edfeccb35": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -117,6 +120,7 @@
         },
         "3fbf6277-8c4f-41e7-a567-129e3aeb29c7": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -170,50 +174,7 @@
         "show_author": false,
         "show_view_all": true,
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "16642224542050f161": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "16642224534675febb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Media<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "16642224534675febb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Download our media assets below. <\/p><p>If you need additional content, please contact our media manager at media@storebound.com<\/p>"
-          }
-        },
-        "16642224534675febb-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "View Full Media Kit",
-            "button_link": "https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16642224534675febb-0",
-        "16642224534675febb-1",
-        "16642224534675febb-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 32
       }
     },
     "1664218708f72d93e0": {
@@ -374,7 +335,6 @@
     "main",
     "1664219522eef12178",
     "1663871311258f63b8",
-    "16642224542050f161",
     "1664218708f72d93e0",
     "1664221731d89e0bab",
     "16638700311932f0cb"

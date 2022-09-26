@@ -1,13 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "1664219522eef12178": {
       "type": "multicolumn",
       "blocks": {
@@ -231,6 +223,13 @@
         "padding_bottom": 36
       }
     },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
     "1664221731d89e0bab": {
       "type": "multicolumn",
       "blocks": {
@@ -332,10 +331,10 @@
     }
   },
   "order": [
-    "main",
     "1664219522eef12178",
     "1663871311258f63b8",
     "1664218708f72d93e0",
+    "main",
     "1664221731d89e0bab",
     "16638700311932f0cb"
   ]

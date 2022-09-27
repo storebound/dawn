@@ -14,7 +14,7 @@
         "1664286962b9c39919-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We believe that taking small steps every day to live a healthier life can have a big impact. And that the best path to wellness is eating whole, natural foods. At Dash, we make products that make it easier for you to prepare and eat real food at home so that you can feel your best. In the store, in your kitchen and online — We give you the tools and the support to make delicious healthy meals.<br\/><br\/>That’s what living unprocessed is all about.<\/p>",
+            "text": "<p>We believe that taking small steps every day to live a healthier life can have a big impact. And that the best path to wellness is eating whole, natural foods. At Dash, we make products that make it easier for you to prepare and eat real food at home so that you can feel your best.<\/p>",
             "text_style": "body"
           }
         },
@@ -31,6 +31,7 @@
         "1664286962b9c39919-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/eatgood.001.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

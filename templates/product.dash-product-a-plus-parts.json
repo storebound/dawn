@@ -73,7 +73,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Product Details",
-            "icon": "chat_bubble",
+            "icon": "check_mark",
             "content": "<p>{{ product.metafields.custom.romance_copy | metafield_tag }}<\/p>",
             "page": ""
           }
@@ -109,7 +109,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Parts & Accessories",
-            "icon": "washing",
+            "icon": "box",
             "content": "",
             "page": ""
           }

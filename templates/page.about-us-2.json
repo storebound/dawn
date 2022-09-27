@@ -6,9 +6,44 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1664286815f40829fe": {
+      "type": "rich-text",
+      "blocks": {
+        "16642868155d006d3c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>StoreBound is the parent company of Dash and Sobro. We’re a product innovation company that takes big ideas and turns them into award-winning retail products faster than ever before. Every day, our team inspires people to improve their wellness while bringing more happiness to their lives. We’re in it to win hearts!<\/p><p><\/p><p>Are you interested in changing the world one smoothie at a time? If so, consider joining our team! Learn more about our company and egg-cellent new openings.<br\/><br\/><\/p>"
+          }
+        },
+        "16642868155d006d3c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Careers @ Dash",
+            "button_link": "\/pages\/careers",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16642868155d006d3c-1",
+        "16642868155d006d3c-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1664286815f40829fe"
   ]
 }

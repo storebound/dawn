@@ -73,7 +73,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Product Details",
-            "icon": "check_mark",
+            "icon": "chat_bubble",
             "content": "<p>{{ product.metafields.custom.romance_copy | metafield_tag }}<\/p>",
             "page": ""
           }

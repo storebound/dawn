@@ -39,7 +39,51 @@
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16642908781ed6d732": {
+      "type": "image-with-text",
+      "blocks": {
+        "1664290878c95a76cb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "HEADLINE TEXT ☃️",
+            "heading_size": "h2"
+          }
+        },
+        "1664290878c95a76cb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1664290878c95a76cb-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify:\/\/collections\/mini-makers"
+          }
+        }
+      },
+      "block_order": [
+        "1664290878c95a76cb-0",
+        "1664290878c95a76cb-1",
+        "1664290878c95a76cb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HolidayShoot_2022_2234_Request_2_Target_Mini_Maker.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -109,7 +153,7 @@
         "1661971115f0b077a2-1": {
           "type": "title",
           "settings": {
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "1661971115f0b077a2-2": {
@@ -158,7 +202,7 @@
       "settings": {
         "product": "rapid-egg-cooker",
         "color_scheme": "background-1",
-        "secondary_background": true,
+        "secondary_background": false,
         "media_position": "left",
         "hide_variants": false,
         "enable_video_looping": true,
@@ -199,7 +243,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Trending Now",
+        "title": "Featured products",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -334,6 +378,7 @@
     },
     "166197179984628ab1": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1661971799a110f3d5-0": {
           "type": "heading",
@@ -378,6 +423,7 @@
   },
   "order": [
     "16619709803b818a45",
+    "16642908781ed6d732",
     "image_banner",
     "1661971116c7e51c5a",
     "rich_text",

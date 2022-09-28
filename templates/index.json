@@ -202,7 +202,7 @@
       "settings": {
         "product": "rapid-egg-cooker",
         "color_scheme": "background-1",
-        "secondary_background": false,
+        "secondary_background": true,
         "media_position": "left",
         "hide_variants": false,
         "enable_video_looping": true,

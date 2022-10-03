@@ -8,6 +8,29 @@
         "padding_bottom": 28
       }
     },
+    "1664818848082643fa": {
+      "type": "rich-text",
+      "blocks": {
+        "166481884887a0f9ee-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Frequently Asked Quesetions<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "166481884887a0f9ee-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1664817434142e60a6": {
       "type": "collapsible-content",
       "blocks": {
@@ -41,7 +64,7 @@
         "heading": "General Questions",
         "heading_size": "h2",
         "heading_alignment": "center",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
@@ -73,7 +96,7 @@
         "heading": "Products",
         "heading_size": "h2",
         "heading_alignment": "center",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
@@ -149,7 +172,7 @@
         "heading": "Orders & Shipping",
         "heading_size": "h2",
         "heading_alignment": "center",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
@@ -181,7 +204,7 @@
         "heading": "Returns",
         "heading_size": "h2",
         "heading_alignment": "center",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
@@ -257,7 +280,7 @@
         "heading": "Account",
         "heading_size": "h2",
         "heading_alignment": "center",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
@@ -266,14 +289,58 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1664818934c28b748b": {
+      "type": "rich-text",
+      "blocks": {
+        "1664818934b06bd5c9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Not seeing what you're looking for?<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1664818934b06bd5c9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Reach out to our US-based Customer Service team by phone or email and they'll be able to help!<\/p>"
+          }
+        },
+        "1664818934b06bd5c9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1664818934b06bd5c9-0",
+        "1664818934b06bd5c9-1",
+        "1664818934b06bd5c9-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
+    "1664818848082643fa",
     "1664817434142e60a6",
     "1664817443b11b1afa",
     "1664817440705b02e8",
     "1664817447a58df0cc",
-    "1664817877485c4b3d"
+    "1664817877485c4b3d",
+    "1664818934c28b748b"
   ]
 }

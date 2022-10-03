@@ -14,7 +14,7 @@
         "166481884887a0f9ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Frequently Asked Quesetions<\/p>",
+            "heading": "<p>Shipping and Returns<\/p>",
             "heading_size": "h1"
           }
         }
@@ -37,9 +37,9 @@
         "166481743320526555-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Where can I shop Dash Products in-person?",
-            "icon": "chat_bubble",
-            "row_content": "<p>Dash products are on shelves at a variety of retail partners across the US. Not every Dash product is available at every store, so we encourage you to call ahead or visit one of our partners’ websites. You can also subscribe to our email list or follow us on Instagram to see when and where new products are launched.<\/p>",
+            "heading": "When will my order ship?",
+            "icon": "box",
+            "row_content": "<p>All orders will be processed in 1-3 business days.<\/p><p>We ship UPS ground from our super-secret warehouse in California. As soon as your order ships, we’ll send you an email with tracking information from UPS so you can follow its progress.<\/p><p><\/p>",
             "liquid": "",
             "page": ""
           }
@@ -47,9 +47,29 @@
         "166481743320526555-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Are Dash products kid-friendly?",
-            "icon": "chat_bubble",
-            "row_content": "<p>While we try to make our products and recipes as family-friendly as possible, Dash products are NOT designed for children to use unsupervised.<\/p>",
+            "heading": "Where is my order?",
+            "icon": "box",
+            "row_content": "<p>If you have not received your order 2 weeks after estimated delivery, please contact Customer Support for assistance. Shipping delays related to COVID-19 may impact orders and we are doing our best to get your order to you as quickly as possible.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "55416482-1268-485f-a4a4-444bf27c80a7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much does shipping cost?",
+            "icon": "box",
+            "row_content": "<p>We’re pleased to offer free ground shipping on domestic orders $50 and over. For orders under $50, international orders, and expedited orders, shipping will be calculated based on the order total and its destination.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "88feabe4-ea76-4108-8cb2-7bf79eab0fe5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer International Shipping?",
+            "icon": "box",
+            "row_content": "<p>Dash products are currently only available through ByDash.com in the US, however we are currently working on making them available worldwide! Dash products are also available in-store through our retail partners in the US and Canada. If you live outside North America and would like to receive information about expanded shipping capabilities through ByDash.com, please subscribe to our email mailing list. We’ll be happy to keep you updated!<\/p>",
             "liquid": "",
             "page": ""
           }
@@ -57,11 +77,13 @@
       },
       "block_order": [
         "166481743320526555-0",
-        "166481743320526555-1"
+        "166481743320526555-1",
+        "55416482-1268-485f-a4a4-444bf27c80a7",
+        "88feabe4-ea76-4108-8cb2-7bf79eab0fe5"
       ],
       "settings": {
         "caption": "",
-        "heading": "General Questions",
+        "heading": "Shipping Information",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "row",
@@ -74,220 +96,49 @@
         "padding_bottom": 36
       }
     },
-    "1664817443b11b1afa": {
-      "type": "collapsible-content",
+    "16648195644f1fbf12": {
+      "type": "rich-text",
       "blocks": {
-        "166481744373e6f835-0": {
-          "type": "collapsible_row",
+        "1664819564f9bb3809-0": {
+          "type": "heading",
           "settings": {
-            "heading": "How do I get a product manual?",
-            "icon": "chat_bubble",
-            "row_content": "<p>Every Dash product comes with a complete product manual inside the box to get you started. If you have misplaced your manual or didn't get one, visit the “Warranty and Manuals” tab on the relevant product page on ByDash.com to get your manual (the tab is located underneath the product images and 'Add To Cart' button!). You can also visit our Support page to access the full library of Dash product manuals.<\/p>",
-            "liquid": "",
-            "page": ""
+            "heading": "<p>Repairs & Replacements<\/p>",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "166481744373e6f835-0"
+        "1664819564f9bb3809-0"
       ],
       "settings": {
-        "caption": "",
-        "heading": "Products",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "row",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
       }
     },
-    "1664817440705b02e8": {
-      "type": "collapsible-content",
+    "16648194972a28a902": {
+      "type": "rich-text",
       "blocks": {
-        "1664817439d95adfe0-0": {
-          "type": "collapsible_row",
+        "1664819496a1c176c4-1": {
+          "type": "text",
           "settings": {
-            "heading": "What regions do you currently ship to?",
-            "icon": "chat_bubble",
-            "row_content": "<p>We are currently able to ship only within the contiguous US states (i.e., not including Alaska, Hawaii, and Puerto Rico). We do not currently ship to Canada, and cannot ship to a PO box or an APO\/FPO address.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "1664817439d95adfe0-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "My product has not arrived, what should I do?",
-            "icon": "chat_bubble",
-            "row_content": "<p>Depending on where you live, your product may take longer or shorter to ship. The processing time for our products takes up to 2 business days. If your product has not arrived after 10 business days, please contact our Customer Support team for more information.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "1664817439d95adfe0-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Do you offer free shipping?",
-            "icon": "chat_bubble",
-            "row_content": "<p>We offer FREE shipping on all orders over $50! We ship UPS and comply with standard UPS shipping rates based on dimensions and the weight of your products. Unfortunately we are unable to ship to a PO box.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "1664817439d95adfe0-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "My product arrived broken, what can I do?",
-            "icon": "chat_bubble",
-            "row_content": "<p>Your Dash product comes with a 1-year warranty period during which you can exchange or return it for the same item. Our Customer Support team will be happy to assist when processing your warranty claim. If troubleshooting fails to fix the problem, we are happy to replace the item or defective part. We do require proof of purchase as well as your full name, shipping address, telephone number, and the model number of your Dash product.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "7594f78b-840d-4ab9-870b-dfc691f70d17": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Why can't I use a coupon?",
-            "icon": "chat_bubble",
-            "row_content": "<p>Coupons may be excluded on select items and cannot be applied to the cost of shipping. Limit one coupon, special offer or discount per order.<\/p>",
-            "liquid": "",
-            "page": ""
+            "text": "<p>Dash products are durable, convenient appliances designed to make your life easier and more fun. While our products are long-lasting and easy to use, we are not always perfect. If you run into a problem, please contact our Customer Support team for assistance. We are happy to replace defective products and\/or products within our Feel Good Rewards warranty period.<br\/><br\/>Please fill out our contact form and our Customer Support team will be happy to assist with processing your warranty claim.<br\/><br\/>Do not hesitate to contact us directly for product support, warranty, and maintenance-related questions at: 1-800-898-6970 from 9AM – 9PM EST, Monday – Friday. Please have your model number on hand.<br\/><br\/>Proof of purchase indicating the date and location of your purchase is required when seeking a replacement. We are unable to refund or replace products without proof of purchase as well as a full name, shipping address, and telephone number.<\/p>"
           }
         }
       },
       "block_order": [
-        "1664817439d95adfe0-0",
-        "1664817439d95adfe0-1",
-        "1664817439d95adfe0-2",
-        "1664817439d95adfe0-3",
-        "7594f78b-840d-4ab9-870b-dfc691f70d17"
+        "1664819496a1c176c4-1"
       ],
       "settings": {
-        "caption": "",
-        "heading": "Orders & Shipping",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "row",
+        "desktop_content_position": "center",
+        "content_alignment": "left",
         "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1664817447a58df0cc": {
-      "type": "collapsible-content",
-      "blocks": {
-        "1664817447fca3b3ef-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What is your return policy for Dash products?",
-            "icon": "chat_bubble",
-            "row_content": "<p>We understand you may change your mind after shopping with us: if for any reason your Dash purchase is unsatisfactory, we accept returns within 30 days of the original date of purchase. If what you received is either damaged or defective, please reach out to our Customer Support team for help processing your warranty claim (see Repairs & Replacements). Please note the Return Terms & Conditions below and be sure to keep your original receipt. We only accept returns for bydash.com orders. We cannot accept returns for items purchased from a 3rd party retailer.<br\/><br\/><\/p><p>To start a return, enter your order number and email address at our <a href=\"https:\/\/bydash.com\/a\/return\"><strong>Returns Center.<\/strong><\/a><br\/><br\/>Proof of purchase indicating the date and location of your purchase is required when seeking a replacement. We are unable to refund or replace products without proof of purchase as well as a full name, shipping address, and telephone number.<br\/><br\/><br\/><strong>RETURN TERMS & CONDITIONS<\/strong><br\/><br\/>The following Terms & Conditions apply to all Returns and Exchanges: Returns are accepted within 30 days of your purchase from bydash.com unless your purchase is defective or damaged (see Repairs & Replacements below).Returned merchandise must be in salable condition with the manufacturer’s original packaging. Save all packaging for any claims. Sorry, shipping fees are not refundable. Accepted returns will incur a restocking fee of $5 per item.<br\/><br\/><strong>REPAIRS & REPLACEMENTS<\/strong><br\/>Dash products are durable, convenient appliances designed to make your life easier and more fun. While our products are long-lasting and easy to use, we are not always perfect. If you run into a problem, please contact our Customer Support team for assistance. We are happy to replace defective products and\/or products within our Feel Good Rewards warranty period. Please fill out our contact form and our Customer Support team will be happy to assist with processing your warranty claim. Do not hesitate to contact us directly for product support, warranty, and maintenance-related questions at: 1-800-898-6970 from 9AM – 9PM EST, Monday – Friday. Please have your model number on hand.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664817447fca3b3ef-0"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Returns",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "row",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1664817877485c4b3d": {
-      "type": "collapsible-content",
-      "blocks": {
-        "16648178770d097312-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How can I create an account on ByDash.com?",
-            "icon": "chat_bubble",
-            "row_content": "<p>You can create an account by clicking on the Account icon in the upper right corner and providing your email address — it's free! Creating an account allows you to register your products and accumulate points towards rewards.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "16648178770d097312-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What is Dash Feel Good Rewards?",
-            "icon": "chat_bubble",
-            "row_content": "<p>Feel Good Rewards is the points program through which you can earn promotional discounts, prizes, and other benefits. It is part of your account on ByDash.com.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "16648178770d097312-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I register my product with Feel Good Rewards?",
-            "icon": "chat_bubble",
-            "row_content": "<p>If your product was purchased through one of our retail partners—whether online or in-store—you can register your product by clicking on \"Register Products\" in the bar at the top of the page.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "16648178770d097312-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Do I need to register products purchased through ByDash.com",
-            "icon": "chat_bubble",
-            "row_content": "<p>If you have purchased your product using your account on ByDash.com, your product is already registered. Points will be added to your account within 48 hours.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "45175678-6056-49d4-88c9-b85a845391a1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Help! I've forgotten my password!",
-            "icon": "chat_bubble",
-            "row_content": "<p>If you have forgotten the password for your account, simply use the \"Forgot Your Password\" button below login and enter your email.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "16648178770d097312-0",
-        "16648178770d097312-1",
-        "16648178770d097312-2",
-        "16648178770d097312-3",
-        "45175678-6056-49d4-88c9-b85a845391a1"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Account",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "row",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 52
       }
     },
     "1664818934c28b748b": {
@@ -296,32 +147,13 @@
         "1664818934b06bd5c9-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Not seeing what you're looking for?<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "1664818934b06bd5c9-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Reach out to our US-based Customer Service team by phone or email and they'll be able to help!<\/p>"
-          }
-        },
-        "1664818934b06bd5c9-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Contact Us",
-            "button_link": "shopify:\/\/pages\/contact",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading": "<p>Returns & Refunds<\/p>",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "1664818934b06bd5c9-0",
-        "1664818934b06bd5c9-1",
-        "1664818934b06bd5c9-2"
+        "1664818934b06bd5c9-0"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -329,7 +161,36 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
+      }
+    },
+    "1664819770204249da": {
+      "type": "rich-text",
+      "blocks": {
+        "1664819770c55e824e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We understand you may change your mind after shopping with us: if for any reason your Dash purchase is unsatisfactory, we accept returns within 30 days of the original date of purchase. If what you received is either damaged or defective, please reach out to our Customer Support team for help processing your warranty claim (see Repairs & Replacements).<br\/><br\/>Please note the Return Terms & Conditions below and be sure to keep your original receipt. We only accept returns for bydash.com orders. We cannot accept returns for items purchased from a 3rd party retailer.<br\/><br\/>To start a return, enter your order number and email address at our <a href=\"https:\/\/bydash.com\/a\/return\" title=\"https:\/\/bydash.com\/a\/return\">Returns Center<\/a>.<br\/><br\/>Proof of purchase indicating the date and location of your purchase is required when seeking a replacement. We are unable to refund or replace products without proof of purchase as well as a full name, shipping address, and telephone number.<\/p>"
+          }
+        },
+        "cb9365ee-0216-4011-9e4f-dd36266288b9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Return Terms & Conditions:<\/strong><\/p><p><strong>• <\/strong>Returns are accepted within 30 days of your purchase from bydash.com unless your purchase is defective or damaged (see Repairs & Replacements below).<\/p><p><strong>• <\/strong>Returned merchandise must be in salable condition with the manufacturer’s original packaging.<\/p><p><strong>• <\/strong>Save all packaging for any claims.<\/p><p><strong>• <\/strong>Shipping fees are not refundable.<\/p><p><strong>• <\/strong>Accepted returns will incur a restocking fee of $5 per item.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664819770c55e824e-1",
+        "cb9365ee-0216-4011-9e4f-dd36266288b9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     }
   },
@@ -337,10 +198,9 @@
     "main",
     "1664818848082643fa",
     "1664817434142e60a6",
-    "1664817443b11b1afa",
-    "1664817440705b02e8",
-    "1664817447a58df0cc",
-    "1664817877485c4b3d",
-    "1664818934c28b748b"
+    "16648195644f1fbf12",
+    "16648194972a28a902",
+    "1664818934c28b748b",
+    "1664819770204249da"
   ]
 }

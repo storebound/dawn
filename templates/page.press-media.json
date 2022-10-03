@@ -120,111 +120,63 @@
         "show_image": true,
         "show_date": true,
         "show_author": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "padding_top": 36,
         "padding_bottom": 32
       }
     },
-    "1664223640033b5487": {
-      "type": "image-banner",
+    "1664824677c9d25de0": {
+      "type": "rich-text",
       "blocks": {
-        "1664223640a6e38ae8-0": {
+        "166482467732d2de29-0": {
           "type": "heading",
           "settings": {
-            "heading": "Media",
+            "heading": "<p>Media<\/p>",
             "heading_size": "h1"
           }
         },
-        "1664223640a6e38ae8-1": {
+        "166482467732d2de29-1": {
           "type": "text",
           "settings": {
-            "text": "Download our media assets below. If you need additional content, please contact our media manager at media@storebound.com",
-            "text_style": "subtitle"
+            "text": "<p>Download our media assets below. If you need additional content, please contact our media manager at media@storebound.com<\/p>"
           }
         },
-        "1664223640a6e38ae8-2": {
-          "type": "buttons",
+        "166482467732d2de29-2": {
+          "type": "button",
           "settings": {
-            "button_label_1": "LOGOS",
-            "button_link_1": "https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit\/Logos",
-            "button_style_secondary_1": false,
-            "button_label_2": "FULL MEDIA KIT",
-            "button_link_2": "https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit",
+            "button_label": "Logos",
+            "button_link": "https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit\/Logos",
+            "button_style_secondary": false,
+            "button_label_2": "High Res Assets",
+            "button_link_2": "https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit\/Hi-Res%20Images",
+            "button_style_secondary_2": false
+          }
+        },
+        "89780811-a226-41dc-9d4d-0a94394d9d86": {
+          "type": "button",
+          "settings": {
+            "button_label": "Full Media Kit",
+            "button_link": "https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "1664223640a6e38ae8-0",
-        "1664223640a6e38ae8-1",
-        "1664223640a6e38ae8-2"
+        "166482467732d2de29-0",
+        "166482467732d2de29-1",
+        "166482467732d2de29-2",
+        "89780811-a226-41dc-9d4d-0a94394d9d86"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-13_at_9.45.59_AM.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
-    },
-    "1664218708f72d93e0": {
-      "type": "collapsible-content",
-      "blocks": {
-        "1664218707d2f60b78-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "High Res Assets",
-            "icon": "none",
-            "row_content": "<p><a href=\"https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit\/Hi-Res%20Images\" target=\"_blank\">CLICK TO VIEW ALL ASSETS<\/a><\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "1664218707d2f60b78-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Logo",
-            "icon": "none",
-            "row_content": "<p><a href=\"https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit\" target=\"_blank\">DOWNLOAD FULL MEDIA KIT<\/a><\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "87950b49-62e0-4190-a159-be0221a331e1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Full Media Kit",
-            "icon": "none",
-            "row_content": "",
-            "liquid": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664218707d2f60b78-0",
-        "1664218707d2f60b78-1",
-        "87950b49-62e0-4190-a159-be0221a331e1"
-      ],
-      "settings": {
-        "caption": "Download our media assets below. If you need additional content, please contact our media manager at media@storebound.com",
-        "heading": "Media",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "row",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "small",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "main": {
@@ -360,7 +312,7 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 20,
         "padding_bottom": 52
       }
     }
@@ -368,8 +320,7 @@
   "order": [
     "1664219522eef12178",
     "1663871311258f63b8",
-    "1664223640033b5487",
-    "1664218708f72d93e0",
+    "1664824677c9d25de0",
     "main",
     "1664221731d89e0bab",
     "16638700311932f0cb",

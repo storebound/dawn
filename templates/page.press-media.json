@@ -79,46 +79,6 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "c2427853-0891-4c90-889c-c295ffc4f695": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "ba21681c-7fb4-4977-b256-2506eafaf53b": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "04358bb0-d45e-41ff-81fe-8b7edfeccb35": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "3fbf6277-8c4f-41e7-a567-129e3aeb29c7": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -129,11 +89,7 @@
         "45fbc81e-766b-4b4d-8968-01088d0d4a65",
         "4344f496-787e-40b9-9a24-6e41d2944a20",
         "3000c5f4-8e5f-4150-9840-3a37f3093548",
-        "293de5f2-c019-4af1-8a34-c62a7cb99df8",
-        "c2427853-0891-4c90-889c-c295ffc4f695",
-        "ba21681c-7fb4-4977-b256-2506eafaf53b",
-        "04358bb0-d45e-41ff-81fe-8b7edfeccb35",
-        "3fbf6277-8c4f-41e7-a567-129e3aeb29c7"
+        "293de5f2-c019-4af1-8a34-c62a7cb99df8"
       ],
       "settings": {
         "title": "In the News",

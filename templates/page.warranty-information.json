@@ -14,7 +14,7 @@
         "166481884887a0f9ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Frequently Asked Quesetions<\/p>",
+            "heading": "<p>Warranty Information<\/p>",
             "heading_size": "h1"
           }
         }
@@ -37,9 +37,9 @@
         "166481743320526555-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Where can I shop Dash Products in-person?",
-            "icon": "chat_bubble",
-            "row_content": "<p>Dash products are on shelves at a variety of retail partners across the US. Not every Dash product is available at every store, so we encourage you to call ahead or visit one of our partners’ websites. You can also subscribe to our email list or follow us on Instagram to see when and where new products are launched.<\/p>",
+            "heading": "STOREBOUND, LLC - 1 YEAR LIMITED WARRANTY",
+            "icon": "none",
+            "row_content": "<p>Your StoreBound product is warranted to be free from defects in material and workmanship for a period of one (1) year from the date of the original purchase when utilized for normal and intended household use. Should any defect covered by the terms of the limited warranty be discovered within one (1) year, StoreBound, LLC will repair or replace the defective part. To process a warranty claim, contact Customer Support at 1-800-898-6970 for further assistance and instruction. A Customer Support agent will assist you by troubleshooting minor problems. If troubleshooting fails to fix the problem, a return authorization will be issued. Proof of purchase indicating the date and place of purchase is required and should accompany the return. You must also include your full name, shipping address, and telephone number. We are unable to ship returns to a PO box. StoreBound will not be responsible for delays or unprocessed claims resulting from a purchaser’s failure to provide any or all of the necessary information. Freight costs must be prepaid by the purchaser.<br\/><br\/>Send all inquiries to <a href=\"mailto:support@bydash.com\">support@bydash.com.<\/a><br\/><br\/>There are no express warranties except as listed above.<br\/><br\/>REPAIR OR REPLACEMENT AS PROVIDED UNDER THIS WARRANTY IS THE EXCLUSIVE REMEDY OF THE CUSTOMER. STOREBOUND SHALL NOT BE LIABLE FOR ANY INCIDENTAL OR CONSEQUENTIAL DAMAGES OR FOR BREACH OF ANY EXPRESS OR IMPLIED WARRANTY ON THIS PRODUCT EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW. ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE ON THIS PRODUCT IS LIMITED IN DURATION TO THE DURATION OF THIS WARRANTY.<br\/><br\/>Some states do not allow the exclusion or limitation of incidental or consequential damages, or limitations on how long an implied warranty lasts. Therefore, the above exclusions or limitations may not apply to you. This warranty gives you specific legal rights and you may also have other rights, which vary from state to state.<\/p><p><br\/>Refurbished items or items not purchased through an authorized retailer are not eligible for warranty claims.<\/p>",
             "liquid": "",
             "page": ""
           }
@@ -47,9 +47,49 @@
         "166481743320526555-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Are Dash products kid-friendly?",
-            "icon": "chat_bubble",
-            "row_content": "<p>While we try to make our products and recipes as family-friendly as possible, Dash products are NOT designed for children to use unsupervised.<\/p>",
+            "heading": "GARANTÍA LIMITADA DE 1 AÑO - STOREBOUND, LLC",
+            "icon": "none",
+            "row_content": "<p>Se garantiza que su producto StoreBound está libre de defectos de material y mano de obra por un período de un (1) año a partir de la fecha de la compra original cuando se utiliza para el uso doméstico normal y previsto. Si se descubre algún defecto cubierto por los términos de la garantía limitada dentro de un (1) año, StoreBound, LLC reparará o reemplazará la pieza defectuosa. Para procesar un reclamo de garantía, comuníquese con Atención al Cliente al 1-800-898-6970 para obtener más ayuda e instrucciones. Un agente de Atención al Cliente lo ayudará a solucionar problemas menores. Si la solución de problemas no soluciona el problema, se emitirá una autorización de devolución. Se requiere que adjunte un comprobante de compra que indique la fecha y el lugar de compra junto con la devolución. También debe incluir su nombre completo, dirección de envío y número de teléfono. No podemos enviar devoluciones a un apartado de correos. StoreBound no será responsable por retrasos o reclamos no procesados que resulten de la falta la información necesaria provista por el comprador. Los costos de envío deben ser pagados por adelantado por el comprador.<br\/><br\/>Envíe todas las consultas a <a href=\"mailto:support@bydash.com\">support@bydash.com.<\/a><br\/><br\/>No existen garantías expresas excepto las enumeradas anteriormente.<br\/><br\/>LA REPARACIÓN O REEMPLAZO SEGÚN SE INDICA EN ESTA GARANTÍA ES DE USO EXCLUSIVO DEL CLIENTE. STOREBOUND NO SERÁ RESPONSABLE DE NINGÚN DAÑO INCIDENTAL O CONSECUENTE, O DEL INCUMPLIMIENTO DE CUALQUIER GARANTÍA EXPRESA O IMPLÍCITA DE ESTE PRODUCTO EXCEPTO EN LA MEDIDA QUE LA LEY LO REQUIERA. CUALQUIER GARANTÍA IMPLÍCITA DE COMERCIABILIDAD O APTITUD PARA UN PROPÓSITO PARTICULAR DE ESTE PRODUCTO TIENE UNA DURACIÓN LIMITADA A LA DURACIÓN DE ESTA GARANTÍA.<br\/><br\/>Algunos Estados no permiten la exclusión o limitación de daños incidentales o consecuentes, o limitaciones sobre la duración de una garantía implícita. Por lo tanto, es posible que las exclusiones o limitaciones anteriores no se apliquen en su caso. Esta garantía le otorga derechos legales específicos y también puede tener otros derechos, que varían de un Estado a otro.<\/p><p><br\/>Los artículos reacondicionados o los artículos no comprados a través de un minorista autorizado no son elegibles para reclamos de garantía.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "cb92bcc3-6af2-4fc4-b6ec-2a44fd5d3c44": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "STOREBOUND, LLC – GARANTIE LIMITÉE D'UN AN",
+            "icon": "none",
+            "row_content": "<p>Votre produit StoreBound est garanti contre tout défaut de matériaux et de main-d'œuvre pour une période d'un (1) an à compter de la date d'achat d'origine lorsqu'utilisé normalement aux fins domestiques prévues. Si un défaut couvert par les dispositions de la garantie limitée est constaté dans un délai d'un (1) an, StoreBound, LLC répare ou remplace la pièce défectueuse Pour toute réclamation au titre de la garantie, contactez le service à la clientèle au 1-800-898-6970 pour de l'assistance et des instructions supplémentaires. Un agent du service à la clientèle vous assistera en procédant à des dépannages mineurs. Si le dépannage ne règle pas le problème, une autorisation de retour est alors délivrée. Une preuve d'achat indiquant la date et le lieu d'achat est exigée et doit être jointe à l'article retourné. Vous devez également indiquer votre nom complet, l'adresse d'expédition ainsi que votre numéro de téléphone. Il nous est impossible de retourner des articles à une boîte postale. StoreBound ne peut être tenu responsable de tout retard ou toute réclamation non traitée résultant de l'incapacité de l'acheteur à fournir un ou tous les renseignements nécessaires. Les frais de transport doivent être prépayés par l'acheteur.<br\/><br\/>Envoyez toutes les demandes de renseignements à <a href=\"mailto:support@bydash.com\">support@bydash.com.<\/a><br\/><br\/>Il n'existe aucune garantie expresse autre que celle citée ci-dessus.<br\/><br\/>LA RÉPARATION OU LE REMPLACEMENT PRÉVUS EN VERTU DE LA PRÉSENTE GARANTIE CONSTITUENT LE SEUL RECOURS À LA DISPOSITION DU CLIENT. STOREBOUND NE PEUT ÊTRE TENU RESPONSABLE DE TOUT DOMMAGE INDIRECT OU CONSÉCUTIF OU DE TOUTE VIOLATION D'UNE GARANTIE EXPRESSE OU IMPLICITE RELATIVE AU PRÉSENT PRODUIT, SAUF SI UNE LOI APPLICABLE L'EXIGE. TOUTE GARANTIE TACITE DE COMMERCIABILITÉ OU D'ADAPTATION À UN USAGE PARTICULIER DE CE PRODUIT EST LIMITÉE À LA DURÉE DE LA PRÉSENTE GARANTIE.<br\/><br\/>Certains États n'autorisent pas l'exclusion ou la restriction des dommages indirects ou consécutifs, ou des limitations sur la durée d'une garantie tacite. Par conséquent, les exclusions ou restrictions ci-dessus peuvent ne pas s'appliquer à vous. La présente garantie vous accorde des droits spécifiques et il se peut que vous bénéficiiez également d'autres droits qui varient selon les États.<\/p><p><br\/>Les articles remis à neuf ou qui ne sont pas achetés auprès d’un détaillant autorisé ne sont pas admissibles aux demandes de garantie.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "f15e5104-2cb1-4a53-9438-c15656863a1b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "STOREBOUND, LLC – 2 YEAR EXTENDED LIMITED WARRANTY",
+            "icon": "none",
+            "row_content": "<p>Your StoreBound product is warranted to be free from defects in material and workmanship for a period of two (2) years from the date of the original purchase when utilized for normal and intended household use. Should any defect covered by the terms of the limited warranty be discovered within two (2) years, StoreBound, LLC will repair or replace the defective part. To process a warranty claim, contact Customer Support at 1-800-898-6970 for further assistance and instruction. A Customer Support agent will assist you by troubleshooting minor problems. If troubleshooting fails to fix the problem, a return authorization will be issued. Proof of purchase indicating the date and place of purchase is required and should accompany the return. You must also include your full name, shipping address, and telephone number. We are unable to ship returns to a PO box. StoreBound will not be responsible for delays or unprocessed claims resulting from a purchaser’s failure to provide any or all of the necessary information. Freight costs must be prepaid by the purchaser.<br\/><br\/>Send all inquiries to <a href=\"mailto:support@bydash.com\">support@bydash.com.<\/a><br\/><br\/>There are no express warranties except as listed above.<br\/><br\/>REPAIR OR REPLACEMENT AS PROVIDED UNDER THIS WARRANTY IS THE EXCLUSIVE REMEDY OF THE CUSTOMER. STOREBOUND SHALL NOT BE LIABLE FOR ANY INCIDENTAL OR CONSEQUENTIAL DAMAGES OR FOR BREACH OF ANY EXPRESS OR IMPLIED WARRANTY ON THIS PRODUCT EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW. ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE ON THIS PRODUCT IS LIMITED IN DURATION TO THE DURATION OF THIS WARRANTY.<br\/><br\/>Some states do not allow the exclusion or limitation of incidental or consequential damages, or limitations on how long an implied warranty lasts. Therefore, the above exclusions or limitations may not apply to you. This warranty gives you specific legal rights and you may also have other rights, which vary from state to state.<\/p><p><br\/>Refurbished items or items not purchased through an authorized retailer are not eligible for warranty claims.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "4fa0c545-ee3a-4d6b-a447-484134c67396": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "GARANTÍA LIMITADA EXTENDIDA DE 2 AÑOS – STOREBOUND, LLC",
+            "icon": "none",
+            "row_content": "<p>Se garantiza que su producto StoreBound está libre de defectos de material y mano de obra por un período de un (2) años a partir de la fecha de la compra original cuando se utiliza para el uso doméstico normal y previsto. Si se descubre algún defecto cubierto por los términos de la garantía limitada dentro de dos (2) años, StoreBound, LLC reparará o reemplazará la pieza defectuosa. Para procesar un reclamo de garantía, comuníquese con Atención al Cliente al 1-800-898-6970 para obtener más ayuda e instrucciones. Un agente de Atención al Cliente lo ayudará a solucionar problemas menores. Si la solución de problemas no soluciona el problema, se emitirá una autorización de devolución. Se requiere que adjunte un comprobante de compra que indique la fecha y el lugar de compra junto con la devolución. También debe incluir su nombre completo, dirección de envío y número de teléfono. No podemos enviar devoluciones a un apartado de correos. StoreBound no será responsable por retrasos o reclamos no procesados que resulten de la falta la información necesaria provista por el comprador. Los costos de envío deben ser pagados por adelantado por el comprador.<br\/><br\/>Envíe todas las consultas a <a href=\"mailto:support@bydash.com\">support@bydash.com.<\/a><br\/><br\/>No existen garantías expresas excepto las enumeradas anteriormente.<br\/><br\/>LA REPARACIÓN O REEMPLAZO SEGÚN SE INDICA EN ESTA GARANTÍA ES DE USO EXCLUSIVO DEL CLIENTE. STOREBOUND NO SERÁ RESPONSABLE DE NINGÚN DAÑO INCIDENTAL O CONSECUENTE, O DEL INCUMPLIMIENTO DE CUALQUIER GARANTÍA EXPRESA O IMPLÍCITA DE ESTE PRODUCTO EXCEPTO EN LA MEDIDA QUE LA LEY LO REQUIERA. CUALQUIER GARANTÍA IMPLÍCITA DE COMERCIABILIDAD O APTITUD PARA UN PROPÓSITO PARTICULAR DE ESTE PRODUCTO TIENE UNA DURACIÓN LIMITADA A LA DURACIÓN DE ESTA GARANTÍA.<br\/><br\/>Algunos Estados no permiten la exclusión o limitación de daños incidentales o consecuentes, o limitaciones sobre la duración de una garantía implícita. Por lo tanto, es posible que las exclusiones o limitaciones anteriores no se apliquen en su caso. Esta garantía le otorga derechos legales específicos y también puede tener otros derechos, que varían de un Estado a otro.<\/p><p><br\/>Los artículos reacondicionados o los artículos no comprados a través de un minorista autorizado no son elegibles para reclamos de garantía.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "185d2ed5-5fe4-4eee-a552-9458c296c338": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "STOREBOUND, LLC – GARANTIE LIMITÉE PROLONGÉE DE DEUX ANS",
+            "icon": "none",
+            "row_content": "<p>Votre produit StoreBound est garanti contre tout défaut de matériaux et de main-d'œuvre pour une période de deux (2) ans à compter de la date d'achat d'origine lorsqu'utilisé normalement aux fins domestiques prévues. Si un défaut couvert par les dispositions de la garantie limitée est constaté dans un délai de deux (2) ans, StoreBound, LLC répare ou remplace la pièce défectueuse Pour toute réclamation au titre de la garantie, contactez le service à la clientèle au 1-800-898-6970 pour de l'assistance et des instructions supplémentaires. Un agent du service à la clientèle vous assistera en procédant à des dépannages mineurs. Si le dépannage ne règle pas le problème, une autorisation de retour est alors délivrée. Une preuve d'achat indiquant la date et le lieu d'achat est exigée et doit être jointe à l'article retourné. Vous devez également indiquer votre nom complet, l'adresse d'expédition ainsi que votre numéro de téléphone. Il nous est impossible de retourner des articles à une boîte postale. StoreBound ne peut être tenu responsable de tout retard ou toute réclamation non traitée résultant de l'incapacité de l'acheteur à fournir un ou tous les renseignements nécessaires. Les frais de transport doivent être prépayés par l'acheteur.<br\/><br\/>Envoyez toutes les demandes de renseignements à <a href=\"mailto:support@bydash.com\">support@bydash.com.<\/a><br\/><br\/>Il n'existe aucune garantie expresse autre que celle citée ci-dessus.<br\/><br\/>LA RÉPARATION OU LE REMPLACEMENT PRÉVUS EN VERTU DE LA PRÉSENTE GARANTIE CONSTITUENT LE SEUL RECOURS À LA DISPOSITION DU CLIENT. STOREBOUND NE PEUT ÊTRE TENU RESPONSABLE DE TOUT DOMMAGE INDIRECT OU CONSÉCUTIF OU DE TOUTE VIOLATION D'UNE GARANTIE EXPRESSE OU IMPLICITE RELATIVE AU PRÉSENT PRODUIT, SAUF SI UNE LOI APPLICABLE L'EXIGE. TOUTE GARANTIE TACITE DE COMMERCIABILITÉ OU D'ADAPTATION À UN USAGE PARTICULIER DE CE PRODUIT EST LIMITÉE À LA DURÉE DE LA PRÉSENTE GARANTIE.<br\/><br\/>Certains États n'autorisent pas l'exclusion ou la restriction des dommages indirects ou consécutifs, ou des limitations sur la durée d'une garantie tacite. Par conséquent, les exclusions ou restrictions ci-dessus peuvent ne pas s'appliquer à vous. La présente garantie vous accorde des droits spécifiques et il se peut que vous bénéficiiez également d'autres droits qui varient selon les États.<\/p><p><br\/>Les articles remis à neuf ou qui ne sont pas achetés auprès d’un détaillant autorisé ne sont pas admissibles aux demandes de garantie.<\/p>",
             "liquid": "",
             "page": ""
           }
@@ -57,230 +97,18 @@
       },
       "block_order": [
         "166481743320526555-0",
-        "166481743320526555-1"
+        "166481743320526555-1",
+        "cb92bcc3-6af2-4fc4-b6ec-2a44fd5d3c44",
+        "f15e5104-2cb1-4a53-9438-c15656863a1b",
+        "4fa0c545-ee3a-4d6b-a447-484134c67396",
+        "185d2ed5-5fe4-4eee-a552-9458c296c338"
       ],
       "settings": {
         "caption": "",
-        "heading": "General Questions",
+        "heading": "",
         "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "row",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1664817443b11b1afa": {
-      "type": "collapsible-content",
-      "blocks": {
-        "166481744373e6f835-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I get a product manual?",
-            "icon": "chat_bubble",
-            "row_content": "<p>Every Dash product comes with a complete product manual inside the box to get you started. If you have misplaced your manual or didn't get one, visit the “Warranty and Manuals” tab on the relevant product page on ByDash.com to get your manual (the tab is located underneath the product images and 'Add To Cart' button!). You can also visit our Support page to access the full library of Dash product manuals.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "166481744373e6f835-0"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Products",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "row",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1664817440705b02e8": {
-      "type": "collapsible-content",
-      "blocks": {
-        "1664817439d95adfe0-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What regions do you currently ship to?",
-            "icon": "chat_bubble",
-            "row_content": "<p>We are currently able to ship only within the contiguous US states (i.e., not including Alaska, Hawaii, and Puerto Rico). We do not currently ship to Canada, and cannot ship to a PO box or an APO\/FPO address.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "1664817439d95adfe0-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "My product has not arrived, what should I do?",
-            "icon": "chat_bubble",
-            "row_content": "<p>Depending on where you live, your product may take longer or shorter to ship. The processing time for our products takes up to 2 business days. If your product has not arrived after 10 business days, please contact our Customer Support team for more information.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "1664817439d95adfe0-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Do you offer free shipping?",
-            "icon": "chat_bubble",
-            "row_content": "<p>We offer FREE shipping on all orders over $50! We ship UPS and comply with standard UPS shipping rates based on dimensions and the weight of your products. Unfortunately we are unable to ship to a PO box.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "1664817439d95adfe0-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "My product arrived broken, what can I do?",
-            "icon": "chat_bubble",
-            "row_content": "<p>Your Dash product comes with a 1-year warranty period during which you can exchange or return it for the same item. Our Customer Support team will be happy to assist when processing your warranty claim. If troubleshooting fails to fix the problem, we are happy to replace the item or defective part. We do require proof of purchase as well as your full name, shipping address, telephone number, and the model number of your Dash product.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "7594f78b-840d-4ab9-870b-dfc691f70d17": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Why can't I use a coupon?",
-            "icon": "chat_bubble",
-            "row_content": "<p>Coupons may be excluded on select items and cannot be applied to the cost of shipping. Limit one coupon, special offer or discount per order.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664817439d95adfe0-0",
-        "1664817439d95adfe0-1",
-        "1664817439d95adfe0-2",
-        "1664817439d95adfe0-3",
-        "7594f78b-840d-4ab9-870b-dfc691f70d17"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Orders & Shipping",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "row",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1664817447a58df0cc": {
-      "type": "collapsible-content",
-      "blocks": {
-        "1664817447fca3b3ef-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What is your return policy for Dash products?",
-            "icon": "chat_bubble",
-            "row_content": "<p>We understand you may change your mind after shopping with us: if for any reason your Dash purchase is unsatisfactory, we accept returns within 30 days of the original date of purchase. If what you received is either damaged or defective, please reach out to our Customer Support team for help processing your warranty claim (see Repairs & Replacements). Please note the Return Terms & Conditions below and be sure to keep your original receipt. We only accept returns for bydash.com orders. We cannot accept returns for items purchased from a 3rd party retailer.<br\/><br\/><\/p><p>To start a return, enter your order number and email address at our <a href=\"https:\/\/bydash.com\/a\/return\"><strong>Returns Center.<\/strong><\/a><br\/><br\/>Proof of purchase indicating the date and location of your purchase is required when seeking a replacement. We are unable to refund or replace products without proof of purchase as well as a full name, shipping address, and telephone number.<br\/><br\/><br\/><strong>RETURN TERMS & CONDITIONS<\/strong><br\/><br\/>The following Terms & Conditions apply to all Returns and Exchanges: Returns are accepted within 30 days of your purchase from bydash.com unless your purchase is defective or damaged (see Repairs & Replacements below).Returned merchandise must be in salable condition with the manufacturer’s original packaging. Save all packaging for any claims. Sorry, shipping fees are not refundable. Accepted returns will incur a restocking fee of $5 per item.<br\/><br\/><strong>REPAIRS & REPLACEMENTS<\/strong><br\/>Dash products are durable, convenient appliances designed to make your life easier and more fun. While our products are long-lasting and easy to use, we are not always perfect. If you run into a problem, please contact our Customer Support team for assistance. We are happy to replace defective products and\/or products within our Feel Good Rewards warranty period. Please fill out our contact form and our Customer Support team will be happy to assist with processing your warranty claim. Do not hesitate to contact us directly for product support, warranty, and maintenance-related questions at: 1-800-898-6970 from 9AM – 9PM EST, Monday – Friday. Please have your model number on hand.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664817447fca3b3ef-0"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Returns",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "row",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1664817877485c4b3d": {
-      "type": "collapsible-content",
-      "blocks": {
-        "16648178770d097312-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How can I create an account on ByDash.com?",
-            "icon": "chat_bubble",
-            "row_content": "<p>You can create an account by clicking on the Account icon in the upper right corner and providing your email address — it's free! Creating an account allows you to register your products and accumulate points towards rewards.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "16648178770d097312-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What is Dash Feel Good Rewards?",
-            "icon": "chat_bubble",
-            "row_content": "<p>Feel Good Rewards is the points program through which you can earn promotional discounts, prizes, and other benefits. It is part of your account on ByDash.com.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "16648178770d097312-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I register my product with Feel Good Rewards?",
-            "icon": "chat_bubble",
-            "row_content": "<p>If your product was purchased through one of our retail partners—whether online or in-store—you can register your product by clicking on \"Register Products\" in the bar at the top of the page.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "16648178770d097312-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Do I need to register products purchased through ByDash.com",
-            "icon": "chat_bubble",
-            "row_content": "<p>If you have purchased your product using your account on ByDash.com, your product is already registered. Points will be added to your account within 48 hours.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
-        "45175678-6056-49d4-88c9-b85a845391a1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Help! I've forgotten my password!",
-            "icon": "chat_bubble",
-            "row_content": "<p>If you have forgotten the password for your account, simply use the \"Forgot Your Password\" button below login and enter your email.<\/p>",
-            "liquid": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "16648178770d097312-0",
-        "16648178770d097312-1",
-        "16648178770d097312-2",
-        "16648178770d097312-3",
-        "45175678-6056-49d4-88c9-b85a845391a1"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Account",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "row",
+        "heading_alignment": "left",
+        "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
@@ -293,33 +121,25 @@
     "1664818934c28b748b": {
       "type": "rich-text",
       "blocks": {
-        "1664818934b06bd5c9-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Not seeing what you're looking for?<\/p>",
-            "heading_size": "h1"
-          }
-        },
         "1664818934b06bd5c9-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Reach out to our US-based Customer Service team by phone or email and they'll be able to help!<\/p>"
+            "text": "<p>If you have any questions or comments about your product’s warranty, please contact customer services at<strong> <\/strong><a href=\"mailto:support@bydash.com%20\">support@bydash.com<\/a><\/p>"
           }
         },
         "1664818934b06bd5c9-2": {
           "type": "button",
           "settings": {
-            "button_label": "Contact Us",
-            "button_link": "shopify:\/\/pages\/contact",
+            "button_label": "Register Products",
+            "button_link": "shopify:\/\/pages\/register",
             "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "Contact Us",
+            "button_link_2": "shopify:\/\/pages\/contact",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "1664818934b06bd5c9-0",
         "1664818934b06bd5c9-1",
         "1664818934b06bd5c9-2"
       ],
@@ -337,10 +157,6 @@
     "main",
     "1664818848082643fa",
     "1664817434142e60a6",
-    "1664817443b11b1afa",
-    "1664817440705b02e8",
-    "1664817447a58df0cc",
-    "1664817877485c4b3d",
     "1664818934c28b748b"
   ]
 }

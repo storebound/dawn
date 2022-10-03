@@ -333,6 +333,36 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1664824481855f7548": {
+      "type": "rich-text",
+      "blocks": {
+        "1664824480c683cab1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>ABOUT THE DASH BRAND<\/strong><\/p><p>At Dash, we believe that taking small steps every day to live a healthier life can have a big impact. We make products that make it easier for you to prepare and eat real food at home, so that you can feel your best. We aim to inspire everyone to take these steps towards healthier living and to bring people together over great meals cooked with love.<\/p>"
+          }
+        },
+        "1664824480c683cab1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>For all press inquiries, please contact media@storebound.com<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1664824480c683cab1-1",
+        "1664824480c683cab1-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -342,6 +372,7 @@
     "1664218708f72d93e0",
     "main",
     "1664221731d89e0bab",
-    "16638700311932f0cb"
+    "16638700311932f0cb",
+    "1664824481855f7548"
   ]
 }

@@ -119,6 +119,21 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "e3b62aa9-b892-48f4-a5b3-e9c37b7a0b47": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "none",
+            "image_1": "shopify:\/\/shop_images\/EasyReturns2.png",
+            "heading_1": "EASY RETURNS",
+            "icon_2": "none",
+            "image_2": "shopify:\/\/shop_images\/365-day-warranty.png",
+            "heading_2": "365 DAY WARRANTY",
+            "icon_3": "none",
+            "image_3": "shopify:\/\/shop_images\/free-shipping.png",
+            "heading_3": "FREE SHIPPING OVER $50"
+          }
         }
       },
       "block_order": [
@@ -136,7 +151,8 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "cc437370-4825-4025-b28b-bf5a322b6d73",
-        "share"
+        "share",
+        "e3b62aa9-b892-48f4-a5b3-e9c37b7a0b47"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -175,7 +191,7 @@
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
+        "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,

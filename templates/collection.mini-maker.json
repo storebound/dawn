@@ -1,0 +1,90 @@
+{
+  "sections": {
+    "1662569286bca4e349": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-07_at_12.47.34_PM.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "1662568459265477e2": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "1662568459c0e64efd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MINI IS MIGHTY!",
+            "heading_size": "h1"
+          }
+        },
+        "1662568459c0e64efd-1": {
+          "type": "text",
+          "settings": {
+            "text": "Bring the fun home with our compact cookersincluding the original Dash Mini Waffle Maker!",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1662568459c0e64efd-0",
+        "1662568459c0e64efd-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mini-waffle-shapes.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    }
+  },
+  "order": [
+    "1662569286bca4e349",
+    "1662568459265477e2",
+    "product-grid",
+    "banner"
+  ]
+}

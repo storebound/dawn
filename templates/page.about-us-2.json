@@ -1,0 +1,112 @@
+{
+  "sections": {
+    "1664290154ff87ee83": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "1664286962af50eea4": {
+      "type": "image-with-text",
+      "blocks": {
+        "1664286962b9c39919-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe that taking small steps every day to live a healthier life can have a big impact. And that the best path to wellness is eating whole, natural foods. At Dash, we make products that make it easier for you to prepare and eat real food at home so that you can feel your best.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1664286962b9c39919-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Dash Products",
+            "button_link": "\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "1664286962b9c39919-1",
+        "1664286962b9c39919-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/eatgood.001.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "166428705041545d09": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/1gfMjVnUNwg-HD.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=1gfMjVnUNwg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1664286815f40829fe": {
+      "type": "rich-text",
+      "blocks": {
+        "16642868155d006d3c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>StoreBound is the parent company of Dash and Sobro. We’re a product innovation company that takes big ideas and turns them into award-winning retail products faster than ever before. Every day, our team inspires people to improve their wellness while bringing more happiness to their lives. We’re in it to win hearts!<\/p><p><\/p><p>Are you interested in changing the world one smoothie at a time? If so, consider joining our team! Learn more about our company and egg-cellent new openings.<br\/><br\/><\/p>"
+          }
+        },
+        "16642868155d006d3c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Careers @ Dash",
+            "button_link": "\/pages\/careers",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16642868155d006d3c-1",
+        "16642868155d006d3c-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "1664290154ff87ee83",
+    "1664286962af50eea4",
+    "166428705041545d09",
+    "1664286815f40829fe",
+    "main"
+  ]
+}

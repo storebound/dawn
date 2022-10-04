@@ -59,6 +59,7 @@
               {%- case block.type -%}
                 {%- when 'text' -%}
                   <div class="footer-block__details-content rte">
+                  {% comment %}<img alt="Dash home page link" src="//cdn.shopify.com/s/files/1/0173/8181/8422/files/DASH_logo.png?v=1567772948">{% endcomment %}
                     {{ block.settings.subtext }}
                   </div>
                 {%- when 'link_list' -%}
@@ -331,7 +332,11 @@
         {%- endif -%}
         <div class="footer__copyright caption">
           <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
-          <small class="copyright__content">{{ powered_by_link }}</small>
+          {% comment %}<small class="copyright__content">{{ powered_by_link }}</small>{% endcomment %}
+          {% if canonical_url contains "apps/product-registration" %}
+          <br>
+          <small class="copyright__content">NO PURCHASE OR PAYMENT NECESSARY. Open to legal residents of 50 U.S./D.C., 18+ (AL and NE, 19+) at time of entry. 04/01/22-03/31/23. See Official Rules, including prizes, entry instructions, and odds of winning . Void in P.R. and where prohibited. Sponsor: StoreBound LLC, 50 Broad St Floor 12, New York, NY 10004 The Visa Prepaid Card is issued by The Bancorp Bank, Member FDIC, pursuant to a license from Visa U.S.A. Inc. and can be used everywhere Visa debit cards are accepted around the world. Limited warranty rights are not diminished if you do not complete and submit this registration form.</small>
+        {%- endif -%}
         </div>
       </div>
     </div>
@@ -613,3 +618,81 @@
   }
 }
 {% endschema %}
+
+{% comment %}custom collasible footer{% endcomment %}
+<style>
+@media (max-width: 749px) {
+  .grid .footer-block.grid__item {
+    margin: 0;
+  }
+  .grid .footer-block__heading {
+    position: relative;
+    margin: 0;
+    padding: 1.5rem 0;
+    cursor: pointer;
+  }
+  .grid .footer-block__heading::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    text-align: center;
+  }
+  .grid .footer-block__heading:not(.block-collapsed)::after {
+    content: "-";
+  }
+  .grid .footer-block__heading.block-collapsed + .footer-block__details-content {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    transition: all .2s ease-out;
+    overflow: hidden;
+  }
+  .grid .footer-block__heading + .footer-block__details-content {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    transition: all .2s ease-out;
+    overflow: hidden;
+    margin-bottom: 3rem;
+  }
+
+}
+</style>
+
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+  if (window.matchMedia('(min-width: 750px)').matches) {
+    return
+  }
+
+  const handleCollapse = (heading) => {
+    if (heading.classList.contains('block-collapsed')) {
+      heading.classList.remove('block-collapsed')
+      heading.setAttribute('aria-expanded', 'true')
+    } else {
+      heading.classList.add('block-collapsed')
+      heading.setAttribute('aria-expanded', 'false')
+    }
+  }
+  
+  document.querySelectorAll('.grid .footer-block__heading').forEach((heading, index) => {
+    heading.classList.add('block-collapsed')
+    heading.setAttribute('role', 'button')
+    heading.setAttribute('aria-expanded', 'false')
+    heading.setAttribute('tabindex', '0')
+
+    heading.nextElementSibling.setAttribute('id', `footer-block-index-${index}`)
+    heading.setAttribute('aria-controls', `footer-block-index-${index}`)
+
+    heading.addEventListener('click', () => { handleCollapse(heading) })
+    heading.addEventListener('keypress',  () => { handleCollapse(heading) })
+  })
+
+})
+</script>
+{% comment %}end of custom collasible footer{% endcomment %}

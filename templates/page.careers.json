@@ -1,0 +1,200 @@
+{
+  "sections": {
+    "1662668277712933fd": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "16626682767d08c5aa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>CAREERS AT STOREBOUND<\/strong><\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "16626682767d08c5aa-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 32,
+        "padding_bottom": 28
+      }
+    },
+    "16626685363d5faafc": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1662665986e53a3d01": {
+      "type": "image-with-text",
+      "blocks": {
+        "16626659868c93b17a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ARE YOU A GOOD EGG?",
+            "heading_size": "h2"
+          }
+        },
+        "16626659868c93b17a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you interested in changing the world one smoothie at a time? If so, consider joining our team! Learn more about our company and egg-cellent new openings below<br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "16626659868c93b17a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Open Positions",
+            "button_link": "https:\/\/storebound.bamboohr.com\/jobs\/"
+          }
+        }
+      },
+      "block_order": [
+        "16626659868c93b17a-0",
+        "16626659868c93b17a-1",
+        "16626659868c93b17a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-08_at_4.15.42_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "16626677818c04ff18": {
+      "type": "rich-text",
+      "blocks": {
+        "16626677816f283959-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>StoreBound is the parent company of Dash and Sobro. We’re a product innovation company that takes big ideas and turns them into award-winning retail products faster than ever before. Every day, our team inspires people to improve their wellness while bringing more happiness to their lives. We’re in it to win hearts!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16626677816f283959-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "166266783963e2dc3a": {
+      "type": "image-with-text",
+      "blocks": {
+        "016ae727-4340-4665-938b-38c4e8aff152": {
+          "type": "heading",
+          "settings": {
+            "heading": "BENEFITS & PERKS",
+            "heading_size": "h2"
+          }
+        },
+        "1662667839932af91d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>• <\/strong>Competitive salary<br\/><strong>• <\/strong>Comprehensive healthcare benefits, including dental and vision plans<br\/><strong>• <\/strong>Comprehensive 401k retirement plan with contribution matching<br\/><strong>• <\/strong>Generous paid time off, including a mix of vacation, personal and sick days, plus floating holidays and 9 paid national holidays<br\/><strong>• <\/strong>Monthly Better World Days with paid time off for volunteering or professional development.<br\/><strong>• <\/strong>Transportation benefits<br\/><strong>• <\/strong>Fun and friendly office in NYC stocked with free snacks<br\/><strong>• <\/strong>Flexible leave policies for new moms and dads<br\/><strong>• <\/strong>Team outings and fun activities to build community with our amazing team members<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "016ae727-4340-4665-938b-38c4e8aff152",
+        "1662667839932af91d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Website_Careers_Module-2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "166266962410e25f5b": {
+      "type": "rich-text",
+      "blocks": {
+        "16626696243ceda709-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16626696243ceda709-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16626696243ceda709-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Open Positions",
+            "button_link": "https:\/\/storebound.bamboohr.com\/jobs\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16626696243ceda709-0",
+        "16626696243ceda709-1",
+        "16626696243ceda709-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "1662668277712933fd",
+    "16626685363d5faafc",
+    "main",
+    "1662665986e53a3d01",
+    "16626677818c04ff18",
+    "166266783963e2dc3a",
+    "166266962410e25f5b"
+  ]
+}

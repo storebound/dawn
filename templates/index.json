@@ -1,10 +1,100 @@
 {
   "sections": {
+    "16619709803b818a45": {
+      "type": "image-with-text",
+      "blocks": {
+        "16619709803c76c5d0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SALES & SUN TO WRAP UP SUMMER 😎",
+            "heading_size": "h2"
+          }
+        },
+        "16619709803c76c5d0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16619709803c76c5d0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "16619709803c76c5d0-0",
+        "16619709803c76c5d0-1",
+        "16619709803c76c5d0-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LaborDaySale_20220829-05.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16642908781ed6d732": {
+      "type": "image-with-text",
+      "blocks": {
+        "1664290878c95a76cb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "HEADLINE TEXT ☃️",
+            "heading_size": "h2"
+          }
+        },
+        "1664290878c95a76cb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1664290878c95a76cb-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify:\/\/collections\/mini-makers"
+          }
+        }
+      },
+      "block_order": [
+        "1664290878c95a76cb-0",
+        "1664290878c95a76cb-1",
+        "1664290878c95a76cb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HolidayShoot_2022_2234_Request_2_Target_Mini_Maker.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Image banner",
             "heading_size": "h0"
@@ -12,6 +102,7 @@
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
@@ -21,7 +112,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -35,16 +126,88 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/LaborDaySale_20220829-04.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true
+      }
+    },
+    "1661971116c7e51c5a": {
+      "type": "featured-product",
+      "blocks": {
+        "1661971115f0b077a2-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1661971115f0b077a2-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h0"
+          }
+        },
+        "1661971115f0b077a2-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.custom.short_copy.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1661971115f0b077a2-3": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "1661971115f0b077a2-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1661971115f0b077a2-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "1661971115f0b077a2-6": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "1661971115f0b077a2-0",
+        "1661971115f0b077a2-1",
+        "1661971115f0b077a2-2",
+        "1661971115f0b077a2-3",
+        "1661971115f0b077a2-4",
+        "1661971115f0b077a2-5",
+        "1661971115f0b077a2-6"
+      ],
+      "settings": {
+        "product": "rapid-egg-cooker",
+        "color_scheme": "background-1",
+        "secondary_background": true,
+        "media_position": "left",
+        "hide_variants": false,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text": {
@@ -53,7 +216,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand</p>",
+            "heading": "<p>Talk about your brand<\/p>",
             "heading_size": "h1"
           }
         },
@@ -69,6 +232,8 @@
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -80,67 +245,65 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
       }
     },
-    "collage": {
+    "1658338587f333ae54": {
       "type": "collage",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "16583385876a304d18-0": {
+          "type": "video",
           "settings": {
-            "collection": ""
+            "cover_image": "shopify:\/\/shop_images\/shakethingsup.png",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=8CpqfKCJmn4",
+            "description": "Describe the video",
+            "image_padding": false
           }
         },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
+        "a4a1b471-754b-42a4-97f1-9253f0173aa8": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "frozen-treats"
+          }
+        },
+        "4fb1da92-1ddf-4df2-8044-87a1689b58d1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-07-20_at_2.10.34_PM.png",
+            "image_padding": false
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "16583385876a304d18-0",
+        "a4a1b471-754b-42a4-97f1-9253f0173aa8",
+        "4fb1da92-1ddf-4df2-8044-87a1689b58d1"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
+        "heading": "",
+        "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
+        "card_styles": "none",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -152,60 +315,121 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/Dash-Air-Fryer.png",
+            "title": "",
+            "text": "",
+            "link_label": "Air Fryers",
+            "link": "shopify:\/\/collections\/frozen-treats"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/Dash-Deluxe-Egg-Cooker.png",
+            "title": "",
+            "text": "",
+            "link_label": "Egg Cookers",
+            "link": "shopify:\/\/collections\/frozen-treats"
           }
         },
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/mini-maker-waffle.png",
+            "title": "",
+            "text": "",
+            "link_label": "Mini Makers",
+            "link": "shopify:\/\/collections\/frozen-treats"
+          }
+        },
+        "64dbeef5-928b-45a8-aca1-fd96c61df350": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/all-dash-products-icon.png",
+            "title": "",
+            "text": "",
+            "link_label": "All Products",
+            "link": "shopify:\/\/collections"
           }
         }
       },
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "64dbeef5-928b-45a8-aca1-fd96c61df350"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
+        "title": "SHOP CATEGORIES",
+        "heading_size": "h2",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166197179984628ab1": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1661971799a110f3d5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "1661971799a110f3d5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1661971799a110f3d5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661971799a110f3d5-0",
+        "1661971799a110f3d5-1",
+        "1661971799a110f3d5-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "16619709803b818a45",
+    "16642908781ed6d732",
     "image_banner",
+    "1661971116c7e51c5a",
     "rich_text",
     "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "1658338587f333ae54",
+    "multicolumn",
+    "166197179984628ab1"
   ]
 }

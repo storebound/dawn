@@ -1,0 +1,206 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1664818848082643fa": {
+      "type": "rich-text",
+      "blocks": {
+        "166481884887a0f9ee-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Shipping and Returns<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "166481884887a0f9ee-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1664817434142e60a6": {
+      "type": "collapsible-content",
+      "blocks": {
+        "166481743320526555-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When will my order ship?",
+            "icon": "box",
+            "row_content": "<p>All orders will be processed in 1-3 business days.<\/p><p>We ship UPS ground from our super-secret warehouse in California. As soon as your order ships, we’ll send you an email with tracking information from UPS so you can follow its progress.<\/p><p><\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "166481743320526555-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where is my order?",
+            "icon": "box",
+            "row_content": "<p>If you have not received your order 2 weeks after estimated delivery, please contact Customer Support for assistance. Shipping delays related to COVID-19 may impact orders and we are doing our best to get your order to you as quickly as possible.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "55416482-1268-485f-a4a4-444bf27c80a7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much does shipping cost?",
+            "icon": "box",
+            "row_content": "<p>We’re pleased to offer free ground shipping on domestic orders $50 and over. For orders under $50, international orders, and expedited orders, shipping will be calculated based on the order total and its destination.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "88feabe4-ea76-4108-8cb2-7bf79eab0fe5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer International Shipping?",
+            "icon": "box",
+            "row_content": "<p>Dash products are currently only available through ByDash.com in the US, however we are currently working on making them available worldwide! Dash products are also available in-store through our retail partners in the US and Canada. If you live outside North America and would like to receive information about expanded shipping capabilities through ByDash.com, please subscribe to our email mailing list. We’ll be happy to keep you updated!<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "166481743320526555-0",
+        "166481743320526555-1",
+        "55416482-1268-485f-a4a4-444bf27c80a7",
+        "88feabe4-ea76-4108-8cb2-7bf79eab0fe5"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Shipping Information",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16648195644f1fbf12": {
+      "type": "rich-text",
+      "blocks": {
+        "1664819564f9bb3809-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Repairs & Replacements<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1664819564f9bb3809-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "16648194972a28a902": {
+      "type": "rich-text",
+      "blocks": {
+        "1664819496a1c176c4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dash products are durable, convenient appliances designed to make your life easier and more fun. While our products are long-lasting and easy to use, we are not always perfect. If you run into a problem, please contact our Customer Support team for assistance. We are happy to replace defective products and\/or products within our Feel Good Rewards warranty period.<br\/><br\/>Please fill out our contact form and our Customer Support team will be happy to assist with processing your warranty claim.<br\/><br\/>Do not hesitate to contact us directly for product support, warranty, and maintenance-related questions at: 1-800-898-6970 from 9AM – 9PM EST, Monday – Friday. Please have your model number on hand.<br\/><br\/>Proof of purchase indicating the date and location of your purchase is required when seeking a replacement. We are unable to refund or replace products without proof of purchase as well as a full name, shipping address, and telephone number.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664819496a1c176c4-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 52
+      }
+    },
+    "1664818934c28b748b": {
+      "type": "rich-text",
+      "blocks": {
+        "1664818934b06bd5c9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Returns & Refunds<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1664818934b06bd5c9-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "1664819770204249da": {
+      "type": "rich-text",
+      "blocks": {
+        "1664819770c55e824e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We understand you may change your mind after shopping with us: if for any reason your Dash purchase is unsatisfactory, we accept returns within 30 days of the original date of purchase. If what you received is either damaged or defective, please reach out to our Customer Support team for help processing your warranty claim (see Repairs & Replacements).<br\/><br\/>Please note the Return Terms & Conditions below and be sure to keep your original receipt. We only accept returns for bydash.com orders. We cannot accept returns for items purchased from a 3rd party retailer.<br\/><br\/>To start a return, enter your order number and email address at our <a href=\"https:\/\/bydash.com\/a\/return\" title=\"https:\/\/bydash.com\/a\/return\">Returns Center<\/a>.<br\/><br\/>Proof of purchase indicating the date and location of your purchase is required when seeking a replacement. We are unable to refund or replace products without proof of purchase as well as a full name, shipping address, and telephone number.<\/p>"
+          }
+        },
+        "cb9365ee-0216-4011-9e4f-dd36266288b9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Return Terms & Conditions:<\/strong><\/p><p><strong>• <\/strong>Returns are accepted within 30 days of your purchase from bydash.com unless your purchase is defective or damaged (see Repairs & Replacements below).<\/p><p><strong>• <\/strong>Returned merchandise must be in salable condition with the manufacturer’s original packaging.<\/p><p><strong>• <\/strong>Save all packaging for any claims.<\/p><p><strong>• <\/strong>Shipping fees are not refundable.<\/p><p><strong>• <\/strong>Accepted returns will incur a restocking fee of $5 per item.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664819770c55e824e-1",
+        "cb9365ee-0216-4011-9e4f-dd36266288b9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1664818848082643fa",
+    "1664817434142e60a6",
+    "16648195644f1fbf12",
+    "16648194972a28a902",
+    "1664818934c28b748b",
+    "1664819770204249da"
+  ]
+}

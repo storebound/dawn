@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1664818848082643fa": {
+      "type": "rich-text",
+      "blocks": {
+        "166481884887a0f9ee-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Warranty Information<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "166481884887a0f9ee-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1664817434142e60a6": {
+      "type": "collapsible-content",
+      "blocks": {
+        "166481743320526555-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "STOREBOUND, LLC - 1 YEAR LIMITED WARRANTY",
+            "icon": "none",
+            "row_content": "<p>Your StoreBound product is warranted to be free from defects in material and workmanship for a period of one (1) year from the date of the original purchase when utilized for normal and intended household use. Should any defect covered by the terms of the limited warranty be discovered within one (1) year, StoreBound, LLC will repair or replace the defective part. To process a warranty claim, contact Customer Support at 1-800-898-6970 for further assistance and instruction. A Customer Support agent will assist you by troubleshooting minor problems. If troubleshooting fails to fix the problem, a return authorization will be issued. Proof of purchase indicating the date and place of purchase is required and should accompany the return. You must also include your full name, shipping address, and telephone number. We are unable to ship returns to a PO box. StoreBound will not be responsible for delays or unprocessed claims resulting from a purchaser’s failure to provide any or all of the necessary information. Freight costs must be prepaid by the purchaser.<br\/><br\/>Send all inquiries to <a href=\"mailto:support@bydash.com\">support@bydash.com.<\/a><br\/><br\/>There are no express warranties except as listed above.<br\/><br\/>REPAIR OR REPLACEMENT AS PROVIDED UNDER THIS WARRANTY IS THE EXCLUSIVE REMEDY OF THE CUSTOMER. STOREBOUND SHALL NOT BE LIABLE FOR ANY INCIDENTAL OR CONSEQUENTIAL DAMAGES OR FOR BREACH OF ANY EXPRESS OR IMPLIED WARRANTY ON THIS PRODUCT EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW. ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE ON THIS PRODUCT IS LIMITED IN DURATION TO THE DURATION OF THIS WARRANTY.<br\/><br\/>Some states do not allow the exclusion or limitation of incidental or consequential damages, or limitations on how long an implied warranty lasts. Therefore, the above exclusions or limitations may not apply to you. This warranty gives you specific legal rights and you may also have other rights, which vary from state to state.<\/p><p><br\/>Refurbished items or items not purchased through an authorized retailer are not eligible for warranty claims.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "166481743320526555-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "GARANTÍA LIMITADA DE 1 AÑO - STOREBOUND, LLC",
+            "icon": "none",
+            "row_content": "<p>Se garantiza que su producto StoreBound está libre de defectos de material y mano de obra por un período de un (1) año a partir de la fecha de la compra original cuando se utiliza para el uso doméstico normal y previsto. Si se descubre algún defecto cubierto por los términos de la garantía limitada dentro de un (1) año, StoreBound, LLC reparará o reemplazará la pieza defectuosa. Para procesar un reclamo de garantía, comuníquese con Atención al Cliente al 1-800-898-6970 para obtener más ayuda e instrucciones. Un agente de Atención al Cliente lo ayudará a solucionar problemas menores. Si la solución de problemas no soluciona el problema, se emitirá una autorización de devolución. Se requiere que adjunte un comprobante de compra que indique la fecha y el lugar de compra junto con la devolución. También debe incluir su nombre completo, dirección de envío y número de teléfono. No podemos enviar devoluciones a un apartado de correos. StoreBound no será responsable por retrasos o reclamos no procesados que resulten de la falta la información necesaria provista por el comprador. Los costos de envío deben ser pagados por adelantado por el comprador.<br\/><br\/>Envíe todas las consultas a <a href=\"mailto:support@bydash.com\">support@bydash.com.<\/a><br\/><br\/>No existen garantías expresas excepto las enumeradas anteriormente.<br\/><br\/>LA REPARACIÓN O REEMPLAZO SEGÚN SE INDICA EN ESTA GARANTÍA ES DE USO EXCLUSIVO DEL CLIENTE. STOREBOUND NO SERÁ RESPONSABLE DE NINGÚN DAÑO INCIDENTAL O CONSECUENTE, O DEL INCUMPLIMIENTO DE CUALQUIER GARANTÍA EXPRESA O IMPLÍCITA DE ESTE PRODUCTO EXCEPTO EN LA MEDIDA QUE LA LEY LO REQUIERA. CUALQUIER GARANTÍA IMPLÍCITA DE COMERCIABILIDAD O APTITUD PARA UN PROPÓSITO PARTICULAR DE ESTE PRODUCTO TIENE UNA DURACIÓN LIMITADA A LA DURACIÓN DE ESTA GARANTÍA.<br\/><br\/>Algunos Estados no permiten la exclusión o limitación de daños incidentales o consecuentes, o limitaciones sobre la duración de una garantía implícita. Por lo tanto, es posible que las exclusiones o limitaciones anteriores no se apliquen en su caso. Esta garantía le otorga derechos legales específicos y también puede tener otros derechos, que varían de un Estado a otro.<\/p><p><br\/>Los artículos reacondicionados o los artículos no comprados a través de un minorista autorizado no son elegibles para reclamos de garantía.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "cb92bcc3-6af2-4fc4-b6ec-2a44fd5d3c44": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "STOREBOUND, LLC – GARANTIE LIMITÉE D'UN AN",
+            "icon": "none",
+            "row_content": "<p>Votre produit StoreBound est garanti contre tout défaut de matériaux et de main-d'œuvre pour une période d'un (1) an à compter de la date d'achat d'origine lorsqu'utilisé normalement aux fins domestiques prévues. Si un défaut couvert par les dispositions de la garantie limitée est constaté dans un délai d'un (1) an, StoreBound, LLC répare ou remplace la pièce défectueuse Pour toute réclamation au titre de la garantie, contactez le service à la clientèle au 1-800-898-6970 pour de l'assistance et des instructions supplémentaires. Un agent du service à la clientèle vous assistera en procédant à des dépannages mineurs. Si le dépannage ne règle pas le problème, une autorisation de retour est alors délivrée. Une preuve d'achat indiquant la date et le lieu d'achat est exigée et doit être jointe à l'article retourné. Vous devez également indiquer votre nom complet, l'adresse d'expédition ainsi que votre numéro de téléphone. Il nous est impossible de retourner des articles à une boîte postale. StoreBound ne peut être tenu responsable de tout retard ou toute réclamation non traitée résultant de l'incapacité de l'acheteur à fournir un ou tous les renseignements nécessaires. Les frais de transport doivent être prépayés par l'acheteur.<br\/><br\/>Envoyez toutes les demandes de renseignements à <a href=\"mailto:support@bydash.com\">support@bydash.com.<\/a><br\/><br\/>Il n'existe aucune garantie expresse autre que celle citée ci-dessus.<br\/><br\/>LA RÉPARATION OU LE REMPLACEMENT PRÉVUS EN VERTU DE LA PRÉSENTE GARANTIE CONSTITUENT LE SEUL RECOURS À LA DISPOSITION DU CLIENT. STOREBOUND NE PEUT ÊTRE TENU RESPONSABLE DE TOUT DOMMAGE INDIRECT OU CONSÉCUTIF OU DE TOUTE VIOLATION D'UNE GARANTIE EXPRESSE OU IMPLICITE RELATIVE AU PRÉSENT PRODUIT, SAUF SI UNE LOI APPLICABLE L'EXIGE. TOUTE GARANTIE TACITE DE COMMERCIABILITÉ OU D'ADAPTATION À UN USAGE PARTICULIER DE CE PRODUIT EST LIMITÉE À LA DURÉE DE LA PRÉSENTE GARANTIE.<br\/><br\/>Certains États n'autorisent pas l'exclusion ou la restriction des dommages indirects ou consécutifs, ou des limitations sur la durée d'une garantie tacite. Par conséquent, les exclusions ou restrictions ci-dessus peuvent ne pas s'appliquer à vous. La présente garantie vous accorde des droits spécifiques et il se peut que vous bénéficiiez également d'autres droits qui varient selon les États.<\/p><p><br\/>Les articles remis à neuf ou qui ne sont pas achetés auprès d’un détaillant autorisé ne sont pas admissibles aux demandes de garantie.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "f15e5104-2cb1-4a53-9438-c15656863a1b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "STOREBOUND, LLC – 2 YEAR EXTENDED LIMITED WARRANTY",
+            "icon": "none",
+            "row_content": "<p>Your StoreBound product is warranted to be free from defects in material and workmanship for a period of two (2) years from the date of the original purchase when utilized for normal and intended household use. Should any defect covered by the terms of the limited warranty be discovered within two (2) years, StoreBound, LLC will repair or replace the defective part. To process a warranty claim, contact Customer Support at 1-800-898-6970 for further assistance and instruction. A Customer Support agent will assist you by troubleshooting minor problems. If troubleshooting fails to fix the problem, a return authorization will be issued. Proof of purchase indicating the date and place of purchase is required and should accompany the return. You must also include your full name, shipping address, and telephone number. We are unable to ship returns to a PO box. StoreBound will not be responsible for delays or unprocessed claims resulting from a purchaser’s failure to provide any or all of the necessary information. Freight costs must be prepaid by the purchaser.<br\/><br\/>Send all inquiries to <a href=\"mailto:support@bydash.com\">support@bydash.com.<\/a><br\/><br\/>There are no express warranties except as listed above.<br\/><br\/>REPAIR OR REPLACEMENT AS PROVIDED UNDER THIS WARRANTY IS THE EXCLUSIVE REMEDY OF THE CUSTOMER. STOREBOUND SHALL NOT BE LIABLE FOR ANY INCIDENTAL OR CONSEQUENTIAL DAMAGES OR FOR BREACH OF ANY EXPRESS OR IMPLIED WARRANTY ON THIS PRODUCT EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW. ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE ON THIS PRODUCT IS LIMITED IN DURATION TO THE DURATION OF THIS WARRANTY.<br\/><br\/>Some states do not allow the exclusion or limitation of incidental or consequential damages, or limitations on how long an implied warranty lasts. Therefore, the above exclusions or limitations may not apply to you. This warranty gives you specific legal rights and you may also have other rights, which vary from state to state.<\/p><p><br\/>Refurbished items or items not purchased through an authorized retailer are not eligible for warranty claims.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "4fa0c545-ee3a-4d6b-a447-484134c67396": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "GARANTÍA LIMITADA EXTENDIDA DE 2 AÑOS – STOREBOUND, LLC",
+            "icon": "none",
+            "row_content": "<p>Se garantiza que su producto StoreBound está libre de defectos de material y mano de obra por un período de un (2) años a partir de la fecha de la compra original cuando se utiliza para el uso doméstico normal y previsto. Si se descubre algún defecto cubierto por los términos de la garantía limitada dentro de dos (2) años, StoreBound, LLC reparará o reemplazará la pieza defectuosa. Para procesar un reclamo de garantía, comuníquese con Atención al Cliente al 1-800-898-6970 para obtener más ayuda e instrucciones. Un agente de Atención al Cliente lo ayudará a solucionar problemas menores. Si la solución de problemas no soluciona el problema, se emitirá una autorización de devolución. Se requiere que adjunte un comprobante de compra que indique la fecha y el lugar de compra junto con la devolución. También debe incluir su nombre completo, dirección de envío y número de teléfono. No podemos enviar devoluciones a un apartado de correos. StoreBound no será responsable por retrasos o reclamos no procesados que resulten de la falta la información necesaria provista por el comprador. Los costos de envío deben ser pagados por adelantado por el comprador.<br\/><br\/>Envíe todas las consultas a <a href=\"mailto:support@bydash.com\">support@bydash.com.<\/a><br\/><br\/>No existen garantías expresas excepto las enumeradas anteriormente.<br\/><br\/>LA REPARACIÓN O REEMPLAZO SEGÚN SE INDICA EN ESTA GARANTÍA ES DE USO EXCLUSIVO DEL CLIENTE. STOREBOUND NO SERÁ RESPONSABLE DE NINGÚN DAÑO INCIDENTAL O CONSECUENTE, O DEL INCUMPLIMIENTO DE CUALQUIER GARANTÍA EXPRESA O IMPLÍCITA DE ESTE PRODUCTO EXCEPTO EN LA MEDIDA QUE LA LEY LO REQUIERA. CUALQUIER GARANTÍA IMPLÍCITA DE COMERCIABILIDAD O APTITUD PARA UN PROPÓSITO PARTICULAR DE ESTE PRODUCTO TIENE UNA DURACIÓN LIMITADA A LA DURACIÓN DE ESTA GARANTÍA.<br\/><br\/>Algunos Estados no permiten la exclusión o limitación de daños incidentales o consecuentes, o limitaciones sobre la duración de una garantía implícita. Por lo tanto, es posible que las exclusiones o limitaciones anteriores no se apliquen en su caso. Esta garantía le otorga derechos legales específicos y también puede tener otros derechos, que varían de un Estado a otro.<\/p><p><br\/>Los artículos reacondicionados o los artículos no comprados a través de un minorista autorizado no son elegibles para reclamos de garantía.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "185d2ed5-5fe4-4eee-a552-9458c296c338": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "STOREBOUND, LLC – GARANTIE LIMITÉE PROLONGÉE DE DEUX ANS",
+            "icon": "none",
+            "row_content": "<p>Votre produit StoreBound est garanti contre tout défaut de matériaux et de main-d'œuvre pour une période de deux (2) ans à compter de la date d'achat d'origine lorsqu'utilisé normalement aux fins domestiques prévues. Si un défaut couvert par les dispositions de la garantie limitée est constaté dans un délai de deux (2) ans, StoreBound, LLC répare ou remplace la pièce défectueuse Pour toute réclamation au titre de la garantie, contactez le service à la clientèle au 1-800-898-6970 pour de l'assistance et des instructions supplémentaires. Un agent du service à la clientèle vous assistera en procédant à des dépannages mineurs. Si le dépannage ne règle pas le problème, une autorisation de retour est alors délivrée. Une preuve d'achat indiquant la date et le lieu d'achat est exigée et doit être jointe à l'article retourné. Vous devez également indiquer votre nom complet, l'adresse d'expédition ainsi que votre numéro de téléphone. Il nous est impossible de retourner des articles à une boîte postale. StoreBound ne peut être tenu responsable de tout retard ou toute réclamation non traitée résultant de l'incapacité de l'acheteur à fournir un ou tous les renseignements nécessaires. Les frais de transport doivent être prépayés par l'acheteur.<br\/><br\/>Envoyez toutes les demandes de renseignements à <a href=\"mailto:support@bydash.com\">support@bydash.com.<\/a><br\/><br\/>Il n'existe aucune garantie expresse autre que celle citée ci-dessus.<br\/><br\/>LA RÉPARATION OU LE REMPLACEMENT PRÉVUS EN VERTU DE LA PRÉSENTE GARANTIE CONSTITUENT LE SEUL RECOURS À LA DISPOSITION DU CLIENT. STOREBOUND NE PEUT ÊTRE TENU RESPONSABLE DE TOUT DOMMAGE INDIRECT OU CONSÉCUTIF OU DE TOUTE VIOLATION D'UNE GARANTIE EXPRESSE OU IMPLICITE RELATIVE AU PRÉSENT PRODUIT, SAUF SI UNE LOI APPLICABLE L'EXIGE. TOUTE GARANTIE TACITE DE COMMERCIABILITÉ OU D'ADAPTATION À UN USAGE PARTICULIER DE CE PRODUIT EST LIMITÉE À LA DURÉE DE LA PRÉSENTE GARANTIE.<br\/><br\/>Certains États n'autorisent pas l'exclusion ou la restriction des dommages indirects ou consécutifs, ou des limitations sur la durée d'une garantie tacite. Par conséquent, les exclusions ou restrictions ci-dessus peuvent ne pas s'appliquer à vous. La présente garantie vous accorde des droits spécifiques et il se peut que vous bénéficiiez également d'autres droits qui varient selon les États.<\/p><p><br\/>Les articles remis à neuf ou qui ne sont pas achetés auprès d’un détaillant autorisé ne sont pas admissibles aux demandes de garantie.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "166481743320526555-0",
+        "166481743320526555-1",
+        "cb92bcc3-6af2-4fc4-b6ec-2a44fd5d3c44",
+        "f15e5104-2cb1-4a53-9438-c15656863a1b",
+        "4fa0c545-ee3a-4d6b-a447-484134c67396",
+        "185d2ed5-5fe4-4eee-a552-9458c296c338"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1664818934c28b748b": {
+      "type": "rich-text",
+      "blocks": {
+        "1664818934b06bd5c9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you have any questions or comments about your product’s warranty, please contact customer services at<strong> <\/strong><a href=\"mailto:support@bydash.com%20\">support@bydash.com<\/a><\/p>"
+          }
+        },
+        "1664818934b06bd5c9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register Products",
+            "button_link": "shopify:\/\/pages\/register",
+            "button_style_secondary": false,
+            "button_label_2": "Contact Us",
+            "button_link_2": "shopify:\/\/pages\/contact",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1664818934b06bd5c9-1",
+        "1664818934b06bd5c9-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1664818848082643fa",
+    "1664817434142e60a6",
+    "1664818934c28b748b"
+  ]
+}

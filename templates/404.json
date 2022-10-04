@@ -1,10 +1,86 @@
 {
   "sections": {
+    "1661975190fbc3db29": {
+      "type": "image-with-text",
+      "blocks": {
+        "e317f1d3-3780-4b75-8b0f-35b7bb288000": {
+          "type": "heading",
+          "settings": {
+            "heading": "404",
+            "heading_size": "h1"
+          }
+        },
+        "1661975190cb11eba2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Oops, It looks like the page that you’re looking for is the missing ingredient.<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "a31ac826-ff70-408b-9248-f0632175c72e": {
+          "type": "button",
+          "settings": {
+            "button_label": "Continue Shopping",
+            "button_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "e317f1d3-3780-4b75-8b0f-35b7bb288000",
+        "1661975190cb11eba2-1",
+        "a31ac826-ff70-408b-9248-f0632175c72e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dash_404_error_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "166197557461d55b2e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Check Out Our New Arrivals",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frozen-treats",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "1661975190fbc3db29",
+    "main",
+    "166197557461d55b2e"
   ]
 }

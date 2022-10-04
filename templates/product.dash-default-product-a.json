@@ -15,15 +15,6 @@
           "settings": {
           }
         },
-        "fc86d512-af57-4c82-af8c-2eff25821483": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "use_metafields": true,
-            "sku_tagtype": "sku",
-            "is_featured_product": false,
-            "featured_product_handle": ""
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
@@ -34,6 +25,13 @@
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "f9414ada-9ea8-45d3-a609-f767479b9525": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{% form 'product', product %}\n  <!-- product price -->\n  {{ form | payment_terms }}\n  ...\n{% endform %}"
           }
         },
         "variant_picker": {
@@ -53,26 +51,28 @@
             "show_dynamic_checkout": true
           }
         },
-        "description": {
-          "type": "description",
+        "56458916-5ee4-43bf-b6a8-60fb44960320": {
+          "type": "text",
           "settings": {
+            "text": "{{ product.metafields.custom.short_copy.value }}",
+            "text_style": "body"
           }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "Product Details",
+            "icon": "serving_dish",
+            "content": "<p>{{ product.metafields.custom.romance_copy | metafield_tag }}<\/p>",
             "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
+            "heading": "Features & Benefits",
+            "icon": "check_mark",
+            "content": "<p>{{ product.metafields.custom.features_benefits | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -81,15 +81,15 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.dimensions.value }}<\/p>",
             "page": ""
           }
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
+            "heading": "Manual & Warranty",
+            "icon": "question_mark",
             "content": "",
             "page": ""
           }
@@ -104,13 +104,13 @@
       "block_order": [
         "vendor",
         "title",
-        "fc86d512-af57-4c82-af8c-2eff25821483",
         "caption",
         "price",
+        "f9414ada-9ea8-45d3-a609-f767479b9525",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
+        "56458916-5ee4-43bf-b6a8-60fb44960320",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
@@ -121,7 +121,7 @@
         "enable_sticky_info": true,
         "media_position": "left",
         "gallery_layout": "stacked",
-        "media_size": "medium",
+        "media_size": "large",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -129,27 +129,47 @@
         "padding_bottom": 12
       }
     },
-    "1661883879ca0f6454": {
-      "type": "apps",
+    "16618831004bda3887": {
+      "type": "collapsible-content",
       "blocks": {
-        "f73cb7a4-2ba9-42f4-8e08-50309c6b1089": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "1661883100fe5b4a48-0": {
+          "type": "collapsible_row",
           "settings": {
-            "animation": true,
-            "tags_exclude": "",
-            "tags_include": "",
-            "search": "",
-            "linkify": true,
-            "use_metafields": true,
-            "sku_tagtype": "sku"
+            "heading": "Additional Images",
+            "icon": "check_mark",
+            "row_content": "",
+            "liquid": "{% if product.metafields.custom.a_1 != blank %}\n{{ product.metafields.custom.a_1 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_1_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_2 != blank %}\n{{ product.metafields.custom.a_2 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_2_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_3 != blank %}\n{{ product.metafields.custom.a_3 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_3_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_4 != blank %}\n{{ product.metafields.custom.a_4 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_4_alt | escape }}\n{% endif %}",
+            "page": ""
+          }
+        },
+        "655030f0-1676-4e40-88ad-ea3da2ac399a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "liquid": "<ul id=\"product-grid\" data-id=\"{{ section.id }}\" class=\"\n        grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down\n        grid--{{ section.settings.columns_desktop }}-col-desktop\">\n        {%- for product in product.metafields.custom.parts.value -%}\n          {% assign lazy_load = false %}\n          {%- if forloop.index > 2 -%}\n            {%- assign lazy_load = true -%}\n          {%- endif -%}\n          <li class=\"grid__item\">\n            {% render 'card-product',\n              card_product: product,\n              media_aspect_ratio: section.settings.image_ratio,\n              show_secondary_image: section.settings.show_secondary_image,\n              show_vendor: section.settings.show_vendor,\n              show_rating: section.settings.show_rating,\n              lazy_load: lazy_load,\n              show_quick_add: section.settings.enable_quick_add,\n              section_id: section.id\n\n            %}\n          <\/li>\n        {%- endfor -%}\n      <\/ul>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "f73cb7a4-2ba9-42f4-8e08-50309c6b1089"
+        "1661883100fe5b4a48-0",
+        "655030f0-1676-4e40-88ad-ea3da2ac399a"
       ],
       "settings": {
-        "include_margins": true
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn": {
@@ -215,7 +235,7 @@
   },
   "order": [
     "main",
-    "1661883879ca0f6454",
+    "16618831004bda3887",
     "multicolumn",
     "product-recommendations"
   ]

@@ -1721,6 +1721,98 @@
               "content": "Para mostrar uma classificação, adicione uma aplicação de classificação de produto. [Saber mais](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-rating-block)"
             }
           }
+        },
+        "complementary_products": {
+          "name": "Produtos complementares",
+          "settings": {
+            "paragraph": {
+              "content": "Para selecionar produtos complementares, adicione a aplicação Search & Discovery. [Saber mais](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+            },
+            "heading": {
+              "label": "Título"
+            },
+            "make_collapsible_row": {
+              "label": "Mostrar como linha recolhível"
+            },
+            "icon": {
+              "info": "Visível quando é mostrada a linha recolhível."
+            },
+            "product_list_limit": {
+              "label": "Máximo de produtos a apresentar"
+            },
+            "products_per_page": {
+              "label": "Número de produtos por página"
+            },
+            "pagination_style": {
+              "label": "Estilo de paginação",
+              "options": {
+                "option_1": "Pontos",
+                "option_2": "Contador",
+                "option_3": "Números"
+              }
+            },
+            "product_card": {
+              "heading": "Cartão de produtos"
+            },
+            "image_ratio": {
+              "label": "Proporção de imagem",
+              "options": {
+                "option_1": "Retrato",
+                "option_2": "Quadrado"
+              }
+            },
+            "enable_quick_add": {
+              "label": "Ativar botão para adicionar rapidamente"
+            }
+          }
+        },
+        "icon_with_text": {
+          "name": "Ícone com texto",
+          "settings": {
+            "layout": {
+              "label": "Esquema",
+              "options__1": {
+                "label": "Horizontal"
+              },
+              "options__2": {
+                "label": "Vertical"
+              }
+            },
+            "content": {
+              "label": "Conteúdo",
+              "info": "Escolha um ícone ou adicione uma imagem para cada coluna ou linha."
+            },
+            "heading": {
+              "info": "Deixe a etiqueta do título em branco para ocultar a coluna do ícone."
+            },
+            "icon_1": {
+              "label": "Primeiro ícone"
+            },
+            "image_1": {
+              "label": "Primeira imagem"
+            },
+            "heading_1": {
+              "label": "Primeiro título"
+            },
+            "icon_2": {
+              "label": "Segundo ícone"
+            },
+            "image_2": {
+              "label": "Segunda imagem"
+            },
+            "heading_2": {
+              "label": "Segundo título"
+            },
+            "icon_3": {
+              "label": "Terceiro ícone"
+            },
+            "image_3": {
+              "label": "Terceira imagem"
+            },
+            "heading_3": {
+              "label": "Terceiro título"
+            }
+          }
         }
       },
       "settings": {
@@ -1743,7 +1835,7 @@
             "label": "Empilhado"
           },
           "options__2": {
-            "label": "2 colunas"
+            "label": "Duas colunas"
           },
           "options__3": {
             "label": "Miniaturas"
@@ -1768,7 +1860,7 @@
         "mobile_thumbnails": {
           "label": "Esquema móvel",
           "options__1": {
-            "label": "2 colunas"
+            "label": "Duas colunas"
           },
           "options__2": {
             "label": "Mostrar miniaturas"

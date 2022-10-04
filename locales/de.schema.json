@@ -1720,6 +1720,98 @@
               "content": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-rating-block)"
             }
           }
+        },
+        "complementary_products": {
+          "name": "Ergänzende Produkte",
+          "settings": {
+            "paragraph": {
+              "content": "Um ergänzende Produkte auszuwählen, füge die Search & Discovery-App hinzu. [Mehr Informationen](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+            },
+            "heading": {
+              "label": "Überschrift"
+            },
+            "make_collapsible_row": {
+              "label": "Als einklappbare Reihe anzeigen"
+            },
+            "icon": {
+              "info": "Sichtbar, wenn einklappbare Reihe angezeigt wird."
+            },
+            "product_list_limit": {
+              "label": "Maximal anzuzeigende Produkte"
+            },
+            "products_per_page": {
+              "label": "Anzahl der Produkte pro Seite"
+            },
+            "pagination_style": {
+              "label": "Seitennummerierungsstil",
+              "options": {
+                "option_1": "Punkte",
+                "option_2": "Zähler",
+                "option_3": "Zahlen"
+              }
+            },
+            "product_card": {
+              "heading": "Produktkarte"
+            },
+            "image_ratio": {
+              "label": "Bildverhältnis",
+              "options": {
+                "option_1": "Hochformat",
+                "option_2": "Quadratisch"
+              }
+            },
+            "enable_quick_add": {
+              "label": "Schaltfläche zum schnellen Hinzufügen aktivieren"
+            }
+          }
+        },
+        "icon_with_text": {
+          "name": "Symbol mit Text",
+          "settings": {
+            "layout": {
+              "label": "Layout",
+              "options__1": {
+                "label": "Horizontal"
+              },
+              "options__2": {
+                "label": "Vertikal"
+              }
+            },
+            "content": {
+              "label": "Inhalt",
+              "info": "Wähle ein Symbol oder füge ein Bild für jede Spalte oder Zeile hinzu."
+            },
+            "heading": {
+              "info": "Lasse die Überschrift leer, um die Symbolspalte auszublenden."
+            },
+            "icon_1": {
+              "label": "Erstes Symbol"
+            },
+            "image_1": {
+              "label": "Erstes Bild"
+            },
+            "heading_1": {
+              "label": "Erste Überschrift"
+            },
+            "icon_2": {
+              "label": "Zweites Symbol"
+            },
+            "image_2": {
+              "label": "Zweites Bild"
+            },
+            "heading_2": {
+              "label": "Zweite Überschrift"
+            },
+            "icon_3": {
+              "label": "Drittes Symbol"
+            },
+            "image_3": {
+              "label": "Drittes Bild"
+            },
+            "heading_3": {
+              "label": "Dritte Überschrift"
+            }
+          }
         }
       },
       "settings": {

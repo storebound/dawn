@@ -1721,6 +1721,98 @@
               "content": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-rating-block)"
             }
           }
+        },
+        "complementary_products": {
+          "name": "Sản phẩm bổ sung",
+          "settings": {
+            "paragraph": {
+              "content": "Để chọn sản phẩm bổ sung, hãy thêm ứng dụng Search & Discovery. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+            },
+            "heading": {
+              "label": "Tiêu đề"
+            },
+            "make_collapsible_row": {
+              "label": "Hiển thị dưới dạng hàng có thể thu gọn"
+            },
+            "icon": {
+              "info": "Hiển thị khi hàng có thể thu gọn hiển thị."
+            },
+            "product_list_limit": {
+              "label": "Số lượng sản phẩm hiển thị tối đa"
+            },
+            "products_per_page": {
+              "label": "Số lượng sản phẩm trên một trang"
+            },
+            "pagination_style": {
+              "label": "Kiểu phân trang",
+              "options": {
+                "option_1": "Chấm",
+                "option_2": "Bộ đếm",
+                "option_3": "Số"
+              }
+            },
+            "product_card": {
+              "heading": "Thẻ sản phẩm"
+            },
+            "image_ratio": {
+              "label": "Tỷ lệ hình ảnh",
+              "options": {
+                "option_1": "Dọc",
+                "option_2": "Vuông"
+              }
+            },
+            "enable_quick_add": {
+              "label": "Bật nút thêm nhanh"
+            }
+          }
+        },
+        "icon_with_text": {
+          "name": "Biểu tượng có văn bản",
+          "settings": {
+            "layout": {
+              "label": "Bố cục",
+              "options__1": {
+                "label": "Ngang"
+              },
+              "options__2": {
+                "label": "Dọc"
+              }
+            },
+            "content": {
+              "label": "Nội dung",
+              "info": "Chọn biểu tượng hoặc thêm ảnh cho từng cột hoặc hàng."
+            },
+            "heading": {
+              "info": "Để trống nhãn tiêu đề để ẩn cột biểu tượng."
+            },
+            "icon_1": {
+              "label": "Biểu tượng đầu tiên"
+            },
+            "image_1": {
+              "label": "Hình ảnh đầu tiên"
+            },
+            "heading_1": {
+              "label": "Tiêu đề đầu tiên"
+            },
+            "icon_2": {
+              "label": "Biểu tượng thứ hai"
+            },
+            "image_2": {
+              "label": "Hình ảnh thứ hai"
+            },
+            "heading_2": {
+              "label": "Tiêu đề thứ hai"
+            },
+            "icon_3": {
+              "label": "Biểu tượng thứ ba"
+            },
+            "image_3": {
+              "label": "Hình ảnh thứ ba"
+            },
+            "heading_3": {
+              "label": "Tiêu đề thứ ba"
+            }
+          }
         }
       },
       "settings": {
@@ -1746,7 +1838,7 @@
             "label": "2 cột"
           },
           "options__3": {
-            "label": "Ảnh thu nhỏ"
+            "label": "Hình thu nhỏ"
           },
           "options__4": {
             "label": "Quay vòng hình thu nhỏ"

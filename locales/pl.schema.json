@@ -1721,6 +1721,98 @@
               "content": "Aby wyświetlić ocenę, dodaj aplikację do oceny produktów. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-rating-block)"
             }
           }
+        },
+        "complementary_products": {
+          "name": "Produkty uzupełniające",
+          "settings": {
+            "paragraph": {
+              "content": "Aby wybrać produkty uzupełniające, dodaj aplikację Search & Discovery. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+            },
+            "heading": {
+              "label": "Nagłówek"
+            },
+            "make_collapsible_row": {
+              "label": "Pokaż jako zwijany wiersz"
+            },
+            "icon": {
+              "info": "Widoczne podczas wyświetlania zwijanego wiersza"
+            },
+            "product_list_limit": {
+              "label": "Maksymalna liczba produktów do wyświetlenia"
+            },
+            "products_per_page": {
+              "label": "Liczba produktów na stronę"
+            },
+            "pagination_style": {
+              "label": "Styl paginacji",
+              "options": {
+                "option_1": "Kropki",
+                "option_2": "Licznik",
+                "option_3": "Liczby"
+              }
+            },
+            "product_card": {
+              "heading": "Karta produktów"
+            },
+            "image_ratio": {
+              "label": "Proporcja obrazu",
+              "options": {
+                "option_1": "Portret",
+                "option_2": "Kwadrat"
+              }
+            },
+            "enable_quick_add": {
+              "label": "Włącz przycisk szybkiego dodawania"
+            }
+          }
+        },
+        "icon_with_text": {
+          "name": "Ikona z tekstem",
+          "settings": {
+            "layout": {
+              "label": "Układ",
+              "options__1": {
+                "label": "W poziomie"
+              },
+              "options__2": {
+                "label": "W pionie"
+              }
+            },
+            "content": {
+              "label": "Zawartość",
+              "info": "Wybierz ikonę lub dodaj obraz dla każdej kolumny lub wiersza."
+            },
+            "heading": {
+              "info": "Pozostaw etykietę nagłówka pustą, aby ukryć kolumnę ikony."
+            },
+            "icon_1": {
+              "label": "Pierwsza ikona"
+            },
+            "image_1": {
+              "label": "Pierwszy obraz"
+            },
+            "heading_1": {
+              "label": "Pierwszy nagłówek"
+            },
+            "icon_2": {
+              "label": "Druga ikona"
+            },
+            "image_2": {
+              "label": "Drugi obraz"
+            },
+            "heading_2": {
+              "label": "Drugi nagłówek"
+            },
+            "icon_3": {
+              "label": "Trzecia ikona"
+            },
+            "image_3": {
+              "label": "Trzeci obraz"
+            },
+            "heading_3": {
+              "label": "Trzeci nagłówek"
+            }
+          }
         }
       },
       "settings": {

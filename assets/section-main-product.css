@@ -1282,8 +1282,8 @@ a.product__text {
 }
 
 .icon-with-text img {
-  height: var(--icon-size);
-  width: var(--icon-size);
+  height: calc(var(--icon-size) * 2);
+  width: calc(var(--icon-size) * 2);
   object-fit: contain;
 }
 
@@ -1293,6 +1293,11 @@ a.product__text {
 
 .icon-with-text--horizontal .h4 {
   padding-top: calc(var(--icon-size) + var(--icon-spacing));
+  text-align: center;
+}
+
+.icon-with-text--horizontal .h5 {
+  padding-top: 0;
   text-align: center;
 }
 

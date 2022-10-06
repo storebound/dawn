@@ -7,10 +7,19 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+
+    font-family: var(--font-heading-family);
+    font-style: var(--font-heading-style);
+    font-weight: var(--font-heading-weight);
+    font-size: calc(var(--font-heading-scale) * 1.2rem);
+    color: rgba(var(--color-foreground),.75); 
+    text-decoration: none;
+    text-transform: uppercase;
     }
     
     .breadcrumbs__item {
     display: inline-block;
+
     }
     
     .breadcrumbs__item:not(:last-child):after {
@@ -33,12 +42,14 @@
     .breadcrumbs__link {
     text-decoration: none;
     color: inherit;
+
     }
     
     .breadcrumbs__link[aria-current="page"] {
-    color: inherit;
-    font-weight: normal;
+    /* color: inherit; */
+    /* font-weight: normal; */
     text-decoration: none;
+
     }
     
     .breadcrumbs__link[aria-current="page"]:hover,
@@ -66,7 +77,7 @@
     {%- case t -%}
     {%- when 'page' -%}
     <li class="breadcrumbs__item">
-    <a class="breadcrumbs__link" href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
+    <a class="breadcrumbs__link breadcrumbs__link_1" href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
     </li>
 
 

@@ -1,5 +1,14 @@
 {
   "sections": {
+    "1864d447-f0a2-43fc-bf2b-1d7f76dbf3ce": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -14,6 +23,7 @@
     }
   },
   "order": [
+    "1864d447-f0a2-43fc-bf2b-1d7f76dbf3ce",
     "main"
   ]
 }

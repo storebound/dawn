@@ -143,28 +143,28 @@
           "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "Contact Us",
+              "heading": "CONTACT US",
               "subtext": "<p><a href=\"\/pages\/contact-us\" title=\"\/pages\/contact-us\">Send Us A Message<\/a><\/p><p>Call Toll-Free<br\/>1-800-898-6970<br\/>M-F: 9am-9pm (EST)<\/p>"
             }
           },
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Site Links",
+              "heading": "SITE LINKS",
               "menu": "site-links"
             }
           },
           "c70d8f3a-d0ab-42bc-86f8-a4fef6fbb678": {
             "type": "link_list",
             "settings": {
-              "heading": "Policy Links",
+              "heading": "POLICY LINKS",
               "menu": "policy-links"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
-              "heading": "My Account",
+              "heading": "MY ACCOUNT",
               "menu": "account-links"
             }
           }
@@ -178,7 +178,7 @@
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "SUBSCRIBE TO OUR EMAILS & SAVE",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,

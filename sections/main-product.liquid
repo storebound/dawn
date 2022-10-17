@@ -787,6 +787,8 @@
                   </span>
                 </p>
               {%- endif -%}
+
+            {%- when 'complementary' -%}
             <!--Stamped - Begin Main Widget -->
 <div 
 id="stamped-main-widget"   
@@ -801,7 +803,7 @@ data-product-type="{{product.type}}">
 {{product.metafields.stamped.reviews}}   
 </div>
 <!-- Stamped - End Main Widget -->
-            {%- when 'complementary' -%}
+            
               <product-recommendations class="complementary-products quick-add-hidden no-js-hidden{% if block.settings.make_collapsible_row %} is-accordion{% endif %}" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ block.settings.product_list_limit }}&intent=complementary">
                 {%- if recommendations.performed and recommendations.products_count > 0 -%}
                   <aside aria-label="{{ 'accessibility.complementary_products' | t }}" {{ block.shopify_attributes }}{% if block.settings.make_collapsible_row %} class="product__accordion accordion"{% endif %}>

@@ -1255,20 +1255,17 @@
     </modal-dialog>
   {%- endfor -%}
 
-<!--Stamped - Begin Main Widget -->
-<div 
-id="stamped-main-widget"   
-data-product-id="{{ product.id }}"   
-data-name="{{ product.title | escape }}"   
-data-url="{{ shop.url }}{{ product.url }}"   
-data-image-url="{{ product.featured_image | product_img_url: "large" |replace: '?', '%3F' | replace: '&','%26'}}" 
-data-description="{{ product.description | escape }}"   
-data-product-sku="{{product.handle}}"
+<!-- Stamped - Begin Star Rating Badge -->
+<span 
+class="stamped-product-reviews-badge stamped-main-badge" 
+data-id="{{ product.id }}" 
+data-product-sku="{{ product.handle }}" 
 data-product-title="{{product.title}}" 
-data-product-type="{{product.type}}">   
-{{product.metafields.stamped.reviews}}   
-</div>
-<!-- Stamped - End Main Widget -->
+data-product-type="{{product.type}}" 
+style="display: block;">
+{{product.metafields.stamped.badge}}
+</span>
+<!-- Stamped - End Star Rating Badge -->
             
   {%- if product.media.size > 0 -%}
     <script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>

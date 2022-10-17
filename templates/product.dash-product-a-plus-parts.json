@@ -24,15 +24,6 @@
           "settings": {
           }
         },
-        "fc86d512-af57-4c82-af8c-2eff25821483": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "use_metafields": true,
-            "sku_tagtype": "sku",
-            "is_featured_product": false,
-            "featured_product_handle": ""
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
@@ -139,7 +130,6 @@
       "block_order": [
         "vendor",
         "title",
-        "fc86d512-af57-4c82-af8c-2eff25821483",
         "caption",
         "price",
         "variant_picker",
@@ -214,22 +204,12 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "a77032fb-d7c4-41ca-935b-5c9fd365d0a5": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!--Stamped - Begin Main Widget -->\n<div \nid=\"stamped-main-widget\"   \ndata-product-id=\"{{ product.id }}\"   \ndata-name=\"{{ product.title | escape }}\"   \ndata-url=\"{{ shop.url }}{{ product.url }}\"   \ndata-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: '?', '%3F' | replace: '&','%26'}}\" \ndata-description=\"{{ product.description | escape }}\"   \ndata-product-sku=\"{{product.handle}}\"\ndata-product-title=\"{{product.title}}\" \ndata-product-type=\"{{product.type}}\">   \n{{product.metafields.stamped.reviews}}   \n<\/div>\n<!-- Stamped - End Main Widget -->",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "1661960546161c5f46",
     "main",
     "1661883989ab5c9fbf",
-    "product-recommendations",
-    "a77032fb-d7c4-41ca-935b-5c9fd365d0a5"
+    "product-recommendations"
   ]
 }

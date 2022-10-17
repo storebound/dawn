@@ -208,7 +208,7 @@
     "e20661a8-5015-4479-a07f-715c0f612ba2": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!--Stamped - Begin Main Widget -->\n<div \nid=\"stamped-main-widget\"   \ndata-product-id=\"{{ product.id }}\">   \n{{product.metafields.stamped.reviews}}   \n<\/div>\n<!-- Stamped - End Main Widget -->",
+        "custom_liquid": "<!--Stamped - Begin Main Widget -->\n<div class=\"stamped-container\" data-count=\"0\" data-widget-style=\"standard2\" data-widget-language=\"\" data-widget-sort=\"recent\" data-widget-show-upload=\"true\" data-widget-show-graph=\"true\" data-widget-show-summary-photo=\"true\" data-widget-show-sort=\"true\" data-widget-show-summary-recommend=\"true\" data-widget-show-tab-reviews=\"true\" data-widget-show-avatar=\"true\" data-widget-show-verified=\"true\" data-widget-show-date=\"true\" data-widget-show-share=\"true\" data-widget-show-votes=\"true\" data-widget-show-qna=\"true\" data-widget-show-filter-keywords=\"true\" data-widget-show-filter-custom-forms=\"true\" data-widget-show-filter-search=\"true\" data-widget-type=\"standard2\" data-version=\"2\">     \n{{product.metafields.stamped.reviews}}   \n<\/div>\n<!-- Stamped - End Main Widget -->\n<!-- Stamped - End Main Widget -->",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52

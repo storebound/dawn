@@ -228,7 +228,6 @@
         },
         "1661971115f0b077a2-4": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
@@ -241,7 +240,6 @@
         },
         "1661971115f0b077a2-6": {
           "type": "buy_buttons",
-          "disabled": true,
           "settings": {
             "show_dynamic_checkout": true
           }
@@ -264,7 +262,7 @@
         "hide_variants": false,
         "enable_video_looping": true,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "multicolumn": {
@@ -330,7 +328,7 @@
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },

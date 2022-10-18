@@ -219,40 +219,12 @@
             "text": "{{ section.settings.product.metafields.custom.short_copy.value }}",
             "text_style": "subtitle"
           }
-        },
-        "1661971115f0b077a2-3": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "1661971115f0b077a2-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "1661971115f0b077a2-5": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "1661971115f0b077a2-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
         }
       },
       "block_order": [
         "1661971115f0b077a2-0",
         "1661971115f0b077a2-1",
-        "1661971115f0b077a2-2",
-        "1661971115f0b077a2-3",
-        "1661971115f0b077a2-4",
-        "1661971115f0b077a2-5",
-        "1661971115f0b077a2-6"
+        "1661971115f0b077a2-2"
       ],
       "settings": {
         "product": "rapid-egg-cooker",

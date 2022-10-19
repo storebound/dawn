@@ -6,12 +6,13 @@
         "16619709803c76c5d0-0": {
           "type": "heading",
           "settings": {
-            "heading": "SALES & SUN TO WRAP UP SUMMER 😎",
+            "heading": "GET 20% OFF SITEWIDE WITH CODE: FOODIE",
             "heading_size": "h2"
           }
         },
         "16619709803c76c5d0-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
@@ -37,9 +38,9 @@
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
-        "content_layout": "overlap",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }

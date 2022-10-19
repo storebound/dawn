@@ -2984,3 +2984,13 @@ details-disclosure > details {
   border: 3px solid #ccd1d1; /* Change this hex code to change the color of the active/selected variant */
   background: none;
 }
+
+@font-face {
+    font-family: 'Novecentosanswide-Bold';
+    src: url('Novecentosanswide-Bold-webfont.woff2') format('woff2'),
+         url('Novecentosanswide-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}

@@ -32,12 +32,22 @@
             "button_label": "SHOP NOW",
             "button_link": "\/"
           }
+        },
+        "d07151fb-9426-44e4-ad2c-58db16c4f0b0": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "16619709803c76c5d0-0",
         "16619709803c76c5d0-1",
-        "16619709803c76c5d0-2"
+        "16619709803c76c5d0-2",
+        "d07151fb-9426-44e4-ad2c-58db16c4f0b0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/HolidayShoot_2022Request__9_Bydash_Bundt_Pie__2.jpg",

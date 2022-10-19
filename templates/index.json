@@ -12,7 +12,6 @@
         },
         "16619709803c76c5d0-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
@@ -21,7 +20,7 @@
         "16619709803c76c5d0-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Shop Now",
             "button_link": "\/"
           }
         }

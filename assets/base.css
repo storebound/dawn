@@ -2987,8 +2987,8 @@ details-disclosure > details {
 
 @font-face {
     font-family: 'Novecentosanswide-Bold';
-    src: url("{{ 'Novecentosanswide-Bold-webfont.woff2' | asset_url }}") format("woff2"),
-         url("{{ 'Novecentosanswide-Bold-webfont.woff' | asset_url }}") format("woff");
+    src: url("https://cdn.shopify.com/s/files/1/0655/4373/3474/files/Novecentosanswide-Bold-webfont.woff2?v=1666212155") format("woff2"),
+         url("https://cdn.shopify.com/s/files/1/0655/4373/3474/files/Novecentosanswide-Bold-webfont.woff?v=1666212155") format("woff");
     font-weight: normal;
     font-style: normal;
 }

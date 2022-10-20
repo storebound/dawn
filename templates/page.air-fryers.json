@@ -193,7 +193,7 @@
         "166204383481796f9a-2": {
           "type": "button",
           "settings": {
-            "button_label": "Get Cookin'",
+            "button_label": "GET COOKIN'",
             "button_link": "\/"
           }
         }
@@ -245,7 +245,7 @@
         "16642882182d87f6a2-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop Accessories",
+            "button_label": "SHOP ACCESSORIES",
             "button_link": "shopify:\/\/collections\/air-fryers"
           }
         }

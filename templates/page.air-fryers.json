@@ -6,7 +6,7 @@
         "16620432772262a9b1-0": {
           "type": "heading",
           "settings": {
-            "heading": "Air Frying Made Easy!",
+            "heading": "AIR FRYING MADE EASY",
             "heading_size": "h1"
           }
         },
@@ -36,11 +36,11 @@
         "16620432772262a9b1-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Amazon_Banner_1.jpg",
+        "image": "shopify:\/\/shop_images\/Desktop.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -77,8 +77,8 @@
         "16626581798d96a358-2"
       ],
       "settings": {
-        "title": "Shop by Size",
-        "heading_size": "h1",
+        "title": "SHOP BY SIZE",
+        "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "background-1",
@@ -92,8 +92,8 @@
     "166265869685122243": {
       "type": "video",
       "settings": {
-        "heading": "How Does Air Frying Work?",
-        "heading_size": "h1",
+        "heading": "HOW DOES AIR FRYING WORK?",
+        "heading_size": "h2",
         "cover_image": "shopify:\/\/shop_images\/gvcJDytrWrk-HD.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=gvcJDytrWrk&feature=emb_title",
         "description": "",
@@ -136,8 +136,8 @@
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "Shop All Air Fryers",
+        "background_style": "none",
+        "button_label": "SHOP ALL AIR FRYERS",
         "button_link": "\/",
         "color_scheme": "background-1",
         "columns_mobile": "1",
@@ -179,7 +179,7 @@
         "166204383481796f9a-0": {
           "type": "heading",
           "settings": {
-            "heading": "Get Creative!",
+            "heading": "Get Creative",
             "heading_size": "h2"
           }
         },
@@ -193,7 +193,7 @@
         "166204383481796f9a-2": {
           "type": "button",
           "settings": {
-            "button_label": "Get Cookin'",
+            "button_label": "GET COOKIN'",
             "button_link": "\/"
           }
         }
@@ -238,14 +238,14 @@
         "16642882182d87f6a2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Upgrade your air frying technique with steaming racks, skewers, pizza stones, and more that fit perfectly in our air fryers and air fryer ovens.<\/p>",
+            "text": "<p>Upgrade your air frying experience with steaming racks, skewers, pizza stones, and more that fit perfectly in our air fryers and air fryer ovens.<\/p>",
             "text_style": "body"
           }
         },
         "16642882182d87f6a2-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop Accessories",
+            "button_label": "SHOP ACCESSORIES",
             "button_link": "shopify:\/\/collections\/air-fryers"
           }
         }

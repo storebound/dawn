@@ -37,7 +37,7 @@
         "166481743320526555-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Where can I shop Dash Products in-person?",
+            "heading": "Where can I shop Dash products in-person?",
             "icon": "chat_bubble",
             "row_content": "<p>Dash products are on shelves at a variety of retail partners across the US. Not every Dash product is available at every store, so we encourage you to call ahead or visit one of our partners’ websites. You can also subscribe to our email list or follow us on Instagram to see when and where new products are launched.<\/p>",
             "liquid": "",
@@ -82,7 +82,7 @@
           "settings": {
             "heading": "How do I get a product manual?",
             "icon": "chat_bubble",
-            "row_content": "<p>Every Dash product comes with a complete product manual inside the box to get you started. If you have misplaced your manual or didn't get one, visit the “Warranty and Manuals” tab on the relevant product page on ByDash.com to get your manual (the tab is located underneath the product images and 'Add To Cart' button!). You can also visit our Support page to access the full library of Dash product manuals.<\/p>",
+            "row_content": "<p>Every Dash product comes with a complete product manual inside the box to get you started. If you have misplaced your manual or didn't get one, visit the “Warranty and Manuals” tab on the relevant product page on ByDash.com to get your manual (the tab is located underneath the product images and 'Add To Cart' button). You can also visit our Support page to access the full library of Dash product manuals.<\/p>",
             "liquid": "",
             "page": ""
           }

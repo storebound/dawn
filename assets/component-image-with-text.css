@@ -308,6 +308,7 @@
 
 .image-with-text__content .image-with-text__text + .button {
   margin-top: 3rem;
+/* Amy's super custom styling request */
 font-weight: bold;
 }
 

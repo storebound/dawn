@@ -98,36 +98,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -183,7 +153,7 @@
       "settings": {
         "title": "FEATURED PRODUCTS",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>sakdaskdy\\ssudoasiduoisasioduaosudoibdaosihoaidsih<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
@@ -371,7 +341,6 @@
   "order": [
     "16619709803b818a45",
     "16642908781ed6d732",
-    "rich_text",
     "image_banner",
     "featured_collection",
     "b7d05d5c-30c2-4372-91e5-252f05d0ab7b",

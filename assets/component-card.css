@@ -171,6 +171,9 @@
 .card__heading {
   margin-top: 0;
   margin-bottom: 0;
+  /* Amy's styling request */
+  font-size: calc(var(--font-heading-scale) * 1.6rem);
+  text-align: center;
 }
 
 .card__heading:last-child {

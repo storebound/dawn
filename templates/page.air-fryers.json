@@ -6,7 +6,7 @@
         "16620432772262a9b1-0": {
           "type": "heading",
           "settings": {
-            "heading": "Air Frying Made Easy",
+            "heading": "AIR FRYING MADE EASY",
             "heading_size": "h1"
           }
         },
@@ -36,11 +36,11 @@
         "16620432772262a9b1-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Amazon_Banner_1.jpg",
+        "image": "shopify:\/\/shop_images\/Desktop.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -78,7 +78,7 @@
       ],
       "settings": {
         "title": "Shop by Size",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "background-1",

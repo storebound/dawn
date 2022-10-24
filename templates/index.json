@@ -13,7 +13,7 @@
         "16619709803c76c5d0-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Add details on sale, style, or even provide a review.<\/p>",
             "text_style": "body"
           }
         },
@@ -343,7 +343,7 @@
         "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-0": {
           "type": "heading",
           "settings": {
-            "heading": "HAPPY HOLIDAYS",
+            "heading": "GET 20% OFF SITEWIDE WITH CODE: FOODIE",
             "heading_size": "h1"
           }
         },
@@ -357,10 +357,10 @@
         "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "BUTTON TEXT",
             "button_link_1": "shopify:\/\/blogs\/news",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "shopify:\/\/blogs\/mini-waffles",
             "button_style_secondary_2": true
           }

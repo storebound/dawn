@@ -197,7 +197,7 @@
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "SUBSCRIBE TO OUR EMAILS & SAVE 10%",
+          "newsletter_heading": "SUBSCRIBE TO EMAILS & SAVE 10%",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,

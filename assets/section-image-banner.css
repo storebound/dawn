@@ -166,6 +166,7 @@
   .banner--stacked
   .banner__media-half + .banner__media-half {
     order: 1;
+    /* hide second on mobile*/
     display: none;
   }
 }

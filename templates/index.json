@@ -336,6 +336,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "f760708d-5305-4342-80a5-413594ebd2fb": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "HAPPY HOLIDAYS",
+            "heading_size": "h1"
+          }
+        },
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "shopify:\/\/blogs\/news",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "shopify:\/\/blogs\/mini-waffles",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-0",
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-1",
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HolidayShoot_2022_2234_Request_2_Target_Mini_Maker.jpg",
+        "image_2": "shopify:\/\/shop_images\/Fall_Dash_BundtPie_0058_Holiday_RD_2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "top-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -346,6 +395,7 @@
     "b7d05d5c-30c2-4372-91e5-252f05d0ab7b",
     "1661971116c7e51c5a",
     "multicolumn",
-    "166197179984628ab1"
+    "166197179984628ab1",
+    "f760708d-5305-4342-80a5-413594ebd2fb"
   ]
 }

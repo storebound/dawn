@@ -8,13 +8,20 @@
     margin: 0;
     padding: 0;
 
-    font-family: var(--font-heading-family);
+    /* font-family: var(--font-heading-family);
     font-style: var(--font-heading-style);
     font-weight: var(--font-heading-weight);
-    font-size: calc(var(--font-heading-scale) * 1.2rem);
+   font-size: calc(var(--font-heading-scale) * 1.2rem); */
     color: rgba(var(--color-foreground),.75); 
     text-decoration: none;
     text-transform: uppercase;
+
+    font-family: var(--font-body-family);
+    font-style: var(--font-body-style);
+    font-weight: var(--font-body-weight);  
+    font-size: 1rem;
+    letter-spacing: .13rem;
+    line-height: calc(1 + .2 / var(--font-body-scale));
     }
     
     .breadcrumbs__item {

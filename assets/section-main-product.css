@@ -1301,6 +1301,10 @@ a.product__text {
 .icon-with-text--horizontal .h5 {
   padding-top: 0;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: calc(var(--font-heading-scale) * .08rem);
+  font-size: calc(var(--font-heading-scale) * 1.1rem);
 }
 
 .icon-with-text--horizontal svg + .h4,

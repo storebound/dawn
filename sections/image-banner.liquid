@@ -22,6 +22,15 @@
   }
   {%- endstyle -%}
 {%- endif -%}
+//
+{% if section.settings.headline_novecento == false %}
+{%- style -%}
+  .banner__heading {
+    font-family: 'Novecentosanswide-Bold';
+    }
+
+{%- endstyle -%}
+{%- endif -%}
 
 {%- style -%}
   #Banner-{{ section.id }}::after {
@@ -167,6 +176,12 @@
       "default": false,
       "label": "t:sections.image-banner.settings.adapt_height_first_image.label",
       "info": "t:sections.image-banner.settings.adapt_height_first_image.info"
+    },
+     {
+     "type": "checkbox",
+     "id": "headline_novecento",
+     "label": "Make Headline Font Novecento",
+     "default": false
     },
     {
       "type": "select",

@@ -12,6 +12,13 @@
     "1664286962af50eea4": {
       "type": "image-with-text",
       "blocks": {
+        "5089b859-235a-4bfd-90ed-1b04bc43e0d2": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Dash",
+            "heading_size": "h1"
+          }
+        },
         "1664286962b9c39919-1": {
           "type": "text",
           "settings": {
@@ -22,12 +29,13 @@
         "1664286962b9c39919-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop Dash Products",
+            "button_label": "SHOP DASH PRODUCTS",
             "button_link": "\/collections\/all"
           }
         }
       },
       "block_order": [
+        "5089b859-235a-4bfd-90ed-1b04bc43e0d2",
         "1664286962b9c39919-1",
         "1664286962b9c39919-2"
       ],
@@ -62,6 +70,13 @@
     "1664286815f40829fe": {
       "type": "rich-text",
       "blocks": {
+        "b8f8b634-a36f-4004-b9ea-395c59d5c482": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>ABOUT STOREBOUND<\/p>",
+            "heading_size": "h1"
+          }
+        },
         "16642868155d006d3c-1": {
           "type": "text",
           "settings": {
@@ -71,7 +86,7 @@
         "16642868155d006d3c-2": {
           "type": "button",
           "settings": {
-            "button_label": "Careers @ Dash",
+            "button_label": "CAREERS @ STOREBOUND",
             "button_link": "\/pages\/careers",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -81,6 +96,7 @@
         }
       },
       "block_order": [
+        "b8f8b634-a36f-4004-b9ea-395c59d5c482",
         "16642868155d006d3c-1",
         "16642868155d006d3c-2"
       ],

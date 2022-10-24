@@ -163,8 +163,10 @@
     width: 100%;
   }
 
-  .banner--stacked .banner__media-half + .banner__media-half {
+  .banner--stacked
+  .banner__media-half + .banner__media-half {
     order: 1;
+    display: none;
   }
 }
 

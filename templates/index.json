@@ -221,7 +221,7 @@
         "secondary_background": false,
         "media_position": "left",
         "hide_variants": false,
-        "enable_video_looping": true,
+        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 0
       }

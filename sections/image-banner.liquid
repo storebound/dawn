@@ -91,7 +91,7 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }} {% if section.settings.headline_novecento == false %} style="font-family: Novecentosanswide-Bold!important" {%- endif -%}>
+            <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }} {% if section.settings.headline_novecento == true %} style="font-family: Novecentosanswide-Bold!important" {%- endif -%}>
               <span>{{ block.settings.heading | escape }}</span>
             </h2>
           {%- when 'text' -%}

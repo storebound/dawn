@@ -378,7 +378,7 @@
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "headline_novecento": false,
+        "headline_novecento": true,
         "desktop_content_position": "top-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",

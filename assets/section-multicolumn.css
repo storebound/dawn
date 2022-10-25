@@ -2,6 +2,11 @@
   margin: 0;
 }
 
+.multicolumn.dashpattern {
+    background-image: url(https://openclipart.org/image/800px/176957);
+    background-repeat: repeat; 
+}
+
 .multicolumn.no-heading .title {
   display: none;
 }

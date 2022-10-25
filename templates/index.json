@@ -1,7 +1,58 @@
 {
   "sections": {
+    "f760708d-5305-4342-80a5-413594ebd2fb": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "GET 20% OFF SITEWIDE WITH CODE: FOODIE",
+            "heading_size": "h1"
+          }
+        },
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-1": {
+          "type": "text",
+          "settings": {
+            "text": "Add details on sale, style, or even provide a review.",
+            "text_style": "body"
+          }
+        },
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "BUTTON TEXT",
+            "button_link_1": "shopify:\/\/blogs\/news",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "shopify:\/\/blogs\/mini-waffles",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-0",
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-1",
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HolidayShoot_2022_2126_Request_2_Target_Mini_Maker.jpg",
+        "image_2": "shopify:\/\/shop_images\/HolidayShoot_2022_2234_Request_2_Target_Mini_Maker.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "headline_novecento": true,
+        "desktop_content_position": "top-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "16619709803b818a45": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "16619709803c76c5d0-0": {
           "type": "heading",
@@ -85,7 +136,7 @@
         "1664290878c95a76cb-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/HolidayShoot_2022_2234_Request_2_Target_Mini_Maker.jpg",
+        "image": "shopify:\/\/shop_images\/Under40.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -152,7 +203,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "FEATURED PRODUCTS",
+        "title": "SUPER SAVER DEALS",
         "heading_size": "h2",
         "description": "<p>sakdaskdy\\ssudoasiduoisasioduaosudoibdaosihoaidsih<\/p>",
         "show_description": false,
@@ -191,7 +242,6 @@
       "blocks": {
         "1661971115f0b077a2-0": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
@@ -209,12 +259,19 @@
             "text": "{{ section.settings.product.metafields.custom.short_copy.value }}",
             "text_style": "subtitle"
           }
+        },
+        "e02715a0-9904-474b-b166-8f65baf1e7f7": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
         }
       },
       "block_order": [
         "1661971115f0b077a2-0",
         "1661971115f0b077a2-1",
-        "1661971115f0b077a2-2"
+        "1661971115f0b077a2-2",
+        "e02715a0-9904-474b-b166-8f65baf1e7f7"
       ],
       "settings": {
         "product": "rapid-egg-cooker",
@@ -338,58 +395,62 @@
         "padding_bottom": 36
       }
     },
-    "f760708d-5305-4342-80a5-413594ebd2fb": {
-      "type": "image-banner",
+    "6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9": {
+      "type": "multicolumn",
       "blocks": {
-        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-0": {
-          "type": "heading",
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-0": {
+          "type": "column",
           "settings": {
-            "heading": "GET 20% OFF SITEWIDE WITH CODE: FOODIE",
-            "heading_size": "h1"
+            "title": "",
+            "text": "",
+            "link_label": "Register Product",
+            "link": "\/register"
           }
         },
-        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-1": {
-          "type": "text",
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-1": {
+          "type": "column",
           "settings": {
-            "text": "Add details on sale, style, or even provide a review.",
-            "text_style": "body"
+            "title": "",
+            "text": "",
+            "link_label": "Product Manuals",
+            "link": "\/support"
           }
         },
-        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-2": {
-          "type": "buttons",
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-2": {
+          "type": "column",
           "settings": {
-            "button_label_1": "BUTTON TEXT",
-            "button_link_1": "shopify:\/\/blogs\/news",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "shopify:\/\/blogs\/mini-waffles",
-            "button_style_secondary_2": true
+            "title": "",
+            "text": "",
+            "link_label": "Contact Us",
+            "link": "\/contact"
           }
         }
       },
       "block_order": [
-        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-0",
-        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-1",
-        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-2"
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-0",
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-1",
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/HolidayShoot_2022_2126_Request_2_Target_Mini_Maker.jpg",
-        "image_2": "shopify:\/\/shop_images\/HolidayShoot_2022_2234_Request_2_Target_Mini_Maker.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "headline_novecento": true,
-        "desktop_content_position": "top-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "title": "PRODUCT SUPPORT",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
+    "f760708d-5305-4342-80a5-413594ebd2fb",
     "16619709803b818a45",
     "16642908781ed6d732",
     "image_banner",
@@ -398,6 +459,6 @@
     "1661971116c7e51c5a",
     "multicolumn",
     "166197179984628ab1",
-    "f760708d-5305-4342-80a5-413594ebd2fb"
+    "6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9"
   ]
 }

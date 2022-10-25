@@ -2,13 +2,83 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "314e2d7d-fb28-4a91-9399-e2be5b429167": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Top Gifts",
+        "heading_size": "h2",
+        "description": "<p>Give the gift that'll upgrade their kitchen<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "fe140f2d-931a-4c46-a118-e612ef897dff": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16655817113826__fe140f2d-931a-4c46-a118-e612ef897dff-1666705359333179e4-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--16655817113826__fe140f2d-931a-4c46-a118-e612ef897dff-1666705359333179e4-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--16655817113826__fe140f2d-931a-4c46-a118-e612ef897dff-1666705359333179e4-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16655817113826__fe140f2d-931a-4c46-a118-e612ef897dff-1666705359333179e4-0",
+        "template--16655817113826__fe140f2d-931a-4c46-a118-e612ef897dff-1666705359333179e4-1",
+        "template--16655817113826__fe140f2d-931a-4c46-a118-e612ef897dff-1666705359333179e4-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "314e2d7d-fb28-4a91-9399-e2be5b429167",
+    "fe140f2d-931a-4c46-a118-e612ef897dff"
   ]
 }

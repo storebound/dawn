@@ -338,6 +338,12 @@
             "text_style": "body"
           }
         },
+        "dfb0f896-1d0e-479b-96cb-e4803996eaa7": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
         "e02715a0-9904-474b-b166-8f65baf1e7f7": {
           "type": "buy_buttons",
           "settings": {
@@ -354,6 +360,7 @@
         "1661971115f0b077a2-0",
         "1661971115f0b077a2-1",
         "1661971115f0b077a2-2",
+        "dfb0f896-1d0e-479b-96cb-e4803996eaa7",
         "e02715a0-9904-474b-b166-8f65baf1e7f7",
         "be0cbf10-379e-4315-984c-e73b4ddbf89c"
       ],

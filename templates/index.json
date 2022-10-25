@@ -28,7 +28,7 @@
         "1664290878c95a76cb-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "ALL CAPS",
             "button_link": "shopify:\/\/collections\/mini-makers"
           }
         }
@@ -297,8 +297,8 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "dashpattern": true,
         "padding_top": 36,
         "padding_bottom": 36

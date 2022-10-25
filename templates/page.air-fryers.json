@@ -40,7 +40,7 @@
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
-        "headline_novecento": false,
+        "headline_novecento": true,
         "desktop_content_position": "middle-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",

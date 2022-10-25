@@ -130,10 +130,10 @@
         "1664818934b06bd5c9-2": {
           "type": "button",
           "settings": {
-            "button_label": "Register Products",
+            "button_label": "REGISTER PRODUCTS",
             "button_link": "shopify:\/\/pages\/register",
             "button_style_secondary": false,
-            "button_label_2": "Contact Us",
+            "button_label_2": "CONTACT US",
             "button_link_2": "shopify:\/\/pages\/contact",
             "button_style_secondary_2": false
           }

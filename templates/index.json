@@ -237,6 +237,59 @@
         "padding_bottom": 52
       }
     },
+    "6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Register Product",
+            "link": "\/register"
+          }
+        },
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Product Manuals",
+            "link": "\/support"
+          }
+        },
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Contact Us",
+            "link": "\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-0",
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-1",
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-2"
+      ],
+      "settings": {
+        "title": "PRODUCT SUPPORT",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1661971116c7e51c5a": {
       "type": "featured-product",
       "blocks": {
@@ -394,59 +447,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-0": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "Register Product",
-            "link": "\/register"
-          }
-        },
-        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-1": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "Product Manuals",
-            "link": "\/support"
-          }
-        },
-        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-2": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "Contact Us",
-            "link": "\/contact"
-          }
-        }
-      },
-      "block_order": [
-        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-0",
-        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-1",
-        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-2"
-      ],
-      "settings": {
-        "title": "PRODUCT SUPPORT",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "accent-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -456,9 +456,9 @@
     "image_banner",
     "featured_collection",
     "b7d05d5c-30c2-4372-91e5-252f05d0ab7b",
+    "6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9",
     "1661971116c7e51c5a",
     "multicolumn",
-    "166197179984628ab1",
-    "6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9"
+    "166197179984628ab1"
   ]
 }

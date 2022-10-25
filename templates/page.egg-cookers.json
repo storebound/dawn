@@ -72,7 +72,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -126,8 +126,8 @@
     "166265869685122243": {
       "type": "video",
       "settings": {
-        "heading": "How Does the Dash Egg Bite Maker Work?",
-        "heading_size": "h1",
+        "heading": "HOW DOES THE DASH EGG BITE MAKER WORK?",
+        "heading_size": "h2",
         "cover_image": "shopify:\/\/shop_images\/noiZ4Hlen34-HD.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=noiZ4Hlen34",
         "description": "",
@@ -151,8 +151,8 @@
         "1663167580b6e70965-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Breakfast & Beyond<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>BREAKFAST & BEYOND<\/p>",
+            "heading_size": "h2"
           }
         },
         "1663167580b6e70965-1": {
@@ -168,7 +168,7 @@
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,

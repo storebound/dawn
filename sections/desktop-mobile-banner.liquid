@@ -19,8 +19,13 @@
 </style>
 {% if section.settings.desktop_image != blank and section.settings.mobile_image != blank %}
 <div class="banner-container">
+  {% if section.settings.button_link != blank %}
   <a href="{{ section.settings.button_link }}"><img class="hidden-mobile" src="{{ section.settings.desktop_image | img_url: "master" }}" alt="{{ section.settings.desktop_image.alt | escape }}"></a>
   <a href="{{ section.settings.button_link }}"><img class="hidden-desktop" src="{{ section.settings.mobile_image | img_url: "master" }}" alt="{{ section.settings.mobile_image.alt | escape }}"></a>
+{% else %}
+  <img class="hidden-mobile" src="{{ section.settings.desktop_image | img_url: "master" }}" alt="{{ section.settings.desktop_image.alt | escape }}">
+  <img class="hidden-desktop" src="{{ section.settings.mobile_image | img_url: "master" }}" alt="{{ section.settings.mobile_image.alt | escape }}">
+{% endif %}  
 </div>
 {% endif %}
 

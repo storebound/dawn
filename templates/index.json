@@ -243,6 +243,7 @@
         "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_1974points.pngpts-notext.png",
             "title": "",
             "text": "",
             "link_label": "Register Product",
@@ -276,7 +277,7 @@
       "settings": {
         "title": "PRODUCT SUPPORT",
         "heading_size": "h2",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",

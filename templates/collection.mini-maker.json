@@ -1,12 +1,22 @@
 {
   "sections": {
+    "b47c6fa1-ab90-4383-94f0-97fe2288ee38": {
+      "type": "desktop-mobile-banner",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-07_at_12.47.34_PM.png",
+        "mobile_image": "shopify:\/\/shop_images\/Top_GIfts_New.jpg",
+        "button_link": ""
+      }
+    },
     "1662569286bca4e349": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-07_at_12.47.34_PM.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
+        "headline_novecento": false,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -44,6 +54,7 @@
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": true,
+        "headline_novecento": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -82,6 +93,7 @@
     }
   },
   "order": [
+    "b47c6fa1-ab90-4383-94f0-97fe2288ee38",
     "1662569286bca4e349",
     "1662568459265477e2",
     "product-grid",

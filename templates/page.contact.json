@@ -2,6 +2,7 @@
   "sections": {
     "f0d69ab2-72fe-4b9f-bf07-de01e6445042": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "",
         "color_scheme": "background-1",

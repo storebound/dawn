@@ -2,6 +2,7 @@
   "sections": {
     "a65a5e85-e33d-487d-9162-c71e38cd6567": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
         "color_scheme": "background-1",

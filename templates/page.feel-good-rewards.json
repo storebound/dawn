@@ -6,8 +6,8 @@
         "16636942167f338669-0": {
           "type": "heading",
           "settings": {
-            "heading": "Feel Good Rewards",
-            "heading_size": "h1"
+            "heading": "FEEL GOOD REWARDS",
+            "heading_size": "h0"
           }
         },
         "16636942167f338669-1": {
@@ -20,11 +20,11 @@
         "16636942167f338669-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Join Now",
-            "button_link_1": "shopify:\/\/collections",
+            "button_label_1": "JOIN NOW",
+            "button_link_1": "https:\/\/bydash.myshopify.com\/account\/register",
             "button_style_secondary_1": false,
-            "button_label_2": "Sign In",
-            "button_link_2": "shopify:\/\/collections",
+            "button_label_2": "SIGN IN",
+            "button_link_2": "https:\/\/bydashdev.myshopify.com\/account\/login",
             "button_style_secondary_2": false
           }
         }
@@ -35,10 +35,10 @@
         "16636942167f338669-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-20_at_1.34.55_PM.png",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": false,
+        "headline_novecento": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -88,8 +88,8 @@
         "166377098853034e89-2"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "PERKS",
+        "heading_size": "h2",
         "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -99,7 +99,8 @@
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
+        "dashpattern": false,
         "padding_top": 36,
         "padding_bottom": 0
       }
@@ -110,9 +111,9 @@
         "1662734380a74946d7-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-09_at_10.45.32_AM.png",
-            "title": "10 points for every dollar spent on bydash.com",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/BD-cash.webp",
+            "title": "10 points",
+            "text": "<p>for every dollar spent on bydash.com<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -120,9 +121,9 @@
         "1662734380a74946d7-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-09_at_10.45.32_AM.png",
-            "title": "50 points for joining the Feel Good Rewards program",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/BD-chat.webp",
+            "title": "50 points",
+            "text": "<p>for joining the Feel Good Rewards program<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -130,9 +131,9 @@
         "1662734380a74946d7-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-09_at_10.45.32_AM.png",
-            "title": "200 points for writing a review for your purchase on bydash.com",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/BD-pencil.webp",
+            "title": "200 points",
+            "text": "<p>for writing a review for your purchase on bydash.com<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -140,9 +141,9 @@
         "e7104c15-4f1e-4c62-b71a-a10201f14f87": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-09_at_10.45.32_AM.png",
-            "title": "$10 for you and every referred friends who makes a purchase",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/BD-PointsIcons.webp",
+            "title": "$10",
+            "text": "<p>for you and every referred friends who makes a purchase<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -155,9 +156,9 @@
         "e7104c15-4f1e-4c62-b71a-a10201f14f87"
       ],
       "settings": {
-        "title": "Ways to Earn Points",
-        "heading_size": "h1",
-        "image_width": "third",
+        "title": "WAYS TO EARN",
+        "heading_size": "h2",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
@@ -167,6 +168,7 @@
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
+        "dashpattern": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -177,8 +179,9 @@
         "166369476772e99734-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/BD-cash.webp",
             "title": "1000 Points",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>$5 Off Coupon<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -186,8 +189,9 @@
         "166369476772e99734-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DMW001RD_Hero_3.jpg",
             "title": "2300 Points",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Free Mini Waffle Maker Coupon<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -195,8 +199,9 @@
         "166369476772e99734-2": {
           "type": "column",
           "settings": {
-            "title": "3000 Points",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/DEC005RD_Hero.jpg",
+            "title": "4000 Points",
+            "text": "<p>Free Rapid Egg Cooker Coupon<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -208,18 +213,19 @@
         "166369476772e99734-2"
       ],
       "settings": {
-        "title": "Ways to Redeem Points",
-        "heading_size": "h1",
-        "image_width": "full",
+        "title": "WAYS TO REDEEM",
+        "heading_size": "h2",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "dashpattern": false,
         "padding_top": 36,
         "padding_bottom": 36
       }

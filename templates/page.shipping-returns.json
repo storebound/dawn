@@ -14,8 +14,8 @@
         "166481884887a0f9ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Shipping and Returns<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>SHIPPING AND RETURNS<\/p>",
+            "heading_size": "h2"
           }
         }
       },
@@ -83,7 +83,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Shipping Information",
+        "heading": "SHIPPING INFORMATION",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "row",
@@ -102,7 +102,7 @@
         "1664819564f9bb3809-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Repairs & Replacements<\/p>",
+            "heading": "<p>REPAIRS & REPLACEMENTS<\/p>",
             "heading_size": "h2"
           }
         }
@@ -147,7 +147,7 @@
         "1664818934b06bd5c9-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Returns & Refunds<\/p>",
+            "heading": "<p>RETURNS & REFUNDS<\/p>",
             "heading_size": "h2"
           }
         }

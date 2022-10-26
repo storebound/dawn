@@ -14,8 +14,8 @@
         "166481884887a0f9ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Frequently Asked Quesetions<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>FREQUENTLY ASKED QUESTIONS<\/p>",
+            "heading_size": "h2"
           }
         }
       },
@@ -61,7 +61,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "General Questions",
+        "heading": "GENERAL QUESTIONS",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "row",
@@ -93,7 +93,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Products",
+        "heading": "PRODUCTS",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "row",
@@ -169,7 +169,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Orders & Shipping",
+        "heading": "ORDERS & SHIPPING",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "row",
@@ -201,7 +201,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Returns",
+        "heading": "RETURNS",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "row",
@@ -277,7 +277,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Account",
+        "heading": "ACCOUNT",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "row",
@@ -297,7 +297,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Not seeing what you're looking for?<\/p>",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "1664818934b06bd5c9-1": {

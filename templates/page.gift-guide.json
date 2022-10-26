@@ -22,7 +22,7 @@
       "settings": {
         "title": "Top Gifts",
         "heading_size": "h2",
-        "description": "<p>Give the gift that'll upgrade their kitchen<\/p>",
+        "description": "<p>Give the gift that'll upgrade their kitchen.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "",

@@ -350,8 +350,8 @@
       "settings": {
         "caption": "",
         "heading": "FAQ",
-        "heading_size": "h1",
-        "heading_alignment": "center",
+        "heading_size": "h2",
+        "heading_alignment": "left",
         "layout": "section",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",

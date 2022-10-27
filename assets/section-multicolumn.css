@@ -9,6 +9,10 @@
     background-attachment: scroll;
 }
 
+.dashpatternlink {
+ margin-top: .1rem;
+}
+
 .multicolumn.no-heading .title {
   display: none;
 }

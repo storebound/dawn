@@ -315,8 +315,6 @@ font-weight: bold;
 .image-with-text__heading {
   word-break: break-word;
   margin-bottom: 0;
-  /* Amy's super custom styling request */
-  font-family: Novecentosanswide-Bold !important;
 }
 
 .image-with-text__text p {

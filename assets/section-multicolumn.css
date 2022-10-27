@@ -10,7 +10,7 @@
 }
 
 .dashpatternlink {
- margin-top: .1rem;
+ margin-top: .1rem !important;
 }
 
 .multicolumn.no-heading .title {

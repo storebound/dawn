@@ -48,7 +48,7 @@
           "type": "heading",
           "settings": {
             "heading": "ARE YOU A GOOD EGG?",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "16626659868c93b17a-1": {
@@ -80,7 +80,8 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
+        "headline_novecento": true,
+        "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 36
       }
@@ -131,13 +132,14 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Website_Careers_Module-2.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
+        "height": "large",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
+        "headline_novecento": false,
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 0

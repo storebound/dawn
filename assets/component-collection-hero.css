@@ -1,6 +1,9 @@
 .collection-hero__inner {
   display: flex;
   flex-direction: column;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Novecentosanswide-Bold" !important;
 }
 
 .collection-hero--with-image .collection-hero__inner {

@@ -235,21 +235,21 @@
         "16642882182d87f6a2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Air Frying Accessories",
+            "heading": "Holiday Family Fun",
             "heading_size": "h2"
           }
         },
         "16642882182d87f6a2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Upgrade your air frying experience with steaming racks, skewers, pizza stones, and more that fit perfectly in our air fryers and air fryer ovens.<\/p>",
+            "text": "<p>Deck the halls with wonderful wintry minis! These sets of 3 Mini Makers make the season bright with easy-to-clean nonstick that wipes down without fuss.<\/p>",
             "text_style": "body"
           }
         },
         "16642882182d87f6a2-2": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP ACCESSORIES",
+            "button_label": "Holiday Mini Maker Set of 3",
             "button_link": "shopify:\/\/collections\/air-fryers"
           }
         }
@@ -260,7 +260,7 @@
         "16642882182d87f6a2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/download.webp",
+        "image": "shopify:\/\/shop_images\/HolidayShoot_Request_13_ByDash_Mini_Holiday_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

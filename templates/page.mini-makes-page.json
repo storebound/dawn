@@ -138,8 +138,8 @@
         "a383180d-ddb6-40d0-972e-d48a3a72ae0d": {
           "type": "column",
           "settings": {
-            "title": "Rapid Cooking",
-            "text": "<p>AirCrisp® Technology pulls hot air into the air fryer and superheats it, so your food starts cooking instantly. Hot air is circulated with a convection current, resulting in thorough cooking and faster meals.<\/p>",
+            "title": "One-Step Cooking",
+            "text": "<p>Just plug your mini in, add ingredients, and cook! Our Mini Makers take the fuss out of cooking, and they're durable too: Each mini can withstand hundreds of hours of cooking, and comes with a one-year warranty!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -147,8 +147,8 @@
         "4ab8898c-fa01-4bf1-ab3e-477f7e31fcec": {
           "type": "column",
           "settings": {
-            "title": "Uniquely Crispy",
-            "text": "<p>The specially designed Crisper Basket of each air fryer allows air to flow around, under, and above food as it cooks. Plus, each removable basket has two layers so oil doesn't pool and food stays crispy.<\/p>",
+            "title": "Easy Cleaning",
+            "text": "<p>With our PFOA-free TruGlide™ nonstick coating, food doesn't stick to the cooking surface for perfectly-shaped burgers, waffles, mini donuts, and more! Plus, the nonstick coating makes it easy to clean up.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -166,9 +166,9 @@
         "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "SHOP ALL AIR FRYERS",
-        "button_link": "\/",
-        "color_scheme": "background-1",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "dashpattern": false,
@@ -189,7 +189,7 @@
         "166204383481796f9a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Over 70 delicious recipes for entrées, sides and desserts, all with easy-to-find ingredients. Try out new recipes or gain confidence with old favorites in any Dash air fryer!<\/p>",
+            "text": "<p>With our newest cookbook, Wonderful Mini Waffles, you'll be making delicious waffles for breakfast, lunch, and dinner with beautiful photography and step-by-step recipes.<\/p>",
             "text_style": "body"
           }
         },
@@ -207,7 +207,7 @@
         "166204383481796f9a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/AirFryingCookBook.webp",
+        "image": "shopify:\/\/shop_images\/Square_Book_Mockup_white_bg_9af34678-9495-4c98-ac76-2bcf9c94c6d3.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

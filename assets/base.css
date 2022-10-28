@@ -2765,7 +2765,7 @@ details-disclosure > details {
   text-align: center;
   background-color: rgb(var(--color-badge-background));
   border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
-  color: rgb(var(--color-background));
+  color: rgb(var(--color-base-background-1));
   word-break: break-word;
 }
 

@@ -16,24 +16,11 @@
             "text": "Bring the fun home with our compact cookersincluding the original Dash Mini Waffle Maker!",
             "text_style": "body"
           }
-        },
-        "16620432772262a9b1-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "\/",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "16620432772262a9b1-0",
-        "16620432772262a9b1-1",
-        "16620432772262a9b1-2"
+        "16620432772262a9b1-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mini_Maker_Page_Assets-06_b82380e0-b51a-4d9c-9c98-7fc864c7df9c.png",
@@ -73,47 +60,6 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1662658179ca0ebbdd": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "16626581798d96a358-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "2-quart"
-          }
-        },
-        "16626581798d96a358-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "3-quart"
-          }
-        },
-        "16626581798d96a358-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "6-quart"
-          }
-        }
-      },
-      "block_order": [
-        "16626581798d96a358-0",
-        "16626581798d96a358-1",
-        "16626581798d96a358-2"
-      ],
-      "settings": {
-        "title": "SHOP BY SIZE",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -208,14 +154,6 @@
         "padding_bottom": 36
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "166265869685122243": {
       "type": "video",
       "settings": {
@@ -273,16 +211,23 @@
         "padding_top": 16,
         "padding_bottom": 36
       }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
     "16620432773d36c02f",
     "16620429067a01a6ee",
-    "1662658179ca0ebbdd",
     "1664288218776012f3",
     "1662043834a905bb1f",
-    "main",
     "166265869685122243",
-    "16620431184b25d6fa"
+    "16620431184b25d6fa",
+    "main"
   ]
 }

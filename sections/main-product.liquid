@@ -391,11 +391,11 @@
                     {% endunless %}
                     {{ 'Warranty Information' | link_to: '/pages/warranty' }}
                   {% elsif block.settings.heading == 'Features & Benefits' %}
-                            {%- if product.metafields.custom.features_benefits != blank -%}
+                            {%- if product.metafields.custom.feature_list != blank -%}
                         <div class="product_points">
                           <ul>
-                          {% for features_benefits in product.metafields.custom.features_benefits.value  %}
-                            <li>{{ features_benefits }}</li>
+                          {% for feature_list in product.metafields.custom.feature_list.value  %}
+                            <li>{{ feature_list }}</li>
                           {% endfor %}
                           </ul>
                         </div>

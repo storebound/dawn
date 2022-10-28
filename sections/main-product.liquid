@@ -390,6 +390,16 @@
                     <a href="{{ product.metafields.custom.quick_start_guide | file_url }}">Download Quick Start Guide</a><br />
                     {% endunless %}
                     {{ 'Warranty Information' | link_to: '/pages/warranty' }}
+                  {% elsif block.settings.heading == 'Features & Benefits' %}
+                            {%- if product.metafields.custom.features_benefits != blank -%}
+                        <div class="product_points">
+                          <ul>
+                          {% for features_benefits in product.metafields.custom.features_benefits.value  %}
+                            <li>{{ features_benefits }}</li>
+                          {% endfor %}
+                          </ul>
+                        </div>
+                        {%- endif -%}
                   {% elsif block.settings.heading == 'Parts & Accessories' %}
 
                 <ul id="product-grid" data-id="{{ section.id }}" class="

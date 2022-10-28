@@ -118,61 +118,48 @@
         "padding_bottom": 36
       }
     },
-    "166265869685122243": {
-      "type": "video",
-      "settings": {
-        "heading": "MAGICAL MINI MAKERS",
-        "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/Snowman-mini-waffle-maker.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=Tpx2Xc7WyrI",
-        "description": "Video of the Snowman mini waffle maker in action",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 8,
-        "padding_bottom": 36
-      }
-    },
-    "16620431184b25d6fa": {
-      "type": "multicolumn",
+    "1664288218776012f3": {
+      "type": "image-with-text",
       "blocks": {
-        "a383180d-ddb6-40d0-972e-d48a3a72ae0d": {
-          "type": "column",
+        "16642882182d87f6a2-0": {
+          "type": "heading",
           "settings": {
-            "title": "One-Step Cooking",
-            "text": "<p>Just plug your mini in, add ingredients, and cook! Our Mini Makers take the fuss out of cooking, and they're durable too: Each mini can withstand hundreds of hours of cooking, and comes with a one-year warranty!<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Holiday Family Fun",
+            "heading_size": "h2"
           }
         },
-        "4ab8898c-fa01-4bf1-ab3e-477f7e31fcec": {
-          "type": "column",
+        "16642882182d87f6a2-1": {
+          "type": "text",
           "settings": {
-            "title": "Easy Cleaning",
-            "text": "<p>With our PFOA-free TruGlide™ nonstick coating, food doesn't stick to the cooking surface for perfectly-shaped burgers, waffles, mini donuts, and more! Plus, the nonstick coating makes it easy to clean up.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Deck the halls with wonderful wintry minis! These sets of 3 Mini Makers make the season bright with easy-to-clean nonstick that wipes down without fuss.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16642882182d87f6a2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Holiday Mini Maker Set of 3",
+            "button_link": "shopify:\/\/collections\/air-fryers"
           }
         }
       },
       "block_order": [
-        "a383180d-ddb6-40d0-972e-d48a3a72ae0d",
-        "4ab8898c-fa01-4bf1-ab3e-477f7e31fcec"
+        "16642882182d87f6a2-0",
+        "16642882182d87f6a2-1",
+        "16642882182d87f6a2-2"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "dashpattern": false,
-        "padding_top": 16,
+        "image": "shopify:\/\/shop_images\/HolidayShoot_Request_13_ByDash_Mini_Holiday_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "headline_novecento": false,
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -229,48 +216,61 @@
         "padding_bottom": 28
       }
     },
-    "1664288218776012f3": {
-      "type": "image-with-text",
+    "166265869685122243": {
+      "type": "video",
+      "settings": {
+        "heading": "MAGICAL MINI MAKERS",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/Snowman-mini-waffle-maker.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=Tpx2Xc7WyrI",
+        "description": "Video of the Snowman mini waffle maker in action",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    },
+    "16620431184b25d6fa": {
+      "type": "multicolumn",
       "blocks": {
-        "16642882182d87f6a2-0": {
-          "type": "heading",
+        "a383180d-ddb6-40d0-972e-d48a3a72ae0d": {
+          "type": "column",
           "settings": {
-            "heading": "Holiday Family Fun",
-            "heading_size": "h2"
+            "title": "One-Step Cooking",
+            "text": "<p>Just plug your mini in, add ingredients, and cook! Our Mini Makers take the fuss out of cooking, and they're durable too: Each mini can withstand hundreds of hours of cooking, and comes with a one-year warranty!<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "16642882182d87f6a2-1": {
-          "type": "text",
+        "4ab8898c-fa01-4bf1-ab3e-477f7e31fcec": {
+          "type": "column",
           "settings": {
-            "text": "<p>Deck the halls with wonderful wintry minis! These sets of 3 Mini Makers make the season bright with easy-to-clean nonstick that wipes down without fuss.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16642882182d87f6a2-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Holiday Mini Maker Set of 3",
-            "button_link": "shopify:\/\/collections\/air-fryers"
+            "title": "Easy Cleaning",
+            "text": "<p>With our PFOA-free TruGlide™ nonstick coating, food doesn't stick to the cooking surface for perfectly-shaped burgers, waffles, mini donuts, and more! Plus, the nonstick coating makes it easy to clean up.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "16642882182d87f6a2-0",
-        "16642882182d87f6a2-1",
-        "16642882182d87f6a2-2"
+        "a383180d-ddb6-40d0-972e-d48a3a72ae0d",
+        "4ab8898c-fa01-4bf1-ab3e-477f7e31fcec"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/HolidayShoot_Request_13_ByDash_Mini_Holiday_1.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "headline_novecento": false,
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "dashpattern": false,
+        "padding_top": 16,
         "padding_bottom": 36
       }
     }
@@ -279,10 +279,10 @@
     "16620432773d36c02f",
     "16620429067a01a6ee",
     "1662658179ca0ebbdd",
-    "166265869685122243",
-    "16620431184b25d6fa",
+    "1664288218776012f3",
     "1662043834a905bb1f",
     "main",
-    "1664288218776012f3"
+    "166265869685122243",
+    "16620431184b25d6fa"
   ]
 }

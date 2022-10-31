@@ -379,6 +379,15 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "851f6611-215b-4a7e-86e2-626f7b2d5bf4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"display: flex; justify-content: center;\n\"><div style=\"justify-content: center;\" class=\"banner__buttons banner__buttons--multiple\">\n<button class=\"button button--primary\" onclick=\"SweetTooth.intent('st:core:home');\"> Check points <\/button>\n<button class=\"button button--primary\" onclick=\"SweetTooth.intent('st:points:rewards');\"> Redeem points <\/button>\n<button class=\"button button--primary\" onclick=\"SweetTooth.intent('st:points:rules');\"> Earn points <\/button>\n<button class=\"button button--primary\" onclick=\"SweetTooth.intent('st:referrals:offers');\"> Refer A Friend <\/button>\n<\/div>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -388,6 +397,7 @@
     "1662734380e38677ff",
     "166369476730b060f4",
     "1662734947fe601c7e",
-    "main"
+    "main",
+    "851f6611-215b-4a7e-86e2-626f7b2d5bf4"
   ]
 }

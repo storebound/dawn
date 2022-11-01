@@ -82,8 +82,8 @@
         "color_scheme": "background-1",
         "headline_novecento": true,
         "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 36
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     },
     "16626677818c04ff18": {
@@ -110,6 +110,7 @@
     },
     "166266783963e2dc3a": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "016ae727-4340-4665-938b-38c4e8aff152": {
           "type": "heading",
@@ -188,6 +189,50 @@
         "padding_top": 20,
         "padding_bottom": 52
       }
+    },
+    "f79a3468-bd1d-4758-970a-d505cf7add6f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16661738356962__f79a3468-bd1d-4758-970a-d505cf7add6f-16673193897492dfb5-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>• <\/strong>Competitive salary<br\/><strong>• <\/strong>Comprehensive healthcare benefits, including dental and vision plans<br\/><strong>• <\/strong>Comprehensive 401k retirement plan with contribution matching<br\/><strong>• <\/strong>Generous paid time off, including a mix of vacation, personal and sick days, plus floating holidays and 8 paid national holidays<br\/><br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16661738356962__f79a3468-bd1d-4758-970a-d505cf7add6f-16673193897492dfb5-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>• <\/strong>Monthly Better World Days with paid time off for volunteering or professional development.<br\/><strong>• <\/strong>Transportation benefits<br\/><strong>• <\/strong>Fun and friendly office in NYC stocked with free snacks<br\/><strong>• <\/strong>Flexible leave policies for new moms and dads<br\/><strong>• <\/strong>Team outings and fun activities to build community with our amazing team members<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16661738356962__f79a3468-bd1d-4758-970a-d505cf7add6f-16673193897492dfb5-0",
+        "template--16661738356962__f79a3468-bd1d-4758-970a-d505cf7add6f-16673193897492dfb5-1"
+      ],
+      "settings": {
+        "title": "BENEFITS & PERKS",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "dashpattern": false,
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -197,6 +242,7 @@
     "1662665986e53a3d01",
     "16626677818c04ff18",
     "166266783963e2dc3a",
-    "166266962410e25f5b"
+    "166266962410e25f5b",
+    "f79a3468-bd1d-4758-970a-d505cf7add6f"
   ]
 }

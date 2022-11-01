@@ -1,5 +1,14 @@
 {
   "sections": {
+    "37a01828-84fd-4497-b9ea-0b0439ba4734": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "16620432773d36c02f": {
       "type": "image-banner",
       "blocks": {
@@ -245,6 +254,7 @@
     }
   },
   "order": [
+    "37a01828-84fd-4497-b9ea-0b0439ba4734",
     "16620432773d36c02f",
     "16620429067a01a6ee",
     "16620431184b25d6fa",

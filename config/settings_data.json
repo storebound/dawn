@@ -1,24 +1,24 @@
 {
   "current": {
-    "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#c12033",
+    "colors_solid_button_labels": "#062a30",
+    "colors_accent_1": "#d3ece8",
     "gradient_accent_1": "",
     "colors_accent_2": "#4e5859",
     "gradient_accent_2": "",
-    "colors_text": "#121212",
-    "colors_outline_button_labels": "#121212",
+    "colors_text": "#062a30",
+    "colors_outline_button_labels": "#062a30",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
     "colors_background_2": "#f3f3f3",
     "gradient_background_2": "",
-    "type_header_font": "avenir_next_n4",
+    "type_header_font": "avenir_next_n7",
     "heading_scale": 100,
-    "type_body_font": "sans-serif",
+    "type_body_font": "avenir_next_n5",
     "body_scale": 100,
     "page_width": 1100,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 8,
-    "spacing_grid_vertical": 8,
+    "spacing_grid_horizontal": 20,
+    "spacing_grid_vertical": 20,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 30,
@@ -34,8 +34,8 @@
     "variant_pills_shadow_vertical_offset": 4,
     "variant_pills_shadow_blur": 5,
     "inputs_border_thickness": 1,
-    "inputs_border_opacity": 55,
-    "inputs_radius": 18,
+    "inputs_border_opacity": 100,
+    "inputs_radius": 26,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
@@ -46,24 +46,43 @@
     "card_color_scheme": "background-2",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
-    "card_corner_radius": 18,
+    "card_corner_radius": 0,
     "card_shadow_opacity": 0,
     "card_shadow_horizontal_offset": 0,
     "card_shadow_vertical_offset": 4,
     "card_shadow_blur": 5,
+    "collection_card_style": "standard",
+    "collection_card_image_padding": 0,
+    "collection_card_text_alignment": "left",
+    "collection_card_color_scheme": "background-2",
+    "collection_card_border_thickness": 0,
+    "collection_card_border_opacity": 0,
+    "collection_card_corner_radius": 0,
+    "collection_card_shadow_opacity": 10,
+    "collection_card_shadow_horizontal_offset": 0,
+    "collection_card_shadow_vertical_offset": 0,
+    "collection_card_shadow_blur": 0,
     "blog_card_style": "card",
+    "blog_card_image_padding": 0,
+    "blog_card_text_alignment": "left",
     "blog_card_color_scheme": "background-2",
-    "blog_card_corner_radius": 18,
+    "blog_card_border_thickness": 0,
+    "blog_card_border_opacity": 0,
+    "blog_card_corner_radius": 0,
+    "blog_card_shadow_opacity": 10,
+    "blog_card_shadow_horizontal_offset": 0,
+    "blog_card_shadow_vertical_offset": 0,
+    "blog_card_shadow_blur": 0,
     "text_boxes_border_thickness": 0,
     "text_boxes_border_opacity": 10,
-    "text_boxes_radius": 18,
+    "text_boxes_radius": 0,
     "text_boxes_shadow_opacity": 0,
     "text_boxes_shadow_horizontal_offset": 0,
     "text_boxes_shadow_vertical_offset": 4,
     "text_boxes_shadow_blur": 5,
     "media_border_thickness": 0,
     "media_border_opacity": 0,
-    "media_radius": 18,
+    "media_radius": 0,
     "media_shadow_opacity": 0,
     "media_shadow_horizontal_offset": 0,
     "media_shadow_vertical_offset": 4,
@@ -107,7 +126,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "GET FREE SHIPPING ON ORDERS OVER $50",
               "text_alignment": "center",
               "color_scheme": "background-1",
               "link": ""
@@ -143,28 +162,28 @@
           "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "Contact Us",
+              "heading": "CONTACT US",
               "subtext": "<p><a href=\"\/pages\/contact-us\" title=\"\/pages\/contact-us\">Send Us A Message<\/a><\/p><p>Call Toll-Free<br\/>1-800-898-6970<br\/>M-F: 9am-9pm (EST)<\/p>"
             }
           },
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Site Links",
+              "heading": "SITE LINKS",
               "menu": "site-links"
             }
           },
           "c70d8f3a-d0ab-42bc-86f8-a4fef6fbb678": {
             "type": "link_list",
             "settings": {
-              "heading": "Policy Links",
+              "heading": "POLICY LINKS",
               "menu": "policy-links"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
-              "heading": "My Account",
+              "heading": "MY ACCOUNT",
               "menu": "account-links"
             }
           }
@@ -178,7 +197,7 @@
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "SUBSCRIBE TO EMAILS & SAVE 10%",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
@@ -210,6 +229,13 @@
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
+        }
+      },
+      "733389323033596483": {
+        "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/theme-settings\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+        "disabled": false,
+        "settings": {
+          "show_preview_data": true
         }
       }
     }

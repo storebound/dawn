@@ -5,7 +5,7 @@
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
         "color_scheme": "background-1",
-        "padding_top": 12,
+        "padding_top": 16,
         "padding_bottom": 0
       }
     },
@@ -24,15 +24,6 @@
           "settings": {
           }
         },
-        "fc86d512-af57-4c82-af8c-2eff25821483": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "use_metafields": true,
-            "sku_tagtype": "sku",
-            "is_featured_product": false,
-            "featured_product_handle": ""
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
@@ -43,6 +34,12 @@
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "eaa8b3a1-b010-43f5-a00a-9017761eb277": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
           }
         },
         "variant_picker": {
@@ -119,14 +116,29 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "e3b62aa9-b892-48f4-a5b3-e9c37b7a0b47": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "none",
+            "image_1": "shopify:\/\/shop_images\/EasyReturns2.png",
+            "heading_1": "EASY RETURNS",
+            "icon_2": "none",
+            "image_2": "shopify:\/\/shop_images\/365-day-warranty.png",
+            "heading_2": "365 DAY WARRANTY",
+            "icon_3": "none",
+            "image_3": "shopify:\/\/shop_images\/free-shipping.png",
+            "heading_3": "FREE SHIPPING OVER $50"
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "fc86d512-af57-4c82-af8c-2eff25821483",
         "caption",
         "price",
+        "eaa8b3a1-b010-43f5-a00a-9017761eb277",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -136,7 +148,8 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "cc437370-4825-4025-b28b-bf5a322b6d73",
-        "share"
+        "share",
+        "e3b62aa9-b892-48f4-a5b3-e9c37b7a0b47"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -175,77 +188,35 @@
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
+        "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "1661883879ca0f6454": {
+    "16672310787bda553d": {
       "type": "apps",
       "blocks": {
-        "f73cb7a4-2ba9-42f4-8e08-50309c6b1089": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "a087cbd4-9105-4c7f-be2a-c2e9f8bc8fcb": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
-            "animation": true,
-            "tags_exclude": "",
-            "tags_include": "",
-            "search": "",
-            "linkify": true,
-            "use_metafields": true,
-            "sku_tagtype": "sku"
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
           }
         }
       },
       "block_order": [
-        "f73cb7a4-2ba9-42f4-8e08-50309c6b1089"
+        "a087cbd4-9105-4c7f-be2a-c2e9f8bc8fcb"
       ],
       "settings": {
         "include_margins": true
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1"
-      ],
+    "1661883879ca0f6454": {
+      "type": "apps",
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "include_margins": true
       }
     },
     "product-recommendations": {
@@ -270,8 +241,8 @@
     "1661960546161c5f46",
     "main",
     "1661883989ab5c9fbf",
+    "16672310787bda553d",
     "1661883879ca0f6454",
-    "multicolumn",
     "product-recommendations"
   ]
 }

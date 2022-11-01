@@ -1,47 +1,11 @@
 {
   "sections": {
-    "16619709803b818a45": {
-      "type": "image-with-text",
-      "blocks": {
-        "16619709803c76c5d0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "SALES & SUN TO WRAP UP SUMMER 😎",
-            "heading_size": "h2"
-          }
-        },
-        "16619709803c76c5d0-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16619709803c76c5d0-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "\/"
-          }
-        }
-      },
-      "block_order": [
-        "16619709803c76c5d0-0",
-        "16619709803c76c5d0-1",
-        "16619709803c76c5d0-2"
-      ],
+    "30c02da9-7f38-4457-9443-275d4547f4f8": {
+      "type": "desktop-mobile-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/LaborDaySale_20220829-05.jpg",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "desktop_image": "shopify:\/\/shop_images\/3QtPopcorn_20221020-02.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/3QtPopcorn_20221020-03.jpg",
+        "button_link": ""
       }
     },
     "16642908781ed6d732": {
@@ -50,21 +14,21 @@
         "1664290878c95a76cb-0": {
           "type": "heading",
           "settings": {
-            "heading": "HEADLINE TEXT ☃️",
+            "heading": "RAPID EGG COOKER",
             "heading_size": "h2"
           }
         },
         "1664290878c95a76cb-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>The Dash Rapid Egg Cooker delivers perfectly cooked eggs in less time than it takes to boil water on the stove.<\/p>",
             "text_style": "body"
           }
         },
         "1664290878c95a76cb-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "SHOP NOW",
             "button_link": "shopify:\/\/collections\/mini-makers"
           }
         }
@@ -75,15 +39,185 @@
         "1664290878c95a76cb-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/HolidayShoot_2022_2234_Request_2_Target_Mini_Maker.jpg",
+        "image": "shopify:\/\/shop_images\/DEC005AQ_Hero_No_Eggs.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "center",
-        "content_layout": "overlap",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
+        "headline_novecento": false,
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1661971116c7e51c5a": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "1661971115f0b077a2-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1661971115f0b077a2-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "1661971115f0b077a2-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.custom.short_copy.value }}",
+            "text_style": "body"
+          }
+        },
+        "dfb0f896-1d0e-479b-96cb-e4803996eaa7": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "e02715a0-9904-474b-b166-8f65baf1e7f7": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "be0cbf10-379e-4315-984c-e73b4ddbf89c": {
+          "type": "price",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1661971115f0b077a2-0",
+        "1661971115f0b077a2-1",
+        "1661971115f0b077a2-2",
+        "dfb0f896-1d0e-479b-96cb-e4803996eaa7",
+        "e02715a0-9904-474b-b166-8f65baf1e7f7",
+        "be0cbf10-379e-4315-984c-e73b4ddbf89c"
+      ],
+      "settings": {
+        "product": "rapid-egg-cooker",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "f760708d-5305-4342-80a5-413594ebd2fb": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "GET 20% OFF SITEWIDE WITH CODE: FOODIE",
+            "heading_size": "h1"
+          }
+        },
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Add details on sale, style, or even provide a review.",
+            "text_style": "body"
+          }
+        },
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "BUTTON TEXT",
+            "button_link_1": "shopify:\/\/blogs\/news",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "shopify:\/\/blogs\/mini-waffles",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-0",
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-1",
+        "template--16602667385058__f760708d-5305-4342-80a5-413594ebd2fb-1666633187c0654230-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-10-25_at_3.20.28_PM.png",
+        "image_2": "shopify:\/\/shop_images\/HolidayShoot_2022_2234_Request_2_Target_Mini_Maker.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "headline_novecento": true,
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "16619709803b818a45": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "16619709803c76c5d0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "GET 20% OFF SITEWIDE WITH CODE: FOODIE",
+            "heading_size": "h1"
+          }
+        },
+        "16619709803c76c5d0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add details on sale, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16619709803c76c5d0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "\/"
+          }
+        },
+        "d07151fb-9426-44e4-ad2c-58db16c4f0b0": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "16619709803c76c5d0-0",
+        "16619709803c76c5d0-1",
+        "16619709803c76c5d0-2",
+        "d07151fb-9426-44e4-ad2c-58db16c4f0b0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HolidayShoot_2022Request__9_Bydash_Bundt_Pie__2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "headline_novecento": false,
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -94,9 +228,8 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Image banner",
+            "heading": "Image bannEr",
             "heading_size": "h0"
           }
         },
@@ -127,184 +260,120 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LaborDaySale_20220829-04.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 20,
         "image_height": "large",
         "adapt_height_first_image": true,
+        "headline_novecento": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": true
       }
     },
-    "1661971116c7e51c5a": {
-      "type": "featured-product",
-      "blocks": {
-        "1661971115f0b077a2-0": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "1661971115f0b077a2-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h0"
-          }
-        },
-        "1661971115f0b077a2-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.custom.short_copy.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "1661971115f0b077a2-3": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "1661971115f0b077a2-4": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "1661971115f0b077a2-5": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "1661971115f0b077a2-6": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        }
-      },
-      "block_order": [
-        "1661971115f0b077a2-0",
-        "1661971115f0b077a2-1",
-        "1661971115f0b077a2-2",
-        "1661971115f0b077a2-3",
-        "1661971115f0b077a2-4",
-        "1661971115f0b077a2-5",
-        "1661971115f0b077a2-6"
-      ],
-      "settings": {
-        "product": "rapid-egg-cooker",
-        "color_scheme": "background-1",
-        "secondary_background": true,
-        "media_position": "left",
-        "hide_variants": false,
-        "enable_video_looping": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "SUPER SAVER DEALS",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>sakdaskdy\\ssudoasiduoisasioduaosudoibdaosihoaidsih<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
-        "products_to_show": 8,
+        "products_to_show": 9,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 28,
         "padding_bottom": 36
       }
     },
-    "1658338587f333ae54": {
-      "type": "collage",
+    "b7d05d5c-30c2-4372-91e5-252f05d0ab7b": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<h1 style=\"font-family: Novecentosanswide-Bold !important;\">This is a heading TEST<\/h1>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9": {
+      "type": "multicolumn",
       "blocks": {
-        "16583385876a304d18-0": {
-          "type": "video",
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-0": {
+          "type": "column",
           "settings": {
-            "cover_image": "shopify:\/\/shop_images\/shakethingsup.png",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=8CpqfKCJmn4",
-            "description": "Describe the video",
-            "image_padding": false
+            "image": "shopify:\/\/shop_images\/Register-Product.png",
+            "title": "",
+            "text": "",
+            "link_label": "Register Product",
+            "link": "\/register"
           }
         },
-        "a4a1b471-754b-42a4-97f1-9253f0173aa8": {
-          "type": "collection",
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-1": {
+          "type": "column",
           "settings": {
-            "collection": "frozen-treats"
+            "image": "shopify:\/\/shop_images\/Product-Manual.png",
+            "title": "",
+            "text": "",
+            "link_label": "Product Manuals",
+            "link": "\/support"
           }
         },
-        "4fb1da92-1ddf-4df2-8044-87a1689b58d1": {
-          "type": "image",
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-2": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-07-20_at_2.10.34_PM.png",
-            "image_padding": false
+            "image": "shopify:\/\/shop_images\/Contact-Us.png",
+            "title": "",
+            "text": "",
+            "link_label": "Contact Us",
+            "link": "\/contact"
+          }
+        },
+        "3c330215-a3fa-4947-82a3-957304249a10": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Contact-Us.png",
+            "title": "",
+            "text": "",
+            "link_label": "Contact Us",
+            "link": "\/contact\/"
           }
         }
       },
       "block_order": [
-        "16583385876a304d18-0",
-        "a4a1b471-754b-42a4-97f1-9253f0173aa8",
-        "4fb1da92-1ddf-4df2-8044-87a1689b58d1"
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-0",
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-1",
+        "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-2",
+        "3c330215-a3fa-4947-82a3-957304249a10"
       ],
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "background-1",
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "dashpattern": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -370,8 +439,9 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
+        "dashpattern": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -415,21 +485,67 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
+        "headline_novecento": false,
         "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da": {
+      "type": "collage",
+      "blocks": {
+        "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/DEC005RD_IO_3_1024x_ef5c04d9-99c5-4204-9071-7ea97b0c9286.jpg",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=HUu-Z6o1l50",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-1": {
+          "type": "product",
+          "settings": {
+            "product": "rapid-egg-cooker",
+            "second_image": false
+          }
+        },
+        "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "egg-cookers"
+          }
+        }
+      },
+      "block_order": [
+        "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-0",
+        "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-1",
+        "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "16619709803b818a45",
+    "30c02da9-7f38-4457-9443-275d4547f4f8",
     "16642908781ed6d732",
-    "image_banner",
     "1661971116c7e51c5a",
-    "rich_text",
+    "f760708d-5305-4342-80a5-413594ebd2fb",
+    "16619709803b818a45",
+    "image_banner",
     "featured_collection",
-    "1658338587f333ae54",
+    "b7d05d5c-30c2-4372-91e5-252f05d0ab7b",
+    "6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9",
     "multicolumn",
-    "166197179984628ab1"
+    "166197179984628ab1",
+    "8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da"
   ]
 }

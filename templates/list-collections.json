@@ -1,17 +1,41 @@
 {
   "sections": {
+    "27a8c126-598e-4d62-9658-0a1e377ff459": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16602666795234__27a8c126-598e-4d62-9658-0a1e377ff459-1666893909cfae3231-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>ALL COLLECTIONS<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--16602666795234__27a8c126-598e-4d62-9658-0a1e377ff459-1666893909cfae3231-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "title": "Collections",
+        "title": "",
         "sort": "alphabetical",
         "image_ratio": "square",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "columns_mobile": "2"
       }
     }
   },
   "order": [
+    "27a8c126-598e-4d62-9658-0a1e377ff459",
     "main"
   ]
 }

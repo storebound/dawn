@@ -333,10 +333,13 @@ a.product__text {
 .product__title {
   word-break: break-word;
   margin-bottom: 1.5rem;
+  text-transform: uppercase;
 }
 
 .product__title > * {
   margin: 0;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
 
 .product__title > a {
@@ -1282,8 +1285,8 @@ a.product__text {
 }
 
 .icon-with-text img {
-  height: var(--icon-size);
-  width: var(--icon-size);
+  height: calc(var(--icon-size) * 1.75);
+  width: calc(var(--icon-size) * 1.75);
   object-fit: contain;
 }
 
@@ -1294,6 +1297,15 @@ a.product__text {
 .icon-with-text--horizontal .h4 {
   padding-top: calc(var(--icon-size) + var(--icon-spacing));
   text-align: center;
+}
+
+.icon-with-text--horizontal .h5 {
+  padding-top: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: calc(var(--font-heading-scale) * .08rem);
+  font-size: calc(var(--font-heading-scale) * 1.1rem);
 }
 
 .icon-with-text--horizontal svg + .h4,

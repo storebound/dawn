@@ -1,10 +1,37 @@
 {
   "sections": {
+    "4df39a40-1ce3-46e3-ae04-be5cac0627e0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16602666238178__4df39a40-1ce3-46e3-ae04-be5cac0627e0-16667967614f5d87e9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get exclusive info on new Dash products, gift ideas, free recipes, and more. Plus, earn points every time you shop on bydash.com!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16602666238178__4df39a40-1ce3-46e3-ae04-be5cac0627e0-16667967614f5d87e9-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 16
+      }
+    },
     "main": {
-      "type": "main-register"
+      "type": "main-register",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
+    "4df39a40-1ce3-46e3-ae04-be5cac0627e0",
     "main"
   ]
 }

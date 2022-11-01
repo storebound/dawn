@@ -194,8 +194,9 @@
                 </span>
               </p>
             {%- endif -%}
-
+      {% unless collection.title == 'Support' %}
             {% render 'price', product: card_product, price_class: '' %}
+      {% endunless  %}  
           </div>
         </div>
         {%- if show_quick_add -%}

@@ -118,8 +118,8 @@
 .color-inverse,
 .color-accent-1,
 .color-accent-2 {
-  --color-badge-background: var(--color-background);
-  --color-badge-border: var(--color-background);
+  --color-badge-background: var(--color-foreground);
+  --color-badge-border: var(--color-foreground);
   --alpha-badge-border: 1;
 }
 
@@ -1311,6 +1311,8 @@ button.shopify-payment-button__button--unbranded,
 button.shopify-payment-button__button--unbranded {
   min-width: calc(12rem + var(--buttons-border-width) * 2);
   min-height: calc(4.5rem + var(--buttons-border-width) * 2);
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .shopify-payment-button__button--branded {
@@ -1419,6 +1421,8 @@ button.shopify-payment-button__button--unbranded {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   line-height: calc(1 + 0.2 / var(--font-body-scale));
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .button--tertiary {
@@ -2763,7 +2767,7 @@ details-disclosure > details {
   text-align: center;
   background-color: rgb(var(--color-badge-background));
   border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
-  color: rgb(var(--color-foreground));
+  color: rgb(var(--color-base-background-1));
   word-break: break-word;
 }
 
@@ -2983,4 +2987,12 @@ details-disclosure > details {
 .product-form__input input[type="radio"]:hover + .swatch {
   border: 3px solid #ccd1d1; /* Change this hex code to change the color of the active/selected variant */
   background: none;
+}
+
+@font-face {
+    font-family: 'Novecentosanswide-Bold';
+    src: url("https://cdn.shopify.com/s/files/1/0655/4373/3474/files/Novecentowide-Bold.woff2?v=1666291272") format("woff2"),
+         url("https://cdn.shopify.com/s/files/1/0655/4373/3474/files/Novecentowide-Bold.woff?v=1666291272") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }

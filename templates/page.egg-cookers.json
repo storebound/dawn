@@ -1,19 +1,28 @@
 {
   "sections": {
+    "37a01828-84fd-4497-b9ea-0b0439ba4734": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "16620432773d36c02f": {
       "type": "image-banner",
       "blocks": {
         "16620432772262a9b1-0": {
           "type": "heading",
           "settings": {
-            "heading": "Healthy Breakfast Fast!",
+            "heading": "HEALTHY BREAKFAST FAST",
             "heading_size": "h1"
           }
         },
         "16620432772262a9b1-1": {
           "type": "text",
           "settings": {
-            "text": "Our best-selling egg cookers have revolutionized breakfasts, meal prep, and more, all in less time than it takes to boil water on the stovetop!",
+            "text": "Our bestselling egg cookers have revolutionized breakfast, meal prep, and more, making eggs in less time than it takes to boil water on the stovetop!",
             "text_style": "body"
           }
         },
@@ -40,6 +49,7 @@
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
+        "headline_novecento": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -52,7 +62,7 @@
     "16620429067a01a6ee": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured Egg Cookers",
+        "title": "FEATURED EGG COOKERS",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -71,7 +81,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -93,7 +103,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-14_at_12.02.00_PM.png",
-            "title": "Egg Bites at Home!",
+            "title": "Egg Bites at Home",
             "text": "<p>Craving egg bites from your favorite coffee shop? With our Egg Bite Maker, you can make sous-vide style egg bites at home. Simply fill the cups and rest them in a water bath to cook. Don't forget to add your favorite toppings!<\/p>",
             "link_label": "SHOP EGG BITE MAKERS",
             "link": "shopify:\/\/collections\/frozen-treats"
@@ -116,7 +126,8 @@
         "button_link": "\/",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
+        "dashpattern": false,
         "padding_top": 16,
         "padding_bottom": 36
       }
@@ -124,8 +135,8 @@
     "166265869685122243": {
       "type": "video",
       "settings": {
-        "heading": "How Does the Dash Egg Bite Maker Work?",
-        "heading_size": "h1",
+        "heading": "HOW DOES THE DASH EGG BITE MAKER WORK?",
+        "heading_size": "h2",
         "cover_image": "shopify:\/\/shop_images\/noiZ4Hlen34-HD.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=noiZ4Hlen34",
         "description": "",
@@ -149,8 +160,8 @@
         "1663167580b6e70965-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Breakfast & Beyond<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>BREAKFAST & BEYOND<\/p>",
+            "heading_size": "h2"
           }
         },
         "1663167580b6e70965-1": {
@@ -166,7 +177,7 @@
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -236,12 +247,14 @@
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
+        "dashpattern": false,
         "padding_top": 8,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "37a01828-84fd-4497-b9ea-0b0439ba4734",
     "16620432773d36c02f",
     "16620429067a01a6ee",
     "16620431184b25d6fa",

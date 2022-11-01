@@ -1,5 +1,14 @@
 {
   "sections": {
+    "9e174c10-0766-4424-9880-5fcd395e4ff9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -14,8 +23,8 @@
         "166481884887a0f9ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Frequently Asked Quesetions<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>FREQUENTLY ASKED QUESTIONS<\/p>",
+            "heading_size": "h2"
           }
         }
       },
@@ -27,8 +36,8 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 12
       }
     },
     "1664817434142e60a6": {
@@ -37,7 +46,7 @@
         "166481743320526555-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Where can I shop Dash Products in-person?",
+            "heading": "Where can I shop Dash products in-person?",
             "icon": "chat_bubble",
             "row_content": "<p>Dash products are on shelves at a variety of retail partners across the US. Not every Dash product is available at every store, so we encourage you to call ahead or visit one of our partners’ websites. You can also subscribe to our email list or follow us on Instagram to see when and where new products are launched.<\/p>",
             "liquid": "",
@@ -61,7 +70,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "General Questions",
+        "heading": "GENERAL QUESTIONS",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "row",
@@ -82,7 +91,7 @@
           "settings": {
             "heading": "How do I get a product manual?",
             "icon": "chat_bubble",
-            "row_content": "<p>Every Dash product comes with a complete product manual inside the box to get you started. If you have misplaced your manual or didn't get one, visit the “Warranty and Manuals” tab on the relevant product page on ByDash.com to get your manual (the tab is located underneath the product images and 'Add To Cart' button!). You can also visit our Support page to access the full library of Dash product manuals.<\/p>",
+            "row_content": "<p>Every Dash product comes with a complete product manual inside the box to get you started. If you have misplaced your manual or didn't get one, visit the “Warranty and Manuals” tab on the relevant product page on ByDash.com to get your manual (the tab is located underneath the product images and 'Add To Cart' button). You can also visit our Support page to access the full library of Dash product manuals.<\/p>",
             "liquid": "",
             "page": ""
           }
@@ -93,7 +102,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Products",
+        "heading": "PRODUCTS",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "row",
@@ -169,7 +178,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Orders & Shipping",
+        "heading": "ORDERS & SHIPPING",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "row",
@@ -201,7 +210,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Returns",
+        "heading": "RETURNS",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "row",
@@ -277,7 +286,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Account",
+        "heading": "ACCOUNT",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "row",
@@ -297,7 +306,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Not seeing what you're looking for?<\/p>",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "1664818934b06bd5c9-1": {
@@ -334,6 +343,7 @@
     }
   },
   "order": [
+    "9e174c10-0766-4424-9880-5fcd395e4ff9",
     "main",
     "1664818848082643fa",
     "1664817434142e60a6",

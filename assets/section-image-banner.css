@@ -163,8 +163,11 @@
     width: 100%;
   }
 
-  .banner--stacked .banner__media-half + .banner__media-half {
+  .banner--stacked
+  .banner__media-half + .banner__media-half {
     order: 1;
+    /* hide second on mobile*/
+    display: none;
   }
 }
 
@@ -435,4 +438,5 @@
 
 .banner__box > * + .banner__buttons {
   margin-top: 2rem;
+ font-weight: bold;
 }

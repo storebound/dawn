@@ -1,5 +1,14 @@
 {
   "sections": {
+    "4cc63d49-5dc7-434e-93c2-2535dfa81114": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -22,12 +31,13 @@
         "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "4cc63d49-5dc7-434e-93c2-2535dfa81114",
     "banner",
     "product-grid"
   ]

@@ -163,11 +163,23 @@
               "subcat_index": 0,
               "grid_span": 2
             }
+          },
+          "70a7cbcb-f0b0-4302-855a-fa286f98fc7f": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Snowman-mini-waffle-maker.jpg",
+              "link_text": "Introducing the Snowman Mini Waffle Maker",
+              "link": "shopify:\/\/products\/mini-waffle-maker",
+              "cat_index": 2,
+              "subcat_index": 0,
+              "grid_span": 1
+            }
           }
         },
         "block_order": [
           "63e74b05-9c81-4330-8d27-aa5247dc5973",
-          "06262b9a-136e-49ae-9240-47dab88f43ca"
+          "06262b9a-136e-49ae-9240-47dab88f43ca",
+          "70a7cbcb-f0b0-4302-855a-fa286f98fc7f"
         ],
         "settings": {
           "color_scheme": "background-1",

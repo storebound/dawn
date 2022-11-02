@@ -136,7 +136,32 @@
           <div id="menu-drawer" class="gradient menu-drawer motion-reduce" tabindex="-1">
             <div class="menu-drawer__inner-container">
               <div class="menu-drawer__navigation-container">
-                <nav class="menu-drawer__navigation">elo
+                <nav class="menu-drawer__navigation">
+                  {% capture megamenu %}
+                    {% for block in section.blocks %}
+                      {% if block.settings.subcat_index == 0 and block.settings.cat_index == 0 %}
+                        <div class="megamenu__cat_item">
+                        {% if block.settings.link %}
+                          <a href="{{ block.settings.link }}">
+                        {% endif %}
+                        {%- if block.settings.image != blank -%}
+                          {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
+                          {{ block.settings.image | image_url: width: 1500 | image_tag:
+                            loading: 'lazy',
+                            sizes: sizes,
+                            widths: '165, 360, 535, 750, 1070, 1500'
+                          }}
+                        {%- endif -%}
+                        {% if block.settings.link_text != blank %}
+                          <span class="">{{ block.settings.link_text | escape }}</span>
+                        {% endif %}
+                        {% if block.settings.link %}
+                          </a>
+                        {% endif %}
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                  {% endcapture %}
                   <ul class="menu-drawer__menu has-submenu list-menu" role="list">
                     {%- for link in section.settings.menu.links -%}
                       <li>
@@ -198,6 +223,11 @@
                       </li>
                     {%- endfor -%}
                   </ul>
+                  {% if megamenu != blank %}
+                  <div class="">
+                    {{ megamenu }}
+                  </div>
+                  {% endif %}
                 </nav>
                 <div class="menu-drawer__utility-links">
                   {%- if shop.customer_accounts_enabled -%}

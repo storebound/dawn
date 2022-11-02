@@ -502,12 +502,17 @@
                               {%- endif -%}
                             </li>
                           {%- endfor -%}
-                          {% if megamenu != blank %}
+                          {% if link.levels != 1 and megamenu != blank %}
                           <div class="megamenu__cat_wrap grid__item">
                             {{ megamenu }}
                           </div>
                           {% endif %}
                         </ul>
+                        {% if link.levels == 1 and megamenu != blank %}
+                        <div class="megamenu__cat_wrap grid__item">
+                          {{ megamenu }}
+                        </div>
+                        {% endif %}
                       </div>
                     </details>
                   </header-menu>

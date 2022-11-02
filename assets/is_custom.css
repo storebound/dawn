@@ -2,6 +2,12 @@
 
 .megamenu__cat_wrap {
   overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.megamenu__cat_item {
+  display: inline-block;
+  white-space: normal;
 }
 
 .megamenu__cat_item img {

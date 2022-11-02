@@ -1,24 +1,26 @@
 /* In Social - Custom */
 
-.mega-menu__content .grid {
-  justify-content: space-evenly;
-}
-
-.mega-menu__list {
-  display: flex;
-}
-
-.megamenu__cat_wrap {
-  overflow-x: scroll;
-  white-space: nowrap;
-}
-
-.megamenu__cat_item {
-  display: inline-block;
-  white-space: normal;
-}
-
-.megamenu__cat_item img {
-  width: 100%;
-  height: auto;
+@media screen and (min-width: 990px) {
+  .mega-menu__content .grid {
+    justify-content: space-evenly;
+  }
+  
+  .mega-menu__list {
+    display: flex;
+  }
+  
+  .megamenu__cat_wrap {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  
+  .megamenu__cat_item {
+    display: inline-block;
+    white-space: normal;
+  }
+  
+  .megamenu__cat_item img {
+    width: 100%;
+    height: auto;
+  }
 }

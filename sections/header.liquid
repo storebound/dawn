@@ -139,7 +139,7 @@
                 <nav class="menu-drawer__navigation">
                   {% capture megamenu %}
                     {% for block in section.blocks %}
-                      {% if block.settings.subcat_index == 0 and block.settings.cat_index == 0 %}
+                      {% if block.settings.cat_index == 0 %}
                         <div class="megamenu__cat_item">
                         {% if block.settings.link %}
                           <a href="{{ block.settings.link }}">

@@ -1,5 +1,9 @@
 /* In Social - Custom */
 
+.mega-menu__list {
+  display: flex;
+}
+
 .megamenu__cat_wrap {
   overflow-x: scroll;
   white-space: nowrap;

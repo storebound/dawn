@@ -44,11 +44,11 @@
     white-space: normal;
     vertical-align: top;
     text-align: center;
-    margin-left: var(--grid-desktop-horizontal-spacing);
+    margin-right: var(--grid-desktop-horizontal-spacing);
   }
 
   .megamenu__cat_item:last-child {
-    margin-left: none;
+    margin-right: none;
   }
   
   .megamenu__cat_item img {

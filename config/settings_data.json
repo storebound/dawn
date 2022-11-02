@@ -142,6 +142,17 @@
       "header": {
         "type": "header",
         "blocks": {
+          "388b6bdf-2adf-4043-b468-fced14b76c2b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Mini_Maker_Page_Assets-06_b82380e0-b51a-4d9c-9c98-7fc864c7df9c.png",
+              "link_text": "Eggcellent Rewards",
+              "link": "shopify:\/\/pages\/feel-good-rewards",
+              "cat_index": 0,
+              "subcat_index": 0,
+              "grid_span": 1
+            }
+          },
           "63e74b05-9c81-4330-8d27-aa5247dc5973": {
             "type": "image",
             "settings": {
@@ -177,6 +188,7 @@
           }
         },
         "block_order": [
+          "388b6bdf-2adf-4043-b468-fced14b76c2b",
           "63e74b05-9c81-4330-8d27-aa5247dc5973",
           "06262b9a-136e-49ae-9240-47dab88f43ca",
           "70a7cbcb-f0b0-4302-855a-fa286f98fc7f"

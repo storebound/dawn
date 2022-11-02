@@ -484,7 +484,7 @@
                         {% render 'icon-caret' %}
                       </summary>
                       <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
-                        <div class="page-width">
+                        <div class="page-width{% if megamenu != blank %} has_megamenu_img{% endif %}">
                           <ul class="mega-menu__list{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
                             {%- for childlink in link.links -%}
                               <li>
@@ -506,7 +506,7 @@
                             {%- endfor -%}
                           </ul>
                           {% if megamenu != blank %}
-                          <div class="megamenu__cat_wrap" style="width: calc(({{ 100 | divided_by: section.settings.grid_col }}% - var(--grid-desktop-horizontal-spacing) * {{ section.settings.grid_col | minus: 1 }} / {{ section.settings.grid_col }}) * {{ grid_span }});">
+                          <div class="megamenu__cat_wrap">
                             {{ megamenu }}
                           </div>
                           {% endif %}

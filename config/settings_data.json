@@ -141,32 +141,6 @@
       },
       "header": {
         "type": "header",
-        "blocks": {
-          "110ebd9e-6390-4895-8a85-ce60fe748729": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Group_Waffle_Egg_Bite_1.jpg",
-              "link_text": "Check our Mini Waffle Makers →",
-              "link": "shopify:\/\/collections\/mini-makers",
-              "cat_index": 1,
-              "subcat_index": 0
-            }
-          },
-          "63c12107-10ac-4864-baa7-5ec37d5c645a": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Square_Book_Mockup_white_bg_9af34678-9495-4c98-ac76-2bcf9c94c6d3.jpg",
-              "link_text": "Cookbooks",
-              "link": "shopify:\/\/products\/air-frying-for-everyone-cookbook",
-              "cat_index": 1,
-              "subcat_index": 0
-            }
-          }
-        },
-        "block_order": [
-          "110ebd9e-6390-4895-8a85-ce60fe748729",
-          "63c12107-10ac-4864-baa7-5ec37d5c645a"
-        ],
         "settings": {
           "color_scheme": "background-1",
           "logo": "{{ shop.brand.logo }}",
@@ -174,6 +148,7 @@
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "mega",
+          "columns": 4,
           "show_line_separator": true,
           "enable_sticky_header": true,
           "mobile_logo_position": "center",

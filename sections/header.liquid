@@ -450,6 +450,7 @@
             {%- for link in section.settings.menu.links -%}
               <li>
                 {%- if link.links != blank -%}
+                  {% assign loop_index = forloop.index %}
                   <header-menu>
                     <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
                       <summary class="header__menu-item list-menu__item link focus-inset">
@@ -479,7 +480,7 @@
                         </ul>
                         {% capture megamenu %}
                           {% for block in section.blocks %}
-                            {% if block.settings.subcat_index == 0 and block.settings.cat_index == forloop.index %}
+                            {% if block.settings.subcat_index == 0 and block.settings.cat_index == loop_index %}
                             <div class="">
                               {% if block.settings.link %}
                                 <a href="{{ block.settings.link }}">

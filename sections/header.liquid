@@ -454,6 +454,7 @@
                   {% capture megamenu %}
                     {% for block in section.blocks %}
                       {% if block.settings.subcat_index == 0 and block.settings.cat_index == loop_index %}
+                      {% assign grid_span = block.settings.grid_span %}
                       <div class="megamenu__cat_item">
                         {% if block.settings.link %}
                           <a href="{{ block.settings.link }}">
@@ -505,7 +506,7 @@
                             {%- endfor -%}
                           </ul>
                           {% if megamenu != blank %}
-                          <div class="megamenu__cat_wrap" style="width: calc(({{ 100 | divided_by: section.settings.grid_col }}% - var(--grid-desktop-horizontal-spacing) * {{ section.settings.grid_col | minus: 1 }} / {{ section.settings.grid_col }}) * {{ block.settings.grid_span }});">
+                          <div class="megamenu__cat_wrap" style="width: calc(({{ 100 | divided_by: section.settings.grid_col }}% - var(--grid-desktop-horizontal-spacing) * {{ section.settings.grid_col | minus: 1 }} / {{ section.settings.grid_col }}) * {{  }});">
                             {{ megamenu }}
                           </div>
                           {% endif %}

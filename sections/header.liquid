@@ -40,9 +40,6 @@
     header-drawer {
       display: none;
     }
-    .megamenu__cat_wrap {
-      width: calc({{ 100 | divided_by: section.settings.grid_col }}% - var(--grid-desktop-horizontal-spacing) * {{ section.settings.grid_col | minus: 1 }} / {{ section.settings.grid_col }});
-    }
   }
 
   .menu-drawer-container {
@@ -508,7 +505,7 @@
                             {%- endfor -%}
                           </ul>
                           {% if megamenu != blank %}
-                          <div class="megamenu__cat_wrap">
+                          <div class="megamenu__cat_wrap" style="width: calc(({{ 100 | divided_by: section.settings.grid_col }}% - var(--grid-desktop-horizontal-spacing) * {{ section.settings.grid_col | minus: 1 }} / {{ section.settings.grid_col }}) * {{ block.settings.grid_span }});">
                             {{ megamenu }}
                           </div>
                           {% endif %}
@@ -1011,6 +1008,15 @@
           "max": 6,
           "step": 1,
           "label": "Subcategory index",
+          "default": 1
+        },
+        {
+          "type": "range",
+          "id": "grid_span",
+          "min": 1,
+          "max": 6,
+          "step": 1,
+          "label": "Column span",
           "default": 1
         }
       ]

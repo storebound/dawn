@@ -483,7 +483,7 @@
                         {% render 'icon-caret' %}
                       </summary>
                       <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
-                        <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
+                        <ul class="mega-menu__list page-width grid grid--1-col-tablet-down grid--{{ section.settings.grid_col | minus: 1 }}-col-desktop{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
                           {%- for childlink in link.links -%}
                             <li>
                               <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
@@ -888,6 +888,15 @@
       "default": "dropdown",
       "label": "t:sections.header.settings.menu_type_desktop.label",
       "info": "t:sections.header.settings.menu_type_desktop.info"
+    },
+    {
+      "type": "range",
+      "id": "grid_col",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "label": "Grid Columns",
+      "default": 4
     },
     {
       "type": "checkbox",

@@ -191,6 +191,26 @@
               "cat_index": 2,
               "subcat_index": 0
             }
+          },
+          "d4664cd4-9e2f-480a-ad0c-d2f57938cf45": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/HolidayShoot_2022_2234_Request_2_Target_Mini_Maker.png",
+              "link_text": "Waffles for the holiday!",
+              "link": "shopify:\/\/collections\/frozen-treats",
+              "cat_index": 2,
+              "subcat_index": 1
+            }
+          },
+          "da9c3cd7-fb5b-43e8-adc2-2fdd8adfad64": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DEC005RD_IO_3_1024x_ef5c04d9-99c5-4204-9071-7ea97b0c9286.jpg",
+              "link_text": "Eggs-tremely Fast",
+              "link": "shopify:\/\/products\/deluxe-egg-cooker",
+              "cat_index": 2,
+              "subcat_index": 1
+            }
           }
         },
         "block_order": [
@@ -198,7 +218,9 @@
           "16e61c8a-bcf2-487f-9cff-eb71b5bb2261",
           "63e74b05-9c81-4330-8d27-aa5247dc5973",
           "06262b9a-136e-49ae-9240-47dab88f43ca",
-          "70a7cbcb-f0b0-4302-855a-fa286f98fc7f"
+          "70a7cbcb-f0b0-4302-855a-fa286f98fc7f",
+          "d4664cd4-9e2f-480a-ad0c-d2f57938cf45",
+          "da9c3cd7-fb5b-43e8-adc2-2fdd8adfad64"
         ],
         "settings": {
           "color_scheme": "background-1",

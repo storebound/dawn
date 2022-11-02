@@ -2,6 +2,7 @@
 
 @media screen and (min-width: 990px) {
   .mega-menu__content > div {
+    display: grid;
     gap: var(--grid-desktop-horizontal-spacing);
   }
   

@@ -1,7 +1,7 @@
 /* In Social - Custom */
 
 .megamenu__cat_wrap {
-  overflow-x: scroll;
+  overflow-x: auto;
   white-space: nowrap;
   padding: var(--grid-desktop-horizontal-spacing);
 }

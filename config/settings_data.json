@@ -150,7 +150,7 @@
               "link": "shopify:\/\/collections\/mini-makers",
               "cat_index": 1,
               "subcat_index": 0,
-              "grid_span": 3
+              "grid_span": 2
             }
           },
           "06262b9a-136e-49ae-9240-47dab88f43ca": {
@@ -161,7 +161,7 @@
               "link": "shopify:\/\/collections\/bydash-exclusives",
               "cat_index": 1,
               "subcat_index": 0,
-              "grid_span": 3
+              "grid_span": 2
             }
           }
         },

@@ -482,7 +482,8 @@
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                         {% render 'icon-caret' %}
                       </summary>
-                      <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content page-width gradient motion-reduce global-settings-popup grid grid--1-col-tablet-down grid--{{ section.settings.columns }}-col-desktop" tabindex="-1">
+                      <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
+                        <div class="page-width grid grid--1-col-tablet-down grid--{{ section.settings.columns }}-col-desktop">
                         <ul class="mega-menu__list grid__item{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
                           {%- for childlink in link.links -%}
                             <li>
@@ -508,6 +509,7 @@
                             {{ megamenu }}
                           </div>
                         {% endif %}
+                        </div>
                       </div>
                     </details>
                   </header-menu>

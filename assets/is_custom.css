@@ -1,5 +1,9 @@
 /* In Social - Custom */
 
+.menu-drawer__inner-container {
+  height: auto;
+}
+
 .megamenu__cat_wrap {
   overflow-x: auto;
   white-space: nowrap;

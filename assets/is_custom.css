@@ -4,6 +4,10 @@
   padding-top: 0;
 }
 
+.menu-drawer__close-button {
+  margin-top: 0;
+}
+
 .menu-drawer__inner-container {
   height: auto;
 }

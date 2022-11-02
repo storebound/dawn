@@ -1,6 +1,2 @@
 /* In Social - Custom */
 
-.mega-menu__content,
-.mega-menu__list:not(.mega-menu__list--condensed) {
-  display: flex;
-}

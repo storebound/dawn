@@ -506,7 +506,7 @@
                             {%- endfor -%}
                           </ul>
                           {% if megamenu != blank %}
-                          <div class="megamenu__cat_wrap" style="width: calc(({{ 100 | divided_by: section.settings.grid_col }}% - var(--grid-desktop-horizontal-spacing) * {{ section.settings.grid_col | minus: 1 }} / {{ section.settings.grid_col }}) * {{  }});">
+                          <div class="megamenu__cat_wrap" style="width: calc(({{ 100 | divided_by: section.settings.grid_col }}% - var(--grid-desktop-horizontal-spacing) * {{ section.settings.grid_col | minus: 1 }} / {{ section.settings.grid_col }}) * {{ grid_span }});">
                             {{ megamenu }}
                           </div>
                           {% endif %}

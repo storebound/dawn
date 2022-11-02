@@ -12,6 +12,7 @@
   .megamenu__cat_wrap {
     overflow-x: scroll;
     white-space: nowrap;
+    vertical-align: top;
   }
   
   .megamenu__cat_item {

@@ -48,7 +48,7 @@
   }
 
   .megamenu__cat_item:last-child {
-    margin-right: none;
+    margin-right: none !important;
   }
   
   .megamenu__cat_item img {

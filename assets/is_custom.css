@@ -1,5 +1,9 @@
 /* In Social - Custom */
 
+.megamenu__cat_item {
+  overflow-x: scroll;
+}
+
 .megamenu__cat_item img {
   width: 100%;
   height: auto;

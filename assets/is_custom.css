@@ -16,6 +16,29 @@
     white-space: nowrap;
   }
   
+  .megamenu__cat_wrap::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .megamenu__cat_wrap::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .megamenu__cat_wrap::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .megamenu__cat_wrap::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .megamenu__cat_wrap::-webkit-scrollbar-thumb:active {
+    background: rgba(0, 0, 0, 0.9);
+  }
+  
   .megamenu__cat_item {
     display: inline-block;
     white-space: normal;

@@ -151,10 +151,21 @@
               "cat_index": 1,
               "subcat_index": 0
             }
+          },
+          "06262b9a-136e-49ae-9240-47dab88f43ca": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/HolidayShoot_Request_13_ByDash_Mini_Holiday_1.jpg",
+              "link_text": "Gifts for the Holiday!",
+              "link": "shopify:\/\/collections\/bydash-exclusives",
+              "cat_index": 1,
+              "subcat_index": 0
+            }
           }
         },
         "block_order": [
-          "63e74b05-9c81-4330-8d27-aa5247dc5973"
+          "63e74b05-9c81-4330-8d27-aa5247dc5973",
+          "06262b9a-136e-49ae-9240-47dab88f43ca"
         ],
         "settings": {
           "color_scheme": "background-1",

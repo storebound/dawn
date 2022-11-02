@@ -141,6 +141,21 @@
       },
       "header": {
         "type": "header",
+        "blocks": {
+          "63e74b05-9c81-4330-8d27-aa5247dc5973": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_Waffle_Egg_Bite_1.jpg",
+              "link_text": "Check our mini waffle makers!",
+              "link": "shopify:\/\/collections\/mini-makers",
+              "cat_index": 1,
+              "subcat_index": 1
+            }
+          }
+        },
+        "block_order": [
+          "63e74b05-9c81-4330-8d27-aa5247dc5973"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "logo": "{{ shop.brand.logo }}",
@@ -148,7 +163,6 @@
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "mega",
-          "columns": 4,
           "show_line_separator": true,
           "enable_sticky_header": true,
           "mobile_logo_position": "center",

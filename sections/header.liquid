@@ -212,6 +212,32 @@
                                           {{ childlink.title | escape }}
                                         </a>
                                       {%- else -%}
+                                        {% assign subcat_loop_index = forloop.index %}
+                                        {% capture subcat_megamenu %}
+                                          {% for block in section.blocks %}
+                                            {% if block.settings.subcat_index == subcat_loop_index and block.settings.cat_index == loop_index %}
+                                            <div class="megamenu__cat_item">
+                                              {% if block.settings.link %}
+                                                <a href="{{ block.settings.link }}">
+                                              {% endif %}
+                                              {%- if block.settings.image != blank -%}
+                                                {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
+                                                {{ block.settings.image | image_url: width: 1500 | image_tag:
+                                                  loading: 'lazy',
+                                                  sizes: sizes,
+                                                  widths: '165, 360, 535, 750, 1070, 1500'
+                                                }}
+                                              {%- endif -%}
+                                              {% if block.settings.link_text != blank %}
+                                                <span class="">{{ block.settings.link_text | escape }}</span>
+                                              {% endif %}
+                                              {% if block.settings.link %}
+                                                </a>
+                                              {% endif %}
+                                            </div>
+                                            {% endif %}
+                                          {% endfor %}
+                                        {% endcapture %}
                                         <details id="Details-menu-drawer-submenu-{{ forloop.index }}">elo
                                           <summary class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
                                             {{ childlink.title | escape }}
@@ -232,6 +258,11 @@
                                                 </li>
                                               {%- endfor -%}
                                             </ul>
+                                            {% if subcat_megamenu != blank %}
+                                            <div class="megamenu__cat_wrap">
+                                              {{ subcat_megamenu }}
+                                            </div>
+                                            {% endif %}
                                           </div>
                                         </details>
                                       {%- endif -%}

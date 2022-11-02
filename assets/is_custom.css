@@ -1,7 +1,7 @@
 /* In Social - Custom */
 
 .mega-menu__content .grid {
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .mega-menu__list {

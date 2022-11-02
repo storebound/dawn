@@ -149,7 +149,8 @@
               "link_text": "Check our mini waffle makers!",
               "link": "shopify:\/\/collections\/mini-makers",
               "cat_index": 1,
-              "subcat_index": 0
+              "subcat_index": 0,
+              "grid_span": 3
             }
           },
           "06262b9a-136e-49ae-9240-47dab88f43ca": {
@@ -159,7 +160,8 @@
               "link_text": "Gifts for the Holiday!",
               "link": "shopify:\/\/collections\/bydash-exclusives",
               "cat_index": 1,
-              "subcat_index": 0
+              "subcat_index": 0,
+              "grid_span": 1
             }
           }
         },
@@ -174,6 +176,7 @@
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "mega",
+          "grid_col": 4,
           "show_line_separator": true,
           "enable_sticky_header": true,
           "mobile_logo_position": "center",

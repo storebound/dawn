@@ -40,6 +40,9 @@
     header-drawer {
       display: none;
     }
+    .megamenu__cat_wrap {
+      width: calc({{ 100 | divided_by: section.settings.grid_col }}% - var(--grid-desktop-horizontal-spacing) * {{ section.settings.grid_col | minus: 1 }} / {{ section.settings.grid_col }});
+    }
   }
 
   .menu-drawer-container {

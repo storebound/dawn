@@ -139,8 +139,7 @@
                 <nav class="menu-drawer__navigation">
                   <ul class="menu-drawer__menu has-submenu list-menu" role="list">
                     {%- for link in section.settings.menu.links -%}
-                      <li>
-                        {% assign loop_index = forloop.index %}
+                      {% assign loop_index = forloop.index %}
                         {% capture megamenu %}
                           {% for block in section.blocks %}
                             {% if block.settings.subcat_index == 0 and block.settings.cat_index == loop_index %}
@@ -166,6 +165,7 @@
                             {% endif %}
                           {% endfor %}
                         {% endcapture %}
+                      <li>
                         {%- if link.links != blank -%}
                           <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
                             <summary class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
@@ -221,12 +221,12 @@
                             {{ link.title | escape }}
                           </a>
                         {%- endif -%}
-                        {% if megamenu != blank %}
-                          <div class="megamenu__cat_wrap grid__item">
-                            {{ megamenu }}
-                          </div>
-                          {% endif %}
-                      </li>
+                      </li>test
+                      {% if megamenu != blank %}
+                      <div class="megamenu__cat_wrap grid__item">
+                        {{ megamenu }}
+                      </div>
+                      {% endif %}
                     {%- endfor -%}
                   </ul>
                 </nav>

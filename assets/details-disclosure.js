@@ -48,16 +48,6 @@ class HeaderMenu extends DetailsDisclosure {
     });
     this.mainDetailsToggle.querySelector('summary').click();
   }
-
-  let exit;
-
-  onMouseOut() {
-    clearTimeout(exit);
-    exit = setTimeout(function() {
-      this.mainDetailsToggle.removeAttribute('open');
-      this.mainDetailsToggle.querySelector('summary').setAttribute('aria-expanded', false);
-    }, 500);
-  }
   
   onToggle() {
     if (!this.header) return;

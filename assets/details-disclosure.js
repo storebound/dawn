@@ -42,11 +42,11 @@ class HeaderMenu extends DetailsDisclosure {
   }
 
   onMouseOver() {
-    if (!this.mainDetailsToggle.hasAttribute('open')) {
-      this.allMenus.forEach(menu => {
-        menu.removeAttribute('open');
-        menu.querySelector('summary').setAttribute('aria-expanded', false);
-      });
+    this.allMenus.forEach(menu => {
+      menu.removeAttribute('open');
+      menu.querySelector('summary').setAttribute('aria-expanded', false);
+    });
+    if (!this.mainDetailsToggle.open) {
       this.mainDetailsToggle.querySelector('summary').click();
     }
   }

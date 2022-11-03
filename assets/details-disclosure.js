@@ -41,7 +41,7 @@ class HeaderMenu extends DetailsDisclosure {
 
   onMouseOver() {
     console.log("trigger");
-    this.mainDetailsToggle.querySelector('summary').click();
+    //this.mainDetailsToggle.querySelector('summary').click();
   }
   
   onToggle() {

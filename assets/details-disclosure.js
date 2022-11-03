@@ -40,10 +40,10 @@ class HeaderMenu extends DetailsDisclosure {
   }
 
   onMouseOver() {
-    console.log("trigger", this.mainDetailsToggle.querySelector('summary'));
-    setTimeout(() => {
-      if (!this.mainDetailsToggle.open) this.mainDetailsToggle.querySelector('summary').click();
-    })
+    if (!this.mainDetailsToggle.open) {
+      if (!this.contains(document.activeElement)) this.close();
+      this.mainDetailsToggle.querySelector('summary').click();
+    }
   }
   
   onToggle() {

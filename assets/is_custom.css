@@ -60,7 +60,7 @@
 }
 
 @media screen and (min-width: 990px) {
-  .mega-menu__list:not('.mega-menu__list--condensed') .mega-menu__link--level-2 {
+  .mega-menu__list:not(.mega-menu__list--condensed) .mega-menu__link--level-2 {
     text-transform: uppercase;
     font-weight: bold;
   }

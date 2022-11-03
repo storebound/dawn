@@ -1,5 +1,10 @@
 /* In Social - Custom */
 
+.mega-menu__link--level-2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .menu-drawer__navigation {
   padding-top: 0;
 }

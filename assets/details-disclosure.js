@@ -10,7 +10,7 @@ class DetailsDisclosure extends HTMLElement {
   }
 
   onMouseOver() {
-    console.log(this);
+    console.log(this.content);
   }
   
   onFocusOut() {

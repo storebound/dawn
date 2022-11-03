@@ -40,6 +40,7 @@ class HeaderMenu extends DetailsDisclosure {
   }
 
   onMouseOver() {
+    console.log("trigger");
     this.mainDetailsToggle.querySelector('summary').click();
   }
   

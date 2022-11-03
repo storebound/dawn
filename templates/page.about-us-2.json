@@ -40,7 +40,7 @@
         "1664286962b9c39919-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/eatgood.001.jpg",
+        "image": "shopify:\/\/shop_images\/Group_Waffle_Egg_Bite_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -50,7 +50,7 @@
         "color_scheme": "background-1",
         "headline_novecento": true,
         "mobile_content_alignment": "left",
-        "padding_top": 0,
+        "padding_top": 16,
         "padding_bottom": 36
       }
     },
@@ -103,7 +103,7 @@
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "left",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,

@@ -3,14 +3,9 @@ class DetailsDisclosure extends HTMLElement {
     super();
     this.mainDetailsToggle = this.querySelector('details');
     this.content = this.mainDetailsToggle.querySelector('summary').nextElementSibling;
-
-    this.mainDetailsToggle.querySelector('summary').addEventListener('mouseover', this.onMouseOver.bind(this));
+    
     this.mainDetailsToggle.addEventListener('focusout', this.onFocusOut.bind(this));
     this.mainDetailsToggle.addEventListener('toggle', this.onToggle.bind(this));
-  }
-
-  onMouseOver() {
-    console.log(this.content);
   }
   
   onFocusOut() {
@@ -41,8 +36,13 @@ class HeaderMenu extends DetailsDisclosure {
   constructor() {
     super();
     this.header = document.querySelector('.header-wrapper');
+    this.mainDetailsToggle.querySelector('summary').addEventListener('mouseover', this.onMouseOver.bind(this));
   }
 
+  onMouseOver() {
+    console.log(this.content);
+  }
+  
   onToggle() {
     if (!this.header) return;
     this.header.preventHide = this.mainDetailsToggle.open;

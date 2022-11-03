@@ -40,8 +40,7 @@ class HeaderMenu extends DetailsDisclosure {
   }
 
   onMouseOver() {
-    this.mainDetailsToggle.addAttribute('open');
-    this.mainDetailsToggle.querySelector('summary').setAttribute('aria-expanded', true);
+    this.mainDetailsToggle.querySelector('summary').click();
   }
   
   onToggle() {

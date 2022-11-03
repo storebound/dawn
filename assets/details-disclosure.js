@@ -42,7 +42,7 @@ class HeaderMenu extends DetailsDisclosure {
 
   onMouseOver() {
     this.allMenus.forEach(menu => {
-      console.log(menu);
+      menu.close();
     });
     this.mainDetailsToggle.querySelector('summary').click();
   }

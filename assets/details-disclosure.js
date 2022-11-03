@@ -50,11 +50,12 @@ class HeaderMenu extends DetailsDisclosure {
   }
 
   onMouseOut() {
-    console.log(this);
-    //this.allMenus.forEach(menu => {
-    //  menu.removeAttribute('open');
-    //  menu.querySelector('summary').setAttribute('aria-expanded', false);
-    //});
+    setTimeout(() => {
+      if (!this.contains(document.activeElement)) {
+        this.mainDetailsToggle.removeAttribute('open');
+        this.mainDetailsToggle.querySelector('summary').setAttribute('aria-expanded', false);
+      }
+    })
   }
   
   onToggle() {

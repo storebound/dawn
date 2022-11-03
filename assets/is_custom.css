@@ -1,10 +1,5 @@
 /* In Social - Custom */
 
-.mega-menu__link--level-2 {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
 .menu-drawer__navigation {
   padding-top: 0;
 }
@@ -65,6 +60,11 @@
 }
 
 @media screen and (min-width: 990px) {
+  .mega-menu__list:not('.mega-menu__list--condensed') .mega-menu__link--level-2 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
   .mega-menu__content > div.has_megamenu_img {
     display: grid;
     grid-template-columns: 2fr 1fr;

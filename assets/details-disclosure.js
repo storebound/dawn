@@ -36,12 +36,14 @@ class HeaderMenu extends DetailsDisclosure {
   constructor() {
     super();
     this.header = document.querySelector('.header-wrapper');
-    this.allMenus = this.header.querySelectorAll('.mega-menu__content');
+    this.allMenus = this.header.querySelectorAll('details');
     this.mainDetailsToggle.querySelector('summary').addEventListener('mouseover', this.onMouseOver.bind(this));
   }
 
   onMouseOver() {
-    console.log(this.allMenus);
+    this.allMenus.forEach(menu => {
+      console.log(menu);
+    });
     this.mainDetailsToggle.querySelector('summary').click();
   }
   

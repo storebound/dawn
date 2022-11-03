@@ -42,11 +42,13 @@ class HeaderMenu extends DetailsDisclosure {
   }
 
   onMouseOver() {
-    this.allMenus.forEach(menu => {
-      menu.removeAttribute('open');
-      menu.querySelector('summary').setAttribute('aria-expanded', false);
-    });
-    this.mainDetailsToggle.querySelector('summary').click();
+    if (!this.mainDetailsToggle.hasAttribute('open')) {
+      this.allMenus.forEach(menu => {
+        menu.removeAttribute('open');
+        menu.querySelector('summary').setAttribute('aria-expanded', false);
+      });
+      this.mainDetailsToggle.querySelector('summary').click();
+    }
   }
   
   onToggle() {

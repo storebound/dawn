@@ -42,7 +42,8 @@ class HeaderMenu extends DetailsDisclosure {
 
   onMouseOver() {
     this.allMenus.forEach(menu => {
-      menu.close();
+      menu.removeAttribute('open');
+      menu.querySelector('summary').setAttribute('aria-expanded', false);
     });
     this.mainDetailsToggle.querySelector('summary').click();
   }

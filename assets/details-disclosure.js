@@ -4,10 +4,15 @@ class DetailsDisclosure extends HTMLElement {
     this.mainDetailsToggle = this.querySelector('details');
     this.content = this.mainDetailsToggle.querySelector('summary').nextElementSibling;
 
+    this.mainDetailsToggle.querySelector('summary').addEventListener('mouseover', this.onMouseOver.bind(this));
     this.mainDetailsToggle.addEventListener('focusout', this.onFocusOut.bind(this));
     this.mainDetailsToggle.addEventListener('toggle', this.onToggle.bind(this));
   }
 
+  onMouseOver() {
+    console.log(this);
+  }
+  
   onFocusOut() {
     setTimeout(() => {
       if (!this.contains(document.activeElement)) this.close();

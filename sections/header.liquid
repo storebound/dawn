@@ -540,7 +540,7 @@
                             {%- if childlink.links == blank -%}
                               {% assign menu_item = childlink.title | split: "||||" %}
                               <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                {{ childlink.title | escape }}
+                                {{ menu_item[0] | replace: "~~|", "" | replace: "--|", "" | escape }}
                               </a>
                             {%- else -%}
                               <details id="Details-HeaderSubMenu-{{ forloop.index }}">
@@ -552,8 +552,9 @@
                                   {%- for grandchildlink in childlink.links -%}
                                     {% unless grandchildlink.title contains "||||++|" %}
                                     <li>
+                                      {% assign menu_item = grandchildlink.title | split: "||||" %}
                                       <a href="{{ grandchildlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if grandchildlink.current %} list-menu__item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                                        {{ grandchildlink.title | escape }}
+                                        {{ menu_item[0] | replace: "~~|", "" | replace: "--|", "" | escape }}
                                       </a>
                                     </li>
                                     {% endunless %}

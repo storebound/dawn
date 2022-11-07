@@ -656,7 +656,7 @@
                         {%- endfor -%}
                       {% endcapture %}
                       <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup{% if menu_flow_style == "grid" %} has_megamenu_img{% endif %}" tabindex="-1">
-                        <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}{% if menu_flow_style == "flex" %} {% endif %}" role="list">
+                        <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}{% if menu_flow_style == "flex" %} megamenu__link-img{% endif %}" role="list">
                           {{ link_generate }}
                         </ul>
                         {% if child_megamenu != blank %}

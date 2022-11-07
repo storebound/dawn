@@ -93,4 +93,9 @@
   .megamenu__link-img_wrap {
     display: flex !important;
   }
+
+  .megamenu__link-img {
+    flex-direction: column;
+    align-items: center;
+  }
 }

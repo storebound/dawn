@@ -215,12 +215,12 @@
                                             </button>
                                             <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                               {%- for grandchildlink in childlink.links -%}
-                                                {% if childlink.title contains "|++|" %}
-                                                  {% assign menu_item = childlink.title | split: "|++|" %}
+                                                {% if grandchildlink.title contains "|++|" %}
+                                                  {% assign menu_item = grandchildlink.title | split: "|++|" %}
                                                   {% capture grandchild_megamenu %}
                                                     {{ grandchild_megamenu }}
                                                     <div class="megamenu__cat_item">
-                                                      <a href="{{ childlink.url }}" class="mega-menu__link">
+                                                      <a href="{{ grandchildlink.url }}" class="mega-menu__link">
                                                         {% if menu_item[1] != blank %}
                                                         <img src="{{ menu_item[1] }}" loading="lazy" alt="{% if menu_item[2] != blank %}{{ menu_item[2] }}{% else %}{{ menu_item[0] }}{% endif %}" />
                                                         {% endif %}
@@ -241,7 +241,7 @@
                                             </ul>
                                           {% if grandchild_megamenu != blank %}
                                             <div class="megamenu__cat_wrap">
-                                              {{ child_megamenu }}
+                                              {{ grandchild_megamenu }}
                                             </div>
                                           {% endif %}
                                           </div>

@@ -14,10 +14,15 @@
 
 .megamenu__link-img {
   display: flex;
+  gap: 10px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
 }
 
 .megamenu__link-img_img {
-  max-width: 50px;
+  max-width: 100px;
 }
 
 .megamenu__link-img_img img {

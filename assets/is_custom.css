@@ -103,7 +103,7 @@
   .megamenu__cat_menu {
     display: flex !important;
     flex-wrap: wrap;
-    gap: 2.4rem 3rem;
+    gap: 2.4rem 2.8rem;
   }
 
   .megamenu__link-img {

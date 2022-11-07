@@ -92,6 +92,7 @@
 
   .megamenu__link-img_wrap {
     display: flex !important;
+    width: 100%;
   }
 
   .megamenu__link-img {

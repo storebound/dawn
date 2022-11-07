@@ -464,6 +464,7 @@
                                 {% if childlink.title contains "|~~|" %}
                                   {% assign menu_item = childlink.title | split: "|~~|" %}
                                   {{ menu_item[0] }}
+                                  {{ menu_item[1] }}
                                 {% else %}
                                   {{ childlink.title | escape }}
                                 {% endif %}

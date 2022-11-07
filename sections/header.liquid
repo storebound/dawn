@@ -461,12 +461,12 @@
                           {%- for childlink in link.links -%}
                             <li>
                               {% if childlink.title contains "|~~|" %}
-                              <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %} megamenu__tilde"{% if childlink.current %} aria-current="page"{% endif %}>
+                              <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %} megamenu__link-img"{% if childlink.current %} aria-current="page"{% endif %}>
                                   {% assign menu_item = childlink.title | split: "|~~|" %}
-                                  <div class="megamenu__tilde_img">
+                                  <div class="megamenu__link-img_img">
                                     <img src="{{ menu_item[1] }}" loading="lazy" alt="{% if menu_item[2] != blank %}{{ menu_item[2] }}{% else %}{{ menu_item[0] }}{% endif %}" />
                                   </div>
-                                  <div class="megamenu__tilde_text">
+                                  <div class="megamenu__link-img_text">
                                     {{ menu_item[0] }}
                                   </div>
                               </a>

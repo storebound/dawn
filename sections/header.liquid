@@ -156,6 +156,7 @@
                         </div>
                       {% endcapture %}
                       {% else %}
+                      {% assign menu_item = "" %}
                       {% if link.title contains "||||" %}
                         {% assign menu_item = link.title | split: "||||" %}
                       {% endif %}

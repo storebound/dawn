@@ -94,7 +94,8 @@
     gap: var(--grid-desktop-horizontal-spacing);
   }
 
-  .megamenu__link-img_wrap {
+  .megamenu__link-img_wrap,
+  .megamenu__cat_menu {
     display: flex !important;
     width: 100%;
     justify-content: center;

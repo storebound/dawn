@@ -12,6 +12,14 @@
   height: auto;
 }
 
+.megamenu__link-img {
+  display: flex;
+}
+
+.megamenu__link-img_img {
+  max-width: 50px;
+}
+
 .megamenu__cat_wrap {
   overflow-x: auto;
   white-space: nowrap;

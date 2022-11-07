@@ -261,9 +261,18 @@
                                                     </div>
                                                   {% endcapture %}
                                                 {% else %}
+                                                {% if grandchildlink.title contains "|~~|" %}
+                                                  {% assign menu_item = grandchildlink.title | split: "|~~|" %}
+                                                {% else %}
+                                                  {% assign menu_item = grandchildlink.title | split: "|--|" %}
+                                                {% endif %}
                                                 <li>
                                                   <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                                                    {% if menu_item[0] != blank %}
+                                                    {{ menu_item[0] | escape }}
+                                                    {% else %}
                                                     {{ grandchildlink.title | escape }}
+                                                    {% endif %}
                                                   </a>
                                                 </li>
                                                 {% endif %}

@@ -158,6 +158,7 @@
                                     <li>
                                       {%- if childlink.links == blank -%}
                                         {% if childlink.title contains "|~~|" %}
+                                        {% assign link_img_trigger = true %}
                                         <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %} megamenu__link-img"{% if childlink.current %} aria-current="page"{% endif %}>
                                           {% assign menu_item = childlink.title | split: "|~~|" %}
                                           <div class="megamenu__link-img_img">
@@ -469,7 +470,7 @@
                         {% render 'icon-caret' %}
                       </summary>
                       <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
-                        <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
+                        <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}{% if link_img_trigger %} megamenu__link-img_wrap{% endif %}" role="list">
                           {%- for childlink in link.links -%}
                             <li>
                               {% if childlink.title contains "|~~|" %}

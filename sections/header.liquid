@@ -175,9 +175,7 @@
                                         </a>
                                         {% endif %}
                                       {%- else -%}
-                                        {% if childlink.title contains "|--|" %}
-                                          {% assign menu_item = childlink.title | split: "|--|" %}
-                                        {% endif %}
+                                        {% assign menu_item = childlink.title | split: "|--|" %}
                                         <details id="Details-menu-drawer-submenu-{{ forloop.index }}">
                                           <summary class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
                                             {% if menu_item[0] != blank %}

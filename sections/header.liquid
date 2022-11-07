@@ -140,6 +140,7 @@
                   {% capture megamenu %}{% endcapture %}
                   <ul class="menu-drawer__menu has-submenu list-menu" role="list">
                     {%- for link in section.settings.menu.links -%}
+                      {% assign menu_item = "" %}
                       {% if link.title contains "||||++|" %}
                       {% assign menu_item = link.title | split: "||||++|" %}
                       {% capture megamenu %}
@@ -156,7 +157,6 @@
                         </div>
                       {% endcapture %}
                       {% else %}
-                      {% assign menu_item = "" %}
                       {% if link.title contains "||||" %}
                         {% assign menu_item = link.title | split: "||||" %}
                       {% endif %}
@@ -185,6 +185,7 @@
                                 </button>
                                 <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                   {%- for childlink in link.links -%}
+                                    {% assign menu_item = "" %}
                                     <li>
                                       {%- if childlink.links == blank -%}
                                         {% if childlink.title contains "||||~~|" %}
@@ -244,6 +245,7 @@
                                             </button>
                                             <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                               {%- for grandchildlink in childlink.links -%}
+                                                {% assign menu_item = "" %}
                                                 {% if grandchildlink.title contains "||||++|" %}
                                                   {% assign menu_item = grandchildlink.title | split: "||||++|" %}
                                                   {% capture grandchild_megamenu %}

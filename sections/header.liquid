@@ -610,7 +610,7 @@
                                   </div>
                               </a>
                               {% elsif childlink.title contains "||||++|" %}
-                                {% assign menu_item = childlink.title | split: "||||--|" %}
+                                {% assign menu_item = childlink.title | split: "||||++|" %}
                               {% elsif childlink.title contains "||||--|" %}
                                 {% assign menu_item = childlink.title | split: "||||--|" %}
                                 <style>.megamenu__columns-{{ forloop.index }} { ---menu_columns: {{ menu_item[1] }}; }</style>

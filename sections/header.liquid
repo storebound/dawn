@@ -178,7 +178,7 @@
                                 <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
                                   {% render 'icon-arrow' %}
                                   {% if menu_item[0] != blank %}
-                                  {{ menu_item[0] | escape }}
+                                  {{ menu_item[0] | replace: "~~|", "" | replace: "--|", "" | escape }}
                                   {% else %}
                                   {{ link.title | escape }}
                                   {% endif %}
@@ -217,8 +217,9 @@
                                             </div>
                                           {% endcapture %}
                                         {% else %}
+                                        {% assign menu_item = childlink.title | split: "||||" %}
                                         <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                          {{ childlink.title | escape }}
+                                          {{ menu_item[0] | replace: "~~|", "" | replace: "--|", "" | escape }}
                                         </a>
                                         {% endif %}
                                       {%- else -%}
@@ -521,6 +522,7 @@
         <nav class="header__inline-menu">
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
+              {% assign menu_item = "" %}
               {% unless link.title contains "||||++|" %}
               <li>
                 {%- if link.links != blank -%}
@@ -532,9 +534,11 @@
                       </summary>
                       <ul id="HeaderMenu-MenuList-{{ forloop.index }}" class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup" role="list" tabindex="-1">
                         {%- for childlink in link.links -%}
+                          {% assign menu_item = "" %}
                           {% unless childlink.title contains "||||++|" %}
                           <li>
                             {%- if childlink.links == blank -%}
+                              {% assign menu_item = childlink.title | split: "||||" %}
                               <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                 {{ childlink.title | escape }}
                               </a>

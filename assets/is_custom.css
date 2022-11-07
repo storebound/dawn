@@ -93,12 +93,12 @@
   .megamenu__link-img_wrap {
     display: flex !important;
     width: 100%;
+    justify-content: center;
   }
 
   .megamenu__link-img {
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     border: none;
   }
 }

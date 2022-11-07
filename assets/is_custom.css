@@ -97,5 +97,7 @@
   .megamenu__link-img {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    border: none;
   }
 }

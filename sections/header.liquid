@@ -168,6 +168,11 @@
                                             {{ menu_item[0] | escape }}
                                           </div>
                                         </a>
+                                        {% elsif childlink.title contains "|--|" %}
+                                          {% assign menu_item = childlink.title | split: "|--|" %}
+                                          <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                                            {{ menu_item[0] | escape }}
+                                          </a>
                                         {% else %}
                                         <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                           {{ childlink.title | escape }}

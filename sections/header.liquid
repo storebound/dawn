@@ -654,6 +654,11 @@
                             </li>
                           {%- endfor -%}
                         </ul>
+                        {% if child_megamenu != blank %}
+                        <div class="megamenu__cat_wrap">
+                          {{ child_megamenu }}
+                        </div>
+                        {% endif %}
                       </div>
                     </details>
                   </header-menu>

@@ -20,6 +20,10 @@
   max-width: 50px;
 }
 
+.megamenu__link-img_img img {
+  width: 100%;
+}
+
 .megamenu__cat_wrap {
   overflow-x: auto;
   white-space: nowrap;

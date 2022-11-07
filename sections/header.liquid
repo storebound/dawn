@@ -464,8 +464,7 @@
                                 {% if childlink.title contains "|~~|" %}
                                   {% assign menu_item = childlink.title | split: "|~~|" %}
                                   {{ menu_item[0] }}
-                                  {{ menu_item[1] }}
-                                  {{ menu_item[2] }}
+                                  <img src="{{ menu_item[1] }}" loading="lazy"{% if menu_item[2] != blank %} alt="{{ menu_item[2] }}"{% endif %} />
                                 {% else %}
                                   {{ childlink.title | escape }}
                                 {% endif %}

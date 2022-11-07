@@ -28,3 +28,13 @@
   width: 10rem;
   padding: 0.5rem;
 }
+
+@media only screen and (min-width: 750px){
+	.header__submenu.list-menu{
+		width: 60rem !important;
+	}
+	.header__submenu.list-menu li {
+		width: calc(100%/3);
+		display: inline-block;
+	}
+}

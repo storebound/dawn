@@ -102,6 +102,7 @@
 
   .megamenu__cat_menu {
     display: flex !important;
+    flex-wrap: wrap;
   }
 
   .megamenu__link-img {

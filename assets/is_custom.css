@@ -19,6 +19,7 @@
 
 .megamenu__link-img_img {
   max-width: 100px;
+  border-radius: 10px;
 }
 
 .megamenu__link-img_img img {

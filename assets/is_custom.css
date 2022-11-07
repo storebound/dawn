@@ -8,6 +8,10 @@
   margin-top: 0;
 }
 
+.menu-drawer__inner-container {
+  height: auto;
+}
+
 .megamenu__link-img {
   display: flex;
   gap: 10px;

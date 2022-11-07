@@ -489,7 +489,7 @@
         <nav class="header__inline-menu">
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
-              {% unless link.title contains "|++|" %}
+              {% unless link.title contains "|++|" %}1
               <li>
                 {%- if link.links != blank -%}
                   <header-menu>

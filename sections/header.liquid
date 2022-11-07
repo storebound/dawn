@@ -137,61 +137,10 @@
             <div class="menu-drawer__inner-container">
               <div class="menu-drawer__navigation-container">
                 <nav class="menu-drawer__navigation">
-                  {% capture megamenu %}
-                    {% for block in section.blocks %}
-                      {% if block.settings.cat_index == 0 %}
-                        <div class="megamenu__cat_item">
-                        {% if block.settings.link %}
-                          <a href="{{ block.settings.link }}" class="mega-menu__link">
-                        {% endif %}
-                        {%- if block.settings.image != blank -%}
-                          {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
-                          {{ block.settings.image | image_url: width: 1500 | image_tag:
-                            loading: 'lazy',
-                            sizes: sizes,
-                            widths: '165, 360, 535, 750, 1070, 1500'
-                          }}
-                        {%- endif -%}
-                        {% if block.settings.link_text != blank %}
-                          <span>{{ block.settings.link_text | escape }}</span>
-                        {% endif %}
-                        {% if block.settings.link %}
-                          </a>
-                        {% endif %}
-                        </div>
-                      {% endif %}
-                    {% endfor %}
-                  {% endcapture %}
                   <ul class="menu-drawer__menu has-submenu list-menu" role="list">
                     {%- for link in section.settings.menu.links -%}
                       <li>
                         {%- if link.links != blank -%}
-                          {% assign loop_index = forloop.index %}
-                          {% capture cat_megamenu %}
-                            {% for block in section.blocks %}
-                              {% if block.settings.subcat_index == 0 and block.settings.cat_index == loop_index %}
-                              <div class="megamenu__cat_item">
-                                {% if block.settings.link %}
-                                  <a href="{{ block.settings.link }}" class="mega-menu__link">
-                                {% endif %}
-                                {%- if block.settings.image != blank -%}
-                                  {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
-                                  {{ block.settings.image | image_url: width: 535 | image_tag:
-                                    loading: 'lazy',
-                                    sizes: sizes,
-                                    widths: '165, 360, 535'
-                                  }}
-                                {%- endif -%}
-                                {% if block.settings.link_text != blank %}
-                                  <span>{{ block.settings.link_text | escape }}</span>
-                                {% endif %}
-                                {% if block.settings.link %}
-                                  </a>
-                                {% endif %}
-                              </div>
-                              {% endif %}
-                            {% endfor %}
-                          {% endcapture %}
                           <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
                             <summary class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
                               {{ link.title | escape }}
@@ -212,32 +161,6 @@
                                           {{ childlink.title | escape }}
                                         </a>
                                       {%- else -%}
-                                        {% assign subcat_loop_index = forloop.index %}
-                                        {% capture subcat_megamenu %}
-                                          {% for block in section.blocks %}
-                                            {% if block.settings.subcat_index == subcat_loop_index and block.settings.cat_index == loop_index %}
-                                            <div class="megamenu__cat_item">
-                                              {% if block.settings.link %}
-                                                <a href="{{ block.settings.link }}" class="mega-menu__link">
-                                              {% endif %}
-                                              {%- if block.settings.image != blank -%}
-                                                {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
-                                                {{ block.settings.image | image_url: width: 1500 | image_tag:
-                                                  loading: 'lazy',
-                                                  sizes: sizes,
-                                                  widths: '165, 360, 535, 750, 1070, 1500'
-                                                }}
-                                              {%- endif -%}
-                                              {% if block.settings.link_text != blank %}
-                                                <span>{{ block.settings.link_text | escape }}</span>
-                                              {% endif %}
-                                              {% if block.settings.link %}
-                                                </a>
-                                              {% endif %}
-                                            </div>
-                                            {% endif %}
-                                          {% endfor %}
-                                        {% endcapture %}
                                         <details id="Details-menu-drawer-submenu-{{ forloop.index }}">
                                           <summary class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
                                             {{ childlink.title | escape }}
@@ -258,22 +181,12 @@
                                                 </li>
                                               {%- endfor -%}
                                             </ul>
-                                            {% if subcat_megamenu != blank %}
-                                            <div class="megamenu__cat_wrap">
-                                              {{ subcat_megamenu }}
-                                            </div>
-                                            {% endif %}
                                           </div>
                                         </details>
                                       {%- endif -%}
                                     </li>
                                   {%- endfor -%}
                                 </ul>
-                                {% if cat_megamenu != blank %}
-                                <div class="megamenu__cat_wrap">
-                                  {{ cat_megamenu }}
-                                </div>
-                                {% endif %}
                               </div>
                             </div>
                           </details>
@@ -285,11 +198,6 @@
                       </li>
                     {%- endfor -%}
                   </ul>
-                  {% if megamenu != blank %}
-                  <div class="megamenu__cat_wrap">
-                    {{ megamenu }}
-                  </div>
-                  {% endif %}
                 </nav>
                 <div class="menu-drawer__utility-links">
                   {%- if shop.customer_accounts_enabled -%}
@@ -542,33 +450,6 @@
             {%- for link in section.settings.menu.links -%}
               <li>
                 {%- if link.links != blank -%}
-                  {% assign loop_index = forloop.index %}
-                  {% capture megamenu %}
-                    {% for block in section.blocks %}
-                      {% if block.settings.subcat_index == 0 and block.settings.cat_index == loop_index %}
-                      {% assign grid_span = block.settings.grid_span %}
-                      <div class="megamenu__cat_item">
-                        {% if block.settings.link %}
-                          <a href="{{ block.settings.link }}" class="mega-menu__link">
-                        {% endif %}
-                        {%- if block.settings.image != blank -%}
-                          {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
-                          {{ block.settings.image | image_url: width: 1500 | image_tag:
-                            loading: 'lazy',
-                            sizes: sizes,
-                            widths: '165, 360, 535, 750, 1070, 1500'
-                          }}
-                        {%- endif -%}
-                        {% if block.settings.link_text != blank %}
-                          <span>{{ block.settings.link_text | escape }}</span>
-                        {% endif %}
-                        {% if block.settings.link %}
-                          </a>
-                        {% endif %}
-                      </div>
-                      {% endif %}
-                    {% endfor %}
-                  {% endcapture %}
                   <header-menu>
                     <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
                       <summary class="header__menu-item list-menu__item link focus-inset">
@@ -576,33 +457,26 @@
                         {% render 'icon-caret' %}
                       </summary>
                       <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
-                        <div class="page-width{% if megamenu != blank %} has_megamenu_img{% endif %}">
-                          <ul class="mega-menu__list{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
-                            {%- for childlink in link.links -%}
-                              <li>
-                                <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                  {{ childlink.title | escape }}
-                                </a>
-                                {%- if childlink.links != blank -%}
-                                  <ul class="list-unstyled" role="list">
-                                    {%- for grandchildlink in childlink.links -%}
-                                      <li>
-                                        <a href="{{ grandchildlink.url }}" class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                                          {{ grandchildlink.title | escape }}
-                                        </a>
-                                      </li>
-                                    {%- endfor -%}
-                                  </ul>
-                                {%- endif -%}
-                              </li>
-                            {%- endfor -%}
-                          </ul>
-                          {% if megamenu != blank %}
-                          <div class="megamenu__cat_wrap">
-                            {{ megamenu }}
-                          </div>
-                          {% endif %}
-                        </div>
+                        <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
+                          {%- for childlink in link.links -%}
+                            <li>
+                              <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                                {{ childlink.title | escape }}
+                              </a>
+                              {%- if childlink.links != blank -%}
+                                <ul class="list-unstyled" role="list">
+                                  {%- for grandchildlink in childlink.links -%}
+                                    <li>
+                                      <a href="{{ grandchildlink.url }}" class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                                        {{ grandchildlink.title | escape }}
+                                      </a>
+                                    </li>
+                                  {%- endfor -%}
+                                </ul>
+                              {%- endif -%}
+                            </li>
+                          {%- endfor -%}
+                        </ul>
                       </div>
                     </details>
                   </header-menu>
@@ -985,15 +859,6 @@
       "info": "t:sections.header.settings.menu_type_desktop.info"
     },
     {
-      "type": "range",
-      "id": "grid_col",
-      "min": 1,
-      "max": 6,
-      "step": 1,
-      "label": "Grid Columns",
-      "default": 4
-    },
-    {
       "type": "checkbox",
       "id": "show_line_separator",
       "default": true,
@@ -1063,48 +928,6 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 20
-    }
-  ],
-  "blocks": [
-    {
-      "type": "image",
-      "name": "Image",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "text",
-          "id": "link_text",
-          "label": "Text"
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "Link"
-        },
-        {
-          "type": "range",
-          "id": "cat_index",
-          "min": 0,
-          "max": 10,
-          "step": 1,
-          "label": "Category index",
-          "default": 1,
-          "info": "If set to 0, Subcategory is disregarded."
-        },
-        {
-          "type": "range",
-          "id": "subcat_index",
-          "min": 0,
-          "max": 6,
-          "step": 1,
-          "label": "Subcategory index",
-          "default": 1
-        }
-      ]
     }
   ]
 }

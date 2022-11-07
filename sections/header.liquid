@@ -161,7 +161,7 @@
                                           {% if childlink.title contains "|~~|" %}
                                             {% assign menu_item = childlink.title | split: "|~~|" %}
                                             <div class="megamenu__link-img">
-                                              <img src="{{ menu_item[1] | append: "&width=100" }}" loading="lazy" alt="{% if menu_item[2] != blank %}{{ menu_item[2] }}{% else %}{{ menu_item[0] }}{% endif %}" />
+                                              <img src="{{ menu_item[1] | append: "?width=100" }}" loading="lazy" alt="{% if menu_item[2] != blank %}{{ menu_item[2] }}{% else %}{{ menu_item[0] }}{% endif %}" />
                                             </div>
                                           {% else %}
                                           {{ childlink.title | escape }}

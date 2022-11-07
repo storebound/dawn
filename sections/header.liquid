@@ -260,12 +260,21 @@
                                                       </a>
                                                     </div>
                                                   {% endcapture %}
+                                                {% elsif grandchildlink.title contains "|~~|" %}
+                                                {% assign menu_item = grandchildlink.title | split: "|~~|" %}
+                                                  <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %} megamenu__link-img"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                                                    {% assign menu_item = childlink.title | split: "|~~|" %}
+                                                    {% if menu_item[1] != blank %}
+                                                    <div class="megamenu__link-img_img">
+                                                      <img src="{{ menu_item[1] }}" loading="lazy" alt="{% if menu_item[2] != blank %}{{ menu_item[2] }}{% else %}{{ menu_item[0] }}{% endif %}" />
+                                                    </div>
+                                                    {% endif %}
+                                                    <div class="megamenu__link-img_text">
+                                                      {{ menu_item[0] | escape }}
+                                                    </div>
+                                                  </a>
                                                 {% else %}
-                                                {% if grandchildlink.title contains "|~~|" %}
-                                                  {% assign menu_item = grandchildlink.title | split: "|~~|" %}
-                                                {% else %}
-                                                  {% assign menu_item = grandchildlink.title | split: "|--|" %}
-                                                {% endif %}
+                                                {% assign menu_item = grandchildlink.title | split: "|--|" %}
                                                 <li>
                                                   <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
                                                     {% if menu_item[0] != blank %}

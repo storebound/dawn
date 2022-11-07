@@ -89,8 +89,8 @@
     grid-template-columns: 2fr 1fr;
     gap: var(--grid-desktop-horizontal-spacing);
   }
-  
-  .mega-menu__list {
-    display: flex;
+
+  .megamenu__link-img_wrap {
+    display: flex !important;
   }
 }

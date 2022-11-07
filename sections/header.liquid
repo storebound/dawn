@@ -158,10 +158,13 @@
                                     <li>
                                       {%- if childlink.links == blank -%}
                                         {% if childlink.title contains "|~~|" %}
-                                        <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                                        <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %} megamenu__link-img"{% if childlink.current %} aria-current="page"{% endif %}>
                                           {% assign menu_item = childlink.title | split: "|~~|" %}
-                                          <div class="megamenu__link-img">
+                                          <div class="megamenu__link-img_img">
                                             <img src="{{ menu_item[1] }}" loading="lazy" alt="{% if menu_item[2] != blank %}{{ menu_item[2] }}{% else %}{{ menu_item[0] }}{% endif %}" />
+                                          </div>
+                                          <div class="megamenu__link-img_text">
+                                            {{ menu_item[0] | escape }}
                                           </div>
                                         </a>
                                         {% else %}

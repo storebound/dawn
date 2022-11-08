@@ -126,16 +126,11 @@
     padding: 0;
   }
 
-  .megamenu__columns[data-menu-col] {
-    display: grid;
-    grid-auto-flow: row;
-  }
-
   .megamenu__columns[data-menu-col="2"] {
-    grid-template-columns: 1fr 1fr;
+    column-width: 50%;
   }
 
   .megamenu__columns[data-menu-col="3"] {
-    grid-template-columns: 1fr 1fr 1fr;
+    column-width: 33.3333%;
   }
 }

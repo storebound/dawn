@@ -117,4 +117,9 @@
     margin-top: 0;
     padding-top: 0;
   }
+
+  .megamenu__link-img_img {
+    max-width: 150px;
+  }
+  }
 }

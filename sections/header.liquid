@@ -627,6 +627,7 @@
                                 </div>
                               {% endcapture %}
                             {% elsif childlink.title contains "||||--|" %}
+                              {% assign menu_col = 0 %}
                               {% assign menu_item = childlink.title | split: "||||--|" %}
                               <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                 {{ menu_item[0] | escape }}

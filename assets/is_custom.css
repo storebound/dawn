@@ -142,6 +142,6 @@
   }
 
   .megamenu__columns[data-menu-col="3"] {
-    grid-template-columns: repeat(3, min-content);
+    grid-template-rows: repeat(3, min-content);
   }
 }

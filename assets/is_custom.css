@@ -127,11 +127,13 @@
   }
 
   .megamenu__columns {
-    width: 150px;
+    width: 125px;
   }
   
   .megamenu__columns[data-menu-col] {
     display: flex;
+    flex-wrap: wrap;
+    gap: 0 2rem;
     width: auto;
   }
 

@@ -137,7 +137,8 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .megamenu__columns[data-menu-col="3"] > li {
+  .megamenu__columns[data-menu-col="3"] {
+    grid-template-columns: 1fr 1fr 1fr;
     width: calc(33.3333% - 2rem);
   }
 }

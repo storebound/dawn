@@ -598,6 +598,7 @@
                       {% capture link_generate %}
                         {%- for childlink in link.links -%}
                           {% assign menu_item = "" %}
+                          {% if childlink.title contains "||||" %}
                           <li>
                             {% if childlink.title contains "||||~~|" %}
                             {% assign menu_flow_style = "flex" %}
@@ -654,6 +655,7 @@
                               </ul>
                             {%- endif -%}
                           </li>
+                          {% endif %}
                         {%- endfor -%}
                       {% endcapture %}
                       <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup{% if menu_flow_style == "flex" %} megamenu__link-img_wrap{% elsif menu_flow_style == "grid" and megamenu != blank %} megamenu__cat_menu{% endif %}" tabindex="-1">

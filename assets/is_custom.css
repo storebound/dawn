@@ -111,10 +111,6 @@
     padding-left: 0;
   }
 
-  .megamenu__cat_menu li:empty {
-    display: none;
-  }
-
   .megamenu__link-img {
     flex-direction: column;
     align-items: center;

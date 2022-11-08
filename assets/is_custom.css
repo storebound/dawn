@@ -94,13 +94,13 @@
     gap: var(--grid-desktop-horizontal-spacing);
   }
 
-  .megamenu__link-img_wrap {
+  .megamenu__link-img_wrap > div {
     display: flex !important;
     width: 100%;
     justify-content: center;
   }
 
-  .megamenu__cat_menu {
+  .megamenu__cat_menu > div {
     display: flex !important;
     flex-wrap: wrap;
     gap: 2.4rem 2.8rem;

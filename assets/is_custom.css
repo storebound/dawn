@@ -138,10 +138,10 @@
   }
 
   .megamenu__columns[data-menu-col="2"] > li {
-    width: 50%;
+    width: calc(50% - 2rem);
   }
 
   .megamenu__columns[data-menu-col="3"] > li {
-    width: 33.3333%;
+    width: calc(33.3333% - 2rem);
   }
 }

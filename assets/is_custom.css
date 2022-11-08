@@ -127,12 +127,10 @@
   }
 
   .megamenu__columns[data-menu-col="2"] {
-    column-count: auto;
-    column-width: 50%;
+    column-count: 2;
   }
 
   .megamenu__columns[data-menu-col="3"] {
-    column-count: auto;
-    column-width: 33.3333%;
+    column-count: 3;
   }
 }

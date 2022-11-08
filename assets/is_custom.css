@@ -94,6 +94,10 @@
     gap: var(--grid-desktop-horizontal-spacing);
   }
 
+  .megamenu__link-img_wrap {
+    padding-top: 0;
+  }
+  
   .megamenu__link-img_wrap > ul {
     display: flex !important;
     width: 100%;

@@ -91,7 +91,6 @@
   .mega-menu__content > div.has_megamenu_img {
     display: grid;
     grid-template-columns: 1fr 220px;
-    gap: var(--grid-desktop-horizontal-spacing);
   }
 
   .megamenu__link-img_wrap,

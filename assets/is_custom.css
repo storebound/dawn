@@ -107,7 +107,12 @@
 
   .megamenu__cat_menu > div > ul {
     display: flex !important;
-    gap: 2.4rem 0;
+    gap: 2.4rem 2rem;
+    padding-left: 0;
+  }
+
+  .megamenu__cat_menu li:empty {
+    display: none;
   }
 
   .megamenu__link-img {

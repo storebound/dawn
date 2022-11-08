@@ -628,7 +628,6 @@
                               {% endcapture %}
                             {% elsif childlink.title contains "||||--|" %}
                               {% assign menu_item = childlink.title | split: "||||--|" %}
-                              <style>.megamenu__columns[data-loop-index="{{ forloop.index }}"] { grid-template-columns:{% for i in (1..menu_item[1]) %} 1fr{% endfor %}; }</style>
                               <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                 {{ menu_item[0] | escape }}
                               </a>
@@ -638,7 +637,7 @@
                             </a>
                             {% endif %}
                             {%- if childlink.links != blank -%}
-                              <ul class="list-unstyled megamenu__columns" data-loop-index="{{ forloop.index }}" role="list">
+                              <ul class="list-unstyled megamenu__columns" data-menu-col="{{ menu_item[1] }}" role="list">
                                 {%- for grandchildlink in childlink.links -%}
                                   {% assign menu_item = "" %}
                                   {% unless grandchildlink.title contains "||||++|" %}

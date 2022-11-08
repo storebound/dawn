@@ -135,11 +135,11 @@
     width: auto;
   }
 
-  .megamenu__columns[data-menu-col="2"] {
-    grid-template-columns: 1fr 1fr;
+  .megamenu__columns[data-menu-col="2"] > li {
+    width: 50%;
   }
 
-  .megamenu__columns[data-menu-col="3"] {
-    grid-template-columns: 1fr 1fr 1fr;
+  .megamenu__columns[data-menu-col="3"] > li {
+    width: 33.3333%;
   }
 }

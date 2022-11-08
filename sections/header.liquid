@@ -637,7 +637,7 @@
                             </a>
                             {% endif %}
                             {%- if childlink.links != blank -%}
-                              <ul class="list-unstyled megamenu__columns" data-menu-col="{{ menu_item[1] }}" role="list">
+                              <ul class="list-unstyled megamenu__columns"{% if menu_item[1] > 1 %} data-menu-col="{{ menu_item[1] }}"{% endif %} role="list">
                                 {%- for grandchildlink in childlink.links -%}
                                   {% assign menu_item = "" %}
                                   {% unless grandchildlink.title contains "||||++|" %}

@@ -127,10 +127,17 @@
     padding: 0;
   }
 
-  .megamenu__columns {
+  .megamenu__columns[data-menu-col] {
     display: grid;
     gap: 0 2rem;
-    grid-template-columns:{% for i in (1..menu_item[1]) %} 1fr{% endfor %};
     grid-auto-flow: row;
+  }
+
+  .megamenu__columns[data-menu-col="2"] {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .megamenu__columns[data-menu-col="3"] {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

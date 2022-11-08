@@ -628,14 +628,7 @@
                               {% endcapture %}
                             {% elsif childlink.title contains "||||--|" %}
                               {% assign menu_item = childlink.title | split: "||||--|" %}
-                              <style>
-                                .megamenu__columns[data-loop-index="{{ forloop.index }}"] {
-                                  display: grid;
-                                  gap: 0 2rem;
-                                  grid-template-columns:{% for i in (1..menu_item[1]) %} 1fr{% endfor %};
-                                  grid-auto-flow: row;
-                                }
-                              </style>
+                              <style>.megamenu__columns[data-loop-index="{{ forloop.index }}"] { grid-template-columns:{% for i in (1..menu_item[1]) %} 1fr{% endfor %}; }</style>
                               <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                 {{ menu_item[0] | escape }}
                               </a>

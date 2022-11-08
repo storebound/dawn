@@ -107,7 +107,7 @@
 
   .megamenu__cat_menu > div > ul {
     display: flex !important;
-    gap: 2.4rem 2rem;
+    gap: 2.4rem 0;
   }
 
   .megamenu__link-img {

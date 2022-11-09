@@ -41,7 +41,10 @@ class HeaderMenu extends DetailsDisclosure {
   }
   
   onMouseOver() {
-    this.mainDetailsToggle.dispatchEvent('focusout');
+    this.allMenus.forEach(menu => {
+      menu.removeAttribute('open');
+      menu.querySelector('summary').setAttribute('aria-expanded', false);
+    });
     if (!this.mainDetailsToggle.open) {
       this.mainDetailsToggle.querySelector('summary').click();
     }
@@ -50,6 +53,7 @@ class HeaderMenu extends DetailsDisclosure {
   onToggle() {
     if (!this.header) return;
     this.header.preventHide = this.mainDetailsToggle.open;
+    console.log('trigger');
     
     if (document.documentElement.style.getPropertyValue('--header-bottom-position-desktop') !== '') return;
     document.documentElement.style.setProperty('--header-bottom-position-desktop', `${Math.floor(this.header.getBoundingClientRect().bottom)}px`);

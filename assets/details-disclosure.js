@@ -46,18 +46,14 @@ class HeaderMenu extends DetailsDisclosure {
       menu.querySelector('summary').setAttribute('aria-expanded', false);
     });
     if (!this.mainDetailsToggle.open) {
-      console.log('1');
-      setTimeout(() => {
-        this.mainDetailsToggle.querySelector('summary').setAttribute('aria-expanded', true);
-        this.mainDetailsToggle.setAttribute('open', true);
-      }, 10)
+      this.mainDetailsToggle.querySelector('summary').setAttribute('aria-expanded', true);
+      this.mainDetailsToggle.setAttribute('open', true);
     }
   }
   
   onToggle() {
     if (!this.header) return;
     this.header.preventHide = this.mainDetailsToggle.open;
-    console.log('trigger');
     
     if (document.documentElement.style.getPropertyValue('--header-bottom-position-desktop') !== '') return;
     document.documentElement.style.setProperty('--header-bottom-position-desktop', `${Math.floor(this.header.getBoundingClientRect().bottom)}px`);

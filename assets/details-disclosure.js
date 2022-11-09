@@ -41,9 +41,10 @@ class HeaderMenu extends DetailsDisclosure {
   }
   
   onMouseOver() {
-    this.mainDetailsToggle.dispatchEvent('focusout');
     if (!this.mainDetailsToggle.open) {
       this.mainDetailsToggle.querySelector('summary').click();
+    } else {
+      this.mainDetailsToggle.dispatchEvent('focusout');
     }
   }
   

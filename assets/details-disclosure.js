@@ -47,7 +47,7 @@ class HeaderMenu extends DetailsDisclosure {
     });
     if (!this.mainDetailsToggle.open) {
       this.mainDetailsToggle.querySelector('summary').setAttribute('aria-expanded', true);
-      this.mainDetailsToggle.setAttribute('open');
+      this.mainDetailsToggle.setAttribute('open', true);
     }
   }
   

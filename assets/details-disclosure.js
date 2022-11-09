@@ -39,7 +39,7 @@ class HeaderMenu extends DetailsDisclosure {
     this.allMenus = this.header.querySelectorAll('details');
     this.mainDetailsToggle.querySelector('summary').addEventListener('mouseover', (event) => {
       console.log(!event.currentTarget.closest('details').hasAttribute('open'));
-      event.currentTarget.setAttribute('aria-expanded', !event.currentTarget.closest('details').hasAttribute('open'));
+      //event.currentTarget.setAttribute('aria-expanded', !event.currentTarget.closest('details').hasAttribute('open'));
     });
   }
   

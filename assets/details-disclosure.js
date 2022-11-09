@@ -40,22 +40,24 @@ class HeaderMenu extends DetailsDisclosure {
     this.mainDetailsToggle.querySelector('summary').addEventListener('mouseover', this.onMouseOver.bind(this));
   }
 
+  let delay = false;
+  
   onMouseOver() {
     this.allMenus.forEach(menu => {
       menu.removeAttribute('open');
       menu.querySelector('summary').setAttribute('aria-expanded', false);
     });
-    if (!this.mainDetailsToggle.open) {
+    if (!this.mainDetailsToggle.open && !delay) {
       this.mainDetailsToggle.querySelector('summary').click();
     }
   }
   
   onToggle() {
     if (!this.header) return;
-    //this.header.preventHide = this.mainDetailsToggle.open;
-
-    //if (document.documentElement.style.getPropertyValue('--header-bottom-position-desktop') !== '') return;
-    //document.documentElement.style.setProperty('--header-bottom-position-desktop', `${Math.floor(this.header.getBoundingClientRect().bottom)}px`);
+    this.header.preventHide = this.mainDetailsToggle.open;
+    
+    if (document.documentElement.style.getPropertyValue('--header-bottom-position-desktop') !== '') return;
+    document.documentElement.style.setProperty('--header-bottom-position-desktop', `${Math.floor(this.header.getBoundingClientRect().bottom)}px`);
   }
 }
 

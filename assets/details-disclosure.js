@@ -46,8 +46,10 @@ class HeaderMenu extends DetailsDisclosure {
       menu.querySelector('summary').setAttribute('aria-expanded', false);
     });
     if (!this.mainDetailsToggle.open) {
-      this.mainDetailsToggle.querySelector('summary').setAttribute('aria-expanded', true);
-      this.mainDetailsToggle.setAttribute('open', true);
+      setTimeout(() => {
+        this.mainDetailsToggle.querySelector('summary').setAttribute('aria-expanded', true);
+        this.mainDetailsToggle.setAttribute('open', true);
+      }, 10)
     }
   }
   

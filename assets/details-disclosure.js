@@ -38,6 +38,7 @@ class HeaderMenu extends DetailsDisclosure {
     this.header = document.querySelector('.header-wrapper');
     this.allMenus = this.header.querySelectorAll('details');
     this.mainDetailsToggle.querySelector('summary').addEventListener('mouseover', this.onMouseOver.bind(this));
+    this.mainDetailsToggle.querySelector('summary').addEventListener('mouseout', this.onFocusOut.bind(this));
   }
   
   onMouseOver() {

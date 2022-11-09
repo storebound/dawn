@@ -25,6 +25,9 @@
             "width": {{ variant.featured_image.width | json }},
             "height": {{ variant.featured_image.height | json }},
             "src": {{ variant.featured_image.src | json }},
+            {% assign secondary_position = variant.featured_image.position | plus:1 %}
+            {% assign image = product.images[secondary_position] %}
+            "secondary_src": {% unless image.attached_to_variant?  %}{{ image | json }}{% else %}null{% endunless %},
             "variant_ids": {{ variant.featured_image.variant_ids | json }}
           }{% else %}null{%endif%},
           "available": {{ variant.available | json }},

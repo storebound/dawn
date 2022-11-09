@@ -320,7 +320,7 @@
             "title": "",
             "text": "",
             "link_label": "Register Product",
-            "link": "\/register"
+            "link": "https:\/\/bydash.com\/apps\/product-registration"
           }
         },
         "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-1": {
@@ -340,7 +340,7 @@
             "title": "",
             "text": "",
             "link_label": "Contact Us",
-            "link": "\/contact"
+            "link": "shopify:\/\/pages\/contact"
           }
         },
         "3c330215-a3fa-4947-82a3-957304249a10": {

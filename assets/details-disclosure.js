@@ -51,9 +51,7 @@ class HeaderMenu extends DetailsDisclosure {
   }
   
   onToggle() {
-    console.log("trigger2");
     if (!this.header) return;
-    console.log("trigger2b",this.header.preventHide);
     this.header.preventHide = this.mainDetailsToggle.open;
 
     if (document.documentElement.style.getPropertyValue('--header-bottom-position-desktop') !== '') return;

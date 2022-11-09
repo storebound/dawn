@@ -38,16 +38,15 @@ class HeaderMenu extends DetailsDisclosure {
     this.header = document.querySelector('.header-wrapper');
     this.allMenus = this.header.querySelectorAll('details');
     this.mainDetailsToggle.querySelector('summary').addEventListener('mouseover', this.onMouseOver.bind(this));
+    this.hoverDelay = false;
   }
-
-  let delay = false;
   
   onMouseOver() {
     this.allMenus.forEach(menu => {
       menu.removeAttribute('open');
       menu.querySelector('summary').setAttribute('aria-expanded', false);
     });
-    if (!this.mainDetailsToggle.open && !delay) {
+    if (!this.mainDetailsToggle.open && !this.hoverDelay) {
       this.mainDetailsToggle.querySelector('summary').click();
     }
   }

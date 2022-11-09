@@ -314,7 +314,7 @@ class MenuDrawer extends HTMLElement {
     const parentMenuElement = detailsElement.closest('.has-submenu');
     const isOpen = detailsElement.hasAttribute('open');
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-console.log('1');
+
     function addTrapFocus() {
       trapFocus(summaryElement.nextElementSibling, detailsElement.querySelector('button'));
       summaryElement.nextElementSibling.removeEventListener('transitionend', addTrapFocus);
@@ -413,7 +413,7 @@ class HeaderDrawer extends MenuDrawer {
     super();
   }
 
-  openMenuDrawer(summaryElement) {
+  openMenuDrawer(summaryElement) {console.log('1');
     this.header = this.header || document.getElementById('shopify-section-header');
     this.borderOffset = this.borderOffset || this.closest('.header-wrapper').classList.contains('header-wrapper--border-bottom') ? 1 : 0;
     document.documentElement.style.setProperty('--header-bottom-position', `${parseInt(this.header.getBoundingClientRect().bottom - this.borderOffset)}px`);

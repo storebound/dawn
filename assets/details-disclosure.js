@@ -15,6 +15,7 @@ class DetailsDisclosure extends HTMLElement {
   }
 
   onToggle() {
+    console.log("trigger");
     if (!this.animations) this.animations = this.content.getAnimations();
 
     if (this.mainDetailsToggle.hasAttribute('open')) {
@@ -51,6 +52,7 @@ class HeaderMenu extends DetailsDisclosure {
   }
   
   onToggle() {
+    console.log("trigger2");
     if (!this.header) return;
     this.header.preventHide = this.mainDetailsToggle.open;
 

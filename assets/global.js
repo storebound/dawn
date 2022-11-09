@@ -14,7 +14,7 @@ document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
     summary.setAttribute('aria-controls', summary.nextElementSibling.id);
   }
 
-  summary.addEventListener('click', (event) => {
+  summary.addEventListener('click', (event) => {console.log('1');
     event.currentTarget.setAttribute('aria-expanded', !event.currentTarget.closest('details').hasAttribute('open'));
   });
 
@@ -413,7 +413,7 @@ class HeaderDrawer extends MenuDrawer {
     super();
   }
 
-  openMenuDrawer(summaryElement) {console.log('1');
+  openMenuDrawer(summaryElement) {
     this.header = this.header || document.getElementById('shopify-section-header');
     this.borderOffset = this.borderOffset || this.closest('.header-wrapper').classList.contains('header-wrapper--border-bottom') ? 1 : 0;
     document.documentElement.style.setProperty('--header-bottom-position', `${parseInt(this.header.getBoundingClientRect().bottom - this.borderOffset)}px`);

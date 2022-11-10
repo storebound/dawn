@@ -170,21 +170,21 @@
             "type": "link_list",
             "settings": {
               "heading": "SITE LINKS",
-              "menu": ""
+              "menu": "dawn-footer-site-links"
             }
           },
           "c70d8f3a-d0ab-42bc-86f8-a4fef6fbb678": {
             "type": "link_list",
             "settings": {
               "heading": "POLICY LINKS",
-              "menu": ""
+              "menu": "dawn-footer-policy-links"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
               "heading": "MY ACCOUNT",
-              "menu": ""
+              "menu": "dawn-footer-account-links"
             }
           }
         },

@@ -86,6 +86,7 @@
         "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Register-Product.png",
             "title": "",
             "text": "",
             "link_label": "Register Product",
@@ -95,6 +96,7 @@
         "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Product-Manual.png",
             "title": "",
             "text": "",
             "link_label": "Product Manuals",
@@ -104,6 +106,7 @@
         "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Contact-Us.png",
             "title": "",
             "text": "",
             "link_label": "Contact Us",

@@ -9,6 +9,22 @@
         "padding_bottom": 20
       }
     },
+    "1668114435f3a8e43b": {
+      "type": "apps",
+      "blocks": {
+        "d3774539-f29e-4d40-8ee1-246b4904cf13": {
+          "type": "shopify:\/\/apps\/blog-article-filter-search-pro\/blocks\/app-block\/4d517ee7-df79-49ad-9f0a-91f02b184ae0",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d3774539-f29e-4d40-8ee1-246b4904cf13"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -24,6 +40,7 @@
   },
   "order": [
     "1864d447-f0a2-43fc-bf2b-1d7f76dbf3ce",
+    "1668114435f3a8e43b",
     "main"
   ]
 }

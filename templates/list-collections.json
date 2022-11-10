@@ -25,17 +25,143 @@
     },
     "main": {
       "type": "main-list-collections",
+      "disabled": true,
       "settings": {
         "title": "",
-        "sort": "alphabetical",
+        "sort": "products_high",
         "image_ratio": "square",
         "columns_desktop": 5,
         "columns_mobile": "2"
+      }
+    },
+    "b6b0b1a4-bf54-4599-954e-fe9178743b7d": {
+      "type": "collection-list",
+      "blocks": {
+        "3b6e8aab-39cb-4f1e-b088-428c1003c9bc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "new-arrivals"
+          }
+        },
+        "e75a7f29-9e63-42a8-af36-04c80e7b68b2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bundles-packs"
+          }
+        },
+        "cf771fc2-0126-4b50-b5ae-33a3acfff228": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "popcorn-makers"
+          }
+        },
+        "template--14842630930486__b6b0b1a4-bf54-4599-954e-fe9178743b7d-16680946472d844bd0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mini-makers"
+          }
+        },
+        "template--14842630930486__b6b0b1a4-bf54-4599-954e-fe9178743b7d-16680946472d844bd0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "air-fryers"
+          }
+        },
+        "template--14842630930486__b6b0b1a4-bf54-4599-954e-fe9178743b7d-16680946472d844bd0-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blenders"
+          }
+        },
+        "2954106c-464b-4917-829b-4d91aab42c1e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "egg-cookers"
+          }
+        },
+        "8adc001d-2804-4ce0-8aac-f6566192c186": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "best-sellers"
+          }
+        },
+        "d3db4232-90ee-49f7-ace0-6f7460d61b6f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "specialty-appliances"
+          }
+        },
+        "51d1a9e8-f6c1-4d22-8c96-2fcb5b7b5589": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tools-gadgets"
+          }
+        },
+        "dbdf8073-828a-49b7-acc9-f7092ee0b329": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rice-cookers"
+          }
+        },
+        "e093093c-d697-4ab0-b565-3e3d42295e49": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cookbooks"
+          }
+        },
+        "4c7ec029-bddf-4a16-94ab-66adacf987ae": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sillets-griddles-panini-presses"
+          }
+        },
+        "95d37dd5-1489-4590-9705-3a3997ab3018": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mixers"
+          }
+        },
+        "61ff87b3-776d-44f7-ad0e-920d761956a1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "toasters-ovens"
+          }
+        }
+      },
+      "block_order": [
+        "3b6e8aab-39cb-4f1e-b088-428c1003c9bc",
+        "e75a7f29-9e63-42a8-af36-04c80e7b68b2",
+        "cf771fc2-0126-4b50-b5ae-33a3acfff228",
+        "template--14842630930486__b6b0b1a4-bf54-4599-954e-fe9178743b7d-16680946472d844bd0-0",
+        "template--14842630930486__b6b0b1a4-bf54-4599-954e-fe9178743b7d-16680946472d844bd0-1",
+        "template--14842630930486__b6b0b1a4-bf54-4599-954e-fe9178743b7d-16680946472d844bd0-2",
+        "2954106c-464b-4917-829b-4d91aab42c1e",
+        "8adc001d-2804-4ce0-8aac-f6566192c186",
+        "d3db4232-90ee-49f7-ace0-6f7460d61b6f",
+        "51d1a9e8-f6c1-4d22-8c96-2fcb5b7b5589",
+        "dbdf8073-828a-49b7-acc9-f7092ee0b329",
+        "e093093c-d697-4ab0-b565-3e3d42295e49",
+        "4c7ec029-bddf-4a16-94ab-66adacf987ae",
+        "95d37dd5-1489-4590-9705-3a3997ab3018",
+        "61ff87b3-776d-44f7-ad0e-920d761956a1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 4,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "27a8c126-598e-4d62-9658-0a1e377ff459",
-    "main"
+    "main",
+    "b6b0b1a4-bf54-4599-954e-fe9178743b7d"
   ]
 }

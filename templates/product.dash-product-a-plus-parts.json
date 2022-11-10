@@ -213,12 +213,6 @@
         "include_margins": true
       }
     },
-    "1661883879ca0f6454": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -242,7 +236,6 @@
     "main",
     "1661883989ab5c9fbf",
     "16672310787bda553d",
-    "1661883879ca0f6454",
     "product-recommendations"
   ]
 }

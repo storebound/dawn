@@ -63,6 +63,7 @@
         },
         "4344f496-787e-40b9-9a24-6e41d2944a20": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -72,6 +73,7 @@
         },
         "3000c5f4-8e5f-4150-9840-3a37f3093548": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -81,6 +83,7 @@
         },
         "293de5f2-c019-4af1-8a34-c62a7cb99df8": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",

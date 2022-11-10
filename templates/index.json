@@ -3,9 +3,9 @@
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
       "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/3QtPopcorn_20221020-02.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/3QtPopcorn_20221020-03.jpg",
-        "button_link": ""
+        "desktop_image": "shopify:\/\/shop_images\/SuperSaverDeals_Email_20221103-05_8322bb68-d323-4e15-9eae-cb7f3340121a.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/SuperSaverDeals_Email_20221103-02-06_6549d526-5dc9-406f-b79c-5356ef57521e.jpg",
+        "button_link": "shopify:\/\/collections\/super-saver-event"
       }
     },
     "16642908781ed6d732": {
@@ -39,7 +39,6 @@
         "1664290878c95a76cb-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DEC005AQ_Hero_No_Eggs.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -86,7 +85,6 @@
         "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Register-Product.png",
             "title": "",
             "text": "",
             "link_label": "Register Product",
@@ -96,7 +94,6 @@
         "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Product-Manual.png",
             "title": "",
             "text": "",
             "link_label": "Product Manuals",
@@ -106,7 +103,6 @@
         "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Contact-Us.png",
             "title": "",
             "text": "",
             "link_label": "Contact Us",
@@ -116,7 +112,6 @@
         "3c330215-a3fa-4947-82a3-957304249a10": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Contact-Us.png",
             "title": "",
             "text": "",
             "link_label": "Contact Us",
@@ -222,7 +217,6 @@
         "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-0": {
           "type": "video",
           "settings": {
-            "cover_image": "shopify:\/\/shop_images\/DEC005RD_IO_3_1024x_ef5c04d9-99c5-4204-9071-7ea97b0c9286.jpg",
             "video_url": "https:\/\/www.youtube.com\/watch?v=HUu-Z6o1l50",
             "description": "Describe the video",
             "image_padding": false

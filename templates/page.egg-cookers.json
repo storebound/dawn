@@ -95,7 +95,7 @@
             "title": "Eggs-tremely Speedy",
             "text": "<p>Our egg cookers use a steaming process to thoroughly cook eggs without boiling. Simply add water to the heating plate, place your eggs in the holder, and close the lid. It's simple and fast, and eggs cook perfectly every time.<\/p>",
             "link_label": "SHOP EGG COOKERS",
-            "link": ""
+            "link": "shopify:\/\/collections\/egg-cookers-only"
           }
         },
         "4ab8898c-fa01-4bf1-ab3e-477f7e31fcec": {
@@ -241,7 +241,7 @@
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "SHOP ALL EGG COOKERS",
-        "button_link": "shopify:\/\/collections\/mini-makers",
+        "button_link": "shopify:\/\/collections\/egg-cookers",
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,

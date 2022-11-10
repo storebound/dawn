@@ -42,7 +42,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Holiday_Catalog_Pizelle_Bundt.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "headline_novecento": false,
         "desktop_content_position": "middle-center",

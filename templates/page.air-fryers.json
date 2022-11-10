@@ -65,19 +65,19 @@
         "16626581798d96a358-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "2-quart"
+            "collection": "2qt-air-fryers"
           }
         },
         "16626581798d96a358-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "3-quart"
+            "collection": "3qt-air-fryers"
           }
         },
         "16626581798d96a358-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "6-quart"
+            "collection": "6qt-air-fryers"
           }
         }
       },
@@ -104,7 +104,6 @@
       "settings": {
         "heading": "HOW DOES AIR FRYING WORK?",
         "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/gvcJDytrWrk-HD.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=gvcJDytrWrk&feature=emb_title",
         "description": "",
         "full_width": false,
@@ -215,7 +214,6 @@
         "166204383481796f9a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/AirFryingCookBook.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -268,7 +266,6 @@
         "16642882182d87f6a2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/download.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

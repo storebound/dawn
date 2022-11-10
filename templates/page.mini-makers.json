@@ -2,6 +2,7 @@
   "sections": {
     "16620411571cf970e1": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1662041157cf224d57-0": {
           "type": "heading",
@@ -31,7 +32,6 @@
         "1662041157cf224d57-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/MakeYourOwnBundle_Email_V2-01_81ade96e-2fbc-4489-97b9-d7dcbd2a5ea5.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -39,6 +39,7 @@
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
         "color_scheme": "background-1",
+        "headline_novecento": false,
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
@@ -110,6 +111,7 @@
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": true,
+        "headline_novecento": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -121,6 +123,7 @@
     },
     "16620408799231b27a": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "START MAKING MINI MAGIC!",
         "heading_size": "h2",
@@ -175,6 +178,7 @@
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
+        "headline_novecento": false,
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
@@ -219,6 +223,7 @@
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
+        "headline_novecento": false,
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
@@ -239,6 +244,7 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "dashpattern": false,
         "padding_top": 0,
         "padding_bottom": 36
       }

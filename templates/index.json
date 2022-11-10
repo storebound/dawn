@@ -39,6 +39,7 @@
         "1664290878c95a76cb-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Holiday-Catalog_Group-Shot_5836fd30-a9cd-4e6b-ad7c-9fc80c030a72.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -57,10 +58,10 @@
       "settings": {
         "title": "SUPER SAVER DEALS",
         "heading_size": "h2",
-        "description": "<p>sakdaskdy\\ ssudoasiduo isasioduaosudoi bdaosihoaidsih<\/p>",
+        "description": "<p>Get up to 87% off select Dash appliances, while supplies last!<\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "super-saver-event",
         "products_to_show": 9,
         "columns_desktop": 4,
         "full_width": false,

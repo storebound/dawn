@@ -76,24 +76,6 @@
         "padding_bottom": 36
       }
     },
-    "16620408799231b27a": {
-      "type": "featured-blog",
-      "disabled": true,
-      "settings": {
-        "heading": "START MAKING MINI MAGIC!",
-        "heading_size": "h2",
-        "blog": "mini-waffles",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_image": true,
-        "show_date": false,
-        "show_author": false,
-        "show_view_all": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1662043834a905bb1f": {
       "type": "image-with-text",
       "blocks": {
@@ -216,7 +198,6 @@
   "order": [
     "16620432773d36c02f",
     "16620429067a01a6ee",
-    "16620408799231b27a",
     "1662043834a905bb1f",
     "16620448190031e809",
     "16620431184b25d6fa",

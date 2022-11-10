@@ -15,10 +15,55 @@
         "padding_top": 20,
         "padding_bottom": 36
       }
+    },
+    "4d563e61-d2b7-4c08-a146-04de93fe4ee4": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16672264454370__4d563e61-d2b7-4c08-a146-04de93fe4ee4-16680977158aeb4b38-0": {
+          "type": "column",
+          "settings": {
+            "title": "TALK TO A HUMAN",
+            "text": "<p>Monday-Friday 9am-9pm (EST)<\/p><p><\/p><p>Call: 800-898-6970<\/p><p>or<\/p><p>Send us a message using the form above.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16672264454370__4d563e61-d2b7-4c08-a146-04de93fe4ee4-16680977158aeb4b38-1": {
+          "type": "column",
+          "settings": {
+            "title": "PRESS & MEDIA INQUIRIES",
+            "text": "<p>Email: <a href=\"mailto:media@storebound.com\" target=\"_top\">media@storebound.com<\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16672264454370__4d563e61-d2b7-4c08-a146-04de93fe4ee4-16680977158aeb4b38-0",
+        "template--16672264454370__4d563e61-d2b7-4c08-a146-04de93fe4ee4-16680977158aeb4b38-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "dashpattern": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "5328a11d-bdbe-4e91-8a35-617321cc9902",
-    "main"
+    "main",
+    "4d563e61-d2b7-4c08-a146-04de93fe4ee4"
   ]
 }

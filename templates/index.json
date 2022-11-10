@@ -14,14 +14,14 @@
         "1664290878c95a76cb-0": {
           "type": "heading",
           "settings": {
-            "heading": "RAPID EGG COOKER",
+            "heading": "SHOP THE GIFT GUIDE",
             "heading_size": "h2"
           }
         },
         "1664290878c95a76cb-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The Dash Rapid Egg Cooker delivers perfectly cooked eggs in less time than it takes to boil water on the stove.<\/p>",
+            "text": "<p>Check off the foodie on your list with this year's top picks. Give the gift that will upgrade their kitchen!<\/p>",
             "text_style": "body"
           }
         },
@@ -29,7 +29,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/mini-makers"
+            "button_link": "shopify:\/\/pages\/gift-guide"
           }
         }
       },

@@ -102,15 +102,6 @@
             "page": ""
           }
         },
-        "cc437370-4825-4025-b28b-bf5a322b6d73": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Parts & Accessories",
-            "icon": "box",
-            "content": "",
-            "page": ""
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -147,7 +138,6 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "cc437370-4825-4025-b28b-bf5a322b6d73",
         "share",
         "e3b62aa9-b892-48f4-a5b3-e9c37b7a0b47"
       ],

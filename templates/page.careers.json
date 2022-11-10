@@ -1,29 +1,5 @@
 {
   "sections": {
-    "1662668277712933fd": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "16626682767d08c5aa-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>CAREERS AT STOREBOUND<\/strong><\/p>",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "16626682767d08c5aa-0"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": false,
-        "padding_top": 32,
-        "padding_bottom": 28
-      }
-    },
     "16626685363d5faafc": {
       "type": "custom-liquid",
       "settings": {
@@ -106,44 +82,6 @@
         "full_width": true,
         "padding_top": 12,
         "padding_bottom": 12
-      }
-    },
-    "166266783963e2dc3a": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "016ae727-4340-4665-938b-38c4e8aff152": {
-          "type": "heading",
-          "settings": {
-            "heading": "BENEFITS & PERKS",
-            "heading_size": "h2"
-          }
-        },
-        "1662667839932af91d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>• <\/strong>Competitive salary<br\/><strong>• <\/strong>Comprehensive healthcare benefits, including dental and vision plans<br\/><strong>• <\/strong>Comprehensive 401k retirement plan with contribution matching<br\/><strong>• <\/strong>Generous paid time off, including a mix of vacation, personal and sick days, plus floating holidays and 8 paid national holidays<br\/><strong>• <\/strong>Monthly Better World Days with paid time off for volunteering or professional development.<br\/><strong>• <\/strong>Transportation benefits<br\/><strong>• <\/strong>Fun and friendly office in NYC stocked with free snacks<br\/><strong>• <\/strong>Flexible leave policies for new moms and dads<br\/><strong>• <\/strong>Team outings and fun activities to build community with our amazing team members<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "016ae727-4340-4665-938b-38c4e8aff152",
-        "1662667839932af91d-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Website_Careers_Module-2.jpg",
-        "height": "large",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "headline_novecento": false,
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 0
       }
     },
     "166266962410e25f5b": {
@@ -236,12 +174,10 @@
     }
   },
   "order": [
-    "1662668277712933fd",
     "16626685363d5faafc",
     "main",
     "1662665986e53a3d01",
     "16626677818c04ff18",
-    "166266783963e2dc3a",
     "166266962410e25f5b",
     "f79a3468-bd1d-4758-970a-d505cf7add6f"
   ]

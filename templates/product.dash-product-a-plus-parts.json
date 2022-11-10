@@ -80,7 +80,7 @@
           "settings": {
             "heading": "Features & Benefits",
             "icon": "clipboard",
-            "content": "",
+            "content": "<p>{{ product.metafields.ns_.features | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -89,7 +89,7 @@
           "settings": {
             "heading": "Specifications",
             "icon": "ruler",
-            "content": "<p>Dimensions: {{ product.metafields.custom.dimensions.value }}<\/p><p>Weight: {{ product.metafields.custom.weight.value }}<\/p>",
+            "content": "<p>Dimensions: {{ product.metafields.ns_.height.value }}\" x {{ product.metafields.ns_.width.value }}\" x {{ product.metafields.ns_.length.value }}\"<\/p><p>Weight: {{ product.metafields.ns_.weight.value }} lbs<\/p>",
             "page": ""
           }
         },

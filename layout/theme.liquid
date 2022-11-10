@@ -297,5 +297,7 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    {{ 'is_custom.css' | asset_url | stylesheet_tag }}
   </body>
 </html>

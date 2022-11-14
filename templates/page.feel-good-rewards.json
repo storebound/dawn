@@ -289,7 +289,7 @@
           "settings": {
             "heading": "How do I redeem points for rewards?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Click the Redeem Points button above the FAQ to view and redeem your available rewards.<\/p>",
             "liquid": "",
             "page": ""
           }

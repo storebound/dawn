@@ -46,9 +46,15 @@
       ],
       "settings": {
       }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
     }
   },
   "order": [
+    "shogun-helper",
     "f0700b01-5920-4a8e-9b2f-1c4f7b03edb7",
     "main"
   ]

@@ -53,14 +53,15 @@ class HeaderMenu extends DetailsDisclosure {
   }
 
   onMouseOut() {
-    console.log('trigger', this);
+    if (!this.mainDetailsToggle.open) {
+      menu.removeAttribute('open');
+      menu.querySelector('summary').setAttribute('aria-expanded', false);
+    }
   }
   
   onToggle() {
-    console.log('1',this.mainDetailsToggle.open);
     if (!this.header) return;
     this.header.preventHide = this.mainDetailsToggle.open;
-    console.log('2',this.mainDetailsToggle.open);
     if (document.documentElement.style.getPropertyValue('--header-bottom-position-desktop') !== '') return;
     document.documentElement.style.setProperty('--header-bottom-position-desktop', `${Math.floor(this.header.getBoundingClientRect().bottom)}px`);
   }

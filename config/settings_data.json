@@ -117,8 +117,11 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/Dash_Favicon_32px.png",
     "currency_code_enabled": false,
     "cart_type": "drawer",
+    "checkout_logo_image": "shopify:\/\/shop_images\/DASH__RED_LOGO_R_f153660b-301a-41cf-b417-4da97b489157.png",
+    "checkout_button_color": "#ea0029",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

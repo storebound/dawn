@@ -1,77 +1,5 @@
 {
   "sections": {
-    "16620411571cf970e1": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1662041157cf224d57-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "WAFFLE MAKERS FOR $10 EACH",
-            "heading_size": "h2"
-          }
-        },
-        "1662041157cf224d57-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Bundle up! Create your own bundle of 5 Mini Waffle Makers and save over 20%<\/p><p>Discount applied at checkout<\/p>",
-            "text_style": "body"
-          }
-        },
-        "1662041157cf224d57-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Bundles",
-            "button_link": "\/"
-          }
-        }
-      },
-      "block_order": [
-        "1662041157cf224d57-0",
-        "1662041157cf224d57-1",
-        "1662041157cf224d57-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "overlap",
-        "color_scheme": "background-1",
-        "headline_novecento": false,
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "16620429067a01a6ee": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "TRENDING MINI MAKERS",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "16620432773d36c02f": {
       "type": "image-banner",
       "blocks": {
@@ -93,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "\/",
+            "button_link_1": "shopify:\/\/collections\/mini-makers",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -121,20 +49,29 @@
         "show_text_below": true
       }
     },
-    "16620408799231b27a": {
-      "type": "featured-blog",
-      "disabled": true,
+    "16620429067a01a6ee": {
+      "type": "featured-collection",
       "settings": {
-        "heading": "START MAKING MINI MAGIC!",
+        "title": "TRENDING MINI MAKERS",
         "heading_size": "h2",
-        "blog": "mini-waffles",
-        "post_limit": 3,
-        "columns_desktop": 3,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mini-makers",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "show_image": true,
-        "show_date": false,
-        "show_author": false,
-        "show_view_all": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -160,7 +97,7 @@
           "type": "button",
           "settings": {
             "button_label": "Get Cookin'",
-            "button_link": "\/"
+            "button_link": "shopify:\/\/products\/mini-waffle-cookbook"
           }
         }
       },
@@ -205,7 +142,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
-            "button_link": "\/"
+            "button_link": "shopify:\/\/products\/deluxe-mini-waffle-maker"
           }
         }
       },
@@ -240,7 +177,7 @@
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "Shop All Mini Makers",
-        "button_link": "\/",
+        "button_link": "shopify:\/\/collections\/mini-makers",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -259,10 +196,8 @@
     }
   },
   "order": [
-    "16620411571cf970e1",
-    "16620429067a01a6ee",
     "16620432773d36c02f",
-    "16620408799231b27a",
+    "16620429067a01a6ee",
     "1662043834a905bb1f",
     "16620448190031e809",
     "16620431184b25d6fa",

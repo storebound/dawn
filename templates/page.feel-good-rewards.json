@@ -150,6 +150,7 @@
         },
         "1662734380a74946d7-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/BD-pencil.webp",
             "title": "200 points",
@@ -180,7 +181,7 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
@@ -288,7 +289,7 @@
           "settings": {
             "heading": "How do I redeem points for rewards?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Click the Redeem Points button above the FAQ to view and redeem your available rewards.<\/p>",
             "liquid": "",
             "page": ""
           }

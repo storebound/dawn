@@ -1,0 +1,82 @@
+{
+  "sections": {
+    "1864d447-f0a2-43fc-bf2b-1d7f76dbf3ce": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "79d7187f-75ad-4546-a1e7-d2e942cddaa2": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14843022082102__79d7187f-75ad-4546-a1e7-d2e942cddaa2-1668116205947eb353-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rise_-_Logo_High_Res.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14843022082102__79d7187f-75ad-4546-a1e7-d2e942cddaa2-1668116205947eb353-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "dashpattern": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1668114435f3a8e43b": {
+      "type": "apps",
+      "blocks": {
+        "d3774539-f29e-4d40-8ee1-246b4904cf13": {
+          "type": "shopify:\/\/apps\/blog-article-filter-search-pro\/blocks\/app-block\/4d517ee7-df79-49ad-9f0a-91f02b184ae0",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d3774539-f29e-4d40-8ee1-246b4904cf13"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "small",
+        "show_date": false,
+        "show_author": false,
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "1864d447-f0a2-43fc-bf2b-1d7f76dbf3ce",
+    "79d7187f-75ad-4546-a1e7-d2e942cddaa2",
+    "1668114435f3a8e43b",
+    "main"
+  ]
+}

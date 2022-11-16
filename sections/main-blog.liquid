@@ -18,7 +18,7 @@
 
 {%- paginate blog.articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
-    <h1 class="title--primary">{{ blog.title | escape }}</h1>
+    {% if section.settings.show_headline == true %}<h1 class="title--primary">{{ blog.title | escape }}</h1>{% endif %}
 
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}
@@ -117,7 +117,14 @@
       "id": "show_excerpt",
       "default": true,
       "label": "Show Post Excerpt"
-    },    
+    },
+    {
+      "type": "checkbox",
+      "id": "show_headline",
+      "default": true,
+      "label": "Show Main Headline"
+    },
+    
     {
       "type": "paragraph",
       "content": "t:sections.main-blog.settings.paragraph.content"

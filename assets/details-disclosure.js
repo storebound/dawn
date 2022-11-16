@@ -53,7 +53,7 @@ class HeaderMenu extends DetailsDisclosure {
   }
 
   onMouseOut() {
-    console.log('trigger');
+    console.log('trigger', this);
   }
   
   onToggle() {

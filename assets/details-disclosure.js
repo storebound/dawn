@@ -37,19 +37,15 @@ class HeaderMenu extends DetailsDisclosure {
     super();
     this.header = document.querySelector('.header-wrapper');
     this.allMenus = this.header.querySelectorAll('details');
-    this.mainDetailsToggle.querySelector('summary').addEventListener('mouseover', this.onMouseOver.bind(this));
-    this.content.addEventListener('mouseout', this.onMouseOut.bind(this));
+    this.mainDetailsToggle.querySelector('details').addEventListener('mouseover', this.onMouseOver.bind(this));
+    this.mainDetailsToggle.querySelector('details').addEventListener('mouseleave', this.onMouseLeave.bind(this));
   }
 
   onMouseOver() {
-    this.allMenus.forEach(menu => {
-      menu.removeAttribute('open');
-      menu.querySelector('summary').setAttribute('aria-expanded', false);
+    this.setAttribute("open", true);
+    this.querySelector('summary').nextElementSibling.addEventListener("mouseover", () => {
+      this.setAttribute("open", true);
     });
-    if (!this.mainDetailsToggle.open) {
-      this.mainDetailsToggle.querySelector('summary').setAttribute('aria-expanded', true);
-      this.mainDetailsToggle.setAttribute('open', true);
-    }
   }
   
   onToggle() {

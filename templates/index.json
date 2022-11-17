@@ -8,6 +8,29 @@
         "button_link": "shopify:\/\/collections\/super-saver-event"
       }
     },
+    "2e2f1ddf-0f5e-44b8-970e-dcc755b16520": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "19e4f92e-0e54-481b-8de3-948e0b634fd4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/pages\/black-friday-cyber-monday-sale-details\" title=\"25% Off Sitewide with Code DASH25 - Exclusions Apply\">See discount exclusions.<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "19e4f92e-0e54-481b-8de3-948e0b634fd4"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "16642908781ed6d732": {
       "type": "image-with-text",
       "blocks": {
@@ -262,6 +285,7 @@
   },
   "order": [
     "30c02da9-7f38-4457-9443-275d4547f4f8",
+    "2e2f1ddf-0f5e-44b8-970e-dcc755b16520",
     "16642908781ed6d732",
     "featured_collection",
     "6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9",

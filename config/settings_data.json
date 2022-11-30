@@ -177,7 +177,7 @@
             "type": "link_list",
             "settings": {
               "heading": "POLICY LINKS",
-              "menu": "policy-links"
+              "menu": "dawn-footer-policy-links"
             }
           },
           "footer-1": {

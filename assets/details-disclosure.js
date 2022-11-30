@@ -37,7 +37,8 @@ class HeaderMenu extends DetailsDisclosure {
     super();
     this.header = document.querySelector('.header-wrapper');
     this.allMenus = this.header.querySelectorAll('details');
-    this.mainDetailsToggle.querySelector('summary').addEventListener('mouseover', this.onMouseOver.bind(this));
+    this.mainDetailsToggle.addEventListener('mouseover', this.onMouseOver.bind(this));
+    this.mainDetailsToggle.querySelector('summary').nextElementSibling.addEventListener('mouseleave', this.onMouseLeave.bind(this));
   }
 
   onMouseOver() {
@@ -50,11 +51,17 @@ class HeaderMenu extends DetailsDisclosure {
       this.mainDetailsToggle.setAttribute('open', true);
     }
   }
+
+  onMouseLeave() {
+    this.allMenus.forEach(menu => {
+      menu.removeAttribute('open');
+      menu.querySelector('summary').setAttribute('aria-expanded', false);
+    });
+  }
   
   onToggle() {
     if (!this.header) return;
     this.header.preventHide = this.mainDetailsToggle.open;
-    
     if (document.documentElement.style.getPropertyValue('--header-bottom-position-desktop') !== '') return;
     document.documentElement.style.setProperty('--header-bottom-position-desktop', `${Math.floor(this.header.getBoundingClientRect().bottom)}px`);
   }

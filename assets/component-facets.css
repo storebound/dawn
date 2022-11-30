@@ -340,7 +340,7 @@
 }
 
 .facet-checkbox--disabled {
-  color: rgba(var(--color-foreground), 0.4);
+  color: rgba(var(--color-foreground), 0.65);
 }
 
 .facets__price {

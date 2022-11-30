@@ -5,7 +5,7 @@
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
         "color_scheme": "background-1",
-        "padding_top": 12,
+        "padding_top": 16,
         "padding_bottom": 0
       }
     },
@@ -24,6 +24,12 @@
           "settings": {
           }
         },
+        "eaa8b3a1-b010-43f5-a00a-9017761eb277": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -34,12 +40,6 @@
         "price": {
           "type": "price",
           "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
           }
         },
         "quantity_selector": {
@@ -56,7 +56,7 @@
         "4516de86-ab1e-423d-a1f8-89bcbf2593de": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.short_copy.value }}",
+            "text": "{{ product.metafields.ns_.short.value }}",
             "text_style": "body"
           }
         },
@@ -65,7 +65,7 @@
           "settings": {
             "heading": "Product Details",
             "icon": "chat_bubble",
-            "content": "<p>{{ product.metafields.custom.romance_copy | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.ns_.romance | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -74,7 +74,7 @@
           "settings": {
             "heading": "Features & Benefits",
             "icon": "clipboard",
-            "content": "<p>{{ product.metafields.custom.features_benefits | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.ns_.features | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -83,7 +83,7 @@
           "settings": {
             "heading": "Specifications",
             "icon": "ruler",
-            "content": "<p>Dimensions: {{ product.metafields.custom.dimensions.value }}<\/p><p>Weight: {{ product.metafields.custom.weight.value }}<\/p>",
+            "content": "<p>Dimensions: {{ product.metafields.ns_.height.value }}\" x {{ product.metafields.ns_.width.value }}\" x {{ product.metafields.ns_.length.value }}\"<\/p><p>Weight: {{ product.metafields.ns_.weight.value }} lbs<\/p>",
             "page": ""
           }
         },
@@ -101,14 +101,29 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "e3b62aa9-b892-48f4-a5b3-e9c37b7a0b47": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "none",
+            "image_1": "shopify:\/\/shop_images\/EasyReturns2.png",
+            "heading_1": "EASY RETURNS",
+            "icon_2": "none",
+            "image_2": "shopify:\/\/shop_images\/365-day-warranty.png",
+            "heading_2": "365 DAY WARRANTY",
+            "icon_3": "none",
+            "image_3": "shopify:\/\/shop_images\/free-shipping.png",
+            "heading_3": "FREE SHIPPING OVER $50"
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "eaa8b3a1-b010-43f5-a00a-9017761eb277",
         "caption",
         "price",
-        "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "4516de86-ab1e-423d-a1f8-89bcbf2593de",
@@ -116,7 +131,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "e3b62aa9-b892-48f4-a5b3-e9c37b7a0b47"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -130,40 +146,20 @@
         "padding_bottom": 12
       }
     },
-    "1661883989ab5c9fbf": {
-      "type": "collapsible-content",
+    "16672310787bda553d": {
+      "type": "apps",
       "blocks": {
-        "166188398835b67184-0": {
-          "type": "collapsible_row",
+        "a087cbd4-9105-4c7f-be2a-c2e9f8bc8fcb": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
-            "heading": "Additional Images",
-            "icon": "check_mark",
-            "row_content": "",
-            "liquid": "{% if product.metafields.custom.a_1 != blank %}\n{{ product.metafields.custom.a_1 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_1_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_2 != blank %}\n{{ product.metafields.custom.a_2 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_2_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_3 != blank %}\n{{ product.metafields.custom.a_3 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_3_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_4 != blank %}\n{{ product.metafields.custom.a_4 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_4_alt | escape }}\n{% endif %}",
-            "page": ""
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
           }
         }
       },
       "block_order": [
-        "166188398835b67184-0"
+        "a087cbd4-9105-4c7f-be2a-c2e9f8bc8fcb"
       ],
-      "settings": {
-        "caption": "",
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1661883879ca0f6454": {
-      "type": "apps",
       "settings": {
         "include_margins": true
       }
@@ -189,8 +185,7 @@
   "order": [
     "1661960546161c5f46",
     "main",
-    "1661883989ab5c9fbf",
-    "1661883879ca0f6454",
+    "16672310787bda553d",
     "product-recommendations"
   ]
 }

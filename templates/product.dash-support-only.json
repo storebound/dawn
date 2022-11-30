@@ -6,7 +6,7 @@
         "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 12,
-        "padding_bottom": 0
+        "padding_bottom": 12
       }
     },
     "main": {
@@ -40,7 +40,7 @@
         "4516de86-ab1e-423d-a1f8-89bcbf2593de": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.short_copy.value }}",
+            "text": "{{ product.metafields.ns_.short.value }}",
             "text_style": "body"
           }
         },
@@ -49,7 +49,7 @@
           "settings": {
             "heading": "Product Details",
             "icon": "chat_bubble",
-            "content": "<p>{{ product.metafields.custom.romance_copy | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.ns_.romance | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -58,7 +58,7 @@
           "settings": {
             "heading": "Features & Benefits",
             "icon": "clipboard",
-            "content": "<p>{{ product.metafields.custom.features_benefits | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.ns_.features | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -67,7 +67,7 @@
           "settings": {
             "heading": "Specifications",
             "icon": "ruler",
-            "content": "<p>Dimensions: {{ product.metafields.custom.dimensions.value }}<\/p><p>Weight: {{ product.metafields.custom.weight.value }}<\/p>",
+            "content": "<p>Dimensions: {{ product.metafields.ns_.height.value }}\" x {{ product.metafields.ns_.width.value }}\" x {{ product.metafields.ns_.length.value }}\"<\/p><p>Weight: {{ product.metafields.ns_.weight.value }} lbs<\/p>",
             "page": ""
           }
         },

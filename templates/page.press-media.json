@@ -25,7 +25,6 @@
         "1664219522ec70e375-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bon_Appetit_logo.svg_1b74c218-2312-42c8-85b5-067785c520d5.png",
             "title": "Boiling Eggs Isn't Hard, But This Egg Cooker Makes It Stupid Easy",
             "text": "",
             "link_label": "Read Now",
@@ -64,6 +63,7 @@
         },
         "4344f496-787e-40b9-9a24-6e41d2944a20": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -73,6 +73,7 @@
         },
         "3000c5f4-8e5f-4150-9840-3a37f3093548": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -82,6 +83,7 @@
         },
         "293de5f2-c019-4af1-8a34-c62a7cb99df8": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -123,7 +125,7 @@
       "settings": {
         "heading": "PRESS RELEASES",
         "heading_size": "h2",
-        "blog": "news",
+        "blog": "press-releases",
         "post_limit": 4,
         "columns_desktop": 4,
         "color_scheme": "background-1",
@@ -203,7 +205,6 @@
         "16642217311955a0cd-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/reviews.webp",
             "title": "",
             "text": "",
             "link_label": "",
@@ -213,7 +214,6 @@
         "16642217311955a0cd-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/collab.webp",
             "title": "",
             "text": "",
             "link_label": "",
@@ -223,7 +223,6 @@
         "16642217311955a0cd-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/social-callout.webp",
             "title": "",
             "text": "",
             "link_label": "",
@@ -233,7 +232,6 @@
         "49b432ba-34f4-4105-b051-6037810eca1f": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ugc.webp",
             "title": "",
             "text": "",
             "link_label": "",
@@ -243,7 +241,6 @@
         "4add4291-92f2-424c-9133-0cc3fc7c1f4a": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/followers.webp",
             "title": "",
             "text": "",
             "link_label": "",
@@ -253,7 +250,6 @@
         "c6e6e0d3-c9e4-45c5-aa45-27a66b1ccd15": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eggcooker.webp",
             "title": "",
             "text": "",
             "link_label": "",

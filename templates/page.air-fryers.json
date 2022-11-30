@@ -65,19 +65,19 @@
         "16626581798d96a358-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "2-quart"
+            "collection": "2qt-air-fryers"
           }
         },
         "16626581798d96a358-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "3-quart"
+            "collection": "3qt-air-fryers"
           }
         },
         "16626581798d96a358-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "6-quart"
+            "collection": "6qt-air-fryers"
           }
         }
       },
@@ -148,7 +148,7 @@
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "SHOP ALL AIR FRYERS",
-        "button_link": "\/",
+        "button_link": "shopify:\/\/collections\/air-fryers",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
@@ -165,7 +165,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "2-quart",
+        "collection": "air-fryers",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -205,7 +205,7 @@
           "type": "button",
           "settings": {
             "button_label": "GET COOKIN'",
-            "button_link": "\/"
+            "button_link": "shopify:\/\/products\/air-frying-for-everyone-cookbook"
           }
         }
       },
@@ -258,7 +258,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP ACCESSORIES",
-            "button_link": "shopify:\/\/collections\/air-fryers"
+            "button_link": "shopify:\/\/collections\/air-fryer-accessories"
           }
         }
       },

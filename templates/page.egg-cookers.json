@@ -67,7 +67,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "2-quart",
+        "collection": "egg-cookers",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -92,21 +92,19 @@
         "a383180d-ddb6-40d0-972e-d48a3a72ae0d": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-14_at_12.01.52_PM.png",
             "title": "Eggs-tremely Speedy",
             "text": "<p>Our egg cookers use a steaming process to thoroughly cook eggs without boiling. Simply add water to the heating plate, place your eggs in the holder, and close the lid. It's simple and fast, and eggs cook perfectly every time.<\/p>",
             "link_label": "SHOP EGG COOKERS",
-            "link": "shopify:\/\/collections\/3-quart"
+            "link": "shopify:\/\/collections\/egg-cookers-only"
           }
         },
         "4ab8898c-fa01-4bf1-ab3e-477f7e31fcec": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-14_at_12.02.00_PM.png",
             "title": "Egg Bites at Home",
             "text": "<p>Craving egg bites from your favorite coffee shop? With our Egg Bite Maker, you can make sous-vide style egg bites at home. Simply fill the cups and rest them in a water bath to cook. Don't forget to add your favorite toppings!<\/p>",
             "link_label": "SHOP EGG BITE MAKERS",
-            "link": "shopify:\/\/collections\/frozen-treats"
+            "link": "shopify:\/\/collections\/egg-bite-makers"
           }
         }
       },
@@ -243,7 +241,7 @@
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "SHOP ALL EGG COOKERS",
-        "button_link": "shopify:\/\/collections\/mini-makers",
+        "button_link": "shopify:\/\/collections\/egg-cookers",
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,

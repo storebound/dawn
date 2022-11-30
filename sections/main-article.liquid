@@ -4,7 +4,7 @@
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when '@app' -%}
-        <div class="page-width page-width--narrow">
+        <div class="page-width{% if section.settings.narrowwidth == true %} page-width--narrow{%- endif -%}">
           {% render block %}
         </div>
       {%- when 'featured_image'-%}
@@ -34,7 +34,7 @@
         {%- endif -%}
 
         {%- when 'title'-%}
-          <header class="page-width page-width--narrow" {{ block.shopify_attributes }}>
+          <header class="page-width{% if section.settings.narrowwidth == true %} page-width--narrow{%- endif -%}" {{ block.shopify_attributes }}>
             <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
             {%- if block.settings.blog_show_date -%}
               <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">{{ article.published_at | time_tag: format: 'date' }}</span>
@@ -47,12 +47,12 @@
           </header>
 
         {%- when 'content'-%}
-          <div class="article-template__content page-width page-width--narrow rte" itemprop="articleBody" {{ block.shopify_attributes }}>
+          <div class="article-template__content page-width{% if section.settings.narrowwidth == true %} page-width--narrow{%- endif -%} rte" itemprop="articleBody" {{ block.shopify_attributes }}>
               {{ article.content }}
           </div>
 
         {%- when 'share' -%}
-          <div class="article-template__social-sharing page-width page-width--narrow" {{ block.shopify_attributes }}>
+          <div class="article-template__social-sharing page-width{% if section.settings.narrowwidth == true %} page-width--narrow{%- endif -%}" {{ block.shopify_attributes }}>
             <share-button class="share-button" {{ block.shopify_attributes }}>
               <button class="share-button__button hidden">
                 {% render 'icon-share' %}
@@ -101,7 +101,7 @@
   </div>
   {%- if blog.comments_enabled? -%}
     <div class="article-template__comment-wrapper background-secondary">
-      <div id="comments" class="page-width page-width--narrow">
+      <div id="comments" class="page-width{% if section.settings.narrowwidth == true %} page-width--narrow{%- endif -%}">
         {%- if article.comments_count > 0 -%}
           {%- assign anchorId = '#Comments-' | append: article.id -%}
 
@@ -293,6 +293,14 @@
   "name": "t:sections.main-article.name",
   "tag": "section",
   "class": "section",
+  "settings": [
+    {
+     "type": "checkbox",
+     "id": "narrowwidth",
+     "label": "Narrow Width Content",
+     "default": true
+    }
+    ],
   "blocks": [
     {
       "type": "@app"

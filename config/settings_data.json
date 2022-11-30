@@ -165,7 +165,7 @@
             "type": "link_list",
             "settings": {
               "heading": "MY ACCOUNT",
-              "menu": "account-links"
+              "menu": "dawn-footer-account-links"
             }
           }
         },

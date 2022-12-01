@@ -3,14 +3,13 @@
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
       "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/SuperSaverDeals_Email_20221103-05_8322bb68-d323-4e15-9eae-cb7f3340121a.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/SuperSaverDeals_Email_20221103-02-06_6549d526-5dc9-406f-b79c-5356ef57521e.jpg",
-        "button_link": "shopify:\/\/collections\/super-saver-event"
+        "desktop_image": "shopify:\/\/shop_images\/BFCM_email-02.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/BFCM_email-02_copy.jpg",
+        "button_link": "https:\/\/bydash.com\/discount\/DASH25?redirect=\/collections\/all"
       }
     },
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "19e4f92e-0e54-481b-8de3-948e0b634fd4": {
           "type": "text",
@@ -29,6 +28,33 @@
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SUPER SAVER DEALS",
+        "heading_size": "h2",
+        "description": "<p>Get up to 87% off select Dash appliances, while supplies last!<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "super-saver-event",
+        "products_to_show": 9,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 36
       }
     },
     "16642908781ed6d732": {
@@ -73,33 +99,6 @@
         "headline_novecento": false,
         "mobile_content_alignment": "center",
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "SUPER SAVER DEALS",
-        "heading_size": "h2",
-        "description": "<p>Get up to 87% off select Dash appliances, while supplies last!<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "super-saver-event",
-        "products_to_show": 9,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
         "padding_bottom": 36
       }
     },
@@ -286,8 +285,8 @@
   "order": [
     "30c02da9-7f38-4457-9443-275d4547f4f8",
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520",
-    "16642908781ed6d732",
     "featured_collection",
+    "16642908781ed6d732",
     "6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9",
     "multicolumn",
     "8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da"

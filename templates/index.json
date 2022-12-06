@@ -1,5 +1,50 @@
 {
   "sections": {
+    "b16c0394-1c09-4890-8e77-84396bb3abec": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Give the gift of Mini Waffles",
+            "heading_size": "h2"
+          }
+        },
+        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Wonderful Mini Waffles Cookbook is the perfect recipe book to get you started making festive treats, with over 80 recipes from sweet to savory included.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/wonderful-mini-waffle-gift-set"
+          }
+        }
+      },
+      "block_order": [
+        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-0",
+        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-1",
+        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Request_10_ByDash_Wonderful_Mini_Gift_Set.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "headline_novecento": true,
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
       "settings": {
@@ -111,7 +156,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Register-Product.png",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "Register Product",
             "link": "https:\/\/bydash.com\/apps\/product-registration"
           }
@@ -121,7 +166,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Product-Manual.png",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "Product Manuals",
             "link": "\/support"
           }
@@ -131,7 +176,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Contact-Us.png",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "Contact Us",
             "link": "shopify:\/\/pages\/contact-us"
           }
@@ -141,7 +186,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Asset_1_2x-8.png",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "Rewards",
             "link": "shopify:\/\/pages\/feel-good-rewards"
           }
@@ -179,7 +224,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Dash-Air-Fryer.png",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "Air Fryers",
             "link": "shopify:\/\/pages\/dash-air-fryers"
           }
@@ -189,7 +234,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Dash-Deluxe-Egg-Cooker.png",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "Egg Cookers",
             "link": "shopify:\/\/pages\/dash-egg-cookers"
           }
@@ -199,7 +244,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/mini-maker-waffle.png",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "Mini Makers",
             "link": "shopify:\/\/pages\/mini-makers"
           }
@@ -209,7 +254,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/all-dash-products-icon.png",
             "title": "",
-            "text": "",
+            "text": "<p><\/p>",
             "link_label": "All Products",
             "link": "shopify:\/\/collections\/all"
           }
@@ -284,6 +329,7 @@
     }
   },
   "order": [
+    "b16c0394-1c09-4890-8e77-84396bb3abec",
     "30c02da9-7f38-4457-9443-275d4547f4f8",
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520",
     "16642908781ed6d732",

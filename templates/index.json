@@ -47,6 +47,7 @@
     },
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
+      "disabled": true,
       "settings": {
         "desktop_image": "shopify:\/\/shop_images\/SuperSaverDeals_Email_20221103-05_8322bb68-d323-4e15-9eae-cb7f3340121a.jpg",
         "mobile_image": "shopify:\/\/shop_images\/SuperSaverDeals_Email_20221103-02-06_6549d526-5dc9-406f-b79c-5356ef57521e.jpg",

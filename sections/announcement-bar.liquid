@@ -7,9 +7,8 @@
             <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
           {%- endif -%}
               <div class="page-width">
-                {{ block.settings.text }}
                 <p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
-                  
+                  {{ block.settings.text | escape }}
                   {%- if block.settings.link != blank -%}
                     {% render 'icon-arrow' %}
                   {%- endif -%}
@@ -33,9 +32,9 @@
       "name": "t:sections.announcement-bar.blocks.announcement.name",
       "settings": [
         {
-          "type": "richtext",
+          "type": "liquid",
           "id": "text",
-          "default": "<p>Welcome to our store</p>",
+          "default": "<p>Welcome to our store<p>",
           "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
         },
         {

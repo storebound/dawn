@@ -6,14 +6,14 @@
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-0": {
           "type": "heading",
           "settings": {
-            "heading": "Give the gift of Waffles",
+            "heading": "Create delicious Belgian waffles at home",
             "heading_size": "h2"
           }
         },
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-1": {
           "type": "text",
           "settings": {
-            "text": "<p>From waffles to latkes, cook up the perfect treats to share with friends and family!<\/p>",
+            "text": "<p>The Flip Belgian Waffle Maker is fun and easy to use for single serving breakfasts or shareable snacks—just add your favorite toppings and dig in!<\/p>",
             "text_style": "body"
           }
         },
@@ -31,7 +31,7 @@
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DBWM600AQ_Holiday_Lifestyle_4.jpg",
+        "image": "shopify:\/\/shop_images\/DBWM600AQ_Holiday_Lifestyle_3.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

@@ -1,5 +1,63 @@
 {
   "sections": {
+    "30c02da9-7f38-4457-9443-275d4547f4f8": {
+      "type": "desktop-mobile-banner",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Header_NYNV.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Header_NYNV_a4fbe7a9-3496-4ab7-8fc8-5ce5ffca1b0b.jpg",
+        "button_link": "https:\/\/bydash.com\/discount\/VIEW20?redirect=%2Fcollections%2Fnew-year-new-view"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SUPER SAVER DEALS",
+        "heading_size": "h2",
+        "description": "<p>Get up to 87% off select Dash appliances, while supplies last!<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "super-saver-event",
+        "products_to_show": 9,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "2e2f1ddf-0f5e-44b8-970e-dcc755b16520": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "19e4f92e-0e54-481b-8de3-948e0b634fd4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/pages\/black-friday-cyber-monday-sale-details\" title=\"25% Off Sitewide with Code DASH25 - Exclusions Apply\">See discount exclusions.<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "19e4f92e-0e54-481b-8de3-948e0b634fd4"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "b16c0394-1c09-4890-8e77-84396bb3abec": {
       "type": "image-with-text",
       "blocks": {
@@ -45,67 +103,9 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "SUPER SAVER DEALS",
-        "heading_size": "h2",
-        "description": "<p>Get up to 87% off select Dash appliances, while supplies last!<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "super-saver-event",
-        "products_to_show": 9,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "30c02da9-7f38-4457-9443-275d4547f4f8": {
-      "type": "desktop-mobile-banner",
-      "disabled": true,
-      "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/SuperSaverDeals_Email_20221103-05_8322bb68-d323-4e15-9eae-cb7f3340121a.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/SuperSaverDeals_Email_20221103-02-06_6549d526-5dc9-406f-b79c-5356ef57521e.jpg",
-        "button_link": "shopify:\/\/collections\/super-saver-event"
-      }
-    },
-    "2e2f1ddf-0f5e-44b8-970e-dcc755b16520": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "19e4f92e-0e54-481b-8de3-948e0b634fd4": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"\/pages\/black-friday-cyber-monday-sale-details\" title=\"25% Off Sitewide with Code DASH25 - Exclusions Apply\">See discount exclusions.<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "19e4f92e-0e54-481b-8de3-948e0b634fd4"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "16642908781ed6d732": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1664290878c95a76cb-0": {
           "type": "heading",
@@ -328,10 +328,10 @@
     }
   },
   "order": [
-    "b16c0394-1c09-4890-8e77-84396bb3abec",
-    "featured_collection",
     "30c02da9-7f38-4457-9443-275d4547f4f8",
+    "featured_collection",
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520",
+    "b16c0394-1c09-4890-8e77-84396bb3abec",
     "16642908781ed6d732",
     "6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9",
     "multicolumn",

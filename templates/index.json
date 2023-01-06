@@ -3,9 +3,9 @@
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
       "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/Header_NYNV.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Header_NYNV_a4fbe7a9-3496-4ab7-8fc8-5ce5ffca1b0b.jpg",
-        "button_link": "https:\/\/bydash.com\/discount\/VIEW20?redirect=%2Fcollections%2Fnew-year-new-view"
+        "desktop_image": "shopify:\/\/shop_images\/Foodie.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Header_Mobile.jpg",
+        "button_link": "shopify:\/\/collections\/best-sellers"
       }
     },
     "featured_collection": {

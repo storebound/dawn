@@ -12,6 +12,16 @@
     "1664219522eef12178": {
       "type": "multicolumn",
       "blocks": {
+        "2bd145fc-aa74-4f74-ab37-d617ed077db0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NicePng_journal-png_1327044.png",
+            "title": "Why Is This Little Waffle Maker Such a Big Holiday Gift?",
+            "text": "",
+            "link_label": "Read Now",
+            "link": "https:\/\/www.wsj.com\/articles\/why-is-this-little-waffle-maker-such-a-big-holiday-gift-11671202159?mod=e2tw"
+          }
+        },
         "4344f496-787e-40b9-9a24-6e41d2944a20": {
           "type": "column",
           "settings": {
@@ -114,6 +124,7 @@
         }
       },
       "block_order": [
+        "2bd145fc-aa74-4f74-ab37-d617ed077db0",
         "4344f496-787e-40b9-9a24-6e41d2944a20",
         "3000c5f4-8e5f-4150-9840-3a37f3093548",
         "293de5f2-c019-4af1-8a34-c62a7cb99df8",

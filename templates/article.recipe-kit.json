@@ -1,5 +1,11 @@
 {
   "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "f0700b01-5920-4a8e-9b2f-1c4f7b03edb7": {
       "type": "custom-liquid",
       "settings": {
@@ -36,20 +42,22 @@
           "type": "content",
           "settings": {
           }
+        },
+        "f0428e45-2009-4bb1-a57c-2b565773235c": {
+          "type": "shopify:\/\/apps\/recipe-kit\/blocks\/app-block\/0afa374e-81c7-4989-96de-e1ac84640954",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "featured_image",
         "title",
         "share",
-        "content"
+        "content",
+        "f0428e45-2009-4bb1-a57c-2b565773235c"
       ],
       "settings": {
-      }
-    },
-    "shogun-helper": {
-      "type": "shogun-helper",
-      "settings": {
+        "narrowwidth": false
       }
     }
   },

@@ -1,13 +1,5 @@
 {
   "sections": {
-    "30c02da9-7f38-4457-9443-275d4547f4f8": {
-      "type": "desktop-mobile-banner",
-      "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/Foodie.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Header_Mobile.jpg",
-        "button_link": "https:\/\/bydash.com\/discount\/FOODIE?redirect=%2Fcollections%2Fbest-sellers&utm_source=bydash_homepage&utm_medium=banner&utm_campaign=foodie_discount"
-      }
-    },
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520": {
       "type": "rich-text",
       "disabled": true,
@@ -37,14 +29,14 @@
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-0": {
           "type": "heading",
           "settings": {
-            "heading": "Bring good luck to your kitchen!",
+            "heading": "Get egg-cited for spring!",
             "heading_size": "h2"
           }
         },
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Cook delicious mini waffles in a fun shamrock shape. Perfect for gifting, families with kids, or anyone seeking to add a festive touch to morning meals!<\/p>",
+            "text": "<p>Our brand new Mini Maker features a festive Easter egg design, perfect for adding a bit of spring spirit to your breakfast this holiday!<\/p>",
             "text_style": "body"
           }
         },
@@ -52,7 +44,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/shamrock-mini-waffle-maker"
+            "button_link": "shopify:\/\/products\/easter-egg-mini-waffle-maker"
           }
         }
       },
@@ -62,7 +54,7 @@
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DMWC001KG_Lifestyle_9.jpg",
+        "image": "shopify:\/\/shop_images\/DMWEG001_Lifestyle_7.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -74,6 +66,14 @@
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "30c02da9-7f38-4457-9443-275d4547f4f8": {
+      "type": "desktop-mobile-banner",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Foodie.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Header_Mobile.jpg",
+        "button_link": "https:\/\/bydash.com\/discount\/FOODIE?redirect=%2Fcollections%2Fbest-sellers&utm_source=bydash_homepage&utm_medium=banner&utm_campaign=foodie_discount"
       }
     },
     "featured_collection": {
@@ -328,9 +328,9 @@
     }
   },
   "order": [
-    "30c02da9-7f38-4457-9443-275d4547f4f8",
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520",
     "b16c0394-1c09-4890-8e77-84396bb3abec",
+    "30c02da9-7f38-4457-9443-275d4547f4f8",
     "featured_collection",
     "16642908781ed6d732",
     "6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9",

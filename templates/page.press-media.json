@@ -9,6 +9,60 @@
         "padding_bottom": 20
       }
     },
+    "1664824677c9d25de0": {
+      "type": "rich-text",
+      "blocks": {
+        "166482467732d2de29-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>MEDIA<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "166482467732d2de29-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Download our media assets below. If you need additional content, please contact our media manager at media@storebound.com<\/p>"
+          }
+        },
+        "166482467732d2de29-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Logos",
+            "button_link": "https:\/\/www.dropbox.com\/sh\/5txhz2i3chkaesp\/AAAg5LWPfSZXMi2IGABaYjVRa?dl=0",
+            "button_style_secondary": false,
+            "button_label_2": "High Res Assets",
+            "button_link_2": "https:\/\/www.dropbox.com\/sh\/2b9qqccclbcwd6f\/AACXFnRPWl8O6NDqqWg1ki_-a?dl=0",
+            "button_style_secondary_2": false
+          }
+        },
+        "89780811-a226-41dc-9d4d-0a94394d9d86": {
+          "type": "button",
+          "settings": {
+            "button_label": "Full Media Kit",
+            "button_link": "https:\/\/www.dropbox.com\/sh\/53ovhv57ebmwf1l\/AACr0pzWa-Ctmyv5u5fVTPWya?dl=0",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "166482467732d2de29-0",
+        "166482467732d2de29-1",
+        "166482467732d2de29-2",
+        "89780811-a226-41dc-9d4d-0a94394d9d86"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1664219522eef12178": {
       "type": "multicolumn",
       "blocks": {
@@ -171,60 +225,6 @@
         "padding_bottom": 32
       }
     },
-    "1664824677c9d25de0": {
-      "type": "rich-text",
-      "blocks": {
-        "166482467732d2de29-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>MEDIA<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "166482467732d2de29-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Download our media assets below. If you need additional content, please contact our media manager at media@storebound.com<\/p>"
-          }
-        },
-        "166482467732d2de29-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Logos",
-            "button_link": "https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit\/Logos",
-            "button_style_secondary": false,
-            "button_label_2": "High Res Assets",
-            "button_link_2": "https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit\/Hi-Res%20Images",
-            "button_style_secondary_2": false
-          }
-        },
-        "89780811-a226-41dc-9d4d-0a94394d9d86": {
-          "type": "button",
-          "settings": {
-            "button_label": "Full Media Kit",
-            "button_link": "https:\/\/www.dropbox.com\/home\/DESIGNED%20FOR%20SALES\/TRADE%20SHOW\/2022\/2022%20Media%20Kit",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "166482467732d2de29-0",
-        "166482467732d2de29-1",
-        "166482467732d2de29-2",
-        "89780811-a226-41dc-9d4d-0a94394d9d86"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -235,6 +235,7 @@
     },
     "1664221731d89e0bab": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "16642217311955a0cd-0": {
           "type": "column",
@@ -350,9 +351,9 @@
   },
   "order": [
     "16638700311932f0cb",
+    "1664824677c9d25de0",
     "1664219522eef12178",
     "1663871311258f63b8",
-    "1664824677c9d25de0",
     "main",
     "1664221731d89e0bab",
     "1664824481855f7548"

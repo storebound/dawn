@@ -393,7 +393,8 @@
                     {% endunless %}
                     {{ 'Warranty Information' | link_to: '/pages/warranty' }}
                   {% elsif block.settings.heading == 'Features & Benefits' and product.metafields.custom.feature_list != blank  %}
-                         
+
+                    {% comment %}
                         <div class="product_points">
                           <ul>
                           {% for feature_list in product.metafields.custom.feature_list.value  %}
@@ -401,6 +402,13 @@
                           {% endfor %}
                           </ul>
                         </div>
+                    {% endcomment %}
+
+                    {% assign beatles = product.metafields.ns_.features | split: "<br>" %}
+
+                    {% for member in beatles %}
+                    {{ member }}
+                    {% endfor %}
                         
                   {% elsif block.settings.heading == 'Parts & Accessories' %}
 

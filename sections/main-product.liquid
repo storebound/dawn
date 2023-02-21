@@ -405,7 +405,11 @@
                     {% endcomment %}
 
 {% assign paragraphs = product.metafields.ns_.features  | strip | newline_to_br | strip_newlines | split: "<br />" %}
-{% for paragraph in paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
+                        <div class="product_points">
+                          <ul>
+{% for paragraph in paragraphs %}<li>{{ paragraph }}</li>{% endfor %}
+                                              </ul>
+                        </div>
 
                     
                

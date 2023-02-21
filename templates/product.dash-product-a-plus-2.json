@@ -62,7 +62,7 @@
         "bac6a400-de5b-4166-adf2-7ca593cd855e": {
           "type": "description",
           "settings": {
-            "show_romance_copy": true
+            "show_romance_copy": false
           }
         },
         "4516de86-ab1e-423d-a1f8-89bcbf2593de": {

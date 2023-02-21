@@ -384,9 +384,9 @@
                     {% render 'icon-caret' %}
                   </summary>
                   <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
-                  {% if block.settings.heading == 'Manual & Warranty' %}
+                  {% if block.settings.heading == 'Recipes, Manual & Warranty' %}
                     {% unless product.metafields.custom.product_manual == blank %}
-                    <a href="{{ product.metafields.custom.product_manual | file_url }}">Download Manual</a><br />
+                    <a href="{{ product.metafields.custom.product_manual | file_url }}">Download Manual and Recipe Guide</a><br />
                     {% endunless %}
                     {% unless product.metafields.custom.quick_start_guide == blank %}
                     <a href="{{ product.metafields.custom.quick_start_guide | file_url }}">Download Quick Start Guide</a><br />

@@ -362,10 +362,15 @@
                 {%- endform -%}
               </div>
             {%- when 'description' -%}
-              {%- if product.description != blank -%}
+              {%- if product.description != blank and NOTCHECKED -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                   {{ product.description }}
                 </div>
+              {%- elsif product.metafields.ns_.romance != blank and CHECKED -%}
+                <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+                  {{ product.metafields.ns_.romance }}
+                </div>
+                
               {%- endif -%}
             {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
@@ -1459,7 +1464,16 @@
     {
       "type": "description",
       "name": "t:sections.main-product.blocks.description.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+         {
+          "type": "checkbox",
+          "id": "show_romance_copy",
+          "default": true,
+          "label": "Show Romance Copy"
+
+         }
+      ]
     },
     {
       "type": "share",

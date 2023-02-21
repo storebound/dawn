@@ -405,10 +405,13 @@
                     {% endcomment %}
 
                     {% assign beatles = product.metafields.ns_.features | split: "<br>" %}
-
+                        <div class="product_points">
+                          <ul>
                     {% for member in beatles %}
-                    {{ member }}
+                   <li>  {{ member }}</li>
                     {% endfor %}
+                                              </ul>
+                        </div>
                         
                   {% elsif block.settings.heading == 'Parts & Accessories' %}
 

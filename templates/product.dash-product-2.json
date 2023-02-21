@@ -59,20 +59,9 @@
             "show_dynamic_checkout": true
           }
         },
-        "4516de86-ab1e-423d-a1f8-89bcbf2593de": {
-          "type": "text",
+        "a846721a-07f3-4c83-bd12-d438a6c96aad": {
+          "type": "description",
           "settings": {
-            "text": "{{ product.metafields.ns_.short.value }}",
-            "text_style": "body"
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Product Details",
-            "icon": "chat_bubble",
-            "content": "<p>{{ product.metafields.ns_.romance | metafield_tag }}<\/p>",
-            "page": ""
           }
         },
         "collapsible-row-1": {
@@ -133,8 +122,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "4516de86-ab1e-423d-a1f8-89bcbf2593de",
-        "collapsible-row-0",
+        "a846721a-07f3-4c83-bd12-d438a6c96aad",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",

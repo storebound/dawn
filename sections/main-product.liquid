@@ -362,11 +362,11 @@
                 {%- endform -%}
               </div>
             {%- when 'description' -%}
-              {%- if product.description != blank and NOTCHECKED -%}
+              {%- if product.description != blank and section.settings.show_romance_copy == false -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                   {{ product.description }}
                 </div>
-              {%- elsif product.metafields.ns_.romance != blank and CHECKED -%}
+              {%- elsif product.metafields.ns_.romance != blank and section.settings.show_romance_copy == true -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                   {{ product.metafields.ns_.romance }}
                 </div>

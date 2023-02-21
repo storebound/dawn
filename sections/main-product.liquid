@@ -429,14 +429,19 @@
                   {% elsif block.settings.heading == 'Specifications' %}
                     {{ block.settings.content }}
                     {{ block.settings.page.content }}     
-                    {% comment %} Prop 65 warning {% endcomment %}
+        {% comment %}  Warnings {% endcomment %}
         {% for tag in product.tags %}
         {% if tag contains 'p65b' %}
           <div>&nbsp;</div>    
           <div> <span role="img" aria-label=“Warning icon”>&#9888;&#65039;</span><strong>WARNING</strong> This product can expose you to Bisphenol A, which is known to the State of California to cause reproductive harm. For more information go to <a href="https://www.p65warnings.ca.gov/" target="_blank">www.P65Warnings.ca.gov/</a>.</div>
         {% endif %}
         {% endfor %}
-
+        {% for tag in product.tags %}
+        {% if tag contains 'ptfe' %}
+          <div>&nbsp;</div>    
+          <div>This product contains PTFE for its non-stick properties. For more information about chemicals in this product, visit <a href="https://bydash.com/nonstick" target="_blank">bydash.com/nonstick</a> </div>
+        {% endif %}
+        {% endfor %}
                     {% else %}
                     {{ block.settings.content }}
                     {{ block.settings.page.content }}

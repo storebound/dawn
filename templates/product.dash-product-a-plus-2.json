@@ -77,7 +77,7 @@
           "settings": {
             "heading": "Features & Benefits",
             "icon": "clipboard",
-            "content": "<p>{{ product.metafields.ns_.features | metafield_tag }}<\/p>",
+            "content": "",
             "page": ""
           }
         },

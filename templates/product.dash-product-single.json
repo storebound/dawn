@@ -90,7 +90,7 @@
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Manual & Warranty",
+            "heading": "Recipes, Manual & Warranty",
             "icon": "question_mark",
             "content": "",
             "page": ""

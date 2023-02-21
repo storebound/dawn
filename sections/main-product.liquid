@@ -404,15 +404,11 @@
                         </div>
                     {% endcomment %}
 
-                    {% assign beatles = product.metafields.ns_.features | split: "<br>" %}
-                        <div class="product_points">
-                          <ul>
-                    {% for member in beatles %}
-                   <li>  {{ member }}</li>
-                    {% endfor %}
-                                              </ul>
-                        </div>
-                        
+{% assign paragraphs = product.metafields.ns_.features  | strip | newline_to_br | strip_newlines | split: "<br />" %}
+{% for paragraph in paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
+
+                    
+               
                   {% elsif block.settings.heading == 'Parts & Accessories' %}
 
                 <ul id="product-grid" data-id="{{ section.id }}" class="

@@ -42,6 +42,12 @@
           "settings": {
           }
         },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -53,9 +59,20 @@
             "show_dynamic_checkout": true
           }
         },
-        "ddb40bf8-1ff2-4b73-9737-c50d4b0663e2": {
-          "type": "description",
+        "4516de86-ab1e-423d-a1f8-89bcbf2593de": {
+          "type": "text",
           "settings": {
+            "text": "{{ product.metafields.ns_.short.value }}",
+            "text_style": "body"
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Details",
+            "icon": "chat_bubble",
+            "content": "<p>{{ product.metafields.ns_.romance | metafield_tag }}<\/p>",
+            "page": ""
           }
         },
         "collapsible-row-1": {
@@ -113,9 +130,11 @@
         "eaa8b3a1-b010-43f5-a00a-9017761eb277",
         "caption",
         "price",
+        "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "ddb40bf8-1ff2-4b73-9737-c50d4b0663e2",
+        "4516de86-ab1e-423d-a1f8-89bcbf2593de",
+        "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
@@ -132,6 +151,38 @@
         "enable_video_looping": false,
         "padding_top": 0,
         "padding_bottom": 12
+      }
+    },
+    "1661883989ab5c9fbf": {
+      "type": "collapsible-content",
+      "blocks": {
+        "166188398835b67184-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Additional Images",
+            "icon": "check_mark",
+            "row_content": "",
+            "liquid": "{% if product.metafields.custom.a_1 != blank %}\n{{ product.metafields.custom.a_1 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_1_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_2 != blank %}\n{{ product.metafields.custom.a_2 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_2_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_3 != blank %}\n{{ product.metafields.custom.a_3 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_3_alt | escape }}\n{% endif %}\n\n{% if product.metafields.custom.a_4 != blank %}\n{{ product.metafields.custom.a_4 | image_url: width: 1000 | image_tag: loading: 'lazy', alt: product.metafields.custom.a_4_alt | escape }}\n{% endif %}",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "166188398835b67184-0"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "16672310787bda553d": {
@@ -173,6 +224,7 @@
   "order": [
     "1661960546161c5f46",
     "main",
+    "1661883989ab5c9fbf",
     "16672310787bda553d",
     "product-recommendations"
   ]

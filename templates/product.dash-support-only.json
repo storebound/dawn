@@ -31,26 +31,21 @@
             "text_style": "subtitle"
           }
         },
+        "a717a816-7ed8-4fdf-b1a7-70bf2a821930": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
           }
         },
-        "4516de86-ab1e-423d-a1f8-89bcbf2593de": {
-          "type": "text",
+        "e08b78f7-7261-488b-844d-709e08ee1376": {
+          "type": "description",
           "settings": {
-            "text": "{{ product.metafields.ns_.short.value }}",
-            "text_style": "body"
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Product Details",
-            "icon": "chat_bubble",
-            "content": "<p>{{ product.metafields.ns_.romance | metafield_tag }}<\/p>",
-            "page": ""
           }
         },
         "collapsible-row-1": {
@@ -74,7 +69,7 @@
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Manual & Warranty",
+            "heading": "Recipes, Manual & Warranty",
             "icon": "question_mark",
             "content": "",
             "page": ""
@@ -85,9 +80,9 @@
         "vendor",
         "title",
         "caption",
+        "a717a816-7ed8-4fdf-b1a7-70bf2a821930",
         "variant_picker",
-        "4516de86-ab1e-423d-a1f8-89bcbf2593de",
-        "collapsible-row-0",
+        "e08b78f7-7261-488b-844d-709e08ee1376",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3"
@@ -163,6 +158,18 @@
     },
     "1661883879ca0f6454": {
       "type": "apps",
+      "blocks": {
+        "713c217d-b979-4bfa-90d0-7db3f277e269": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "713c217d-b979-4bfa-90d0-7db3f277e269"
+      ],
       "settings": {
         "include_margins": true
       }

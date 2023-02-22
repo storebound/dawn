@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "f0700b01-5920-4a8e-9b2f-1c4f7b03edb7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "f0428e45-2009-4bb1-a57c-2b565773235c": {
+          "type": "shopify:\/\/apps\/recipe-kit\/blocks\/app-block\/0afa374e-81c7-4989-96de-e1ac84640954",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content",
+        "f0428e45-2009-4bb1-a57c-2b565773235c"
+      ],
+      "settings": {
+        "narrowwidth": false
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "f0700b01-5920-4a8e-9b2f-1c4f7b03edb7",
+    "main"
+  ]
+}

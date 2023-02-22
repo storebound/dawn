@@ -362,9 +362,11 @@
                 {%- endform -%}
               </div>
             {%- when 'description' -%}
-              {%- if product.description != blank -%}
+       
+            {%- if product.metafields.ns_.romance != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-                  {{ product.description }}
+         
+                {{ product.metafields.ns_.romance }}
                 </div>
               {%- endif -%}
             {%- when 'custom_liquid' -%}
@@ -382,16 +384,17 @@
                     {% render 'icon-caret' %}
                   </summary>
                   <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
-                  {% if block.settings.heading == 'Manual & Warranty' %}
+                  {% if block.settings.heading == 'Recipes, Manual & Warranty' %}
                     {% unless product.metafields.custom.product_manual == blank %}
-                    <a href="{{ product.metafields.custom.product_manual | file_url }}">Download Manual</a><br />
+                    <a href="{{ product.metafields.custom.product_manual | file_url }}">Download Manual and Recipe Guide</a><br />
                     {% endunless %}
                     {% unless product.metafields.custom.quick_start_guide == blank %}
                     <a href="{{ product.metafields.custom.quick_start_guide | file_url }}">Download Quick Start Guide</a><br />
                     {% endunless %}
                     {{ 'Warranty Information' | link_to: '/pages/warranty' }}
-                  {% elsif block.settings.heading == 'Features & Benefits' and product.metafields.custom.feature_list != blank  %}
-                         
+                  {% elsif block.settings.heading == 'Features & Benefits' and product.metafields.ns_.features != blank  %}
+
+                    {% comment %}
                         <div class="product_points">
                           <ul>
                           {% for feature_list in product.metafields.custom.feature_list.value  %}
@@ -399,7 +402,17 @@
                           {% endfor %}
                           </ul>
                         </div>
-                        
+                    {% endcomment %}
+
+{% assign paragraphs = product.metafields.ns_.features  | strip | newline_to_br | strip_newlines | split: "<br />" %}
+                        <div class="product_points">
+                          <ul>
+{% for paragraph in paragraphs %}<li>{{ paragraph }}</li>{% endfor %}
+                                              </ul>
+                        </div>
+
+                    
+               
                   {% elsif block.settings.heading == 'Parts & Accessories' %}
 
                 <ul id="product-grid" data-id="{{ section.id }}" class="

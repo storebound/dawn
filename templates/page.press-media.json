@@ -66,6 +66,56 @@
     "1664219522eef12178": {
       "type": "multicolumn",
       "blocks": {
+        "ce9f4eca-3e2f-4b6f-ad0e-fd5bf689c248": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sheknows_logo.png",
+            "title": "This Tiktok-Famous & Genius $22 Rapid Egg Cooker With Over 35,000 Reviews Makes Cooking Breakfast Easier Than Ever",
+            "text": "",
+            "link_label": "Read Now",
+            "link": "https:\/\/www.sheknows.com\/food-and-recipes\/articles\/2403932\/dash-egg-cookers\/"
+          }
+        },
+        "09cd443c-d777-4768-8520-0ff180b61039": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yahoo-Logo-700x394.png",
+            "title": "If you’re into making rice bowls, this $25 mini rice cooker makes it super easy to meal prep",
+            "text": "",
+            "link_label": "Read Now",
+            "link": "https:\/\/www.yahoo.com\/lifestyle\/dash-mini-rice-cooker-173154535.html"
+          }
+        },
+        "aaa452bf-1510-48b9-887a-257f1a880d14": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sheknows_logo.png",
+            "title": "Target Is Selling Dash Mini Easter Waffle Irons In the Cutest Spring Designs",
+            "text": "",
+            "link_label": "Read Now",
+            "link": "https:\/\/www.sheknows.com\/food-and-recipes\/articles\/2407318\/target-dash-bunny-waffle-maker\/"
+          }
+        },
+        "997dcca7-5f9e-422f-a92d-83a04a312471": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Taste_of_Home_logo_png.png",
+            "title": "Dash’s New $10 Novelty Waffle Maker Creates an Easter Egg-Shaped Stack",
+            "text": "",
+            "link_label": "Read Now",
+            "link": "https:\/\/www.tasteofhome.com\/article\/novelty-waffle-maker\/"
+          }
+        },
+        "28221d36-11c6-42ec-9ad9-22fcac63634e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchnlogo.png",
+            "title": "This Multipurpose Dish Rack Replaced My Old Drainer and Finally Cleared My Cluttered Sink",
+            "text": "",
+            "link_label": "Read Now",
+            "link": "https:\/\/www.thekitchn.com\/dash-smartstore-dish-rack-review-23507598"
+          }
+        },
         "2bd145fc-aa74-4f74-ab37-d617ed077db0": {
           "type": "column",
           "settings": {
@@ -126,26 +176,6 @@
             "link": "https:\/\/www.thekitchn.com\/dash-flip-belgian-waffle-maker-launch-september-2022-2-23435536"
           }
         },
-        "45fbc81e-766b-4b4d-8968-01088d0d4a65": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sheknows_logo.png",
-            "title": "TikTok-Famous Dash’s Spooky Halloween Waffle Makers Are Back & They’re Just $13",
-            "text": "",
-            "link_label": "Read Now",
-            "link": "https:\/\/www.sheknows.com\/living\/articles\/2481958\/dash-halloween-waffle-maker\/"
-          }
-        },
-        "1664219522ec70e375-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mashable_Logo__2021.png",
-            "title": "Love your Dash waffle maker purchase from TikTok? More Dash kitchen gadgets are on sale at Amazon.",
-            "text": "",
-            "link_label": "Read Now",
-            "link": "https:\/\/mashable.com\/deals\/sept-13-dash-kitchen-essentials"
-          }
-        },
         "1664219522ec70e375-2": {
           "type": "column",
           "settings": {
@@ -155,40 +185,21 @@
             "link_label": "Read Now",
             "link": "https:\/\/people.com\/lifestyle\/products-worth-the-hype-2022\/#b5c215aa-c4f5-4ec8-9abb-6715fd16d7ab"
           }
-        },
-        "1664219522ec70e375-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Taste_of_Home_logo_png.png",
-            "title": "The Dash Snowflake Mini Waffle Maker Makes Breakfast Time Magical",
-            "text": "",
-            "link_label": "Read Now",
-            "link": "https:\/\/www.tasteofhome.com\/article\/dash-snowflake-mini-waffle-maker\/"
-          }
-        },
-        "ee00d634-90c3-4cb1-8033-b428b16618a8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/AOL_logo_svg.png",
-            "title": "Just in time for the holidays, Amazon's No. 1 bestselling egg cooker is on sale for $17",
-            "text": "",
-            "link_label": "Read Now",
-            "link": "https:\/\/www.aol.com\/lifestyle\/dash-rapid-egg-cooker-deal-123147529.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAACjIfZ9xC5oFD3AffeXOLLmB1HQLm8zQJfQC-xazWaVnA3FTLrwaj_HBNqv-vOxy2ClK647eFW89mLw9Fd9pGqK9TNarR2xUh11y8Os1nak4Hy4LeljaZc_OIT_SF2RxblXIWFS0BCShh_wXYouxw7FXN7riH5z7eKIpMSvv3Z_S"
-          }
         }
       },
       "block_order": [
+        "ce9f4eca-3e2f-4b6f-ad0e-fd5bf689c248",
+        "09cd443c-d777-4768-8520-0ff180b61039",
+        "aaa452bf-1510-48b9-887a-257f1a880d14",
+        "997dcca7-5f9e-422f-a92d-83a04a312471",
+        "28221d36-11c6-42ec-9ad9-22fcac63634e",
         "2bd145fc-aa74-4f74-ab37-d617ed077db0",
         "4344f496-787e-40b9-9a24-6e41d2944a20",
         "3000c5f4-8e5f-4150-9840-3a37f3093548",
         "293de5f2-c019-4af1-8a34-c62a7cb99df8",
         "42249ce5-016b-4056-82c6-c8d86d2cd713",
         "0c799839-7b77-4908-b150-0714963faf4f",
-        "45fbc81e-766b-4b4d-8968-01088d0d4a65",
-        "1664219522ec70e375-1",
-        "1664219522ec70e375-2",
-        "1664219522ec70e375-0",
-        "ee00d634-90c3-4cb1-8033-b428b16618a8"
+        "1664219522ec70e375-2"
       ],
       "settings": {
         "title": "IN THE NEWS",

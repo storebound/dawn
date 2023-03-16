@@ -1,5 +1,13 @@
 {
   "sections": {
+    "30c02da9-7f38-4457-9443-275d4547f4f8": {
+      "type": "desktop-mobile-banner",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Easter_Web_Banner-01.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Easter_Web_Banner-02.jpg",
+        "button_link": "shopify:\/\/collections\/easter"
+      }
+    },
     "b16c0394-1c09-4890-8e77-84396bb3abec": {
       "type": "image-with-text",
       "blocks": {
@@ -43,15 +51,6 @@
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "30c02da9-7f38-4457-9443-275d4547f4f8": {
-      "type": "desktop-mobile-banner",
-      "disabled": true,
-      "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/Foodie.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Header_Mobile.jpg",
-        "button_link": "https:\/\/bydash.com\/discount\/FOODIE?redirect=%2Fcollections%2Fbest-sellers&utm_source=bydash_homepage&utm_medium=banner&utm_campaign=foodie_discount"
       }
     },
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520": {
@@ -356,8 +355,8 @@
     }
   },
   "order": [
-    "b16c0394-1c09-4890-8e77-84396bb3abec",
     "30c02da9-7f38-4457-9443-275d4547f4f8",
+    "b16c0394-1c09-4890-8e77-84396bb3abec",
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520",
     "featured_collection",
     "42c74d65-d973-4802-a32c-4ba86e43569f",

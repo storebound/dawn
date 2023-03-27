@@ -14,15 +14,14 @@
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-0": {
           "type": "heading",
           "settings": {
-            "heading": "Get egg-cited for spring with the Dash Mini Easter Egg Waffle Maker!",
+            "heading": "Get egg-cited for spring!",
             "heading_size": "h2"
           }
         },
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>With zero setup required and our included Recipe Guide, you’ll quickly be making flavorful waffles for St. Patrick’s Day and year round!<\/p>",
+            "text": "<p>The Dash Rapid Egg Cooker delivers perfectly cooked eggs in less time than it takes to boil water on the stove!<\/p>",
             "text_style": "body"
           }
         },
@@ -30,7 +29,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/easter-egg-mini-waffle-maker"
+            "button_link": "shopify:\/\/products\/rapid-egg-cooker"
           }
         }
       },
@@ -40,7 +39,7 @@
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DMWEG001_Lifestyle_7.jpg",
+        "image": "shopify:\/\/shop_images\/DEC005YW_Lifestyle.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",

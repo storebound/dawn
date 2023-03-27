@@ -14,6 +14,57 @@
         "padding_bottom": 20
       }
     },
+    "9b65ff19-2842-4c80-b4e0-5121cc2ae7e9": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14846618566710__9b65ff19-2842-4c80-b4e0-5121cc2ae7e9-167992852947939672-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rise_Logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14846618566710__9b65ff19-2842-4c80-b4e0-5121cc2ae7e9-167992852947939672-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "dashpattern": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16799284997dccc249": {
+      "type": "apps",
+      "blocks": {
+        "cb2373d1-894a-49a4-94a8-4e9ecd5ef670": {
+          "type": "shopify:\/\/apps\/recipe-kit\/blocks\/app-block\/0afa374e-81c7-4989-96de-e1ac84640954",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "cb2373d1-894a-49a4-94a8-4e9ecd5ef670"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "main": {
       "type": "main-article",
       "blocks": {
@@ -41,6 +92,8 @@
   "order": [
     "shogun-helper",
     "f0700b01-5920-4a8e-9b2f-1c4f7b03edb7",
+    "9b65ff19-2842-4c80-b4e0-5121cc2ae7e9",
+    "16799284997dccc249",
     "main"
   ]
 }

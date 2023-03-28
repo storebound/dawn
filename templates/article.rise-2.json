@@ -68,6 +68,9 @@
         "content",
         "share"
       ],
+      "custom_css": [
+        ".article-template>*:first-child:not(.article-template__hero-container) {margin-top:0px;}"
+      ],
       "settings": {
         "narrowwidth": true
       }

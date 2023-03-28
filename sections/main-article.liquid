@@ -49,6 +49,7 @@
         {%- when 'content'-%}
           <div class="article-template__content page-width{% if section.settings.narrowwidth == true %} page-width--narrow{%- endif -%} rte" itemprop="articleBody" {{ block.shopify_attributes }}>
               {{ article.content }}
+      {% render 'recipekit_related', current_article: article %}
           </div>
 
         {%- when 'share' -%}

@@ -24,6 +24,12 @@
           "settings": {
           }
         },
+        "fc2fb9f7-7cda-4496-a9fa-1cd6f1c92d1d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p id=\"demo\">Check back in:<\/p>\n\n<script>\n\/\/ Set the date we're counting down to\nvar countDownDate = new Date(\"Jan 5, 2024 15:37:25\").getTime();\n\n\/\/ Update the count down every 1 second\nvar x = setInterval(function() {\n\n  \/\/ Get today's date and time\n  var now = new Date().getTime();\n\n  \/\/ Find the distance between now and the count down date\n  var distance = countDownDate - now;\n\n  \/\/ Time calculations for days, hours, minutes and seconds\n  var days = Math.floor(distance \/ (1000 * 60 * 60 * 24));\n  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) \/ (1000 * 60 * 60));\n  var minutes = Math.floor((distance % (1000 * 60 * 60)) \/ (1000 * 60));\n  var seconds = Math.floor((distance % (1000 * 60)) \/ 1000);\n\n  \/\/ Display the result in the element with id=\"demo\"\n  document.getElementById(\"demo\").innerHTML = days + \"d \" + hours + \"h \"\n  + minutes + \"m \" + seconds + \"s \";\n\n  \/\/ If the count down is finished, write some text\n  if (distance < 0) {\n    clearInterval(x);\n    document.getElementById(\"demo\").innerHTML = \"EXPIRED\";\n  }\n}, 1000);\n<\/script>"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -94,6 +100,7 @@
       "block_order": [
         "vendor",
         "title",
+        "fc2fb9f7-7cda-4496-a9fa-1cd6f1c92d1d",
         "caption",
         "variant_picker",
         "bac6a400-de5b-4166-adf2-7ca593cd855e",

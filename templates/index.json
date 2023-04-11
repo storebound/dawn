@@ -1,5 +1,13 @@
 {
   "sections": {
+    "30c02da9-7f38-4457-9443-275d4547f4f8": {
+      "type": "desktop-mobile-banner",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Rapid_Cold_Brew_Intro_Email-02.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Rapid_Cold_Brew_Intro_Email-01.jpg",
+        "button_link": "shopify:\/\/products\/rapid-cold-brew-maker"
+      }
+    },
     "16642908781ed6d732": {
       "type": "image-with-text",
       "blocks": {
@@ -43,15 +51,6 @@
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "30c02da9-7f38-4457-9443-275d4547f4f8": {
-      "type": "desktop-mobile-banner",
-      "disabled": true,
-      "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/Easter_Web_Banner_copy-01.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Easter_Web_Banner_copy-02.jpg",
-        "button_link": "https:\/\/bydash.com\/collections\/easter?utm_source=Homepage&utm_medium=Banner&utm_campaign=Easter_brunch"
       }
     },
     "b16c0394-1c09-4890-8e77-84396bb3abec": {
@@ -356,8 +355,8 @@
     }
   },
   "order": [
-    "16642908781ed6d732",
     "30c02da9-7f38-4457-9443-275d4547f4f8",
+    "16642908781ed6d732",
     "b16c0394-1c09-4890-8e77-84396bb3abec",
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520",
     "featured_collection",

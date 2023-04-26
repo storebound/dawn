@@ -1,7 +1,59 @@
 {
   "sections": {
+    "f8a4ed70-b6ec-4f8f-845c-33812a3a6dfc": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dash_404_error_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "headline_novecento": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "8810e644-afd3-4ee4-b882-d5ebb1aca216": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14842961625142__8810e644-afd3-4ee4-b882-d5ebb1aca216-16799273585c20b1b4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Oops, It looks like the page that you’re looking for is the missing ingredient.<\/p>"
+          }
+        },
+        "template--14842961625142__8810e644-afd3-4ee4-b882-d5ebb1aca216-16799273585c20b1b4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "CONTINUE SHOPPING",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14842961625142__8810e644-afd3-4ee4-b882-d5ebb1aca216-16799273585c20b1b4-1",
+        "template--14842961625142__8810e644-afd3-4ee4-b882-d5ebb1aca216-16799273585c20b1b4-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1661975190fbc3db29": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "e317f1d3-3780-4b75-8b0f-35b7bb288000": {
           "type": "heading",
@@ -31,14 +83,15 @@
         "a31ac826-ff70-408b-9248-f0632175c72e"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Dash_404_error_1.png",
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/Dash_404_error_1.jpg",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
+        "headline_novecento": false,
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -58,7 +111,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "frozen-treats",
+        "collection": "new-arrivals",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -79,6 +132,8 @@
     }
   },
   "order": [
+    "f8a4ed70-b6ec-4f8f-845c-33812a3a6dfc",
+    "8810e644-afd3-4ee4-b882-d5ebb1aca216",
     "1661975190fbc3db29",
     "main",
     "166197557461d55b2e"

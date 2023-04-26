@@ -14,6 +14,41 @@
         "padding_bottom": 20
       }
     },
+    "9b65ff19-2842-4c80-b4e0-5121cc2ae7e9": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14846618566710__9b65ff19-2842-4c80-b4e0-5121cc2ae7e9-167992852947939672-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rise_-_Logo_High_Res.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14846618566710__9b65ff19-2842-4c80-b4e0-5121cc2ae7e9-167992852947939672-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "dashpattern": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-article",
       "blocks": {
@@ -21,26 +56,23 @@
           "type": "content",
           "settings": {
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
-        "content",
-        "share"
+        "content"
+      ],
+      "custom_css": [
+        ".article-template > *:first-child:not(.article-template__hero-container) {margin-top: 0px;}"
       ],
       "settings": {
-        "narrowwidth": false
+        "narrowwidth": true
       }
     }
   },
   "order": [
     "shogun-helper",
     "f0700b01-5920-4a8e-9b2f-1c4f7b03edb7",
+    "9b65ff19-2842-4c80-b4e0-5121cc2ae7e9",
     "main"
   ]
 }

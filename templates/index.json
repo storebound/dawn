@@ -1,19 +1,72 @@
 {
   "sections": {
+    "30c02da9-7f38-4457-9443-275d4547f4f8": {
+      "type": "desktop-mobile-banner",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Rapid_Cold_Brew_Intro_Email-02.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Rapid_Cold_Brew_Intro_Email-01.jpg",
+        "button_link": "shopify:\/\/products\/rapid-cold-brew-maker"
+      }
+    },
+    "16642908781ed6d732": {
+      "type": "image-with-text",
+      "blocks": {
+        "1664290878c95a76cb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SMOOTHIES ON THE GO!",
+            "heading_size": "h2"
+          }
+        },
+        "1664290878c95a76cb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Dash Portable USB Blender is perfect for making & drinking fresh and delicious smoothies, shakes, and more on the go!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1664290878c95a76cb-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/portable-usb-blender"
+          }
+        }
+      },
+      "block_order": [
+        "1664290878c95a76cb-0",
+        "1664290878c95a76cb-1",
+        "1664290878c95a76cb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DPPB120WH_Lifestyle_2.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "headline_novecento": true,
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "b16c0394-1c09-4890-8e77-84396bb3abec": {
       "type": "image-with-text",
       "blocks": {
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-0": {
           "type": "heading",
           "settings": {
-            "heading": "Bring good luck to your kitchen!",
+            "heading": "Get egg-cited for spring!",
             "heading_size": "h2"
           }
         },
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-1": {
           "type": "text",
           "settings": {
-            "text": "<p>With zero setup required and our included Recipe Guide, you’ll quickly be making flavorful waffles for St. Patrick’s Day and year round!<\/p>",
+            "text": "<p>The Dash Rapid Egg Cooker delivers perfectly cooked eggs in less time than it takes to boil water on the stove!<\/p>",
             "text_style": "body"
           }
         },
@@ -21,7 +74,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/shamrock-mini-waffle-maker"
+            "button_link": "shopify:\/\/products\/rapid-egg-cooker"
           }
         }
       },
@@ -31,7 +84,7 @@
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DMWC001KG_Lifestyle_9_55a798b7-0bd8-4a0f-a3ca-3cf272ad5edc.jpg",
+        "image": "shopify:\/\/shop_images\/DEC005YW_Lifestyle.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -43,14 +96,6 @@
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "30c02da9-7f38-4457-9443-275d4547f4f8": {
-      "type": "desktop-mobile-banner",
-      "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/Foodie.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Header_Mobile.jpg",
-        "button_link": "https:\/\/bydash.com\/discount\/FOODIE?redirect=%2Fcollections%2Fbest-sellers&utm_source=bydash_homepage&utm_medium=banner&utm_campaign=foodie_discount"
       }
     },
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520": {
@@ -84,7 +129,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "mini-makers",
+        "collection": "seasonal-minis",
         "products_to_show": 9,
         "columns_desktop": 4,
         "full_width": false,
@@ -99,52 +144,33 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 28,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
-    "16642908781ed6d732": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1664290878c95a76cb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "SHOP THE GIFT GUIDE",
-            "heading_size": "h2"
-          }
-        },
-        "1664290878c95a76cb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Check off the foodie on your list with this year's top picks. Give the gift that will upgrade their kitchen!<\/p>",
-            "text_style": "body"
-          }
-        },
-        "1664290878c95a76cb-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/pages\/gift-guide"
-          }
-        }
-      },
-      "block_order": [
-        "1664290878c95a76cb-0",
-        "1664290878c95a76cb-1",
-        "1664290878c95a76cb-2"
-      ],
+    "42c74d65-d973-4802-a32c-4ba86e43569f": {
+      "type": "featured-collection",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Holiday-Catalog_Group-Shot_5836fd30-a9cd-4e6b-ad7c-9fc80c030a72.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
+        "title": "BREAKFAST MADE EASY",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "egg-cookers",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "headline_novecento": false,
-        "mobile_content_alignment": "center",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -289,18 +315,19 @@
       "type": "collage",
       "disabled": true,
       "blocks": {
+        "1d276eb3-4976-4313-9981-a5207451c3ee": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
         "3e8b6706-ccd7-4481-ba6e-f29a1de308f6": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/DBWM600AQ_Holiday_Lifestyle_4.jpg",
             "image_padding": false
-          }
-        },
-        "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-1": {
-          "type": "product",
-          "settings": {
-            "product": "rapid-egg-cooker",
-            "second_image": false
           }
         },
         "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-2": {
@@ -311,8 +338,8 @@
         }
       },
       "block_order": [
+        "1d276eb3-4976-4313-9981-a5207451c3ee",
         "3e8b6706-ccd7-4481-ba6e-f29a1de308f6",
-        "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-1",
         "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-2"
       ],
       "settings": {
@@ -328,11 +355,12 @@
     }
   },
   "order": [
-    "b16c0394-1c09-4890-8e77-84396bb3abec",
     "30c02da9-7f38-4457-9443-275d4547f4f8",
+    "16642908781ed6d732",
+    "b16c0394-1c09-4890-8e77-84396bb3abec",
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520",
     "featured_collection",
-    "16642908781ed6d732",
+    "42c74d65-d973-4802-a32c-4ba86e43569f",
     "6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9",
     "multicolumn",
     "8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da"

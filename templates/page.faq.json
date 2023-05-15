@@ -167,6 +167,16 @@
             "liquid": "",
             "page": ""
           }
+        },
+        "d1035c56-7049-4a90-b894-b0ba4dc1da7f": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What payment methods do you accept?",
+            "icon": "chat_bubble",
+            "row_content": "<p>We accept most major credit cards (Visa, Mastercard, American Express, Discover) as well as PayPal, Apple Pay, Google Pay, and Shop Pay.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -174,7 +184,8 @@
         "1664817439d95adfe0-1",
         "1664817439d95adfe0-2",
         "1664817439d95adfe0-3",
-        "7594f78b-840d-4ab9-870b-dfc691f70d17"
+        "7594f78b-840d-4ab9-870b-dfc691f70d17",
+        "d1035c56-7049-4a90-b894-b0ba4dc1da7f"
       ],
       "settings": {
         "caption": "",

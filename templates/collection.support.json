@@ -91,7 +91,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Layer_1972points.pngpts-notext.png",
             "title": "Give Us A Ring",
-            "text": "<p>Phone Hours:<br\/>Monday-Friday<br\/>9am-9pm (EST)<\/p><p>Call: <a href=\"tel:800-898-6970\">800-898-6970<\/a><\/p>",
+            "text": "<p>Phone Hours:<br\/>Monday-Friday<br\/>9am-5pm (EST)<\/p><p>Call: <a href=\"tel:800-898-6970\">800-898-6970<\/a><\/p>",
             "link_label": "",
             "link": ""
           }

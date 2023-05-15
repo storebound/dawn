@@ -78,7 +78,7 @@
           "settings": {
             "heading": "Do you offer International Shipping?",
             "icon": "box",
-            "row_content": "<p>Dash products are currently only available through ByDash.com in the US, however we are currently working on making them available worldwide! Dash products are also available in-store through our retail partners in the US and Canada. If you live outside North America and would like to receive information about expanded shipping capabilities through ByDash.com, please subscribe to our email mailing list. We’ll be happy to keep you updated!<\/p>",
+            "row_content": "<p>We are currently able to ship only within the contiguous US states (i.e., not including Alaska, Hawaii, and Puerto Rico). We do not currently ship to Canada, and cannot ship to a PO box or an APO\/FPO address. Dash products are also available in-store through our retail partners in the US and Canada. If you live outside North America and would like to receive information about expanded shipping capabilities through ByDash.com, please subscribe to our email mailing list. We’ll be happy to keep you updated!<\/p>",
             "liquid": "",
             "page": ""
           }

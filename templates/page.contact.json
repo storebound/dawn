@@ -23,7 +23,7 @@
           "type": "column",
           "settings": {
             "title": "TALK TO A HUMAN",
-            "text": "<p>Monday-Friday 9am-9pm (EST)<\/p><p><\/p><p>Call: 800-898-6970<\/p><p>or<\/p><p>Send us a message using the form above.<\/p>",
+            "text": "<p>Monday-Friday 9am-5pm (EST)<\/p><p><\/p><p>Call: 800-898-6970<\/p><p>or<\/p><p>Send us a message using the form above.<\/p>",
             "link_label": "",
             "link": ""
           }

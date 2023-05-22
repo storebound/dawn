@@ -3,9 +3,9 @@
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
       "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/Rapid_Cold_Brew_Intro_Email-02.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Rapid_Cold_Brew_Intro_Email-01.jpg",
-        "button_link": "shopify:\/\/products\/rapid-cold-brew-maker"
+        "desktop_image": "shopify:\/\/shop_images\/MyMug_Banner-01.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/MyMug_Banner-02.jpg",
+        "button_link": "https:\/\/bydash.com\/products\/my-mug-ice-cream-maker?utm_source=bydash&utm_medium=banner&utm_campaign=launch"
       }
     },
     "16642908781ed6d732": {

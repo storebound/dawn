@@ -317,9 +317,17 @@
               id="Badge-{{ section_id }}-{{ card_product.id }}"
               class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
             >
-              {{- 'products.product.on_sale' | t -}}
+              SALE
             </span>
+          {%- elsif card_product.available and card_product.tags contains 'new-badge' -%}
+            <span
+              id="Badge-{{ section_id }}-{{ card_product.id }}"
+              class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+            >
+              NEW ⭐ 
+            </span>          
           {%- endif -%}
+  
         </div>
       </div>
     </div>

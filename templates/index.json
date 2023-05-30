@@ -124,12 +124,12 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "SHOP TRENDING MINIS",
+        "title": "SHOP FROZEN TREATS",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "seasonal-minis",
+        "collection": "summer-sweet-treats",
         "products_to_show": 9,
         "columns_desktop": 4,
         "full_width": false,

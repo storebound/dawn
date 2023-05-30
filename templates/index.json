@@ -3,9 +3,54 @@
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
       "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/Rapid_Cold_Brew_Intro_Email-02.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Rapid_Cold_Brew_Intro_Email-01.jpg",
-        "button_link": "shopify:\/\/products\/rapid-cold-brew-maker"
+        "desktop_image": "shopify:\/\/shop_images\/MyMug_Banner-01.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/MyMug_Banner-02.jpg",
+        "button_link": "https:\/\/bydash.com\/products\/my-mug-ice-cream-maker?utm_source=bydash&utm_medium=banner&utm_campaign=launch"
+      }
+    },
+    "b16c0394-1c09-4890-8e77-84396bb3abec": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unlock the Bold Flavors of Cold Brew",
+            "heading_size": "h2"
+          }
+        },
+        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No need to wait all night for your cold brew to steep: now you can make it in a flash with the Dash Rapid Cold Brew Maker!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/rapid-cold-brew-maker"
+          }
+        }
+      },
+      "block_order": [
+        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-0",
+        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-1",
+        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DCBCM400GBBK02_Utility_1.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "headline_novecento": true,
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "16642908781ed6d732": {
@@ -14,7 +59,7 @@
         "1664290878c95a76cb-0": {
           "type": "heading",
           "settings": {
-            "heading": "SMOOTHIES ON THE GO!",
+            "heading": "SMOOTHIES ON THE GO",
             "heading_size": "h2"
           }
         },
@@ -53,51 +98,6 @@
         "padding_bottom": 36
       }
     },
-    "b16c0394-1c09-4890-8e77-84396bb3abec": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get egg-cited for spring!",
-            "heading_size": "h2"
-          }
-        },
-        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The Dash Rapid Egg Cooker delivers perfectly cooked eggs in less time than it takes to boil water on the stove!<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/rapid-egg-cooker"
-          }
-        }
-      },
-      "block_order": [
-        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-0",
-        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-1",
-        "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DEC005YW_Lifestyle.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "headline_novecento": true,
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520": {
       "type": "rich-text",
       "disabled": true,
@@ -124,12 +124,12 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "SHOP TRENDING MINIS",
+        "title": "SHOP FROZEN TREATS",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "seasonal-minis",
+        "collection": "summer-sweet-treats",
         "products_to_show": 9,
         "columns_desktop": 4,
         "full_width": false,
@@ -356,8 +356,8 @@
   },
   "order": [
     "30c02da9-7f38-4457-9443-275d4547f4f8",
-    "16642908781ed6d732",
     "b16c0394-1c09-4890-8e77-84396bb3abec",
+    "16642908781ed6d732",
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520",
     "featured_collection",
     "42c74d65-d973-4802-a32c-4ba86e43569f",

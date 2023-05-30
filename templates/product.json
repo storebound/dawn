@@ -1,5 +1,15 @@
 {
   "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -44,6 +54,19 @@
             "show_dynamic_checkout": true
           }
         },
+        "6759f0bd-5040-4840-88b8-6e6c0088b4f3": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Works with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -64,6 +87,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "6759f0bd-5040-4840-88b8-6e6c0088b4f3",
         "description",
         "share"
       ],
@@ -102,18 +126,8 @@
         "padding_bottom": 28
       }
     },
-    "shogun-above": {
-      "type": "shogun-above",
-      "settings": {
-      }
-    },
     "shogun-below": {
       "type": "shogun-below",
-      "settings": {
-      }
-    },
-    "shogun-helper": {
-      "type": "shogun-helper",
       "settings": {
       }
     }

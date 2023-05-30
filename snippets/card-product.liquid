@@ -128,7 +128,7 @@
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
                 class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
               >
-                {{- 'products.product.on_sale' | upcase -}}
+                {{- 'products.product.on_sale' | t -}}
               </span>
             {%- elsif card_product.available and card_product.tags contains 'new-badge' -%}
               <span

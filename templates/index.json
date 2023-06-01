@@ -8,6 +8,51 @@
         "button_link": "https:\/\/bydash.com\/discount\/FRIENDS?utm_source=homepage&utm_medium=banner&utm_campaign=friendsfamilysale"
       }
     },
+    "f280a76c-9c05-41a2-beaf-6ad5b8512cfb": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "scream for homemade ice cream",
+            "heading_size": "h2"
+          }
+        },
+        "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Make delicious single servings of ice cream, gelato, sorbet, and frozen yogurt with the Dash My Mug Ice Cream Maker!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/my-mug-ice-cream-maker"
+          }
+        }
+      },
+      "block_order": [
+        "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-0",
+        "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-1",
+        "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DMIC100AQ_Lifestyle_5.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "headline_novecento": true,
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "b16c0394-1c09-4890-8e77-84396bb3abec": {
       "type": "image-with-text",
       "blocks": {
@@ -356,6 +401,7 @@
   },
   "order": [
     "30c02da9-7f38-4457-9443-275d4547f4f8",
+    "f280a76c-9c05-41a2-beaf-6ad5b8512cfb",
     "b16c0394-1c09-4890-8e77-84396bb3abec",
     "16642908781ed6d732",
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520",

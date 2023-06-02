@@ -66,6 +66,16 @@
     "1664219522eef12178": {
       "type": "multicolumn",
       "blocks": {
+        "237fca16-55e3-4cec-8fb1-5a532e06cff6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6b70498978674938a903f663a5c0411ea21c0493-1414x196.png",
+            "title": "How being a firefighter taught Evan Dash everything he needed to know about the retail business",
+            "text": "",
+            "link_label": "Read Now",
+            "link": "https:\/\/www.retailbrew.com\/stories\/2023\/06\/02\/evan-dash-mini-waffle-makers"
+          }
+        },
         "ce9f4eca-3e2f-4b6f-ad0e-fd5bf689c248": {
           "type": "column",
           "settings": {
@@ -138,6 +148,7 @@
         },
         "3000c5f4-8e5f-4150-9840-3a37f3093548": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/532-5320394_delish-videos-delish-logo-png-clipart.png",
             "title": "Chef Geoffrey Zakarian's Non-Stick Cast-Iron Cookware Is On Sale For Amazon Prime Day",
@@ -188,6 +199,7 @@
         }
       },
       "block_order": [
+        "237fca16-55e3-4cec-8fb1-5a532e06cff6",
         "ce9f4eca-3e2f-4b6f-ad0e-fd5bf689c248",
         "09cd443c-d777-4768-8520-0ff180b61039",
         "aaa452bf-1510-48b9-887a-257f1a880d14",

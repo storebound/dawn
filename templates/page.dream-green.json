@@ -29,7 +29,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>DON'T PAN-IC<\/p>",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "template--14943786663990__0a1d6943-7558-4eaf-adf3-f6a3360de2a4-1686688986aabf5fbe-1": {
@@ -64,8 +64,8 @@
     "d2252843-8d24-4955-8979-183f1d62d10b": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Top Recipes",
-        "heading_size": "h1",
+        "heading": "TOP RECIPES",
+        "heading_size": "h2",
         "blog": "rise",
         "post_limit": 4,
         "columns_desktop": 3,
@@ -108,8 +108,8 @@
     "76238be2-4c7f-4737-9e38-1a7e9a31cafe": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
+        "title": "COMPLETE YOUR COLLECTION",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",

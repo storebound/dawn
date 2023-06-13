@@ -104,6 +104,33 @@
         "padding_top": 0,
         "padding_bottom": 52
       }
+    },
+    "76238be2-4c7f-4737-9e38-1a7e9a31cafe": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "air-fryers",
+        "products_to_show": 4,
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -112,6 +139,7 @@
     "0a1d6943-7558-4eaf-adf3-f6a3360de2a4",
     "bc08e5b1-727b-4ca2-8e56-2c0118d60a09",
     "d2252843-8d24-4955-8979-183f1d62d10b",
-    "9287ac3d-9cb8-47af-a131-fc605cec7355"
+    "9287ac3d-9cb8-47af-a131-fc605cec7355",
+    "76238be2-4c7f-4737-9e38-1a7e9a31cafe"
   ]
 }

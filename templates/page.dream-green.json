@@ -75,73 +75,34 @@
         "show_author": false,
         "show_view_all": true,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
-    "ad023fb3-cbe4-482a-8289-ad23d8f4f5af": {
-      "type": "multicolumn",
+    "9287ac3d-9cb8-47af-a131-fc605cec7355": {
+      "type": "rich-text",
       "blocks": {
-        "template--14943786663990__ad023fb3-cbe4-482a-8289-ad23d8f4f5af-1686686582a30e0f99-0": {
-          "type": "column",
+        "template--14943786663990__9287ac3d-9cb8-47af-a131-fc605cec7355-1686688986aabf5fbe-2": {
+          "type": "button",
           "settings": {
-            "image": "shopify:\/\/shop_images\/K74482BU_Lifestyle_2.jpg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/blogs\/rise\/lemon-meringue-pie"
-          }
-        },
-        "template--14943786663990__ad023fb3-cbe4-482a-8289-ad23d8f4f5af-1686686582a30e0f99-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/K74482BU_Lifestyle_2.jpg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/blogs\/recipes"
-          }
-        },
-        "template--14943786663990__ad023fb3-cbe4-482a-8289-ad23d8f4f5af-1686686582a30e0f99-2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "f3a8ded4-2cfb-4e88-be17-95c472087f85": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "button_label": "View All Recipes",
+            "button_link": "shopify:\/\/blogs\/recipes",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "template--14943786663990__ad023fb3-cbe4-482a-8289-ad23d8f4f5af-1686686582a30e0f99-0",
-        "template--14943786663990__ad023fb3-cbe4-482a-8289-ad23d8f4f5af-1686686582a30e0f99-1",
-        "template--14943786663990__ad023fb3-cbe4-482a-8289-ad23d8f4f5af-1686686582a30e0f99-2",
-        "f3a8ded4-2cfb-4e88-be17-95c472087f85"
+        "template--14943786663990__9287ac3d-9cb8-47af-a131-fc605cec7355-1686688986aabf5fbe-2"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "dashpattern": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
       }
     }
   },
@@ -151,6 +112,6 @@
     "0a1d6943-7558-4eaf-adf3-f6a3360de2a4",
     "bc08e5b1-727b-4ca2-8e56-2c0118d60a09",
     "d2252843-8d24-4955-8979-183f1d62d10b",
-    "ad023fb3-cbe4-482a-8289-ad23d8f4f5af"
+    "9287ac3d-9cb8-47af-a131-fc605cec7355"
   ]
 }

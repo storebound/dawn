@@ -64,7 +64,7 @@
     "d2252843-8d24-4955-8979-183f1d62d10b": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Blog posts",
+        "heading": "Top Recipes",
         "heading_size": "h1",
         "blog": "rise",
         "post_limit": 4,
@@ -114,10 +114,10 @@
         "show_description": false,
         "description_style": "body",
         "collection": "air-fryers",
-        "products_to_show": 4,
+        "products_to_show": 6,
         "columns_desktop": 2,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",

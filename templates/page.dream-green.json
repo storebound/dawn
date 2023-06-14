@@ -22,6 +22,28 @@
         "padding_bottom": 36
       }
     },
+    "70c1936e-5f76-4a6f-8b44-2b7ee90fb339": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14943786663990__70c1936e-5f76-4a6f-8b44-2b7ee90fb339-16867733728dfe5483-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Congratulations on upgrading your cookware with the Dash Dream Green collection!  With <strong>recycled<\/strong> materials and quality craftsmanship, this top-of-the-line set is a chef’s best friend.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14943786663990__70c1936e-5f76-4a6f-8b44-2b7ee90fb339-16867733728dfe5483-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
     "0a1d6943-7558-4eaf-adf3-f6a3360de2a4": {
       "type": "rich-text",
       "blocks": {
@@ -134,38 +156,16 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "70c1936e-5f76-4a6f-8b44-2b7ee90fb339": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14943786663990__70c1936e-5f76-4a6f-8b44-2b7ee90fb339-16867733728dfe5483-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Congratulations on upgrading your cookware with the Dash Dream Green collection!  With <strong>recycled<\/strong> materials and quality craftsmanship, this top-of-the-line set is a chef’s best friend.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14943786663990__70c1936e-5f76-4a6f-8b44-2b7ee90fb339-16867733728dfe5483-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "02ed6b36-a9b0-4c2f-a73e-919f253ac6b9",
+    "70c1936e-5f76-4a6f-8b44-2b7ee90fb339",
     "0a1d6943-7558-4eaf-adf3-f6a3360de2a4",
     "bc08e5b1-727b-4ca2-8e56-2c0118d60a09",
     "d2252843-8d24-4955-8979-183f1d62d10b",
     "9287ac3d-9cb8-47af-a131-fc605cec7355",
-    "76238be2-4c7f-4737-9e38-1a7e9a31cafe",
-    "70c1936e-5f76-4a6f-8b44-2b7ee90fb339"
+    "76238be2-4c7f-4737-9e38-1a7e9a31cafe"
   ]
 }

@@ -139,6 +139,7 @@
     },
     "76238be2-4c7f-4737-9e38-1a7e9a31cafe": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "COMPLETE YOUR COLLECTION",
         "heading_size": "h2",

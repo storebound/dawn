@@ -311,16 +311,15 @@
     var klaviyo = klaviyo || [];
     klaviyo.init({
       account: "PmyPN8",
-      platform: "shopify"
+      platform: "shopify",
       include_on_tags: 'backinstocktag'
     });
     klaviyo.enable("backinstock",{ 
     trigger: {
       product_page_text: "Notify Me When Available",
-      product_page_class: "button button--full-width button--primary",
+      product_page_class: "btn",
       product_page_text_align: "center",
       product_page_margin: "0px",
-      alternate_anchor: 'dawn-AddToCart',
       replace_anchor: true
     },
     modal: {

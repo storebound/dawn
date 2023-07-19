@@ -21,7 +21,7 @@
         "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Make delicious single servings of ice cream, gelato, sorbet, and frozen yogurt with the Dash My Mug Ice Cream Maker!<\/p>",
+            "text": "<p>Make delicious single servings of ice cream, gelato, sorbet, and frozen yogurt with the Dash My Pint Ice Cream Maker!<\/p>",
             "text_style": "body"
           }
         },
@@ -29,7 +29,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/my-mug-ice-cream-maker"
+            "button_link": "shopify:\/\/products\/my-pint-ice-cream-maker"
           }
         }
       },
@@ -39,7 +39,7 @@
         "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DMIC100AQ_Lifestyle_5.jpg",
+        "image": "shopify:\/\/shop_images\/DPIC100GBAQ04_Lifestyle1.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",

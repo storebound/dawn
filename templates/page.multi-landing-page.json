@@ -23,34 +23,13 @@
         "template--14953390276662__802bfb24-f58f-4d89-bcaa-d729bcf4b731-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>Coming Soon...<\/p>",
             "heading_size": "h1"
-          }
-        },
-        "template--14953390276662__802bfb24-f58f-4d89-bcaa-d729bcf4b731-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--14953390276662__802bfb24-f58f-4d89-bcaa-d729bcf4b731-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "template--14953390276662__802bfb24-f58f-4d89-bcaa-d729bcf4b731-heading-1",
-        "template--14953390276662__802bfb24-f58f-4d89-bcaa-d729bcf4b731-text-1",
-        "template--14953390276662__802bfb24-f58f-4d89-bcaa-d729bcf4b731-button-1"
+        "template--14953390276662__802bfb24-f58f-4d89-bcaa-d729bcf4b731-heading-1"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -75,12 +54,13 @@
         "template--14953390276662__72786ccf-e2b2-423e-b156-fd890a9763c2-1689097854a5694d20-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Get ready to flip your breakfast game upside down and make every day a waffle-filled celebration! Stay tuned for the grand unveiling of the Waffle Maker that's destined to transform your kitchen into a joyful breakfast wonderland! <\/p>",
             "text_style": "body"
           }
         },
         "template--14953390276662__72786ccf-e2b2-423e-b156-fd890a9763c2-1689097854a5694d20-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": ""
@@ -110,56 +90,6 @@
         "padding_bottom": 36
       }
     },
-    "a26e1daf-e940-429a-a0fc-7101f4301436": {
-      "type": "image-banner",
-      "blocks": {
-        "template--14953390276662__a26e1daf-e940-429a-a0fc-7101f4301436-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--14953390276662__a26e1daf-e940-429a-a0fc-7101f4301436-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--14953390276662__a26e1daf-e940-429a-a0fc-7101f4301436-buttons-1": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--14953390276662__a26e1daf-e940-429a-a0fc-7101f4301436-heading-1",
-        "template--14953390276662__a26e1daf-e940-429a-a0fc-7101f4301436-text-1",
-        "template--14953390276662__a26e1daf-e940-429a-a0fc-7101f4301436-buttons-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/multi_plate-01.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "headline_novecento": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "16903923543cd14a40": {
       "type": "apps",
       "blocks": {
@@ -176,6 +106,51 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "ee207811-9394-480b-895c-4a8c8b4a8777": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14953390276662__ee207811-9394-480b-895c-4a8c8b4a8777-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--14953390276662__ee207811-9394-480b-895c-4a8c8b4a8777-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14953390276662__ee207811-9394-480b-895c-4a8c8b4a8777-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14953390276662__ee207811-9394-480b-895c-4a8c8b4a8777-heading-1",
+        "template--14953390276662__ee207811-9394-480b-895c-4a8c8b4a8777-text-1",
+        "template--14953390276662__ee207811-9394-480b-895c-4a8c8b4a8777-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/multi_plate-01.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "headline_novecento": false,
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -183,7 +158,7 @@
     "main",
     "802bfb24-f58f-4d89-bcaa-d729bcf4b731",
     "72786ccf-e2b2-423e-b156-fd890a9763c2",
-    "a26e1daf-e940-429a-a0fc-7101f4301436",
-    "16903923543cd14a40"
+    "16903923543cd14a40",
+    "ee207811-9394-480b-895c-4a8c8b4a8777"
   ]
 }

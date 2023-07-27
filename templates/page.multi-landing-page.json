@@ -55,7 +55,7 @@
         "template--14953390276662__72786ccf-e2b2-423e-b156-fd890a9763c2-1689097854a5694d20-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Get ready to flip your breakfast game upside down and make every day a waffle-filled celebration! Stay tuned for the grand unveiling of the Waffle Maker that's destined to transform your kitchen into a joyful breakfast wonderland! <\/p>",
+            "text": "<p>Enter your email to get more info on the <strong>newest<\/strong> addition to our Waffle Maker collection and unlock a <strong>10% off code<\/strong> on launch day!<\/p>",
             "text_style": "body"
           }
         },
@@ -98,7 +98,7 @@
         "headline_novecento": false,
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "16903923543cd14a40": {

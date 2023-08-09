@@ -168,12 +168,30 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
     }
   },
   "order": [
+    "shogun-helper",
+    "shogun-above",
     "1661960546161c5f46",
     "main",
     "16672310787bda553d",
-    "product-recommendations"
+    "product-recommendations",
+    "shogun-below"
   ]
 }

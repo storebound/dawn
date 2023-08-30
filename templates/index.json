@@ -3,9 +3,9 @@
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
       "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/Dash_Rapid_Cold_Brew_Maker_Email_20230613-01.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Dash_Rapid_Cold_Brew_Maker_Email_20230613-02.jpg",
-        "button_link": "shopify:\/\/products\/rapid-cold-brew-maker"
+        "desktop_image": "shopify:\/\/shop_images\/Email_Social_Web_Banner_Cupcake_Maker_Launch-02.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Email_Social_Web_Banner_Cupcake_Maker_Launch-03.jpg",
+        "button_link": "shopify:\/\/products\/express-mini-cupcake-maker"
       }
     },
     "f280a76c-9c05-41a2-beaf-6ad5b8512cfb": {
@@ -145,7 +145,6 @@
     },
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "19e4f92e-0e54-481b-8de3-948e0b634fd4": {
           "type": "text",
@@ -157,6 +156,7 @@
       "block_order": [
         "19e4f92e-0e54-481b-8de3-948e0b634fd4"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -358,7 +358,6 @@
     },
     "8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "1d276eb3-4976-4313-9981-a5207451c3ee": {
           "type": "video",
@@ -387,6 +386,7 @@
         "3e8b6706-ccd7-4481-ba6e-f29a1de308f6",
         "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-2"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",

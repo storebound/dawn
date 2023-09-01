@@ -13,8 +13,8 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/ixKiPujRrYU-HD.jpg",
-        "video_url": "https:\/\/youtu.be\/ixKiPujRrYU",
+        "cover_image": "shopify:\/\/shop_images\/5lzUI5MIy_o-HD.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=5lzUI5MIy_o",
         "description": "",
         "full_width": true,
         "color_scheme": "background-1",
@@ -111,7 +111,6 @@
     },
     "9287ac3d-9cb8-47af-a131-fc605cec7355": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--14943786663990__9287ac3d-9cb8-47af-a131-fc605cec7355-1686688986aabf5fbe-2": {
           "type": "button",
@@ -128,6 +127,7 @@
       "block_order": [
         "template--14943786663990__9287ac3d-9cb8-47af-a131-fc605cec7355-1686688986aabf5fbe-2"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",

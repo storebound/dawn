@@ -14,14 +14,14 @@
         "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-0": {
           "type": "heading",
           "settings": {
-            "heading": "scream for homemade ice cream",
+            "heading": "Pumpkin Spice & Everything Nice",
             "heading_size": "h2"
           }
         },
         "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Make delicious single servings of ice cream, gelato, sorbet, and frozen yogurt with the Dash My Pint Ice Cream Maker!<\/p>",
+            "text": "<p>Make delicious pumpkin-shaped waffles for holiday treats and cute snacks!<\/p>",
             "text_style": "body"
           }
         },
@@ -29,7 +29,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/my-pint-ice-cream-maker"
+            "button_link": "https:\/\/bydash.com\/products\/pumpkin-mini-waffle-maker?utm_source=bydash&utm_medium=homepage&utm_campaign=pumpkin"
           }
         }
       },
@@ -39,7 +39,7 @@
         "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DPIC100GBAQ04_Lifestyle1.jpg",
+        "image": "shopify:\/\/shop_images\/DMWP001OR_Lifestyle_3.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",

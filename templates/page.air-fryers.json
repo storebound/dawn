@@ -59,6 +59,33 @@
         "show_text_below": true
       }
     },
+    "16620429067a01a6ee": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "BEST SELLERS",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "air-fryers",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1662658179ca0ebbdd": {
       "type": "collection-list",
       "blocks": {
@@ -154,33 +181,6 @@
         "swipe_on_mobile": true,
         "dashpattern": false,
         "padding_top": 16,
-        "padding_bottom": 36
-      }
-    },
-    "16620429067a01a6ee": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "BEST SELLERS",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "air-fryers",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -286,10 +286,10 @@
   "order": [
     "c08e481e-81d9-4ad7-af79-e1e170e8dcb8",
     "16620432773d36c02f",
+    "16620429067a01a6ee",
     "1662658179ca0ebbdd",
     "166265869685122243",
     "16620431184b25d6fa",
-    "16620429067a01a6ee",
     "1662043834a905bb1f",
     "main",
     "1664288218776012f3"

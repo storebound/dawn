@@ -16,29 +16,17 @@
             "text": "Don't be fooled by their petite size, our Mini Makers are the real deal! They're perfect for making breakfasts, lunches, even whole batches of waffles you can freeze for later!",
             "text_style": "body"
           }
-        },
-        "16620432772262a9b1-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/mini-makers",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "16620432772262a9b1-0",
-        "16620432772262a9b1-1",
-        "16620432772262a9b1-2"
+        "16620432772262a9b1-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mini_Maker_Page_Assets-06.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "headline_novecento": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,

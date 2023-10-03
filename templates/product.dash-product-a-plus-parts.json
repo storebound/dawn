@@ -62,14 +62,14 @@
         "1c086e6b-7f8e-4c57-b465-b82ebef00f23": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Pairs well with",
+            "block_heading": "Works with",
             "make_collapsible_row": false,
             "icon": "price_tag",
             "product_list_limit": 10,
             "products_per_page": 3,
             "pagination_style": "counter",
             "image_ratio": "square",
-            "enable_quick_add": false
+            "enable_quick_add": true
           }
         },
         "3734633f-33f3-4de7-91d4-d900f0bfda84": {

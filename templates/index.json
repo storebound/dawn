@@ -53,6 +53,51 @@
         "padding_bottom": 36
       }
     },
+    "16642908781ed6d732": {
+      "type": "image-with-text",
+      "blocks": {
+        "1664290878c95a76cb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MINI DONUTS GALORE",
+            "heading_size": "h2"
+          }
+        },
+        "1664290878c95a76cb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Make cute, tasty mini donuts at home in no time, perfect for snacking, entertaining, and more!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1664290878c95a76cb-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/express-mini-donut-maker"
+          }
+        }
+      },
+      "block_order": [
+        "1664290878c95a76cb-0",
+        "1664290878c95a76cb-1",
+        "1664290878c95a76cb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DDM007GBAQ04_Lifestyle_2.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "headline_novecento": true,
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "b16c0394-1c09-4890-8e77-84396bb3abec": {
       "type": "image-with-text",
       "blocks": {
@@ -87,53 +132,8 @@
         "image": "shopify:\/\/shop_images\/DCBCM400GBBK02_Lifetyle_2.jpg",
         "height": "small",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "headline_novecento": true,
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "16642908781ed6d732": {
-      "type": "image-with-text",
-      "blocks": {
-        "1664290878c95a76cb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "SMOOTHIES ON THE GO",
-            "heading_size": "h2"
-          }
-        },
-        "1664290878c95a76cb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The Dash Portable Blender is perfect for making & drinking fresh and delicious smoothies, shakes, and more on the go!<\/p>",
-            "text_style": "body"
-          }
-        },
-        "1664290878c95a76cb-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/portable-usb-blender"
-          }
-        }
-      },
-      "block_order": [
-        "1664290878c95a76cb-0",
-        "1664290878c95a76cb-1",
-        "1664290878c95a76cb-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DPPB120WH_Lifestyle_2.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
@@ -402,8 +402,8 @@
   "order": [
     "30c02da9-7f38-4457-9443-275d4547f4f8",
     "f280a76c-9c05-41a2-beaf-6ad5b8512cfb",
-    "b16c0394-1c09-4890-8e77-84396bb3abec",
     "16642908781ed6d732",
+    "b16c0394-1c09-4890-8e77-84396bb3abec",
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520",
     "featured_collection",
     "42c74d65-d973-4802-a32c-4ba86e43569f",

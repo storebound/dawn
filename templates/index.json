@@ -169,12 +169,12 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "SHOP FROZEN TREATS",
+        "title": "SHOP DESSERT MAKERS",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "frozen-treats",
+        "collection": "dessert-makers",
         "products_to_show": 9,
         "columns_desktop": 4,
         "full_width": false,

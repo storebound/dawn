@@ -106,6 +106,16 @@
             "link": "https:\/\/www.wsj.com\/articles\/why-is-this-little-waffle-maker-such-a-big-holiday-gift-11671202159?mod=e2tw"
           }
         },
+        "0c799839-7b77-4908-b150-0714963faf4f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchnlogo.png",
+            "title": "This Ingenious Mug Makes Single-Serve Ice Cream in Just 20 Minutes",
+            "text": "",
+            "link_label": "Read Now",
+            "link": "https:\/\/www.thekitchn.com\/dash-my-mug-ice-cream-maker-dash-reviews-23541756"
+          }
+        },
         "09cd443c-d777-4768-8520-0ff180b61039": {
           "type": "column",
           "settings": {
@@ -166,16 +176,6 @@
             "link_label": "Read Now",
             "link": "https:\/\/www.housebeautiful.com\/shopping\/home-accessories\/a41545729\/geoffrey-zakarian-cookware\/"
           }
-        },
-        "0c799839-7b77-4908-b150-0714963faf4f": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/kitchnlogo.png",
-            "title": "This Editor-Favorite Small Appliance Brand Has a New Belgian Waffle Maker You’ll Want for Cozy Fall Mornings",
-            "text": "",
-            "link_label": "Read Now",
-            "link": "https:\/\/www.thekitchn.com\/dash-flip-belgian-waffle-maker-launch-september-2022-2-23435536"
-          }
         }
       },
       "block_order": [
@@ -183,13 +183,13 @@
         "997dcca7-5f9e-422f-a92d-83a04a312471",
         "28221d36-11c6-42ec-9ad9-22fcac63634e",
         "2bd145fc-aa74-4f74-ab37-d617ed077db0",
+        "0c799839-7b77-4908-b150-0714963faf4f",
         "09cd443c-d777-4768-8520-0ff180b61039",
         "4344f496-787e-40b9-9a24-6e41d2944a20",
         "1664219522ec70e375-2",
         "3000c5f4-8e5f-4150-9840-3a37f3093548",
         "293de5f2-c019-4af1-8a34-c62a7cb99df8",
-        "42249ce5-016b-4056-82c6-c8d86d2cd713",
-        "0c799839-7b77-4908-b150-0714963faf4f"
+        "42249ce5-016b-4056-82c6-c8d86d2cd713"
       ],
       "settings": {
         "title": "IN THE NEWS",

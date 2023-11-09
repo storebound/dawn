@@ -86,6 +86,16 @@
             "link": "https:\/\/www.tasteofhome.com\/article\/dash-ghost-mini-waffle-maker\/"
           }
         },
+        "293de5f2-c019-4af1-8a34-c62a7cb99df8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/well-and-good-logo-01.png",
+            "title": "I Tried the DASH Rapid Cold Brew Coffee Maker, and It Completely Revamped My Morning Routine",
+            "text": "",
+            "link_label": "Read Now",
+            "link": "https:\/\/www.wellandgood.com\/dash-rapid-cold-brew-coffee-maker\/"
+          }
+        },
         "28221d36-11c6-42ec-9ad9-22fcac63634e": {
           "type": "column",
           "settings": {
@@ -157,16 +167,6 @@
             "link": "https:\/\/www.delish.com\/food-news\/g41576713\/geoffrey-zakarian-cast-iron-amazon-prime-day\/"
           }
         },
-        "293de5f2-c019-4af1-8a34-c62a7cb99df8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Yahoo-Logo-700x394.png",
-            "title": "'A little pint of heaven': This ice cream maker works in 30 minutes — and it's just $20",
-            "text": "",
-            "link_label": "Read Now",
-            "link": "https:\/\/www.yahoo.com\/lifestyle\/amazon-sale-dash-mini-ice-cream-maker-160915909.html"
-          }
-        },
         "42249ce5-016b-4056-82c6-c8d86d2cd713": {
           "type": "column",
           "settings": {
@@ -181,6 +181,7 @@
       "block_order": [
         "237fca16-55e3-4cec-8fb1-5a532e06cff6",
         "997dcca7-5f9e-422f-a92d-83a04a312471",
+        "293de5f2-c019-4af1-8a34-c62a7cb99df8",
         "28221d36-11c6-42ec-9ad9-22fcac63634e",
         "2bd145fc-aa74-4f74-ab37-d617ed077db0",
         "0c799839-7b77-4908-b150-0714963faf4f",
@@ -188,7 +189,6 @@
         "4344f496-787e-40b9-9a24-6e41d2944a20",
         "1664219522ec70e375-2",
         "3000c5f4-8e5f-4150-9840-3a37f3093548",
-        "293de5f2-c019-4af1-8a34-c62a7cb99df8",
         "42249ce5-016b-4056-82c6-c8d86d2cd713"
       ],
       "settings": {

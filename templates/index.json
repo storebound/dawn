@@ -29,7 +29,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "https:\/\/bydash.com\/products\/pumpkin-mini-waffle-maker?utm_source=bydash&utm_medium=homepage&utm_campaign=pumpkin"
+            "button_link": "shopify:\/\/products\/holiday-mini-maker-set-of-3"
           }
         }
       },

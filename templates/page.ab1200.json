@@ -11,14 +11,27 @@
     },
     "main": {
       "type": "main-page",
+      "custom_css": [
+        ".test {}"
+      ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "9a8643c3-e93c-4c53-9948-9fcb6020ba61": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.main-page-title {\n    font-size: x-large;\n    text-align: center;\n}\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "16dc4fba-96a8-4fa9-a07b-2588b914791c",
-    "main"
+    "main",
+    "9a8643c3-e93c-4c53-9948-9fcb6020ba61"
   ]
 }

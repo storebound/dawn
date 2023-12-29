@@ -39,11 +39,7 @@ This file can be re-written at any time.
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    <!-- starapps_scripts_start -->
-<!-- This code is automatically managed by StarApps Studio -->
-<!-- Please contact support@starapps.studio for any help -->
-{% render "starapps-product-json", product: product, starapps_app: "VIA", starapps_attribute: "sa-product-json" %}<script type="text/javascript" src="https://bcdn.starapps.studio/apps/via/bydash/script-1668107803.js?shop={{shop.permanent_domain}}" async></script>
-<!-- starapps_scripts_end -->
+    
 <script src="https://smarteucookiebanner.upsell-apps.com/gdpr_adapter.js?shop=bydash.myshopify.com" type="application/javascript"></script>
   {% capture 'header_content' %}{{ content_for_header }}{% endcapture %}{{ header_content | replace: "trekkie.load(", "(window.deferTrekkie || trekkie.load)(" }}
 

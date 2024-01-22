@@ -2,6 +2,7 @@
   "sections": {
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
+      "disabled": true,
       "settings": {
         "desktop_image": "shopify:\/\/shop_images\/Banner_Desktop.gif",
         "mobile_image": "shopify:\/\/shop_images\/Banner_mobile-resize.gif",

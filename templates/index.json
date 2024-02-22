@@ -14,14 +14,14 @@
         "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-0": {
           "type": "heading",
           "settings": {
-            "heading": "Cut like a Pro",
+            "heading": "The more the merrier",
             "heading_size": "h2"
           }
         },
         "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Slice, julienne, and dice in minutes for easy food prep with the Dash Safe Slice® Mandoline.<\/p>",
+            "text": "<p>This Plate Pack is compatible with the MultiMaker Mini System - whip up waffles galore in your favorite winter holiday patterns!<\/p>",
             "text_style": "body"
           }
         },
@@ -29,7 +29,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/safe-slice-mandoline"
+            "button_link": "shopify:\/\/products\/winter-wonder-removable-plate-two-pack"
           }
         }
       },
@@ -39,7 +39,7 @@
         "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSM100GBMN04_Lifestyle_4.jpg",
+        "image": "shopify:\/\/shop_images\/NoSku_AQ_Cosco_GingerBread_Waffle_Lifestyle_1_CM.png",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",

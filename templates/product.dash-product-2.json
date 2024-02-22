@@ -151,30 +151,6 @@
         "padding_bottom": 12
       }
     },
-    "rich_text_kerhTa": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_UPP7bU": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>See the {{ product.title }} in Action!<\/p>",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_UPP7bU"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "17086330723cb31d46": {
       "type": "apps",
       "blocks": {
@@ -240,7 +216,6 @@
     "shogun-above",
     "1661960546161c5f46",
     "main",
-    "rich_text_kerhTa",
     "17086330723cb31d46",
     "16672310787bda553d",
     "product-recommendations",

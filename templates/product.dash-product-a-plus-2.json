@@ -159,8 +159,8 @@
           "disabled": true,
           "settings": {
             "type": "gallery",
-            "id": 1,
-            "mid": ""
+            "id": 0,
+            "mid": "{{ product.metafields.custom.xo_gallery_id.value }}"
           }
         }
       },

@@ -270,6 +270,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "15584510644680392939": {
+        "type": "shopify:\/\/apps\/globo-sticky-add-to-cart\/blocks\/app-embed\/c561ae19-ac1d-413c-adc7-93da132ab2b3",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },

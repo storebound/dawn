@@ -9,6 +9,14 @@
         "padding_bottom": 0
       }
     },
+    "desktop_mobile_banner_mF9J6q": {
+      "type": "desktop-mobile-banner",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Shamrock_Mini_Maker_Banner_Desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Shamrock_Mini_Maker_Banner_Mobile.jpg",
+        "button_link": ""
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -27,18 +35,87 @@
         "show_vendor": false,
         "show_rating": true,
         "enable_quick_add": false,
-        "enable_filtering": true,
+        "enable_filtering": false,
         "filter_type": "horizontal",
-        "enable_sorting": true,
+        "enable_sorting": false,
         "columns_mobile": "2",
         "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_8dMUar": {
+      "type": "featured-product",
+      "blocks": {
+        "title_gfPMmT": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "price_Eb8WwJ": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "custom_liquid_nRrknC": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p>\n<font size=\"2\"> \n<del>$299.99<\/del> \n<\/font> \n<font size=\"3\"> \n<del>$279.99<\/del>\n <\/font>  \n<font size=\"5\"> \n<ins>$139.99<\/ins>\n<\/font> \n<\/p>\n<p>\nGet 50% OFF with code BLEND50\n<\/p>"
+          }
+        },
+        "variant_picker_9n6mbU": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "quantity_selector_bYRYHM": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons_N7jYeC": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "share_8rk9Xa": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title_gfPMmT",
+        "price_Eb8WwJ",
+        "custom_liquid_nRrknC",
+        "variant_picker_9n6mbU",
+        "quantity_selector_bYRYHM",
+        "buy_buttons_N7jYeC",
+        "share_8rk9Xa"
+      ],
+      "settings": {
+        "product": "deluxe-chef-series-digital-blender",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "right",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
     "4cc63d49-5dc7-434e-93c2-2535dfa81114",
+    "desktop_mobile_banner_mF9J6q",
     "banner",
-    "product-grid"
+    "product-grid",
+    "featured_product_8dMUar"
   ]
 }

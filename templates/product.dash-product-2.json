@@ -1,5 +1,15 @@
 {
   "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
     "1661960546161c5f46": {
       "type": "custom-liquid",
       "settings": {
@@ -141,6 +151,25 @@
         "padding_bottom": 12
       }
     },
+    "17086330723cb31d46": {
+      "type": "apps",
+      "blocks": {
+        "xo_gallery_xo_gallery_96jrWa": {
+          "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery\/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+          "settings": {
+            "type": "gallery",
+            "id": 0,
+            "mid": "{{ product.metafields.custom.xo_gallery_id.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "xo_gallery_xo_gallery_96jrWa"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "16672310787bda553d": {
       "type": "apps",
       "blocks": {
@@ -176,18 +205,8 @@
         "padding_bottom": 28
       }
     },
-    "shogun-above": {
-      "type": "shogun-above",
-      "settings": {
-      }
-    },
     "shogun-below": {
       "type": "shogun-below",
-      "settings": {
-      }
-    },
-    "shogun-helper": {
-      "type": "shogun-helper",
       "settings": {
       }
     }
@@ -197,6 +216,7 @@
     "shogun-above",
     "1661960546161c5f46",
     "main",
+    "17086330723cb31d46",
     "16672310787bda553d",
     "product-recommendations",
     "shogun-below"

@@ -52,11 +52,10 @@
           "settings": {
           }
         },
-        "text_cm7QKk": {
-          "type": "text",
+        "custom_liquid_AmLQH7": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "Get Offer {{ product.metafields.ns_.width.value }}",
-            "text_style": "body"
+            "custom_liquid": "<div class=\"product-details--promo-offer\" >\n{{product.metafields.ns_.short.value }}\n<\/div>\n\n<style>\n.product-details--promo-offer {\n    padding: 10px 10px;\n    text-align: center;\n    background-color: #fff;\n    border: 2px dotted #e40c6a;\n    border-radius: 6px;\n}\n<\/style>"
           }
         },
         "variant_picker": {
@@ -136,7 +135,7 @@
         "eaa8b3a1-b010-43f5-a00a-9017761eb277",
         "caption",
         "price",
-        "text_cm7QKk",
+        "custom_liquid_AmLQH7",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",

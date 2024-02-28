@@ -354,6 +354,7 @@
                   {%- endif -%}
                 </div>
               {%- endif -%}
+            {% comment %}
               {% for tag in product.tags %}
               {% unless tag contains 'noshoppay' %}
               <div {{ block.shopify_attributes }}>
@@ -365,6 +366,7 @@
               </div>
             {% endunless %}
             {% endfor %}
+            {% endcomment %}
             {%- when 'description' -%}
        
             {%- if product.metafields.ns_.romance != blank -%}

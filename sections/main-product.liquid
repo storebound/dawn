@@ -355,8 +355,8 @@
                 </div>
               {%- endif -%}
         
+           {% unless product.tags contains 'noshoppay' %}
            
-              {% unless tags contains 'noshoppay' %}
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                 {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
@@ -364,7 +364,7 @@
                   {{ form | payment_terms }}
                 {%- endform -%}
               </div>
-            {% endunless %}
+          {% endunless %}
            
            
             {%- when 'description' -%}

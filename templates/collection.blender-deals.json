@@ -2,6 +2,7 @@
   "sections": {
     "4cc63d49-5dc7-434e-93c2-2535dfa81114": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
         "color_scheme": "background-1",
@@ -19,6 +20,7 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -29,7 +31,7 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "image_ratio": "portrait",
         "show_secondary_image": true,
         "show_vendor": false,

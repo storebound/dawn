@@ -205,7 +205,21 @@
             {% render 'price', product: card_product, price_class: '' %}
       {% endunless  %}
       {% if collection.title == 'Blenders' %}
-        
+        {%- if card_product.metafields.custom.product-promo-offer != blank -%}
+<div class="product-details--promo-offer" >
+{{card_product.metafields.custom.product-promo-offer.value }}
+</div>
+
+<style>
+.product-details--promo-offer {
+    padding: 10px 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px dotted #e40c6a;
+    border-radius: 6px;
+}
+</style>
+{%- endif -%}
            {%- endif -%}
             
           </div>

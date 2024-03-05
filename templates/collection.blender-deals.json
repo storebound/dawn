@@ -63,7 +63,7 @@
         "custom_liquid_nRrknC": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p>\n<font size=\"2\"> \n<del>$299.99<\/del> \n<\/font> \n<font size=\"3\"> \n<del>$279.99<\/del>\n <\/font>  \n<font size=\"5\"> \n<ins>$139.99<\/ins>\n<\/font> \n<\/p>\n<div class=\"product-details--promo-offer\" >\n\nGet 50% OFF with code CHEF\n\n<\/div>\n\n<style>\n.product-details--promo-offer {\n    padding: 10px 10px;\n    text-align: center;\n    background-color: #fff;\n    border: 2px dotted #e40c6a;\n    border-radius: 6px;\n}\n<\/style>"
+            "custom_liquid": "<p>\n<font size=\"2\"> \n<del>$299.99<\/del> \n<\/font> \n<font size=\"3\"> \n<del>$279.99<\/del>\n <\/font>  \n<font size=\"5\"> \n$<ins>140<\/ins>\n<\/font> \n<\/p>\n<div class=\"product-details--promo-offer\" >\n\nGet 50% OFF with code CHEF\n\n<\/div>\n\n<style>\n.product-details--promo-offer {\n    padding: 10px 10px;\n    text-align: center;\n    background-color: #fff;\n    border: 2px dotted #e40c6a;\n    border-radius: 6px;\n}\n<\/style>"
           }
         },
         "variant_picker_9n6mbU": {

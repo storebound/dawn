@@ -66,6 +66,16 @@
     "1664219522eef12178": {
       "type": "multicolumn",
       "blocks": {
+        "3000c5f4-8e5f-4150-9840-3a37f3093548": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pngegg.png",
+            "title": "The Ridiculous Egg Machine That Changed My Breakfast Game",
+            "text": "",
+            "link_label": "Read Now",
+            "link": "https:\/\/www.newyorker.com\/culture\/kitchen-notes\/the-ridiculous-egg-machine-that-changed-my-breakfast-game"
+          }
+        },
         "237fca16-55e3-4cec-8fb1-5a532e06cff6": {
           "type": "column",
           "settings": {
@@ -156,17 +166,6 @@
             "link": ""
           }
         },
-        "3000c5f4-8e5f-4150-9840-3a37f3093548": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/532-5320394_delish-videos-delish-logo-png-clipart.png",
-            "title": "Chef Geoffrey Zakarian's Non-Stick Cast-Iron Cookware Is On Sale For Amazon Prime Day",
-            "text": "",
-            "link_label": "Read Now",
-            "link": "https:\/\/www.delish.com\/food-news\/g41576713\/geoffrey-zakarian-cast-iron-amazon-prime-day\/"
-          }
-        },
         "42249ce5-016b-4056-82c6-c8d86d2cd713": {
           "type": "column",
           "settings": {
@@ -176,9 +175,20 @@
             "link_label": "Read Now",
             "link": "https:\/\/www.housebeautiful.com\/shopping\/home-accessories\/a41545729\/geoffrey-zakarian-cookware\/"
           }
+        },
+        "column_zF4TXt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rolling_Stone_logo_svg.png",
+            "title": "Travis Barker Made Mini ‘Skull’ Waffles Using This $12 Waffle Iron",
+            "text": "",
+            "link_label": "Read Now",
+            "link": "https:\/\/www.rollingstone.com\/product-recommendations\/lifestyle\/travis-barker-skull-dash-waffle-maker-find-buy-online-1234714475\/"
+          }
         }
       },
       "block_order": [
+        "3000c5f4-8e5f-4150-9840-3a37f3093548",
         "237fca16-55e3-4cec-8fb1-5a532e06cff6",
         "997dcca7-5f9e-422f-a92d-83a04a312471",
         "293de5f2-c019-4af1-8a34-c62a7cb99df8",
@@ -188,8 +198,8 @@
         "09cd443c-d777-4768-8520-0ff180b61039",
         "4344f496-787e-40b9-9a24-6e41d2944a20",
         "1664219522ec70e375-2",
-        "3000c5f4-8e5f-4150-9840-3a37f3093548",
-        "42249ce5-016b-4056-82c6-c8d86d2cd713"
+        "42249ce5-016b-4056-82c6-c8d86d2cd713",
+        "column_zF4TXt"
       ],
       "settings": {
         "title": "IN THE NEWS",

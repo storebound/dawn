@@ -11,14 +11,33 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "1713207569c24a84f8": {
+      "type": "apps",
+      "blocks": {
+        "fast_bundle_bundle_with_ids_UQm6rK": {
+          "type": "shopify:\/\/apps\/fast-bundle\/blocks\/bundle_with_ids\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {
+            "bundle_ids": "eb9b8a50-151f-4b60-a1a5-8b6e88be7d89"
+          }
+        }
+      },
+      "block_order": [
+        "fast_bundle_bundle_with_ids_UQm6rK"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
     "16dc4fba-96a8-4fa9-a07b-2588b914791c",
-    "main"
+    "main",
+    "1713207569c24a84f8"
   ]
 }

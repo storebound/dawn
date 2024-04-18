@@ -273,7 +273,7 @@
       },
       "10967200920248657493": {
         "type": "shopify:\/\/apps\/widebundle\/blocks\/app-embed\/392bb313-2491-436e-a58e-9bb68ebd8f47",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }

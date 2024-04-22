@@ -129,7 +129,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "GET FREE SHIPPING ON ORDERS OVER $50",
+              "text": "GET 20% OFF SITEWIDE WITH CODE: SPRING",
               "text_alignment": "center",
               "color_scheme": "background-1",
               "link": ""
@@ -268,12 +268,6 @@
       "7770194999415187106": {
         "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery-seo\/e61dfbaa-1a75-4e4e-bffc-324f17325251",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "10967200920248657493": {
-        "type": "shopify:\/\/apps\/widebundle\/blocks\/app-embed\/392bb313-2491-436e-a58e-9bb68ebd8f47",
-        "disabled": true,
         "settings": {
         }
       }

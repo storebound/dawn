@@ -1,7 +1,16 @@
 {
   "sections": {
+    "desktop_mobile_banner_cQRrmn": {
+      "type": "desktop-mobile-banner",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/BANNERS-05.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/BANNERS-06.jpg",
+        "button_link": "https:\/\/bydash.com\/discount\/SPRING?redirect=\/collections\/best-sellers"
+      }
+    },
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
+      "disabled": true,
       "settings": {
         "desktop_image": "shopify:\/\/shop_images\/MultiMaker_Back_in_Stock_20240222-03.jpg",
         "mobile_image": "shopify:\/\/shop_images\/MultiMaker_Back_in_Stock_20240222-04.jpg",
@@ -400,6 +409,7 @@
     }
   },
   "order": [
+    "desktop_mobile_banner_cQRrmn",
     "30c02da9-7f38-4457-9443-275d4547f4f8",
     "f280a76c-9c05-41a2-beaf-6ad5b8512cfb",
     "16642908781ed6d732",

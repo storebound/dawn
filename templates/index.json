@@ -23,22 +23,22 @@
         "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-0": {
           "type": "heading",
           "settings": {
-            "heading": "The more the merrier",
+            "heading": "Pizza Party!",
             "heading_size": "h2"
           }
         },
         "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Whip up waffles galore in your favorite winter holiday patterns with this Two Plate Pack! Compatible with the MultiMaker Mini System.<\/p>",
+            "text": "<p>Make 12” pizzeria-style pies right on your countertop with the Pizza Griddle. Customize with your fave toppings to make it your own—no delivery necessary!<\/p>",
             "text_style": "body"
           }
         },
         "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-2": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP TWO PACK",
-            "button_link": "shopify:\/\/products\/winter-wonder-removable-plate-two-pack"
+            "button_label": "SHOP PIZZA GRIDDLE",
+            "button_link": "https:\/\/bydash.com\/products\/pizza-griddle?utm_source=homepage&utm_medium=feature1"
           }
         }
       },
@@ -48,7 +48,7 @@
         "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/MultiMaker_Mini_2_pack_Snowflake_GingerBread_WebGraphic.jpg",
+        "image": "shopify:\/\/shop_images\/DPS001GBRD01_Lifestyle_2.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -68,22 +68,22 @@
         "1664290878c95a76cb-0": {
           "type": "heading",
           "settings": {
-            "heading": "MINI DONUTS GALORE",
+            "heading": "Brew Can Do It!",
             "heading_size": "h2"
           }
         },
         "1664290878c95a76cb-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Make cute, tasty mini donuts at home in no time, perfect for snacking, entertaining, and more!<\/p>",
+            "text": "<p>Make coffee house quality cold brew at home in less than 10 minutes with the Rapid Cold Brew Maker—summer sippin’ made easy.<\/p>",
             "text_style": "body"
           }
         },
         "1664290878c95a76cb-2": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/express-mini-donut-maker"
+            "button_label": "SHOP COLD BREW",
+            "button_link": "https:\/\/bydash.com\/products\/rapid-cold-brew-maker?utm_source=homepage&utm_medium=feature2"
           }
         }
       },
@@ -93,7 +93,7 @@
         "1664290878c95a76cb-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DDM007GBAQ04_Lifestyle_2.jpg",
+        "image": "shopify:\/\/shop_images\/DCBCM400_Lifestyle_Pour_4.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -113,22 +113,22 @@
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-0": {
           "type": "heading",
           "settings": {
-            "heading": "Unlock the Bold Flavors of Cold Brew",
+            "heading": "Treat Yourself",
             "heading_size": "h2"
           }
         },
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-1": {
           "type": "text",
           "settings": {
-            "text": "<p>No need to wait all night for your cold brew to steep: now you can make it in a flash with the Dash Rapid Cold Brew Maker!<\/p>",
+            "text": "<p>Use the My Mug Ice Cream Maker to churn up pint-sized portions of your favorite flavors, then grab a spoon and eat right out of the Mug!<\/p>",
             "text_style": "body"
           }
         },
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-2": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/rapid-cold-brew-maker"
+            "button_label": "SHOP MY MUG",
+            "button_link": "https:\/\/bydash.com\/products\/my-mug-ice-cream-maker?utm_source=homepage&utm_medium=feature3"
           }
         }
       },
@@ -138,7 +138,7 @@
         "template--14842961952822__b16c0394-1c09-4890-8e77-84396bb3abec-16703529696b2c0e95-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DCBCM400GBBK02_Lifetyle_2.jpg",
+        "image": "shopify:\/\/shop_images\/DMIC100AQ_Lifestyle_7.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",

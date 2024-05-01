@@ -2,6 +2,7 @@
   "sections": {
     "desktop_mobile_banner_cQRrmn": {
       "type": "desktop-mobile-banner",
+      "disabled": true,
       "settings": {
         "desktop_image": "shopify:\/\/shop_images\/BANNERS-05.jpg",
         "mobile_image": "shopify:\/\/shop_images\/BANNERS-06.jpg",
@@ -10,7 +11,6 @@
     },
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
-      "disabled": true,
       "settings": {
         "desktop_image": "shopify:\/\/shop_images\/MultiMaker_Back_in_Stock_20240222-03.jpg",
         "mobile_image": "shopify:\/\/shop_images\/MultiMaker_Back_in_Stock_20240222-04.jpg",

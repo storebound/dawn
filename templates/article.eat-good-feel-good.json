@@ -1,5 +1,10 @@
 {
   "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
     "f0700b01-5920-4a8e-9b2f-1c4f7b03edb7": {
       "type": "custom-liquid",
       "settings": {
@@ -45,17 +50,42 @@
         "content"
       ],
       "settings": {
+        "narrowwidth": true
       }
     },
-    "shogun-helper": {
-      "type": "shogun-helper",
+    "171570160045f8b787": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_TqG4ba": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "110275",
+            "text_color": "#202020",
+            "button_background_color": "#E02229",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 8,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_TqG4ba"
+      ],
       "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
     "shogun-helper",
     "f0700b01-5920-4a8e-9b2f-1c4f7b03edb7",
-    "main"
+    "main",
+    "171570160045f8b787"
   ]
 }

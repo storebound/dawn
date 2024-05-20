@@ -12,8 +12,8 @@
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
       "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/MDW_Banner-Desktop.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/MDW_Banner-Mobile.jpg",
+        "desktop_image": "shopify:\/\/shop_images\/MDW_Banner-Desktop_1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/MDW_Banner-Mobile_1.jpg",
         "button_link": "https:\/\/bydash.com\/discount\/SUMMER?redirect=%2Fcollections%2Fall"
       }
     },

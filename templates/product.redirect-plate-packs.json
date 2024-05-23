@@ -1,9 +1,19 @@
 {
   "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
     "1661960546161c5f46": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs' %} \n<\/div>",
+        "custom_liquid": "<script>\n  window.location.href = \"\/products\/multimaker-mini-system-removable-plate-set\"\n<\/script>",
         "color_scheme": "background-1",
         "padding_top": 12,
         "padding_bottom": 12
@@ -87,6 +97,7 @@
         "collapsible-row-2",
         "collapsible-row-3"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "media_position": "left",
@@ -138,6 +149,7 @@
         "template--16609010516194__298b2361-1f61-4949-9ddf-50d3472be040-16650838579f4a7a9a-1",
         "template--16609010516194__298b2361-1f61-4949-9ddf-50d3472be040-16650838579f4a7a9a-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "STILL LOOKING FOR HELP?",
         "heading_size": "h2",
@@ -170,12 +182,14 @@
       "block_order": [
         "713c217d-b979-4bfa-90d0-7db3f277e269"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "YOU MAY ALSO LIKE",
         "heading_size": "h2",
@@ -191,18 +205,9 @@
         "padding_bottom": 28
       }
     },
-    "shogun-above": {
-      "type": "shogun-above",
-      "settings": {
-      }
-    },
     "shogun-below": {
       "type": "shogun-below",
-      "settings": {
-      }
-    },
-    "shogun-helper": {
-      "type": "shogun-helper",
+      "disabled": true,
       "settings": {
       }
     }

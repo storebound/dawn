@@ -17,6 +17,51 @@
         "button_link": "https:\/\/bydash.com\/discount\/SUMMER?redirect=%2Fcollections%2Fall"
       }
     },
+    "image_with_text_gWwLRL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HVW8xD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_43cWRh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_UeBnNk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_HVW8xD",
+        "text_43cWRh",
+        "button_UeBnNk"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "headline_novecento": false,
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "f280a76c-9c05-41a2-beaf-6ad5b8512cfb": {
       "type": "image-with-text",
       "blocks": {
@@ -47,6 +92,7 @@
         "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-1",
         "template--14842961952822__f280a76c-9c05-41a2-beaf-6ad5b8512cfb-168562612672eed57a-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DPS001GBRD01_Lifestyle_2.jpg",
         "height": "small",
@@ -411,6 +457,7 @@
   "order": [
     "desktop_mobile_banner_cQRrmn",
     "30c02da9-7f38-4457-9443-275d4547f4f8",
+    "image_with_text_gWwLRL",
     "f280a76c-9c05-41a2-beaf-6ad5b8512cfb",
     "16642908781ed6d732",
     "b16c0394-1c09-4890-8e77-84396bb3abec",

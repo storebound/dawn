@@ -11,6 +11,7 @@
     },
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
+      "disabled": true,
       "settings": {
         "desktop_image": "shopify:\/\/shop_images\/MDW_Banner-Desktop_1.jpg",
         "mobile_image": "shopify:\/\/shop_images\/MDW_Banner-Mobile_1.jpg",

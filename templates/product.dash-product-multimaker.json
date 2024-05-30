@@ -53,6 +53,12 @@
           "settings": {
           }
         },
+        "custom_liquid_nNiVq7": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div>\n<p>\n{{ variant.metafields.custom.variantdesc }}<\/p>\n<\/div>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -70,12 +76,6 @@
             "pagination_style": "counter",
             "image_ratio": "square",
             "enable_quick_add": true
-          }
-        },
-        "custom_liquid_nNiVq7": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{{ variant.metafields.custom.variantdesc }}"
           }
         },
         "3734633f-33f3-4de7-91d4-d900f0bfda84": {
@@ -150,9 +150,9 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "custom_liquid_nNiVq7",
         "buy_buttons",
         "1c086e6b-7f8e-4c57-b465-b82ebef00f23",
-        "custom_liquid_nNiVq7",
         "3734633f-33f3-4de7-91d4-d900f0bfda84",
         "collapsible-row-1",
         "collapsible-row-2",

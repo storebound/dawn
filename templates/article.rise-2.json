@@ -14,42 +14,6 @@
         "padding_bottom": 20
       }
     },
-    "9b65ff19-2842-4c80-b4e0-5121cc2ae7e9": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--14846618566710__9b65ff19-2842-4c80-b4e0-5121cc2ae7e9-167992852947939672-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rise_-_Logo_High_Res.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14846618566710__9b65ff19-2842-4c80-b4e0-5121cc2ae7e9-167992852947939672-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "dashpattern": false,
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
     "main": {
       "type": "main-article",
       "blocks": {
@@ -67,6 +31,79 @@
       ],
       "settings": {
         "narrowwidth": true
+      }
+    },
+    "rich_text_8NWBxw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TQeyjx": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Make This Recipe at Home With:<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TQeyjx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 32
+      }
+    },
+    "featured_product_ipjg6E": {
+      "type": "featured-product",
+      "blocks": {
+        "title_8xdr9f": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "price_FCdime": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_RcDhxi": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_CnPfJE": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_gRGT7R": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "title_8xdr9f",
+        "price_FCdime",
+        "variant_picker_RcDhxi",
+        "quantity_selector_CnPfJE",
+        "buy_buttons_gRGT7R"
+      ],
+      "settings": {
+        "product": "{{ article.metafields.custom.product.value }}",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "left",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "d90a639a-7bec-40b7-a1ad-095c3f720dee": {
@@ -100,8 +137,9 @@
   "order": [
     "shogun-helper",
     "f0700b01-5920-4a8e-9b2f-1c4f7b03edb7",
-    "9b65ff19-2842-4c80-b4e0-5121cc2ae7e9",
     "main",
+    "rich_text_8NWBxw",
+    "featured_product_ipjg6E",
     "d90a639a-7bec-40b7-a1ad-095c3f720dee"
   ]
 }

@@ -123,6 +123,7 @@
         },
         "cc437370-4825-4025-b28b-bf5a322b6d73": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Parts & Accessories",
             "icon": "box",

@@ -102,7 +102,7 @@
     </li>
     {%- endif -%}
     <li class="breadcrumbs__item">
-    <a class="breadcrumbs__link breadcrumbs__link_1" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
+    <a class="breadcrumbs__link breadcrumbs__link_1" href="{{ product.url }}" aria-current="page">{% if product.id == 7731674382383 %}MultiMaker™ Mini System with Removable Plates{% else %}{{ product.title }}{% endif %}</a>
     </li>
       
 {% comment %}

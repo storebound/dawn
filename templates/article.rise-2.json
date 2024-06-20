@@ -76,6 +76,7 @@
         },
         "price_FCdime": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
@@ -141,6 +142,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_liquid_UCxrpV": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -149,6 +159,7 @@
     "main",
     "rich_text_8NWBxw",
     "featured_product_ipjg6E",
-    "d90a639a-7bec-40b7-a1ad-095c3f720dee"
+    "d90a639a-7bec-40b7-a1ad-095c3f720dee",
+    "custom_liquid_UCxrpV"
   ]
 }

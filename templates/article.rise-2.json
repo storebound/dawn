@@ -76,14 +76,13 @@
         },
         "price_FCdime": {
           "type": "price",
-          "disabled": true,
           "settings": {
           }
         },
         "variant_picker_RcDhxi": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "dropdown"
+            "picker_type": "button"
           }
         },
         "quantity_selector_CnPfJE": {

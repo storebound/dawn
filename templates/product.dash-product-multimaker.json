@@ -11,6 +11,7 @@
   "sections": {
     "1661960546161c5f46": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n{% render 'breadcrumbs-multi' %} \n<\/div>",
         "color_scheme": "background-1",

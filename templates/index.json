@@ -1,10 +1,19 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "desktop_mobile_banner_cQRrmn": {
       "type": "desktop-mobile-banner",
       "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/MultiMaker_Dino_Launch_Banner_2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/MultiMaker_Dino_Launch_Banner_1.jpg",
+        "desktop_image": "shopify:\/\/shop_images\/Plate_Pack_Launch_Email-06_1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Plate_Pack_Launch_Email-07_1.jpg",
         "button_link": "https:\/\/bydash.com\/products\/multimaker-mini-maker-system-with-removable-plates-waffle-griddle?utm_source=homepage&utm_medium=banner"
       }
     },

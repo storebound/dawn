@@ -2996,3 +2996,7 @@ details-disclosure > details {
     font-weight: normal;
     font-style: normal;
 }
+
+.tpo_shape_ .tpo_image-swatch-img {
+    flex-grow: unset;
+}

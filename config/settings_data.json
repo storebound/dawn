@@ -506,7 +506,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".tpo_image-swatches-tooltip {display: none ;}"
+      ".tpo_image-swatches-tooltip {display: none;}",
+      "div.tpo_image-swatches-wrapper:hover .tpo_image-swatches-tooltip, div.tpo_swatches-label_position > label:hover .tpo_image-swatches-tooltip, div.tpo_swatches-label_position > article:hover .tpo_image-swatches-tooltip, div.swatches-not-avaliable:hover .tpo_image-swatches-tooltip {display: block}"
     ]
   }
 }

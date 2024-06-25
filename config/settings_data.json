@@ -506,7 +506,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".tpo_image-swatches-tooltip {display: none !impo}"
+      "div.tpo_image-swatches-tooltip {display: none !important;}"
     ]
   }
 }

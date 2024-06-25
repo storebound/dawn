@@ -245,7 +245,9 @@
 {% render 'weglot_hreftags' %}
 {% render 'weglot_switcher' %}
     <script>
-      document.addEventListener('easify:ajaxCart', function() {});
+      setTimeout(() => {
+      document.querySelectorAll('.tpo_image-swatches-tooltip').forEach(e => e.remove())
+      }, 5000)
     </script>
 </head>
 

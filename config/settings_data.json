@@ -138,7 +138,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "GET FREE SHIPPING ON ORDERS OVER $50",
+              "text": "GET 20% OFF WITH CODE: FIREWORKS",
               "text_alignment": "center",
               "color_scheme": "background-1",
               "link": ""

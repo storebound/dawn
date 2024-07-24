@@ -55,6 +55,12 @@
           "settings": {
           }
         },
+        "variant_picker_ViTmKX": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -64,19 +70,6 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
-          }
-        },
-        "82f21fcb-250c-4c7d-aea0-59c154168fc7": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "Works with",
-            "make_collapsible_row": false,
-            "icon": "none",
-            "product_list_limit": 7,
-            "products_per_page": 2,
-            "pagination_style": "dots",
-            "image_ratio": "square",
-            "enable_quick_add": true
           }
         },
         "ddb40bf8-1ff2-4b73-9737-c50d4b0663e2": {
@@ -90,9 +83,9 @@
         "title",
         "caption",
         "price",
+        "variant_picker_ViTmKX",
         "quantity_selector",
         "buy_buttons",
-        "82f21fcb-250c-4c7d-aea0-59c154168fc7",
         "ddb40bf8-1ff2-4b73-9737-c50d4b0663e2"
       ],
       "settings": {

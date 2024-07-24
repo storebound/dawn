@@ -43,12 +43,6 @@
           "settings": {
           }
         },
-        "eaa8b3a1-b010-43f5-a00a-9017761eb277": {
-          "type": "shopify:\/\/apps\/okendo\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
@@ -89,71 +83,17 @@
           "type": "description",
           "settings": {
           }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Features & Benefits",
-            "icon": "clipboard",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Specifications",
-            "icon": "ruler",
-            "content": "<p>Dimensions: {{ product.metafields.ns_.height.value }}\" x {{ product.metafields.ns_.width.value }}\" x {{ product.metafields.ns_.length.value }}\"<\/p><p>Weight: {{ product.metafields.ns_.weight.value }} lbs<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Recipes, Manual & Warranty",
-            "icon": "question_mark",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "e3b62aa9-b892-48f4-a5b3-e9c37b7a0b47": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "none",
-            "image_1": "shopify:\/\/shop_images\/EasyReturns2.png",
-            "heading_1": "EASY RETURNS",
-            "icon_2": "none",
-            "image_2": "shopify:\/\/shop_images\/365-day-warranty.png",
-            "heading_2": "365 DAY WARRANTY",
-            "icon_3": "none",
-            "image_3": "shopify:\/\/shop_images\/free-shipping.png",
-            "heading_3": "FREE SHIPPING OVER $50"
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "eaa8b3a1-b010-43f5-a00a-9017761eb277",
         "caption",
         "price",
         "quantity_selector",
         "buy_buttons",
         "82f21fcb-250c-4c7d-aea0-59c154168fc7",
-        "ddb40bf8-1ff2-4b73-9737-c50d4b0663e2",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share",
-        "e3b62aa9-b892-48f4-a5b3-e9c37b7a0b47"
+        "ddb40bf8-1ff2-4b73-9737-c50d4b0663e2"
       ],
       "settings": {
         "enable_sticky_info": true,

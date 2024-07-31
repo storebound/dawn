@@ -11,6 +11,7 @@
   "sections": {
     "desktop_mobile_banner_cQRrmn": {
       "type": "desktop-mobile-banner",
+      "disabled": true,
       "settings": {
         "desktop_image": "shopify:\/\/shop_images\/Plate_Pack_Launch_Email-06_3.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Plate_Pack_Launch_Email-07_3.jpg",
@@ -19,11 +20,10 @@
     },
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
-      "disabled": true,
       "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/MDW_Banner-Desktop_1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/MDW_Banner-Mobile_1.jpg",
-        "button_link": "https:\/\/bydash.com\/discount\/SUMMER?redirect=%2Fcollections%2Fall"
+        "desktop_image": "shopify:\/\/shop_images\/Skull-Jack-o-Lantern_Plate_Pack_Email-03.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Skull-Jack-o-Lantern_Plate_Pack_Email-04-04.jpg",
+        "button_link": "https:\/\/bydash.com\/products\/multimaker-mini-system-removable-plate-three-sets-six-plates?utm_source=homepage&utm_medium=halloween-packs"
       }
     },
     "image_with_text_gWwLRL": {

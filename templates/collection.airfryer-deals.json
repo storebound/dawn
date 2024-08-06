@@ -75,12 +75,6 @@
             "custom_liquid": "<p>\n<font size=\"2\"> \n<del>$299.99<\/del> \n<\/font> \n<font size=\"3\"> \n<del>$279.99<\/del>\n <\/font>  \n<font size=\"5\"> \n$<ins>140<\/ins>\n<\/font> \n<\/p>\n<div class=\"product-details--promo-offer\" >\n\nGet 50% OFF with code CHEF\n\n<\/div>\n\n<style>\n.product-details--promo-offer {\n    padding: 10px 10px;\n    text-align: center;\n    background-color: #fff;\n    border: 2px dotted #e40c6a;\n    border-radius: 6px;\n}\n<\/style>"
           }
         },
-        "variant_picker_9n6mbU": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "dropdown"
-          }
-        },
         "quantity_selector_bYRYHM": {
           "type": "quantity_selector",
           "disabled": true,
@@ -105,13 +99,12 @@
         "title_gfPMmT",
         "price_Eb8WwJ",
         "custom_liquid_nRrknC",
-        "variant_picker_9n6mbU",
         "quantity_selector_bYRYHM",
         "buy_buttons_N7jYeC",
         "share_8rk9Xa"
       ],
       "settings": {
-        "product": "deluxe-chef-series-digital-blender",
+        "product": "aircrisp-pro-digital-air-fryer-6qt",
         "color_scheme": "background-1",
         "secondary_background": false,
         "media_position": "right",

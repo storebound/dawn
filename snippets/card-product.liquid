@@ -204,7 +204,7 @@
       {% unless collection.title == 'Support' %}
             {% render 'price', product: card_product, price_class: '' %}
       {% endunless  %}
-      {% if collection.title == 'Blenders' or collection.id == '285098508342' %}
+      {% if collection.title == 'Blenders' or collection.title == 'Up to 50% off Air Fryers' %}
         {%- if card_product.metafields.custom.product-promo-offer != blank -%}
 <div class="cardproduct-details--promo-offer" >
 {{card_product.metafields.custom.product-promo-offer.value }}

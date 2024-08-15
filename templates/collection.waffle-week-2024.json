@@ -9,6 +9,18 @@
 */
 {
   "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "4cc63d49-5dc7-434e-93c2-2535dfa81114": {
       "type": "custom-liquid",
       "settings": {
@@ -16,6 +28,14 @@
         "color_scheme": "background-1",
         "padding_top": 20,
         "padding_bottom": 0
+      }
+    },
+    "desktop_mobile_banner_qwn8Am": {
+      "type": "desktop-mobile-banner",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Waffle_Week_Events___Sale-03.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Waffle_Week_Events___Sale-04.jpg",
+        "button_link": ""
       }
     },
     "banner": {
@@ -44,18 +64,9 @@
         "padding_bottom": 36
       }
     },
-    "shogun-above": {
-      "type": "shogun-above",
-      "settings": {
-      }
-    },
     "shogun-below": {
       "type": "shogun-below",
-      "settings": {
-      }
-    },
-    "shogun-helper": {
-      "type": "shogun-helper",
+      "disabled": true,
       "settings": {
       }
     }
@@ -64,6 +75,7 @@
     "shogun-helper",
     "shogun-above",
     "4cc63d49-5dc7-434e-93c2-2535dfa81114",
+    "desktop_mobile_banner_qwn8Am",
     "banner",
     "product-grid",
     "shogun-below"

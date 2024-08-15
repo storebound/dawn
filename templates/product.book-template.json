@@ -22,13 +22,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -56,41 +49,31 @@
             "show_dynamic_checkout": true
           }
         },
-        "6759f0bd-5040-4840-88b8-6e6c0088b4f3": {
-          "type": "complementary",
+        "text_jTwajq": {
+          "type": "text",
           "settings": {
-            "block_heading": "Works with",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 2,
-            "pagination_style": "numbers",
-            "image_ratio": "square",
-            "enable_quick_add": false
+            "text": "{{ product.metafields.ns_.short.value }}",
+            "text_style": "body"
           }
         },
-        "description": {
-          "type": "description",
+        "collapsible_tab_8pERkW": {
+          "type": "collapsible_tab",
           "settings": {
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
+            "heading": "About the Book",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.ns_.romance | metafield_tag }}<\/p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "6759f0bd-5040-4840-88b8-6e6c0088b4f3",
-        "description",
-        "share"
+        "text_jTwajq",
+        "collapsible_tab_8pERkW"
       ],
       "settings": {
         "enable_sticky_info": true,

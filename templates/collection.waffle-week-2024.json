@@ -93,6 +93,71 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "featured_product_yTwXgW": {
+      "type": "featured-product",
+      "blocks": {
+        "text_qCedFt": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_qGyh9b": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_LBFA6G": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_8x7XFA": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_x8WfXx": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_EWnd6Y": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "share_drGyaB": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_qCedFt",
+        "title_qGyh9b",
+        "price_LBFA6G",
+        "variant_picker_8x7XFA",
+        "quantity_selector_x8WfXx",
+        "buy_buttons_EWnd6Y",
+        "share_drGyaB"
+      ],
+      "settings": {
+        "product": "waffle-week-2024-t-shirt",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -103,6 +168,7 @@
     "rich_text_AaJKca",
     "banner",
     "product-grid",
-    "shogun-below"
+    "shogun-below",
+    "featured_product_yTwXgW"
   ]
 }

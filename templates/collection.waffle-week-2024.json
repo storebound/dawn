@@ -39,6 +39,28 @@
         "button_link": ""
       }
     },
+    "rich_text_AaJKca": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3CMkNh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discount code automatically applied in checkout<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_3CMkNh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -78,6 +100,7 @@
     "shogun-above",
     "4cc63d49-5dc7-434e-93c2-2535dfa81114",
     "desktop_mobile_banner_qwn8Am",
+    "rich_text_AaJKca",
     "banner",
     "product-grid",
     "shogun-below"

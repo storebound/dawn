@@ -138,10 +138,10 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "GET FREE SHIPPING ON ORDERS OVER $50",
+              "text": "SHOP THE WAFFLE WEEK SALE",
               "text_alignment": "center",
               "color_scheme": "background-1",
-              "link": ""
+              "link": "shopify:\/\/collections\/waffle-week"
             }
           }
         },

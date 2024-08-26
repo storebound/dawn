@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "16638700311932f0cb": {
@@ -66,6 +75,36 @@
     "1664219522eef12178": {
       "type": "multicolumn",
       "blocks": {
+        "column_n47KxD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/la-wire-new-001.png",
+            "title": "Evan Dash: Redefining Kitchenware with Innovation and Values",
+            "text": "",
+            "link_label": "Read Now",
+            "link": ""
+          }
+        },
+        "column_bfKcDL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/San-Francisco-Post-Logo.png",
+            "title": "Building DASH – Rachel Dash’s Journey in Kitchenware",
+            "text": "",
+            "link_label": "Read Now",
+            "link": "https:\/\/sanfranciscopost.com\/building-dash-rachel-dashs-journey-in-kitchenware\/"
+          }
+        },
+        "column_PrPweV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ny-black.webp",
+            "title": "Evan Dash’s Success Story in the World of Kitchenware",
+            "text": "",
+            "link_label": "Read Now",
+            "link": "https:\/\/nyweekly.com\/lifestyle\/evan-dashs-success-story-in-the-world-of-kitchenware\/"
+          }
+        },
         "3000c5f4-8e5f-4150-9840-3a37f3093548": {
           "type": "column",
           "settings": {
@@ -188,6 +227,9 @@
         }
       },
       "block_order": [
+        "column_n47KxD",
+        "column_bfKcDL",
+        "column_PrPweV",
         "3000c5f4-8e5f-4150-9840-3a37f3093548",
         "237fca16-55e3-4cec-8fb1-5a532e06cff6",
         "997dcca7-5f9e-422f-a92d-83a04a312471",

@@ -1,11 +1,20 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "30c02da9-7f38-4457-9443-275d4547f4f8": {
       "type": "desktop-mobile-banner",
       "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/BFCM_email-02.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/BFCM_email-02_copy.jpg",
-        "button_link": "https:\/\/bydash.com\/discount\/DASH25?redirect=\/collections\/all"
+        "desktop_image": "shopify://shop_images/BFCM_email-02.jpg",
+        "mobile_image": "shopify://shop_images/BFCM_email-02_copy.jpg",
+        "button_link": "https://bydash.com/discount/DASH25?redirect=/collections/all"
       }
     },
     "2e2f1ddf-0f5e-44b8-970e-dcc755b16520": {
@@ -14,7 +23,7 @@
         "19e4f92e-0e54-481b-8de3-948e0b634fd4": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"\/pages\/black-friday-cyber-monday-sale-details\" title=\"25% Off Sitewide with Code DASH25 - Exclusions Apply\">See discount exclusions.<\/a><\/p>"
+            "text": "<p><a href=\"/pages/black-friday-cyber-monday-sale-details\" title=\"25% Off Sitewide with Code DASH25 - Exclusions Apply\">See discount exclusions.</a></p>"
           }
         }
       },
@@ -35,7 +44,7 @@
       "settings": {
         "title": "SUPER SAVER DEALS",
         "heading_size": "h2",
-        "description": "<p>Get up to 87% off select Dash appliances, while supplies last!<\/p>",
+        "description": "<p>Get up to 87% off select Dash appliances, while supplies last!</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "super-saver-event",
@@ -70,7 +79,7 @@
         "1664290878c95a76cb-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Check off the foodie on your list with this year's top picks. Give the gift that will upgrade their kitchen!<\/p>",
+            "text": "<p>Check off the foodie on your list with this year's top picks. Give the gift that will upgrade their kitchen!</p>",
             "text_style": "body"
           }
         },
@@ -78,7 +87,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/pages\/gift-guide"
+            "button_link": "shopify://pages/gift-guide-test"
           }
         }
       },
@@ -88,7 +97,7 @@
         "1664290878c95a76cb-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Holiday-Catalog_Group-Shot_5836fd30-a9cd-4e6b-ad7c-9fc80c030a72.jpg",
+        "image": "shopify://shop_images/Holiday-Catalog_Group-Shot_5836fd30-a9cd-4e6b-ad7c-9fc80c030a72.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -108,41 +117,41 @@
         "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Register-Product.png",
+            "image": "shopify://shop_images/Register-Product.png",
             "title": "",
             "text": "",
             "link_label": "Register Product",
-            "link": "https:\/\/bydash.com\/apps\/product-registration"
+            "link": "https://bydash.com/apps/product-registration"
           }
         },
         "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Product-Manual.png",
+            "image": "shopify://shop_images/Product-Manual.png",
             "title": "",
             "text": "",
             "link_label": "Product Manuals",
-            "link": "\/support"
+            "link": "/support"
           }
         },
         "template--16602667385058__6bbb5ceb-2fb6-4604-9ca8-91e5045f8ab9-166670672391bda119-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Contact-Us.png",
+            "image": "shopify://shop_images/Contact-Us.png",
             "title": "",
             "text": "",
             "link_label": "Contact Us",
-            "link": "shopify:\/\/pages\/contact-us"
+            "link": "shopify://pages/contact-us"
           }
         },
         "3c330215-a3fa-4947-82a3-957304249a10": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Asset_1_2x-8.png",
+            "image": "shopify://shop_images/Asset_1_2x-8.png",
             "title": "",
             "text": "",
             "link_label": "Rewards",
-            "link": "shopify:\/\/pages\/feel-good-rewards"
+            "link": "shopify://pages/feel-good-rewards"
           }
         }
       },
@@ -176,41 +185,41 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dash-Air-Fryer.png",
+            "image": "shopify://shop_images/Dash-Air-Fryer.png",
             "title": "",
             "text": "",
             "link_label": "Air Fryers",
-            "link": "shopify:\/\/pages\/dash-air-fryers"
+            "link": "shopify://pages/dash-air-fryers"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dash-Deluxe-Egg-Cooker.png",
+            "image": "shopify://shop_images/Dash-Deluxe-Egg-Cooker.png",
             "title": "",
             "text": "",
             "link_label": "Egg Cookers",
-            "link": "shopify:\/\/pages\/dash-egg-cookers"
+            "link": "shopify://pages/dash-egg-cookers"
           }
         },
         "column3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mini-maker-waffle.png",
+            "image": "shopify://shop_images/mini-maker-waffle.png",
             "title": "",
             "text": "",
             "link_label": "Mini Makers",
-            "link": "shopify:\/\/pages\/mini-makers"
+            "link": "shopify://pages/mini-makers"
           }
         },
         "64dbeef5-928b-45a8-aca1-fd96c61df350": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/all-dash-products-icon.png",
+            "image": "shopify://shop_images/all-dash-products-icon.png",
             "title": "",
             "text": "",
             "link_label": "All Products",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify://collections/all"
           }
         }
       },
@@ -240,13 +249,12 @@
     },
     "8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-0": {
           "type": "video",
           "settings": {
-            "cover_image": "shopify:\/\/shop_images\/DEC005RD_IO_3.jpg",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=HUu-Z6o1l50",
+            "cover_image": "shopify://shop_images/DEC005RD_IO_3.jpg",
+            "video_url": "https://www.youtube.com/watch?v=HUu-Z6o1l50",
             "description": "Describe the video",
             "image_padding": false
           }
@@ -270,6 +278,7 @@
         "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-1",
         "template--16602667385058__8c0c0dec-c5e4-449d-b8ef-9e7fbd8649da-1666835414e2d5f2e0-2"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",

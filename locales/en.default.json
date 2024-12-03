@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -423,6 +432,17 @@
       "expired": "Expired",
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "stock": {
+        "unshippable_product": {
+          "message": {
+            "one": "We’re sorry, but this item cannot be shipped to Minnesota due to shipping restrictions. Don’t worry! You can still explore our <a href=\"https://bydash.com/collections/ceramics\">ceramic collection<a/>  for alternative options that are available for delivery to your area. "
+          }
+        }
+      }
     }
   }
 }

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#062a30",
@@ -105,22 +114,22 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "social_twitter_link": "https:\/\/twitter.com\/cookwithdash",
-    "social_facebook_link": "https:\/\/www.facebook.com\/unprocessyourfood",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/unprocess\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/bydash\/",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@bydash",
+    "social_twitter_link": "https://twitter.com/cookwithdash",
+    "social_facebook_link": "https://www.facebook.com/unprocessyourfood",
+    "social_pinterest_link": "https://www.pinterest.com/unprocess/",
+    "social_instagram_link": "https://www.instagram.com/bydash/",
+    "social_tiktok_link": "https://www.tiktok.com/@bydash",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "https:\/\/youtube.com\/ByDash",
+    "social_youtube_link": "https://youtube.com/ByDash",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/Dash_Favicon_32px.png",
+    "favicon": "shopify://shop_images/Dash_Favicon_32px.png",
     "currency_code_enabled": false,
     "cart_type": "drawer",
-    "checkout_logo_image": "shopify:\/\/shop_images\/DASH__RED_LOGO_R_f153660b-301a-41cf-b417-4da97b489157.png",
+    "checkout_logo_image": "shopify://shop_images/DASH__RED_LOGO_R_f153660b-301a-41cf-b417-4da97b489157.png",
     "checkout_button_color": "#ea0029",
     "sections": {
       "announcement-bar": {
@@ -139,8 +148,7 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -166,7 +174,7 @@
             "type": "text",
             "settings": {
               "heading": "CONTACT US",
-              "subtext": "<p><a href=\"\/pages\/contact-us\" title=\"\/pages\/contact-us\">Send Us A Message<\/a><\/p><p>Call Toll-Free<br\/>1-800-898-6970<br\/>M-F: 9am-5pm (EST)<\/p>"
+              "subtext": "<p><a href=\"/pages/contact-us\" title=\"/pages/contact-us\">Send Us A Message</a></p><p>Call Toll-Free<br/>1-800-898-6970<br/>M-F: 9am-5pm (EST)</p>"
             }
           },
           "footer-0": {
@@ -224,34 +232,34 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "733389323033596483": {
-        "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/theme-settings\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+        "type": "shopify://apps/okendo-product-reviews-ugc/blocks/theme-settings/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
         "disabled": false,
         "settings": {
           "show_preview_data": true
         }
       },
       "starapps-via": {
-        "type": "shopify:\/\/apps\/variant-image-automator\/blocks\/starapps-via-embed\/2a01d106-3d10-48e8-ba53-5cb971217ac4",
+        "type": "shopify://apps/variant-image-automator/blocks/starapps-via-embed/2a01d106-3d10-48e8-ba53-5cb971217ac4",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "10641372206048101839": {
-        "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-global-embed\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+        "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-global-embed/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "9696655121035291526": {
+        "type": "shopify://apps/rapi/blocks/app-embed/99617c17-a32b-4e70-a883-7a155610d032",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -391,8 +399,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -427,7 +434,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
